@@ -1,0 +1,378 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "title": "the original AI Talent Tracker",
+  "updated": "2026-10-20T21:50:00-07:00",
+  "categories": [
+    {
+      "slug": "technical",
+      "name": "Technical",
+      "blurb": "Engineers and builders shaping how frontier AI systems are made and shipped.",
+      "people": [
+        {
+          "name": "Thomas Dimson",
+          "url": null,
+          "role": "Member of Technical Staff, Sora",
+          "org": "OpenAI (former)",
+          "status": "Left OpenAI in May 2026. Co-built In the Weights in June; reported to be starting something new.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://digg.com/tech/93mrk7k4",
+            "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/"
+          ],
+          "short": "Left OpenAI May 2026; building something new."
+        },
+        {
+          "name": "Sachin Katti",
+          "url": null,
+          "role": "Infrastructure and compute lead",
+          "org": "OpenAI",
+          "status": "Leaving OpenAI on November 15, 2026 to build something new; staying on as an advisor.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+            "https://www.turingtree.com/updates/sachin-katti-announces-openai-departure"
+          ],
+          "short": "Leaving OpenAI Nov 15 to build something new."
+        },
+        {
+          "name": "Barret Zoph",
+          "url": null,
+          "role": "VP of Research",
+          "org": "Google DeepMind",
+          "status": "Joined Google DeepMind as VP of Research in August 2026, after a stint at OpenAI.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+            "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
+          ],
+          "short": "Joined Google DeepMind as VP of Research, Aug 2026."
+        },
+        {
+          "name": "Harsh Mehta",
+          "url": null,
+          "role": "Co-founder",
+          "org": "Mirendil",
+          "status": "Left Anthropic in December 2025; co-founded Mirendil, announced March 2026.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/",
+            "https://linkedin.com/in/harsh-mehta-3bb0b88a"
+          ],
+          "short": "Left Anthropic; co-founded Mirendil, Mar 2026."
+        },
+        {
+          "name": "Matthew Barnett",
+          "url": null,
+          "role": "Senior Staff Software Engineer",
+          "org": "Google",
+          "status": "Joined Google from Mechanize, which he co-founded, in August 2026.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates"
+          ],
+          "short": "Joined Google from Mechanize, Aug 2026."
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "blurb": "Designers defining how people experience AI products.",
+      "people": [
+        {
+          "name": "Ian Silber",
+          "url": "https://iansilber.com",
+          "role": "Head of Product Design",
+          "org": "OpenAI (former)",
+          "status": "Wrapped up at OpenAI in September 2026; building something new.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.benzinga.com/markets/private-markets/26/09/61908222/openai-loses-key-design-leader-after-shaping-chatgpt-and-codex",
+            "https://longbridge.com/en/news/299680796"
+          ],
+          "short": "Left OpenAI Sept 2026; building something new."
+        },
+        {
+          "name": "JSN",
+          "url": "https://jsn.io",
+          "role": "Founding design lead, Visa agentic commerce",
+          "org": "Visa (former)",
+          "status": "Most recently led product design for Visa's agentic commerce platform and Visa Crypto Labs; now building with agentic engineering.",
+          "verified": true,
+          "note": "Departure date not yet publicly sourced.",
+          "sources": [
+            "https://jsn.io"
+          ],
+          "short": "Most recently led design for Visa agentic commerce."
+        },
+        {
+          "name": "Benji Taylor",
+          "url": "https://benji.org",
+          "role": "Head of Design for X and SpaceXSI",
+          "org": "SpaceX",
+          "status": "Head of Design for X and SpaceXSI at SpaceX.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://benji.org"
+          ],
+          "short": "Head of Design, X and SpaceXSI at SpaceX."
+        },
+        {
+          "name": "Gavin Nelson",
+          "url": "https://nelson.co",
+          "role": "Member of Design Staff",
+          "org": "OpenAI",
+          "status": "At OpenAI since February 2026, working on ChatGPT Voice, CarPlay and Dots.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://nelson.co",
+            "https://www.linkedin.com/posts/gavin-nelson_excited-to-join-the-team-at-openai-activity-7423780860144951296-yNJw"
+          ],
+          "short": "At OpenAI since Feb 2026 (ChatGPT Voice)."
+        },
+        {
+          "name": "Evil Rabbit",
+          "url": "https://www.evilrabbit.com",
+          "role": "Founding Designer, Head of Design",
+          "org": "Vercel",
+          "status": "Founding designer at Vercel, 2016 to present.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.evilrabbit.com"
+          ],
+          "short": "Founding designer at Vercel since 2016."
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "blurb": "Researchers advancing what models can learn, reason about and do.",
+      "people": [
+        {
+          "name": "Aleksander Madry",
+          "url": null,
+          "role": "Former Head of Preparedness",
+          "org": "OpenAI (former)",
+          "status": "Left OpenAI in May 2026 to invest in and build projects on AI's economic impact.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/935587/aleksander-madry-is-leaving-openai",
+            "https://www.turingtree.com/updates/aleksander-madry-leaves-openai"
+          ],
+          "short": "Left OpenAI May 2026; building on AI economics."
+        },
+        {
+          "name": "Thore Graepel",
+          "url": null,
+          "role": "Founder",
+          "org": "Metis Reasoning",
+          "status": "Left Google DeepMind to launch Metis Reasoning, September 2026.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://iascope.eu/en/article/2026-09-25-deepmind-graepel-metis-reasoning-depart/"
+          ],
+          "short": "Left DeepMind to launch Metis Reasoning, Sept 2026."
+        },
+        {
+          "name": "Danijar Hafner",
+          "url": null,
+          "role": "Co-founder",
+          "org": "Embo",
+          "status": "Co-founded Embo, a world-model agents company, in 2026.",
+          "verified": false,
+          "note": "Secondary source only.",
+          "sources": [
+            "https://diyai.io/news/danijar-hafner-embo-ai-agents-plan-ahead/"
+          ],
+          "short": "Co-founded Embo, world-model agents, 2026."
+        },
+        {
+          "name": "Oriol Vinyals",
+          "url": null,
+          "role": "Co-founder",
+          "org": "Discovery Loop",
+          "status": "Reported co-founder of Discovery Loop, 2026.",
+          "verified": false,
+          "note": "Awaiting a primary source.",
+          "sources": [
+            "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/"
+          ],
+          "short": "Reported co-founder of Discovery Loop, 2026."
+        },
+        {
+          "name": "Behnam Neyshabur",
+          "url": null,
+          "role": "Co-founder",
+          "org": "Mirendil",
+          "status": "Left Anthropic to start something new; Mirendil announced March 2026.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/bneyshabur_ive-left-anthropic-to-start-something-new-activity-7425774070152998912-WT_L",
+            "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/"
+          ],
+          "short": "Left Anthropic; co-founded Mirendil, Mar 2026."
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "name": "Product",
+      "blurb": "Product leaders turning research into things people use every day.",
+      "people": [
+        {
+          "name": "Kevin Weil",
+          "url": null,
+          "role": "Former Chief Product Officer",
+          "org": "OpenAI (former)",
+          "status": "Left OpenAI; reported to be raising for a new AI-science startup, August 2026.",
+          "verified": false,
+          "note": "Awaiting a primary source.",
+          "sources": [
+            "https://www.businessinsider.com/weil-valuation-750-million-for-ai-science-startup-2026-8"
+          ],
+          "short": "Left OpenAI; reported AI-science startup, Aug 2026."
+        },
+        {
+          "name": "Fidji Simo",
+          "url": null,
+          "role": "Former CEO of Applications",
+          "org": "OpenAI",
+          "status": "Stepped back from her full-time role in July 2026; now a part-time advisor to OpenAI.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html"
+          ],
+          "short": "Stepped back July 2026; part-time OpenAI advisor."
+        },
+        {
+          "name": "Mike Krieger",
+          "url": null,
+          "role": "Co-lead, Labs (former CPO)",
+          "org": "Anthropic",
+          "status": "Moved from Chief Product Officer to co-lead Anthropic's Labs incubator.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"
+          ],
+          "short": "Now co-leads Anthropic Labs (former CPO)."
+        },
+        {
+          "name": "Ami Vora",
+          "url": null,
+          "role": "Head of Product",
+          "org": "Anthropic",
+          "status": "Head of Product at Anthropic.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"
+          ],
+          "short": "Head of Product at Anthropic."
+        },
+        {
+          "name": "Tom Vieira",
+          "url": null,
+          "role": "Former product lead",
+          "org": "Base (former)",
+          "status": "Led product at Base; spent the past year building the chamber music collective Run up the Sky.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/tom-vieira_after-a-couple-of-years-leading-product-at-activity-7498836332300034048-FJv1"
+          ],
+          "short": "Left Base product lead; building Run up the Sky."
+        }
+      ]
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "blurb": "Growth and go-to-market leaders who brought AI to its first billion users.",
+      "people": [
+        {
+          "name": "Alison Harmon",
+          "url": null,
+          "role": "Growth & GTM leader",
+          "org": "OpenAI (former)",
+          "status": "Wrapped up at OpenAI in May 2026 after nearly three years.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/alisonharmon_last-week-i-wrapped-up-my-time-at-openai-activity-7460373315061317632-ult2"
+          ],
+          "short": "Wrapped up at OpenAI May 2026 after ~3 years."
+        },
+        {
+          "name": "Kate Rouch",
+          "url": null,
+          "role": "Chief Marketing Officer",
+          "org": "OpenAI (former)",
+          "status": "Stepped down as OpenAI's Chief Marketing Officer in April 2026.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://adage.com/executive-moves/aa-openai-cmo-kate-rouch-exits/",
+            "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/"
+          ],
+          "short": "Stepped down as OpenAI CMO, Apr 2026."
+        },
+        {
+          "name": "Brad Lightcap",
+          "url": null,
+          "role": "Former COO, then special projects",
+          "org": "OpenAI (former)",
+          "status": "Announced in August 2026 he is leaving OpenAI to start something new.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving",
+            "https://fortune.com/2026/08/11/openai-exec-brad-lightcap-leaving-start-something-new/"
+          ],
+          "short": "Leaving OpenAI to start something new (Aug 2026)."
+        },
+        {
+          "name": "Joshua Kim",
+          "url": null,
+          "role": "Growth Marketing lead",
+          "org": "Cursor",
+          "status": "Joined Cursor to build its growth marketing function in 2026.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/kimjoshua_excited-to-share-that-ive-joined-cursor-activity-7432473206571118592-0gDb"
+          ],
+          "short": "Joined Cursor to build growth marketing, 2026."
+        },
+        {
+          "name": "Sarah Khogyani Wolf",
+          "url": null,
+          "role": "Startup Marketing Lead",
+          "org": "Anthropic",
+          "status": "Left Base in April 2026; now Startup Marketing Lead at Anthropic.",
+          "verified": true,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/sarahzorah"
+          ],
+          "short": "Left Base Apr 2026; now at Anthropic."
+        }
+      ]
+    }
+  ]
+}
