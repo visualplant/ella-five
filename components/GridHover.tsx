@@ -6,13 +6,14 @@ export default function GridHover() {
     const grid = document.querySelector<HTMLElement>(".cols");
     if (!grid) return;
     const cells = [...grid.querySelectorAll<HTMLElement>("[data-row]")];
-    const big = window.matchMedia("(min-width: 1000px)");
+    const big = window.matchMedia("(min-width: 701px)");
     let cur: HTMLElement | null = null;
     const set = (t: EventTarget | null) => {
       const cell = (t as HTMLElement | null)?.closest?.<HTMLElement>("[data-row]") ?? null;
       if (cell === cur) return;
       cur = cell;
       grid.querySelectorAll<HTMLElement>("[data-rail]").forEach((n) => { if (cell && big.matches && n.dataset.rail === cell.dataset.row) n.dataset.on = ""; else delete n.dataset.on; });
+      grid.querySelectorAll<HTMLElement>("section.col").forEach((sc, i) => { if (cell && big.matches && String(i + 1) === cell.dataset.col) sc.dataset.on = ""; else delete sc.dataset.on; });
       if (!cell || !big.matches) { delete grid.dataset.active; cells.forEach((c) => delete c.dataset.d); return; }
       const r = +cell.dataset.row!, k = +cell.dataset.col!;
       grid.dataset.active = "";

@@ -3,6 +3,8 @@ import type { Metadata, Viewport } from "next";
 import { Newsreader, Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE, REPO, categories } from "@/lib/data";
 
 const serif = Newsreader({ subsets: ["latin"], style: ["normal", "italic"], variable: "--serif", display: "swap" });
@@ -31,10 +33,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main id="main">{children}</main>
         <footer className="site-footer wrap">
-          <p className="f-brand"><span className="wordmark small">Ella</span> – AI Talent Tracker</p>
+          <p className="f-brand">Ella <span>– AI Talent Tracker</span></p>
           <p className="f-note">Statuses are drawn from public sources and describe roles, not availability. Inclusion is editorial and does not imply anyone is open to work.</p>
           <GitHubMark />
         </footer>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

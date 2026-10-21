@@ -2,7 +2,7 @@
 // with the same shape as ai.json, import it here and append it to `verticals`.
 // Routes /biotech and /biotech/<category> are generated automatically.
 import ai from "@/data/verticals/ai.json";
-export type Person = { name: string; url: string | null; role: string; org: string; status: string; verified: boolean; note: string | null; short: string; sources: string[] };
+export type Person = { name: string; url: string | null; role: string; org: string; status: string; verified: boolean; note: string | null; short: string; sources: string[]; signal?: string; tag?: string; orgShort?: string };
 export type Category = { slug: string; name: string; blurb: string; people: Person[] };
 export type Vertical = { slug: string; name: string; title: string; updated: string; categories: Category[] };
 export const verticals = [ai] as Vertical[];

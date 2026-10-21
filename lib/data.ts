@@ -1,3 +1,4 @@
+import { SOCIALS, socialSameAs } from "@/lib/socials";
 import { defaultVertical, vpath, type Vertical, type Category } from "@/lib/verticals";
 export type { Person, Category, Vertical } from "@/lib/verticals";
 export const data = defaultVertical;
@@ -17,5 +18,5 @@ export function itemListLd(c: Category, v: Vertical = defaultVertical) {
 
 export const ELLA_ID = SITE + "/#ella";
 export const ellaLd = () => ({ "@context": "https://schema.org", "@type": "Organization", "@id": ELLA_ID, name: "Ella", alternateName: "Ella – AI Talent Tracker", url: SITE + "/", logo: SITE + "/ella.webp", image: SITE + "/ella.webp",
-  description: "Ella researches and maintains short, sourced, rotating top-five lists of exceptional people in AI across Technical, Design, Research, Product and Growth.", sameAs: [REPO] });
+  description: "Ella researches and maintains short, sourced, rotating top-five lists of exceptional people in AI across Technical, Design, Research, Product and Growth.", sameAs: [REPO, ...socialSameAs()], ...(SOCIALS.email ? { email: SOCIALS.email, contactPoint: { "@type": "ContactPoint", contactType: "general", email: SOCIALS.email } } : {}) });
 export const LICENSE_NOTE = "Lists are editorial and compiled from the public sources cited for each person. Statuses describe public role changes, not availability or intent to change jobs. Free to quote and share with attribution: \"Ella – AI Talent Tracker (https://ellafive.com)\". Code: MIT.";
