@@ -3,6 +3,7 @@ import { formatUpdated, itemListLd, abs, type Category } from "@/lib/data";
 import { vpath, type Vertical } from "@/lib/verticals";
 import PersonList from "@/components/PersonList";
 import SubscribeForm from "@/components/SubscribeForm";
+import CatIcon from "@/components/CatIcon";
 
 export default function CategoryView({ v, c }: { v: Vertical; c: Category }) {
   const categories = v.categories, data = v;
@@ -11,9 +12,8 @@ export default function CategoryView({ v, c }: { v: Vertical; c: Category }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([itemListLd(c, v), crumbs]) }} />
-      <section className="hero wrap compact">
-        <p className="eyebrow"><Link href={vpath(v)}>Ella</Link> / {String(i + 1).padStart(2, "0")}</p>
-        <h1>{c.name}</h1>
+      <section className="hero wrap compact cat-hero">
+        <h1 className="cat-title"><CatIcon slug={c.slug} />{c.name}</h1>
         <p className="lede">{c.blurb}</p>
         <p className="updated">Last updated <time dateTime={data.updated}>{formatUpdated(v.updated)}</time></p>
       </section>

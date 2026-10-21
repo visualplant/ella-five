@@ -21,7 +21,10 @@
             "https://digg.com/tech/93mrk7k4",
             "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/"
           ],
-          "short": "Left OpenAI May 2026; building something new."
+          "short": "Left OpenAI May 2026; building something new.",
+          "signal": "Left OpenAI → building something new",
+          "tag": "New venture",
+          "orgShort": "ex-OpenAI"
         },
         {
           "name": "Sachin Katti",
@@ -35,7 +38,10 @@
             "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
             "https://www.turingtree.com/updates/sachin-katti-announces-openai-departure"
           ],
-          "short": "Leaving OpenAI Nov 15 to build something new."
+          "short": "Leaving OpenAI Nov 15 to build something new.",
+          "signal": "Leaving OpenAI Nov 15 to build",
+          "tag": "Leaving",
+          "orgShort": "OpenAI"
         },
         {
           "name": "Barret Zoph",
@@ -49,7 +55,10 @@
             "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
             "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
           ],
-          "short": "Joined Google DeepMind as VP of Research, Aug 2026."
+          "short": "Joined Google DeepMind as VP of Research, Aug 2026.",
+          "signal": "VP of Research, Google DeepMind",
+          "tag": "Joined",
+          "orgShort": "Google DeepMind"
         },
         {
           "name": "Harsh Mehta",
@@ -63,7 +72,10 @@
             "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/",
             "https://linkedin.com/in/harsh-mehta-3bb0b88a"
           ],
-          "short": "Left Anthropic; co-founded Mirendil, Mar 2026."
+          "short": "Left Anthropic; co-founded Mirendil, Mar 2026.",
+          "signal": "Ex-Anthropic → co-founded Mirendil",
+          "tag": "Co-founded",
+          "orgShort": "Mirendil"
         },
         {
           "name": "Matthew Barnett",
@@ -76,7 +88,10 @@
           "sources": [
             "https://www.turingtree.com/updates"
           ],
-          "short": "Joined Google from Mechanize, Aug 2026."
+          "short": "Joined Google from Mechanize, Aug 2026.",
+          "signal": "Mechanize co-founder → Google",
+          "tag": "Joined",
+          "orgShort": "Google"
         }
       ]
     },
@@ -97,7 +112,10 @@
             "https://www.benzinga.com/markets/private-markets/26/09/61908222/openai-loses-key-design-leader-after-shaping-chatgpt-and-codex",
             "https://longbridge.com/en/news/299680796"
           ],
-          "short": "Left OpenAI Sept 2026; building something new."
+          "short": "Left OpenAI Sept 2026; building something new.",
+          "signal": "Left OpenAI → building something new",
+          "tag": "New venture",
+          "orgShort": "ex-OpenAI"
         },
         {
           "name": "JSN",
@@ -110,7 +128,10 @@
           "sources": [
             "https://jsn.io"
           ],
-          "short": "Most recently led design for Visa agentic commerce."
+          "short": "Most recently led design for Visa agentic commerce.",
+          "signal": "Led design for Visa agentic commerce",
+          "tag": "Building",
+          "orgShort": "ex-Visa"
         },
         {
           "name": "Benji Taylor",
@@ -123,7 +144,10 @@
           "sources": [
             "https://benji.org"
           ],
-          "short": "Head of Design, X and SpaceXSI at SpaceX."
+          "short": "Head of Design, X and SpaceXSI at SpaceX.",
+          "signal": "Head of Design, X and SpaceXSI",
+          "tag": "Leads design",
+          "orgShort": "SpaceX"
         },
         {
           "name": "Gavin Nelson",
@@ -137,7 +161,10 @@
             "https://nelson.co",
             "https://www.linkedin.com/posts/gavin-nelson_excited-to-join-the-team-at-openai-activity-7423780860144951296-yNJw"
           ],
-          "short": "At OpenAI since Feb 2026 (ChatGPT Voice)."
+          "short": "At OpenAI since Feb 2026 (ChatGPT Voice).",
+          "signal": "OpenAI design · ChatGPT Voice",
+          "tag": "Joined",
+          "orgShort": "OpenAI"
         },
         {
           "name": "Evil Rabbit",
@@ -150,7 +177,10 @@
           "sources": [
             "https://www.evilrabbit.com"
           ],
-          "short": "Founding designer at Vercel since 2016."
+          "short": "Founding designer at Vercel since 2016.",
+          "signal": "Vercel’s founding designer, since 2016",
+          "tag": "Leads design",
+          "orgShort": "Vercel"
         }
       ]
     },
@@ -171,7 +201,10 @@
             "https://www.theverge.com/ai-artificial-intelligence/935587/aleksander-madry-is-leaving-openai",
             "https://www.turingtree.com/updates/aleksander-madry-leaves-openai"
           ],
-          "short": "Left OpenAI May 2026; building on AI economics."
+          "short": "Left OpenAI May 2026; building on AI economics.",
+          "signal": "Left OpenAI → AI economics projects",
+          "tag": "New venture",
+          "orgShort": "ex-OpenAI"
         },
         {
           "name": "Thore Graepel",
@@ -184,7 +217,10 @@
           "sources": [
             "https://iascope.eu/en/article/2026-09-25-deepmind-graepel-metis-reasoning-depart/"
           ],
-          "short": "Left DeepMind to launch Metis Reasoning, Sept 2026."
+          "short": "Left DeepMind to launch Metis Reasoning, Sept 2026.",
+          "signal": "Left DeepMind → founded Metis",
+          "tag": "Founded",
+          "orgShort": "Metis Reasoning"
         },
         {
           "name": "Danijar Hafner",
@@ -197,7 +233,10 @@
           "sources": [
             "https://diyai.io/news/danijar-hafner-embo-ai-agents-plan-ahead/"
           ],
-          "short": "Co-founded Embo, world-model agents, 2026."
+          "short": "Co-founded Embo, world-model agents, 2026.",
+          "signal": "Co-founded Embo, world-model agents",
+          "tag": "Co-founded",
+          "orgShort": "Embo"
         },
         {
           "name": "Oriol Vinyals",
@@ -210,7 +249,10 @@
           "sources": [
             "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/"
           ],
-          "short": "Reported co-founder of Discovery Loop, 2026."
+          "short": "Reported co-founder of Discovery Loop, 2026.",
+          "signal": "Reported co-founder, Discovery Loop",
+          "tag": "Co-founded",
+          "orgShort": "Discovery Loop (reported)"
         },
         {
           "name": "Behnam Neyshabur",
@@ -224,7 +266,10 @@
             "https://www.linkedin.com/posts/bneyshabur_ive-left-anthropic-to-start-something-new-activity-7425774070152998912-WT_L",
             "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/"
           ],
-          "short": "Left Anthropic; co-founded Mirendil, Mar 2026."
+          "short": "Left Anthropic; co-founded Mirendil, Mar 2026.",
+          "signal": "Ex-Anthropic → co-founded Mirendil",
+          "tag": "Co-founded",
+          "orgShort": "Mirendil"
         }
       ]
     },
@@ -244,7 +289,10 @@
           "sources": [
             "https://www.businessinsider.com/weil-valuation-750-million-for-ai-science-startup-2026-8"
           ],
-          "short": "Left OpenAI; reported AI-science startup, Aug 2026."
+          "short": "Left OpenAI; reported AI-science startup, Aug 2026.",
+          "signal": "Ex-OpenAI CPO; raising for AI science",
+          "tag": "New venture",
+          "orgShort": "ex-OpenAI"
         },
         {
           "name": "Fidji Simo",
@@ -257,7 +305,10 @@
           "sources": [
             "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html"
           ],
-          "short": "Stepped back July 2026; part-time OpenAI advisor."
+          "short": "Stepped back July 2026; part-time OpenAI advisor.",
+          "signal": "Stepped back; now advises OpenAI",
+          "tag": "Stepped back",
+          "orgShort": "OpenAI"
         },
         {
           "name": "Mike Krieger",
@@ -270,7 +321,10 @@
           "sources": [
             "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"
           ],
-          "short": "Now co-leads Anthropic Labs (former CPO)."
+          "short": "Now co-leads Anthropic Labs (former CPO).",
+          "signal": "Ex-CPO → co-leads Anthropic Labs",
+          "tag": "New role",
+          "orgShort": "Anthropic Labs"
         },
         {
           "name": "Ami Vora",
@@ -283,7 +337,10 @@
           "sources": [
             "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger"
           ],
-          "short": "Head of Product at Anthropic."
+          "short": "Head of Product at Anthropic.",
+          "signal": "Head of Product, Anthropic",
+          "tag": "Leads product",
+          "orgShort": "Anthropic"
         },
         {
           "name": "Tom Vieira",
@@ -296,7 +353,10 @@
           "sources": [
             "https://www.linkedin.com/posts/tom-vieira_after-a-couple-of-years-leading-product-at-activity-7498836332300034048-FJv1"
           ],
-          "short": "Left Base product lead; building Run up the Sky."
+          "short": "Left Base product lead; building Run up the Sky.",
+          "signal": "Ex-Base product lead → Run up the Sky",
+          "tag": "New venture",
+          "orgShort": "ex-Base"
         }
       ]
     },
@@ -316,7 +376,10 @@
           "sources": [
             "https://www.linkedin.com/posts/alisonharmon_last-week-i-wrapped-up-my-time-at-openai-activity-7460373315061317632-ult2"
           ],
-          "short": "Wrapped up at OpenAI May 2026 after ~3 years."
+          "short": "Wrapped up at OpenAI May 2026 after ~3 years.",
+          "signal": "Left OpenAI after ~3 years in growth",
+          "tag": "Left",
+          "orgShort": "ex-OpenAI"
         },
         {
           "name": "Kate Rouch",
@@ -330,7 +393,10 @@
             "https://adage.com/executive-moves/aa-openai-cmo-kate-rouch-exits/",
             "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/"
           ],
-          "short": "Stepped down as OpenAI CMO, Apr 2026."
+          "short": "Stepped down as OpenAI CMO, Apr 2026.",
+          "signal": "Stepped down as OpenAI CMO",
+          "tag": "Stepped down",
+          "orgShort": "ex-OpenAI"
         },
         {
           "name": "Brad Lightcap",
@@ -344,7 +410,10 @@
             "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving",
             "https://fortune.com/2026/08/11/openai-exec-brad-lightcap-leaving-start-something-new/"
           ],
-          "short": "Leaving OpenAI to start something new (Aug 2026)."
+          "short": "Leaving OpenAI to start something new (Aug 2026).",
+          "signal": "Leaving OpenAI to start something new",
+          "tag": "Leaving",
+          "orgShort": "OpenAI"
         },
         {
           "name": "Joshua Kim",
@@ -357,7 +426,10 @@
           "sources": [
             "https://www.linkedin.com/posts/kimjoshua_excited-to-share-that-ive-joined-cursor-activity-7432473206571118592-0gDb"
           ],
-          "short": "Joined Cursor to build growth marketing, 2026."
+          "short": "Joined Cursor to build growth marketing, 2026.",
+          "signal": "Building growth marketing at Cursor",
+          "tag": "Joined",
+          "orgShort": "Cursor"
         },
         {
           "name": "Sarah Khogyani Wolf",
@@ -370,7 +442,10 @@
           "sources": [
             "https://linkedin.com/in/sarahzorah"
           ],
-          "short": "Left Base Apr 2026; now at Anthropic."
+          "short": "Left Base Apr 2026; now at Anthropic.",
+          "signal": "Base → Anthropic startup marketing",
+          "tag": "Joined",
+          "orgShort": "Anthropic"
         }
       ]
     }

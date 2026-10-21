@@ -4,12 +4,14 @@ import { vpath, type Vertical } from "@/lib/verticals";
 import Tabs from "@/components/Tabs";
 import GridHover from "@/components/GridHover";
 import GitHubMark from "@/components/GitHubMark";
+import CatIcon from "@/components/CatIcon";
 
 export default function Board({ v }: { v: Vertical }) {
   const categories = v.categories, data = v;
   const ld = [ellaLd(), { "@context": "https://schema.org", "@type": "WebSite", "@id": abs(vpath(v)) + "#website", name: `Ella – ${v.title}`, description: "Five people, five disciplines, every status sourced.", url: abs(vpath(v)) || SITE, inLanguage: "en", dateModified: data.updated, publisher: { "@id": ELLA_ID }, hasPart: categories.map((c) => ({ "@id": abs(vpath(v, c.slug)) + "#list" })) }, ...categories.map((c) => itemListLd(c, v))];
   return (
     <div className="board">
+      <script dangerouslySetInnerHTML={{ __html: `if(new URLSearchParams(location.search).get("grid")==="solid")document.documentElement.setAttribute("data-grid","solid")` }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <header className="b-head">
         <Link href="/about" className="b-id" aria-label="Ella – AI Talent Tracker. What about me? About Ella">
@@ -29,13 +31,15 @@ export default function Board({ v }: { v: Vertical }) {
         </div>
         {categories.map((c, ci) => (
           <section key={c.slug} id={`col-${c.slug}`} className="col" aria-labelledby={`h-${c.slug}`}>
-            <h2 id={`h-${c.slug}`}><Link href={vpath(v, c.slug)}>{c.name}</Link></h2>
+            <h2 id={`h-${c.slug}`}><Link href={vpath(v, c.slug)} className="h-link"><CatIcon slug={c.slug} />{c.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1 12h20.5M13 3.5l8.5 8.5-8.5 8.5" /></svg></Link></h2>
             <ol>
               {c.people.map((p, i) => (
                 <li key={p.name} data-row={i + 1} data-col={ci + 1}>
                   <span className="n" aria-hidden="true">{i + 1}</span>
                   <div>
                     <h3><a className="cell-link" href={p.sources[0] || p.url || undefined} target="_blank" rel="noopener noreferrer" aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short} (opens ${host(p.sources[0] || p.url || "")} in a new tab)`}>{p.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1.5 22.5 22 2M10 1.5h12.5V14" /></svg></a></h3>
+                    {p.orgShort && <p className="vb-org">{p.orgShort}</p>}
+                    {p.signal && <p className="sig">{p.signal}</p>}
                     <p className="r">{p.role}<span>{p.org}</span></p>
                     <p className="s">{p.short}{!p.verified && <abbr title={p.note || "Unverified"}> ·&nbsp;unverified</abbr>}</p>
                   </div>

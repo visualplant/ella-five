@@ -32,3 +32,7 @@ See `.env.example`. Subscriptions are disabled unless `RESEND_API_KEY`, `EMAIL_F
 ## Credits
 
 Built by [Jason Schmidt](https://jsn.io), who also appears on the Design list. MIT licensed.
+
+## Credits
+
+Category icons: [Lucide](https://lucide.dev) (terminal, pen-tool, flask-conical, package, rocket), ISC License, © Lucide Icons and Contributors.
