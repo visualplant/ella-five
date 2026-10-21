@@ -16,6 +16,14 @@ export default function GridHover() {
       if (!cell || !big.matches) { delete grid.dataset.active; cells.forEach((c) => delete c.dataset.d); return; }
       const r = +cell.dataset.row!, k = +cell.dataset.col!;
       grid.dataset.active = "";
+      const rays = grid.querySelector<HTMLElement>(".rays");
+      if (rays) {
+        const g = grid.getBoundingClientRect(), f = cells[0].getBoundingClientRect(), l = cells[cells.length - 1].getBoundingClientRect(), c = cell.getBoundingClientRect();
+        const L = f.left - g.left, T = f.top - g.top, W = l.right - f.left, H = l.bottom - f.top;
+        Object.assign(rays.style, { left: L + "px", top: T + "px", width: W + "px", height: H + "px" });
+        const v = { x1: c.left - f.left, x2: c.right - f.left, y1: c.top - f.top, y2: c.bottom - f.top };
+        Object.entries(v).forEach(([k, n]) => rays.style.setProperty("--" + k, n + "px"));
+      }
       cells.forEach((c) => { c.dataset.d = String(Math.max(Math.abs(+c.dataset.row! - r), Math.abs(+c.dataset.col! - k))); });
     };
     const over = (e: Event) => set(e.target);

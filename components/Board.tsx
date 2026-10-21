@@ -19,28 +19,26 @@ export default function Board({ v }: { v: Vertical }) {
       </header>
       <Tabs items={categories.map(({ slug, name }) => ({ slug, name }))} />
       <div className="cols">
+        <div className="rays" aria-hidden="true"><i className="h t" /><i className="h b" /><i className="v l" /><i className="v r" /></div>
         <div className="col rail" aria-hidden="true">
           <h2>&nbsp;</h2>
           <ol>{[1, 2, 3, 4, 5].map((n) => <li key={n} data-rail={n}>{n}</li>)}</ol>
-          <span className="more">&nbsp;</span>
         </div>
         {categories.map((c, ci) => (
           <section key={c.slug} id={`col-${c.slug}`} className="col" aria-labelledby={`h-${c.slug}`}>
             <h2 id={`h-${c.slug}`}><Link href={vpath(v, c.slug)}>{c.name}</Link></h2>
             <ol>
               {c.people.map((p, i) => (
-                <li key={p.name} data-row={i + 1} data-col={ci + 1} tabIndex={p.url ? undefined : 0}>
+                <li key={p.name} data-row={i + 1} data-col={ci + 1}>
                   <span className="n" aria-hidden="true">{i + 1}</span>
                   <div>
-                    <h3>{p.url ? <a href={p.url} title={host(p.url)}>{p.name}</a> : p.name}</h3>
+                    <h3><a className="cell-link" href={p.sources[0] || p.url || undefined} target="_blank" rel="noopener noreferrer" aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short} (opens ${host(p.sources[0] || p.url || "")} in a new tab)`}>{p.name}</a></h3>
                     <p className="r">{p.role}<span>{p.org}</span></p>
-                    <p className="s">{p.short}{!p.verified && <abbr title={p.note || "Unverified"}> ·&nbsp;unverified</abbr>}{" "}
-                      <a className="src" href={p.sources[0]} rel="noopener nofollow" title={`Source: ${host(p.sources[0])}`} aria-label={`Source for ${p.name}: ${host(p.sources[0])}`}>↗</a></p>
+                    <p className="s">{p.short}{!p.verified && <abbr title={p.note || "Unverified"}> ·&nbsp;unverified</abbr>}<span className="arr" aria-hidden="true"> ↗</span></p>
                   </div>
                 </li>
               ))}
             </ol>
-            <Link href={vpath(v, c.slug)} className="more">Sources and detail</Link>
           </section>
         ))}
       </div>
