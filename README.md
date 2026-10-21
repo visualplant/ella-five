@@ -2,7 +2,7 @@
 
 Source: [github.com/visualplant/ella-five](https://github.com/visualplant/ella-five)
 
-Ella, the original AI Talent Tracker: [ellafive.com](https://ellafive.com).
+Ella – AI Talent Tracker: [ellafive.com](https://ellafive.com).
 
 Five short, sourced lists of notable people in AI (Technical, Design, Research, Product, Growth). Statuses describe public role changes, not availability. Visitors can subscribe to one or more lists by email.
 

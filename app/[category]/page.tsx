@@ -13,9 +13,9 @@ export function generateStaticParams() {
 type P = { params: Promise<{ category: string }> };
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const s = (await params).category; const v = extraVerticals.find((x) => x.slug === s);
-  if (v) return { title: `Ella, ${v.title}`, alternates: { canonical: vpath(v) } };
+  if (v) return { title: { absolute: `Ella – ${v.title}` }, alternates: { canonical: vpath(v) } };
   const c = getCategory(s); if (!c) return {};
-  return { title: `Top ${c.name} talent in AI`, description: `${c.blurb} ${c.people.map((p) => p.name).join(", ")}.`, alternates: { canonical: `/${c.slug}` }, openGraph: { title: `Ella · ${c.name}`, description: c.blurb } };
+  return { title: c.name, description: `${c.blurb} ${c.people.map((p) => p.name).join(", ")}.`, alternates: { canonical: `/${c.slug}` }, openGraph: { title: `${c.name} – Ella – AI Talent Tracker`, description: c.blurb }, twitter: { card: "summary_large_image", title: `${c.name} – Ella – AI Talent Tracker`, description: c.blurb } };
 }
 export default async function Page({ params }: P) {
   const s = (await params).category; const v = extraVerticals.find((x) => x.slug === s);

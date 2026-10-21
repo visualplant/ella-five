@@ -167,3 +167,7 @@ section.col:first-of-type { border-left: 0; padding-left: 0; } section.col:last-
   .col li > .n { display: none; }
   .col li, .col li:first-child { grid-template-columns: minmax(0, 1fr); }
 }
+
+.site-footer .gh { color: var(--mute); display: inline-flex; justify-self: end; transition: color .15s ease; margin-top: -26px; }
+.site-footer .gh:hover, .site-footer .gh:focus-visible { color: var(--ink); }
+@media (max-width: 700px) { .site-footer .gh { justify-self: start; margin-top: 4px; } }
