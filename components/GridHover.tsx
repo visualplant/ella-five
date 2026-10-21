@@ -20,7 +20,7 @@ export default function GridHover() {
       if (rays) {
         const g = grid.getBoundingClientRect(), f = cells[0].getBoundingClientRect(), l = cells[cells.length - 1].getBoundingClientRect(), c = cell.getBoundingClientRect();
         const L = f.left - g.left, T = f.top - g.top, W = l.right - f.left, H = l.bottom - f.top;
-        Object.assign(rays.style, { left: L + "px", top: T + "px", width: W + "px", height: H + "px" });
+        Object.assign(rays.style, { left: L - 1 + "px", top: T - 1 + "px", width: W + 1 + "px", height: H + 1 + "px" });
         const v = { x1: c.left - f.left, x2: c.right - f.left, y1: c.top - f.top, y2: c.bottom - f.top };
         Object.entries(v).forEach(([k, n]) => rays.style.setProperty("--" + k, n + "px"));
       }
