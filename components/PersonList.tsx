@@ -7,7 +7,7 @@ export default function PersonList({ c, headingLevel = 3 }: { c: Category; headi
     <ol className="people">
       {c.people.map((p, i) => (
         <li key={p.name} className="person" style={{ animationDelay: `${i * 60}ms` }}>
-          <span className="rank" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
+          <span className="rank" aria-hidden="true">{i + 1}</span>
           <article>
             <H className="p-name">{p.url ? <a href={p.url}>{p.name}</a> : p.name}
               {p.url && <span className="p-site">{host(p.url)}</span>}</H>
