@@ -6,7 +6,7 @@ export default function GridHover() {
     const grid = document.querySelector<HTMLElement>(".cols");
     if (!grid) return;
     const cells = [...grid.querySelectorAll<HTMLElement>("[data-row]")];
-    const big = window.matchMedia("(min-width: 1280px)");
+    const big = window.matchMedia("(min-width: 1000px)");
     let cur: HTMLElement | null = null;
     const set = (t: EventTarget | null) => {
       const cell = (t as HTMLElement | null)?.closest?.<HTMLElement>("[data-row]") ?? null;

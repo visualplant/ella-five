@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header wrap">
           <Link href="/" className="wordmark" aria-label="Ella home">Ella</Link>
           <nav aria-label="Categories">
-            <ul>{categories.map((c) => <li key={c.slug}><Link href={`/${c.slug}`}>{c.name}</Link></li>)}
+            <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><Link href={`/${c.slug}`}>{c.name}</Link></li>)}
               <li><Link href="/subscribe" className="nav-sub">Subscribe</Link></li></ul>
           </nav>
         </header>
