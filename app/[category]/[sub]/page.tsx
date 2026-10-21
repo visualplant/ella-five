@@ -13,7 +13,7 @@ export function generateStaticParams() {
 type P = { params: Promise<{ category: string; sub: string }> };
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { category, sub } = await params; const v = getVertical(category); const c = v && getCategory(sub, v);
-  return v && c ? { title: `Top ${c.name} talent in ${v.name}`, alternates: { canonical: vpath(v, c.slug) } } : {};
+  return v && c ? { title: { absolute: `${c.name} – Ella – ${v.title}` }, alternates: { canonical: vpath(v, c.slug) } } : {};
 }
 export default async function Page({ params }: P) {
   const { category, sub } = await params; const v = extraVerticals.find((x) => x.slug === category); const c = v && getCategory(sub, v);
