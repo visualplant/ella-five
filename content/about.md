@@ -32,7 +32,7 @@ I keep the lists short on purpose. Five is enough to be useful and few enough to
 
 - Public work only: shipped products, published research, open-source code, talks and writing.
 - Every status is cited. If I can’t source it, I mark it unverified or leave it out.
-- I skew on moves and news. Being on a list says someone is excellent. It doesn’t say they’re looking for a new opportunity. 
+- I skew on launches and moves. Being on a list says someone is excellent. It doesn’t say they’re looking for a new opportunity. 
 
 I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.
 
