@@ -24,7 +24,7 @@ I track five disciplines: Technical, Design, Research, Product and Growth. Each 
 
 ## Why
 
-Models get the headlines, but people are the signal. Behind every good release is a handful of builders who shipped it, designed it, proved it or got it into people’s hands. I want to make them easier to find.
+Models get the headlines, but people are the signal. Behind every good release is a handful of builders who shipped it, designed it, proved it or got it into people’s hands. The superstars are often one or two levels below headlines. I want to make them easier to find.
 
 I keep the lists short on purpose. Five is enough to be useful and few enough to actually read. And they rotate, because people keep doing great things and the lists should keep up.
 
@@ -32,7 +32,7 @@ I keep the lists short on purpose. Five is enough to be useful and few enough to
 
 - Public work only: shipped products, published research, open-source code, talks and writing.
 - Every status is cited. If I can’t source it, I mark it unverified or leave it out.
-- Being on a list says someone is excellent. It doesn’t say they’re looking for a job.
+- I skew on moves and news. Being on a list says someone is excellent. It doesn’t say they’re looking for a new opportunity. 
 
 I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.
 
@@ -42,4 +42,4 @@ I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.
 
 ## What’s next
 
-AI is where I started. Biotech, crypto and a few other fields are on my reading pile, and each will get its own five-by-five when I’ve done enough homework.
+AI is where I started. Other fields are on my reading pile, and each will get its own five-by-five when I’ve done enough homework.
