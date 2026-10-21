@@ -12,6 +12,7 @@ export default function GridHover() {
       const cell = (t as HTMLElement | null)?.closest?.<HTMLElement>("[data-row]") ?? null;
       if (cell === cur) return;
       cur = cell;
+      grid.querySelectorAll<HTMLElement>("[data-rail]").forEach((n) => { if (cell && big.matches && n.dataset.rail === cell.dataset.row) n.dataset.on = ""; else delete n.dataset.on; });
       if (!cell || !big.matches) { delete grid.dataset.active; cells.forEach((c) => delete c.dataset.d); return; }
       const r = +cell.dataset.row!, k = +cell.dataset.col!;
       grid.dataset.active = "";
