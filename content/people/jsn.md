@@ -28,7 +28,7 @@ media_alt: Visa Intelligent Commerce: an AI agent asks the user to approve a hot
 ---
 
 ## Status
-Designing and building a new venture in alpha: Awtonomy.ai
+Designing and building a new venture: Awtonomy.ai (alpha testing with early adopters)
 
 ## Short
 Most recently led design for Visa agentic commerce.
