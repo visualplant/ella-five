@@ -28,7 +28,7 @@ media_alt: Visa Intelligent Commerce: an AI agent asks the user to approve a hot
 ---
 
 ## Status
-Most recently led product design for Visa's agentic commerce platform and Visa Crypto Labs; now building with agentic engineering.
+Designing and building a new venture in alpha: Awtonomy.ai
 
 ## Short
 Most recently led design for Visa agentic commerce.
@@ -41,6 +41,7 @@ Since 2018 his work has spanned AI, agentic commerce and crypto, linking togethe
 
 ## Sources
 - https://jsn.io
+- https://www.linkedin.com/in/visualplant/
 
 ## Worked with
 - Cuy Sheffield, Head of Visa Crypto, Visa
