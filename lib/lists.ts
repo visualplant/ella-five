@@ -16,7 +16,7 @@ export function listsMarkdown() {
     out.push(`## ${v.title} (${abs(vpath(v)) || SITE + "/"})`, "", `Last updated ${formatUpdated(v.updated)} (${v.updated}).`, "");
     for (const c of v.categories) {
       out.push(`### ${c.name}`, "", `${c.blurb} Page: ${abs(vpath(v, c.slug))}`, "");
-      c.people.forEach((p, i) => { out.push(`${i + 1}. **${p.name}**: ${p.role}, ${p.org}${p.url ? ` (${p.url})` : ""}`, `   - ${p.status}${p.verified ? "" : " [unverified]"}`, `   - Sources: ${p.sources.join(", ")}`); });
+      c.people.forEach((p, i) => { out.push(`${i + 1}. **${p.name}**: ${p.role}, ${p.org}${p.url ? ` (${p.url})` : ""}`, `   - ${p.status}${p.verified ? "" : " [unverified]"}`, `   - Sources: ${p.sources.join(", ")}`, ...(p.workedWith?.length ? [`   - Worked with: ${p.workedWith.map((w) => [w.name, w.role, w.org].filter(Boolean).join(", ") + (w.relation ? ` (${w.relation})` : "") + (w.url ? ` <${w.url}>` : "")).join("; ")}`] : [])); });
       out.push("");
     }
   }
