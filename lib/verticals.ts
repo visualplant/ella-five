@@ -3,7 +3,7 @@ export type WorkedWith = { name: string; role?: string; org?: string; url?: stri
 // with the same shape as ai.json, import it here and append it to `verticals`.
 // Routes /biotech and /biotech/<category> are generated automatically.
 import ai from "@/data/verticals/ai.json";
-export type Person = { name: string; url: string | null; role: string; org: string; status: string; verified: boolean; note: string | null; short: string; sources: string[]; signal?: string; tag?: string; orgShort?: string;
+export type Person = { name: string; url: string | null; role: string; org: string; status: string; verified: boolean; verifiedHow?: string; note: string | null; short: string; sources: string[]; signal?: string; tag?: string; orgShort?: string;
   // Optional profile fields (filled by Ella persona research; hidden when absent)
   why?: string; products?: { name: string; url: string }[]; profiles?: { label: string; url: string }[]; location?: string; workedWith?: WorkedWith[]; added?: string; notable?: { title: string; url?: string }[];
   media?: { type: "youtube" | "image"; id?: string; url?: string; caption?: string; credit?: string; alt?: string; link?: string } };

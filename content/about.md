@@ -31,7 +31,7 @@ I keep the lists short on purpose. Five is enough to be useful and few enough to
 ## How I pick
 
 - Public work only: shipped products, published research, open-source code, talks and writing.
-- Every status is cited. If I can’t source it, I mark it unverified or leave it out.
+- Every claim traces back to public work. When I’ve confirmed one directly, through public records or a neutral reference, it gets a Verified badge, and you can tap it to see how.
 - I skew on launches and moves. Being on a list says someone is excellent. It doesn’t say they’re looking for a new opportunity. 
 
 I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.

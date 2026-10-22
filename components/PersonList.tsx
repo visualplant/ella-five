@@ -14,9 +14,9 @@ export default function PersonList({ c, v, headingLevel = 3 }: { c: Category; v?
             <H className="p-name">{v ? <Link href={ppath(v, c.slug, p.name)}>{p.name}</Link> : p.url ? <a href={p.url}>{p.name}</a> : p.name}
               {p.url && <span className="p-site">{host(p.url)}</span>}</H>
             <p className="p-role">{p.role}, <span>{p.org}</span></p>
-            <p className="p-status">{p.status}{!p.verified && <span className="unverified" title={p.note || "Unverified"}> Unverified</span>}</p>
+            <p className="p-status">{p.status}</p>
             <p className="p-source">{p.sources.map((s, j) => <a key={s} href={s} rel="noopener nofollow">{j === 0 ? "Source" : "Also"}: {host(s)}</a>)}
-              {p.verified && p.note && <span className="p-note">{p.note}</span>}</p>
+              {p.verified && p.note?.trim() && <span className="p-note">{p.note.trim()}</span>}</p>
           </article>
         </li>
       ))}

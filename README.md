@@ -36,3 +36,9 @@ MIT licensed.
 ## Credits
 
 Category icons: [Lucide](https://lucide.dev) (terminal, pen-tool, flask-conical, package, rocket), ISC License, © Lucide Icons and Contributors.
+
+## Weekly archive
+
+Ella saves approved list snapshots to `/workspace/ella/weekly/YYYY-MM-DD.json` (same shape as `data/verticals/ai.json`). New lists publish only after explicit approval; there is no fixed cadence.
+Before a deploy, run `scripts/sync-weekly.sh` to validate and copy them into `data/weekly/`, then commit.
+Builds read `data/weekly/` to generate `/archive` and `/archive/YYYY-MM-DD`; the footer "Archive" link appears only when at least one week exists.

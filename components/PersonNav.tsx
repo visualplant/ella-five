@@ -2,7 +2,8 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-type N = { href: string; name: string; rank: number };
+type N = { href: string; name: string; rank?: number };
+const lab = (n: N) => n.rank == null ? n.name : `No. ${String(n.rank).padStart(2, "0")} ${n.name}`;
 const Chev = ({ d }: { d: string }) => <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" vectorEffect="non-scaling-stroke"><path d={d} vectorEffect="non-scaling-stroke" /></svg>;
 // Prev/next within the category (wrapping). Keys: ← prev, → next, Esc back to the grid.
 export default function PersonNav({ prev, next }: { prev: N; next: N }) {
@@ -23,7 +24,7 @@ export default function PersonNav({ prev, next }: { prev: N; next: N }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [router, prev.href, next.href]);
   return <span className="pv-nav">
-    <Link href={prev.href} className="pv-nb" aria-label={`Previous: No. ${String(prev.rank).padStart(2, "0")} ${prev.name}`}><Chev d="M15 4.5 7.5 12l7.5 7.5" /><span className="pv-tip" aria-hidden="true">No. {String(prev.rank).padStart(2, "0")} {prev.name}</span></Link>
-    <Link href={next.href} className="pv-nb" aria-label={`Next: No. ${String(next.rank).padStart(2, "0")} ${next.name}`}><Chev d="M9 4.5 16.5 12 9 19.5" /><span className="pv-tip" aria-hidden="true">No. {String(next.rank).padStart(2, "0")} {next.name}</span></Link>
+    <Link href={prev.href} className="pv-nb" aria-label={`Previous: ${lab(prev)}`}><Chev d="M15 4.5 7.5 12l7.5 7.5" /><span className="pv-tip" aria-hidden="true">{lab(prev)}</span></Link>
+    <Link href={next.href} className="pv-nb" aria-label={`Next: ${lab(next)}`}><Chev d="M9 4.5 16.5 12 9 19.5" /><span className="pv-tip" aria-hidden="true">{lab(next)}</span></Link>
   </span>;
 }
