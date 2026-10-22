@@ -17,6 +17,18 @@ Five short, sourced lists of notable people in AI (Technical, Design, Research, 
 
 Lists live in `data/verticals/ai.json`. The AI vertical is served at the root (`/ai` redirects to `/`). To add a vertical (e.g. biotech), add `data/verticals/biotech.json` with the same shape and register it in `lib/verticals.ts`; `/biotech` and `/biotech/<category>` are generated automatically.
 
+## Editable person pages
+
+`content/people/*.md` override matching people in `data/verticals/ai.json`, field by field (fields left out fall back to the JSON). JSN's page lives in `content/people/jsn.md` and is edited on GitHub. A malformed file fails the build with a message naming the file and the problem.
+
+## Build notes
+
+Before building, pull the human-edited content from GitHub main (like `content/about.md`):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/visualplant/ella-five/main/content/people/jsn.md -o content/people/jsn.md
+```
+
 ## Run locally
 
 ```bash
