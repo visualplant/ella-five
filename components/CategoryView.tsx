@@ -17,7 +17,7 @@ export default function CategoryView({ v, c }: { v: Vertical; c: Category }) {
         <p className="lede">{c.blurb}</p>
         <p className="updated">Last updated <time dateTime={data.updated}>{formatUpdated(v.updated)}</time></p>
       </section>
-      <section className="cat wrap solo"><PersonList c={c} headingLevel={2} /></section>
+      <section className="cat wrap solo"><PersonList c={c} v={v} headingLevel={2} /></section>
       <section className="sub wrap">
         <h2>Follow {c.name}</h2>
         <SubscribeForm categories={categories.map(({ slug, name }) => ({ slug, name }))} preset={[c.slug]} />

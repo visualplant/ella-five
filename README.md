@@ -31,7 +31,7 @@ See `.env.example`. Subscriptions are disabled unless `RESEND_API_KEY`, `EMAIL_F
 
 ## Credits
 
-Built by JSN. MIT licensed.
+MIT licensed.
 
 ## Credits
 
