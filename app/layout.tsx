@@ -1,3 +1,5 @@
+import NavLink from "@/components/NavLink";
+import { weeks } from "@/lib/weekly";
 import GitHubMark from "@/components/GitHubMark";
 import type { Metadata, Viewport } from "next";
 import { Newsreader, Inter } from "next/font/google";
@@ -27,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header wrap">
           <Link href="/" className="wordmark" aria-label="Ella home">Ella</Link>
           <nav aria-label="Categories">
-            <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><Link href={`/${c.slug}`}>{c.name}</Link></li>)}
+            <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
               <li><Link href="/subscribe" className="nav-sub">Subscribe</Link></li></ul>
           </nav>
         </header>
@@ -35,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer wrap">
           <p className="f-brand">Ella <span>– AI Talent Tracker</span></p>
           <p className="f-note">Statuses are drawn from public sources and describe roles, not availability. Inclusion is editorial and does not imply anyone is open to work.</p>
-          <GitHubMark />
+          <GitHubMark archive={weeks().length > 0} />
         </footer>
         <Analytics />
         <SpeedInsights />

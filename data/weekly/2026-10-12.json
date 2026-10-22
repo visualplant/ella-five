@@ -1,0 +1,1032 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "title": "AI Talent Tracker",
+  "updated": "2026-10-12T09:00:00-07:00",
+  "compiled": "2026-10-22",
+  "sourcesChecked": "2026-10-22",
+  "categories": [
+    {
+      "slug": "technical",
+      "name": "Technical",
+      "blurb": "Engineers and builders shaping how frontier AI systems are made and shipped.",
+      "people": [
+        {
+          "name": "Erik Reppel",
+          "url": null,
+          "role": "Founder; x402 Foundation Technical Steering Committee",
+          "org": "New company (unannounced)",
+          "status": "Left Coinbase in May 2026 to start a company; stays on the x402 Foundation steering committee and advises Coinbase on agentic commerce.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.coinbase.com/developer-platform/discover/launches/x402",
+            "https://www.linkedin.com/posts/erikreppel_update-ive-left-coinbase-im-starting-activity-7465818900996354048-mh_L",
+            "https://thecoinformer.com/news/x402-founder-leaves-coinbase-to-start-new-company",
+            "https://linkedin.com/in/erikreppel"
+          ],
+          "short": "Created x402; left Coinbase to start a company, May 2026.",
+          "signal": "Created x402 → new company",
+          "tag": "New venture",
+          "orgShort": "ex-Coinbase",
+          "why": "He connects machine-learning infrastructure with money that moves at internet speed. He joined Coinbase as an ML platform engineer in 2018 and later ran engineering at a startup. Back at Coinbase in 2025 as Head of Engineering for the Developer Platform, he co-authored x402, the open protocol that revived HTTP's long-dormant \"402 Payment Required\" so apps and AI agents can pay in stablecoins, launched in May 2025. In May 2026 he left to start a company of his own. He gave a forgotten status code a job.",
+          "media": {
+            "type": "youtube",
+            "id": "J8LoJ-nSnak",
+            "caption": "What You Need To Know About x402 And How It Impacts Payments",
+            "credit": "Talking Tokens Podcast / YouTube"
+          },
+          "added": "2026-10-22",
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Nemil Dalal",
+              "org": "Coinbase",
+              "relation": "co-authored the x402 launch with",
+              "url": "https://www.coinbase.com/developer-platform/discover/launches/x402"
+            }
+          ]
+        },
+        {
+          "name": "Emil Ahlbäck",
+          "url": "https://emil.zip/",
+          "role": "Founding Engineer",
+          "org": "Energy",
+          "status": "Left Lovable in 2026 after writing some of its first code; joined AI-agent startup Energy as founding engineer in August 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/emil-ahlback_three-years-ago-i-wrote-some-of-the-first-activity-7484974150776905732-h3Eq",
+            "https://www.linkedin.com/posts/emil-ahlback_i-joined-lovable-as-its-first-engineer-on-activity-7507815953292836864-uDDW",
+            "https://lovable.dev/gpt-engineer",
+            "https://allthe.news/articles/emil-ahlback-leaves-lovable-to-join-energy-as-founding-engineer"
+          ],
+          "short": "Lovable's first engineer → founding engineer at Energy.",
+          "signal": "Lovable → Energy",
+          "tag": "New venture",
+          "orgShort": "Energy",
+          "why": "He connects open-source hacking with the prompt-to-app boom. He joined the team behind GPT Engineer as its first engineer, writing some of the first lines of what became Lovable when the project was rebranded in late 2024. Lovable went on to become one of the fastest-growing AI app builders. In 2026 he wrapped up his last day there, and in August he joined Energy, an AI-agent startup, as founding engineer. Line one, again.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/emil-ahlback.webp",
+            "alt": "Lovable home page: \"Build something Lovable\" prompt box",
+            "caption": "Lovable",
+            "credit": "Lovable"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Sid Bidasaria",
+          "url": "https://sidb.io/",
+          "role": "Founding Engineer and Tech Lead, Claude Code",
+          "org": "Anthropic",
+          "status": "Founding engineer and tech lead of Claude Code at Anthropic.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built",
+            "https://sidb.io/about",
+            "https://code.claude.com/docs/en/sub-agents"
+          ],
+          "short": "Engineer #2 on Claude Code; created subagents.",
+          "signal": "Claude Code subagents",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "why": "He connects trading-floor engineering with the agents now writing code. Before Anthropic he built on Robinhood's options team and at Rubrik. At Anthropic he became engineer #2 on Claude Code, the terminal coding agent, and created subagents: specialist helpers that run in their own context windows with their own tools and permissions. Today he is the project's founding engineer and tech lead, and his personal site is built entirely with Claude Code. The agent that delegates had an author.",
+          "media": {
+            "type": "youtube",
+            "id": "iFwuKvBd95E",
+            "caption": "The Claude Code Story: How Two Guys Changed AI Forever (MLOps Podcast #342)",
+            "credit": "AAIF Live / MLOps.community / YouTube"
+          },
+          "added": "2026-10-22",
+          "workedWith": [
+            {
+              "name": "Boris Cherny",
+              "org": "Anthropic",
+              "relation": "co-built Claude Code with",
+              "url": "https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built"
+            },
+            {
+              "name": "Cat Wu",
+              "org": "Anthropic",
+              "relation": "worked alongside",
+              "url": "https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built"
+            }
+          ]
+        },
+        {
+          "name": "Fouad Matin",
+          "url": "https://fouad.org/",
+          "role": "Engineer, Codex",
+          "org": "OpenAI",
+          "status": "Works on Codex at OpenAI; led the first version of Codex CLI.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://fouad.org/about",
+            "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+            "https://github.com/openai/codex/discussions/1174",
+            "https://ai.engineer/talks/safety-and-security-for-code-executing-agents"
+          ],
+          "short": "Security founder → led the first Codex CLI.",
+          "signal": "Codex CLI → native Rust rewrite",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "why": "He sits where cloud security meets coding agents. He co-founded and led Indent, a startup built around time-bound, policy-based access to cloud infrastructure. In May 2024 he joined OpenAI, where he led the first version of Codex CLI, the open-source terminal agent. In May 2025 he announced its rewrite as a native Rust binary with tighter sandboxing, and he has spoken on keeping code-executing agents safe. The agent in your terminal had a security-minded first author.",
+          "media": {
+            "type": "youtube",
+            "id": "w7IMuYsBNr8",
+            "caption": "OpenAI on Securing Code-Executing AI Agents",
+            "credit": "AI Engineer / YouTube"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Steve Klein",
+          "url": null,
+          "role": "Member of Technical Staff",
+          "org": "OpenAI",
+          "status": "Joined OpenAI in March 2026 when it acquired Promptfoo, where he was the first engineer and employee.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/sklein12_incredibly-exciting-day-at-promptfoo-we-activity-7436844894045962240-D8aW",
+            "https://openai.com/index/openai-to-acquire-promptfoo/",
+            "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/"
+          ],
+          "short": "Promptfoo's first engineer → OpenAI via acquisition.",
+          "signal": "Promptfoo → OpenAI",
+          "tag": "Acquired",
+          "orgShort": "OpenAI",
+          "why": "He connects open-source developer tools with enterprise-grade AI security. After years as a staff engineer at Discord, he became Promptfoo's first engineer and employee, taking its open-source LLM testing tool and turning it into an enterprise product used by Fortune 50 companies. In March 2026 OpenAI acquired Promptfoo to help secure its AI agents, and he joined OpenAI. Red-teaming, productized.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/steve-klein.webp",
+            "alt": "Promptfoo home page: \"Ship agents, not vulnerabilities\"",
+            "caption": "Promptfoo",
+            "credit": "Promptfoo"
+          },
+          "added": "2026-10-22",
+          "location": "Denver, CO"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Justin Spahr-Summers",
+          "url": null,
+          "role": "Member of Technical Staff",
+          "org": "Anthropic",
+          "status": "Co-created the Model Context Protocol at Anthropic (open-sourced Nov 2024).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.anthropic.com/news/model-context-protocol",
+            "https://www.latent.space/p/mcp"
+          ],
+          "short": "Co-creator of MCP.",
+          "signal": "Co-created MCP",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Leo Shimonaka",
+          "url": null,
+          "role": "Member of Technical Staff",
+          "org": "OpenAI",
+          "status": "Joined OpenAI in Nov 2025 with the Sky acquisition; founding engineer at Software Applications Inc., earlier at Humane.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/lshimonaka"
+          ],
+          "short": "Humane → Sky founding engineer → OpenAI.",
+          "signal": "Sky → OpenAI",
+          "tag": "Acquired",
+          "orgShort": "OpenAI",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Yongxing Deng",
+          "url": null,
+          "role": "Software Engineer",
+          "org": "Anthropic",
+          "status": "Prototyped the Claude for Excel add-in in his second week at Anthropic; it launched about three months later.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/yongxing-deng_three-months-at-anthropic-in-my-second-week-activity-7388704275125870592-axEE",
+            "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+          ],
+          "short": "Prototyped Claude for Excel.",
+          "signal": "Prototype → Claude for Excel",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "added": "2026-10-22",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "blurb": "Designers defining how people experience AI products.",
+      "people": [
+        {
+          "name": "Barrett White",
+          "url": "https://www.barrettwhite.com/",
+          "role": "Senior Product Designer",
+          "org": "Pinterest",
+          "status": "Senior Product Designer at Pinterest, after Amazon.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.barrettwhite.com/project/rufus-ai",
+            "https://www.barrettwhite.com/"
+          ],
+          "short": "First designer on Amazon Rufus; now at Pinterest.",
+          "signal": "Amazon Rufus → Pinterest",
+          "tag": "Moved",
+          "orgShort": "Pinterest",
+          "why": "He connects conversational design with the world's biggest store. In March 2023 he joined Amazon's new generative-AI team as its first designer, before the product had a name. He led the core conversational components, interaction mechanics and product Q&A for what launched in February 2024 as Rufus, Amazon's AI shopping assistant, which reached all US customers that summer. He has since moved to Pinterest as a Senior Product Designer. Before Rufus could talk, he drew the conversation.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/barrett-white.webp",
+            "alt": "Barrett White's portfolio home page",
+            "caption": "barrettwhite.com",
+            "credit": "Barrett White"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Amara Hulslander",
+          "url": "https://amara.design/",
+          "role": "Principal Product Designer, Emerging Products",
+          "org": "Humana",
+          "status": "Left Amazon in 2026; now a founding designer in emerging products at Humana.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://amara.design/",
+            "https://amara.design/portfolio/amazon-alexa-ai-agentic-developer-experience-foundations/",
+            "https://linkedin.com/in/amaravp"
+          ],
+          "short": "Founding UX on Just Walk Out and Alexa+ dev tools.",
+          "signal": "Amazon Alexa+ → Humana",
+          "tag": "Moved",
+          "orgShort": "Humana",
+          "why": "She connects robots, cashierless stores and AI agents, usually as the first designer in the room. She founded the multimodal UX and research program behind the Star Wars BB-8 and Force Band consumer robots. At Amazon she was founding UX designer for Just Walk Out, worked on Amazon Monthly Payments, and was founding UX designer on the agentic developer studio for the LLM-powered Alexa+. In 2026 she moved to Humana to design emerging products, and she teaches as an adjunct at CU Denver. Serial first designer.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/amara-hulslander.webp",
+            "alt": "Amazon Just Walk Out home page: a shopper taps in at a Just Walk Out store gate",
+            "caption": "Just Walk Out by Amazon",
+            "credit": "Amazon"
+          },
+          "added": "2026-10-22",
+          "location": "Denver, CO"
+        },
+        {
+          "name": "Oscar Dumlao",
+          "url": "https://www.oscardumlao.com/",
+          "role": "Member of Design Staff",
+          "org": "OpenAI",
+          "status": "Left Reve around January 2026; now on OpenAI's design staff.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.oscardumlao.com/",
+            "https://www.folioindex.site/profiles/oscar-dumlao",
+            "https://www.linkedin.com/posts/oscardumlao_introducing-reve-image-preview-activity-7309998568474320896-ycff",
+            "https://www.figma.com/blog/what-is-good-design-in-the-age-of-ai/"
+          ],
+          "short": "Figma AI → founding designer at Reve → OpenAI.",
+          "signal": "Reve → OpenAI",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "why": "He connects design tools with the models that now generate the pixels. After Facebook, he designed at Skiff, which Notion acquired, then at Figma, where he worked on Figma AI features including First Draft and layer renaming. He became founding designer and then Head of Design at the image lab Reve, building its editor, iOS app, Chrome extension, design system and brand. In 2026 he joined OpenAI's design staff. He has also taught design at Stanford. From the canvas to the model.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/oscar-dumlao.webp",
+            "alt": "Reve's public home page with a gallery of images made in Reve",
+            "caption": "Reve",
+            "credit": "Reve"
+          },
+          "added": "2026-10-22",
+          "location": "San Francisco, CA"
+        },
+        {
+          "name": "Chanpory Rith",
+          "url": null,
+          "role": "Principal Designer",
+          "org": "Perplexity",
+          "status": "Principal Designer at Perplexity since late 2024.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/chanpory_comet-is-live-a-new-agentic-web-browser-activity-7349237689679761410-BgBK",
+            "https://www.linkedin.com/posts/chanpory_new-chapter-ive-joined-perplexity-to-help-activity-7274490735398129664-q-mh",
+            "https://www.businessinsider.com/mixmax-cofounder-chanpory-rith-interview-2018-2"
+          ],
+          "short": "Designed the agent experiences in Perplexity Comet.",
+          "signal": "Designed Comet's agents",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "why": "He connects pixel craft, front-end code and product strategy. From 2011 to 2012 he led iOS Gmail design at Google, then co-founded Mixmax, serving as Head of Design and later CXO, and led design for Airtable Solutions. He joined Perplexity in late 2024 and spent six months designing the agent experiences for Comet, the agentic browser that launched in July 2025, alongside work on Deep Research. A designer who ships his own UI.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/chanpory-rith.webp",
+            "alt": "Perplexity Comet product page: \"The browser that works for you\"",
+            "caption": "Perplexity Comet",
+            "credit": "Perplexity"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Shelley Lai",
+          "url": "https://shelley.world/",
+          "role": "Product Designer",
+          "org": "Harvey",
+          "status": "Joined Harvey's design team in January 2026 after leading design at Base.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://shelley.world/",
+            "https://linkedin.com/in/shelley-lai-06284361",
+            "https://www.linkedin.com/posts/shelley-lai-06284361_im-excited-to-share-that-ive-joined-the-activity-7419464174361022464-JedY",
+            "https://www.linkedin.com/posts/shelley-lai-06284361_base-jobs-activity-7235074952935223296-DMO0"
+          ],
+          "short": "Founding designer at Base; now at Harvey.",
+          "signal": "Base → Harvey",
+          "tag": "Moved",
+          "orgShort": "Harvey",
+          "why": "She connects onchain finance with AI for professionals. In October 2023 she joined Base, Coinbase's Ethereum layer-2 network, as its founding designer, led the Base web redesign and shipped Basenames. As design lead through 2025 she hired the team and helped rebuild Coinbase Wallet into the Base App. In January 2026 she joined the design team at Harvey, the legal AI company. From blockchains to briefs.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/shelley-lai.webp",
+            "alt": "Base home page: \"The blockchain for global finance\"",
+            "caption": "Base",
+            "credit": "Base"
+          },
+          "added": "2026-10-22",
+          "location": "New York, NY"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Barun Kwak",
+          "url": "https://barunkwak.framer.website/",
+          "role": "Product Design Lead",
+          "org": "Amazon",
+          "status": "Product Design Lead in Amazon Shopping Design.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://barunkwak.framer.website/works-amazon-buy-for-me",
+            "https://barunkwak.framer.website/works-rufus-clarifying-questions"
+          ],
+          "short": "Designed Amazon Buy for Me and Rufus questions.",
+          "signal": "Designed Amazon Buy for Me",
+          "tag": "Builder",
+          "orgShort": "Amazon",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Antony Rishin Mukkath Roy",
+          "url": null,
+          "role": "Senior Manager, Design, AI Shopping & Agentic Commerce",
+          "org": "Walmart",
+          "status": "Leads design for Walmart's AI shopping and agentic commerce, including Walmart in ChatGPT.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/antonyrishin_powering-product-discovery-in-chatgpt-activity-7443044489285480448-jrpN",
+            "https://winners.webbyawards.com/2023/apps-software-immersive/app-features/best-use-of-voice-technology/249751/improve-item-search-with-conversational-ai"
+          ],
+          "short": "Designed Walmart's agent in ChatGPT and Sparky.",
+          "signal": "Walmart Sparky → ChatGPT",
+          "tag": "Builder",
+          "orgShort": "Walmart",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Escha Vera",
+          "url": null,
+          "role": "Product Designer",
+          "org": "Perplexity",
+          "status": "Product Designer at Perplexity.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://podcasts.apple.com/us/podcast/escha-vera-designing-perplexitys-comet-and-using-ai/id1686414242?i=1000728564414",
+            "https://dive-club.beehiiv.com/p/left-the-wii-on-all-night"
+          ],
+          "short": "Designed Comet onboarding at Perplexity.",
+          "signal": "Designed Perplexity Comet",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "added": "2026-10-22",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "blurb": "Researchers advancing what models can learn, reason about and do.",
+      "people": [
+        {
+          "name": "Kathryn Tunyasuvunakool",
+          "url": null,
+          "role": "Principal Research Scientist",
+          "org": "Isomorphic Labs",
+          "status": "Joined Isomorphic Labs as Principal Research Scientist in October 2026, after eight years at Google DeepMind.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/kathryn-tunyasuvunakool-joins-isomorphic-labs-2026-10",
+            "https://www.turingtree.com/people/kathryn-tunyasuvunakool",
+            "https://peopleofsi.com/people/kathryn-tunyasuvunakool/"
+          ],
+          "short": "Joined Isomorphic Labs, Oct 2026; ex-DeepMind AlphaFold.",
+          "signal": "DeepMind AlphaFold → Isomorphic Labs",
+          "tag": "Joined",
+          "orgShort": "Isomorphic Labs",
+          "why": "She connects computational biology with the AI that reshaped it. She joined DeepMind in 2018 as a science engineer and worked on AlphaFold, comparing its predictions with lab structures in 2020, work that led to AlphaFold-Multimer. In 2021 she was lead author on the paper that predicted structures for the human proteome, and in 2022 MIT Technology Review named her an Innovator Under 35. In October 2026 she joined Isomorphic Labs as Principal Research Scientist. From folding proteins to finding medicines.",
+          "media": {
+            "type": "youtube",
+            "id": "E3nNo8cj0Q8",
+            "caption": "AI in Biology then and now (M2L 2025)",
+            "credit": "Mediterranean Machine Learning summer school / YouTube"
+          },
+          "added": "2026-10-22",
+          "location": "London, UK",
+          "workedWith": [
+            {
+              "name": "John Jumper",
+              "org": "Google DeepMind",
+              "relation": "co-authored with"
+            }
+          ]
+        },
+        {
+          "name": "Da Huang",
+          "url": null,
+          "role": "Member of Technical Staff",
+          "org": "Discovery Loop",
+          "status": "Left Google DeepMind for Discovery Loop in October 2026 after ten years at Google.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/da-huang-joins-discovery-loop"
+          ],
+          "short": "Left DeepMind for Discovery Loop, Oct 2026.",
+          "signal": "DeepMind → Discovery Loop",
+          "tag": "Joined",
+          "orgShort": "Discovery Loop",
+          "why": "He connects a decade of Google machine learning with AI that improves itself. Over ten years at Google he moved from hand-tuning models to automated machine learning, the field of letting algorithms design and tune other models. On October 10, 2026 he announced he had left Google DeepMind to join Discovery Loop as a Member of Technical Staff, focused on recursive self-improvement: AI systems that help improve their own capabilities. From tuning models to models that tune themselves.",
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Konstantin Mishchenko",
+          "url": "https://www.konstmish.com/",
+          "role": "AI Researcher, pretraining",
+          "org": "Mistral AI",
+          "status": "Left Meta in August 2026; joined Mistral AI's pretraining team in October 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/konstantin-mishchenko-joins-mistral-2026-10-06",
+            "https://www.konstmish.com/",
+            "https://proceedings.mlr.press/v235/mishchenko24a.html",
+            "https://mlcommons.org/2024/08/mlc-algoperf-benchmark-competition/"
+          ],
+          "short": "Prodigy and Schedule-Free optimizers → Mistral, Oct 2026.",
+          "signal": "Meta → Mistral pretraining",
+          "tag": "Joined",
+          "orgShort": "Mistral AI",
+          "why": "He connects optimization theory with the brute work of training frontier models. After a PhD at KAUST and a stint at Samsung AI Center, he co-authored D-Adaptation and Prodigy, optimizers that cut out manual learning-rate tuning. In 2024 his Schedule-Free AdamW submission won the self-tuning track of the first MLCommons AlgoPerf competition, and that October he joined Meta as a research scientist. In October 2026 he joined Mistral AI's pretraining team, saying model quality now comes before papers. Less tuning, more training.",
+          "media": {
+            "type": "youtube",
+            "id": "0lXvUMfafBY",
+            "caption": "Regularized Newton Method with Global O(1/k^2) Convergence (One World Optimization Seminar)",
+            "credit": "One World Optimization Seminar / YouTube"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Josh Engels",
+          "url": null,
+          "role": "Member of Technical Staff",
+          "org": "METR",
+          "status": "Left Google DeepMind's AGI Safety team in August 2026 to join METR.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/josh-engels-leaves-google-deepmind-for-metr",
+            "https://arxiv.org/abs/2405.14860"
+          ],
+          "short": "DeepMind AGI Safety → METR, 2026.",
+          "signal": "DeepMind → METR",
+          "tag": "Joined",
+          "orgShort": "METR",
+          "why": "He connects interpretability research with independent oversight of frontier AI. In 2024 he was lead author, with Max Tegmark's group at MIT, on \"Not All Language Model Features Are Linear\", which used sparse autoencoders to find circular day-of-week and month features inside GPT-2 and Mistral 7B, published at ICLR 2025. He then joined Google DeepMind's AGI Safety team, working on scalable oversight. In 2026 he left for METR to study where misaligned behavior comes from and whether safeguards hold. Opening the black box, then auditing it.",
+          "media": {
+            "type": "youtube",
+            "id": "eVlGeHA2Cnw",
+            "caption": "Sparse Autoencoders: Progress & Limitations with Joshua Engels",
+            "credit": "NDIF Team / YouTube"
+          },
+          "added": "2026-10-22",
+          "workedWith": [
+            {
+              "name": "Max Tegmark",
+              "org": "MIT",
+              "relation": "co-authored with",
+              "url": "https://arxiv.org/abs/2405.14860"
+            }
+          ]
+        },
+        {
+          "name": "Isa Fulford",
+          "url": null,
+          "role": "Member of Technical Staff",
+          "org": "OpenAI",
+          "status": "Member of Technical Staff at OpenAI; leads post-training work on Deep Research and ChatGPT agent.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://openai.com/index/introducing-deep-research/",
+            "https://inferencebysequoia.substack.com/p/how-openai-built-its-groundbreaking",
+            "https://sequoiacap.com/podcast/training-data-chatgpt-agent/",
+            "https://www.forbes.com/profile/isa-fulford/",
+            "https://linkedin.com/in/isabella-fulford"
+          ],
+          "short": "Research lead behind OpenAI Deep Research.",
+          "signal": "Deep Research → ChatGPT agent",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "why": "She connects reinforcement learning with agents that do hours of work in minutes. At OpenAI she was a research lead on Deep Research, the browsing research agent launched in February 2025 and trained end to end on hard browsing tasks. That July she helped ship ChatGPT agent, which combined browsing, computer use, code and tools into one system, and she now leads post-training work on both. Forbes has profiled her among AI's rising builders. Quiet name, loud agents.",
+          "media": {
+            "type": "youtube",
+            "id": "jFZ9hJKJKtw",
+            "caption": "How OpenAI Built its Groundbreaking Deep Research Product",
+            "credit": "Sequoia Capital / YouTube"
+          },
+          "added": "2026-10-22",
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Josh Tobin",
+              "org": "OpenAI",
+              "relation": "worked alongside",
+              "url": "https://sequoiacap.com/podcast/training-data-deep-research/"
+            }
+          ]
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Nathan Chen",
+          "url": null,
+          "role": "Researcher",
+          "org": "Moonshot AI (former)",
+          "status": "Left Moonshot AI (Kimi) in September 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/nathan-chen-leaves-moonshot-ai"
+          ],
+          "short": "Left Moonshot AI, Sept 2026.",
+          "signal": "Left Moonshot AI (Kimi)",
+          "tag": "Left",
+          "orgShort": "ex-Moonshot",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Sharut Gupta",
+          "url": null,
+          "role": "Researcher",
+          "org": "Google DeepMind",
+          "status": "Joined Google DeepMind after finishing her MIT PhD (2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates"
+          ],
+          "short": "MIT PhD → Google DeepMind.",
+          "signal": "MIT → Google DeepMind",
+          "tag": "Joined",
+          "orgShort": "Google DeepMind",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Jacob Tsimerman",
+          "url": null,
+          "role": "Mathematician",
+          "org": "MAISI",
+          "status": "Committed full-time to MAISI rather than joining OpenAI (2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates"
+          ],
+          "short": "Chose MAISI over OpenAI, 2026.",
+          "signal": "Math → MAISI",
+          "tag": "Joined",
+          "orgShort": "MAISI",
+          "added": "2026-10-22",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "name": "Product",
+      "blurb": "Product leaders turning research into things people use every day.",
+      "people": [
+        {
+          "name": "Angela Jiang",
+          "url": null,
+          "role": "Co-founder and CEO",
+          "org": "Worktrace AI",
+          "status": "Co-founded Worktrace AI, which launched in December 2025 with a $9.3M seed round.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.worktrace.ai/our-story",
+            "https://www.techmeme.com/251211/p28",
+            "https://www.upstartsmedia.com/p/worktrace-ai-automation-openai",
+            "https://www.linkedin.com/in/jiangangela"
+          ],
+          "short": "Launched GPT-3.5 and GPT-4 at OpenAI → founded Worktrace.",
+          "signal": "OpenAI → Worktrace AI",
+          "tag": "New venture",
+          "orgShort": "Worktrace AI",
+          "why": "She connects frontier-model launches with the unglamorous work inside real companies. As a product manager at OpenAI she was responsible for the GPT-3.5 and GPT-4 launches, including early versions of ChatGPT. She then left to co-found Worktrace AI with researcher Deepak Vasisht, building agents that observe how people work and automate the repetitive parts. In December 2025 Worktrace launched with a $9.3M seed round and an OpenAI-backed cap table. From shipping the model to shipping the work.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/angela-jiang.webp",
+            "alt": "Worktrace AI home page: \"Agents you'll actually use\"",
+            "caption": "Worktrace AI",
+            "credit": "Worktrace AI"
+          },
+          "added": "2026-10-22",
+          "workedWith": [
+            {
+              "name": "Deepak Vasisht",
+              "org": "Worktrace AI",
+              "relation": "co-founded with",
+              "url": "https://www.techmeme.com/251211/p28"
+            }
+          ]
+        },
+        {
+          "name": "Rohan Varma",
+          "url": null,
+          "role": "Product, Codex",
+          "org": "OpenAI",
+          "status": "Joined OpenAI's Codex team in February 2026 after serving as Cursor's first product manager.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/rohannvarma_im-joining-openai-codex-to-work-on-the-future-activity-7431784004246216704---Ee",
+            "https://linkedin.com/in/rohannvarma",
+            "https://rohanpf.substack.com/"
+          ],
+          "short": "Cursor's first PM → OpenAI Codex, Feb 2026.",
+          "signal": "Cursor → OpenAI Codex",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "why": "He connects the hottest AI code editor with the lab building coding agents. In June 2025 he joined Cursor as its first full-time product manager, during the editor's breakout year. In February 2026 he moved to OpenAI's Codex team to work on agent development environments, where developers orchestrate fleets of autonomous coding agents and review what they produce. He writes about it on his Substack. Two of AI coding's biggest bets, one product mind.",
+          "media": {
+            "type": "youtube",
+            "id": "fAdFE7y6K2o",
+            "caption": "Inside How OpenAI Uses Codex to Do Product Work",
+            "credit": "Peter Yang / YouTube"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Leonid Persiantsev",
+          "url": null,
+          "role": "Product Lead, Comet",
+          "org": "Perplexity",
+          "status": "Product manager at Perplexity since January 2025; product lead for Comet.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/leonid-persiantsev-ba9a3986",
+            "https://www.linkedin.com/posts/leonid-persiantsev-ba9a3986_proud-of-what-weve-built-so-far-excited-activity-7361451891693600770-LmEU",
+            "https://www.reddit.com/r/ChatGPT/comments/1m1javp/comet_ama_with_perplexitys_aravind_srinivas_and/"
+          ],
+          "short": "Product lead for Perplexity's Comet browser.",
+          "signal": "Yandex → Perplexity Comet",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "why": "He connects music streaming, Russian search and the agentic browser. He was Head of Product for VK's mobile music app and led AI reading, writing and summarization products at Yandex, after stints at Mubert and LATOKEN. He joined Perplexity in January 2025 and became product lead for Comet, the AI browser that launched on July 9, 2025 and reached all US Pro users by August. He co-hosted Comet's AMA with CEO Aravind Srinivas. The browser that browses for you had a PM.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-10-12/leonid-persiantsev.webp",
+            "alt": "Perplexity Comet product page: \"The browser that works for you\"",
+            "caption": "Perplexity Comet",
+            "credit": "Perplexity"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Michelle Fradin",
+          "url": null,
+          "role": "Product lead, ChatGPT commerce",
+          "org": "OpenAI",
+          "status": "Product lead for ChatGPT commerce at OpenAI since 2025.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.cnbc.com/2025/09/29/chatgpt-instant-checkout-etsy-shopify.html",
+            "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+            "https://linkedin.com/in/michellefradin"
+          ],
+          "short": "Leads ChatGPT commerce product at OpenAI.",
+          "signal": "Built Instant Checkout + ACP",
+          "tag": "Leads product",
+          "orgShort": "OpenAI",
+          "why": "She connects dealmaking with the first checkout inside a chatbot. She ran business operations and corporate development at OpenAI from 2023, then moved to ChatGPT product in 2025. That September she was the product lead behind Instant Checkout and the open-source Agentic Commerce Protocol, built with Stripe. In 2026 ACP was extended to power product discovery for retailers like Target and Best Buy. Shopping, rewritten as a conversation.",
+          "added": "2026-10-22",
+          "location": "San Francisco Bay Area"
+        },
+        {
+          "name": "Sailaja Shri",
+          "url": null,
+          "role": "Director of Product Management, Agent Pay",
+          "org": "Mastercard",
+          "status": "Director of Product Management for Mastercard Agent Pay since April 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/sailaja-shri",
+            "https://www.linkedin.com/posts/sailaja-shri_mastercard-unveils-agent-pay-activity-7323093078636965888-t3qk",
+            "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html"
+          ],
+          "short": "Helped launch Mastercard Agent Pay; now runs its product.",
+          "signal": "Tokenization → Agent Pay",
+          "tag": "Leads product",
+          "orgShort": "Mastercard",
+          "why": "She connects card-network tokenization with AI agents that shop. On Mastercard's tokenization team she built tokenized payment products with major platforms and issuers. In April 2025 she helped launch Mastercard Agent Pay, which uses Agentic Tokens to let verified AI agents buy on a consumer's behalf. In April 2026 she became Director of Product Management for Agent Pay. When an agent pays with a Mastercard, her product is in the loop.",
+          "added": "2026-10-22"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Josh Tobin",
+          "url": null,
+          "role": "Co-founder and CTO",
+          "org": "Recursive",
+          "status": "Left OpenAI in September 2025, where he was a product lead on Deep Research; co-founded Recursive.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://sequoiacap.com/podcast/training-data-deep-research/",
+            "https://linkedin.com/in/josh-tobin-4b3b10a9"
+          ],
+          "short": "Deep Research PM → co-founded Recursive.",
+          "signal": "OpenAI → Recursive",
+          "tag": "New venture",
+          "orgShort": "Recursive",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Jon Okun",
+          "url": null,
+          "role": "Product",
+          "org": "OpenAI",
+          "status": "Product at OpenAI; worked on the Instant Checkout launch in September 2025.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/jonokun_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378632076000104448-pOOU"
+          ],
+          "short": "Shipped ChatGPT Instant Checkout at OpenAI.",
+          "signal": "Shipped Instant Checkout",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Neel Ajjarapu",
+          "url": null,
+          "role": "Commerce lead",
+          "org": "OpenAI",
+          "status": "Leads commerce at OpenAI.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://365daily.net/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce/"
+          ],
+          "short": "Leads commerce at OpenAI.",
+          "signal": "Leads OpenAI commerce",
+          "tag": "Leads product",
+          "orgShort": "OpenAI",
+          "added": "2026-10-22",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "blurb": "Growth and go-to-market leaders who brought AI to its first billion users.",
+      "people": [
+        {
+          "name": "Elena Verna",
+          "url": "https://www.elenaverna.com/",
+          "role": "Head of Growth",
+          "org": "Lovable",
+          "status": "Leads growth across product and marketing at Lovable since May 2025.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.elenaverna.com/p/ive-joined-lovable-to-lead-growth",
+            "https://www.elenaverna.com/p/how-i-got-into-growth",
+            "https://linkedin.com/in/elenaverna",
+            "https://elenaverna.lovable.app/",
+            "https://lennydistilled.com/episodes/the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year/"
+          ],
+          "short": "Leads growth at Lovable since May 2025.",
+          "signal": "Dropbox → Lovable growth",
+          "tag": "Anchor",
+          "orgShort": "Lovable",
+          "why": "She connects the playbook of product-led SaaS with the vibe-coding boom. She joined SurveyMonkey in 2011 as an analytics manager, started its growth team, and rose to SVP of Growth by 2016. Since then she has been interim CMO at Miro (2019–20), interim head of growth at Amplitude (2022–23) and growth lead at Dropbox (2023–25), while creating Reforge's growth, experimentation, monetization and product-led growth courses since 2016. In May 2025 she joined Lovable to lead growth across product and marketing, as it passed $50M ARR six months after launch. The growth operator other growth operators study.",
+          "media": {
+            "type": "youtube",
+            "id": "6qAB6aUMIeA",
+            "caption": "The new AI growth playbook for 2026: How Lovable hit $200M ARR in one year",
+            "credit": "Lenny's Podcast / YouTube"
+          },
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Austin Lau",
+          "url": null,
+          "role": "Growth Marketing",
+          "org": "Anthropic",
+          "status": "Growth Marketing at Anthropic since May 2024, as its first growth hire.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/austinlau1",
+            "https://www.linkedin.com/posts/austinlau1_last-week-i-crossed-2-years-at-anthropic-activity-7467624512558362624-LmHM"
+          ],
+          "short": "Anthropic's first growth hire, since 2024.",
+          "signal": "First growth hire, Anthropic",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "why": "He connects performance marketing with building his own AI tooling. In May 2024 he joined Anthropic as its first growth hire and fifth marketer, when Claude was mostly a chat interface and an API. Since then he has built performance marketing, SEO, lifecycle, app store and attribution for Claude.ai, Claude Code and the API. In 2026 he is hiring an SEO lead and arguing that marketers should engineer their own workflows. Growth, hand-built.",
+          "media": {
+            "type": "youtube",
+            "id": "pVCTvJlo26M",
+            "caption": "Every Marketer Can Become an Engineer, Here's How",
+            "credit": "Profound / YouTube"
+          },
+          "added": "2026-10-22",
+          "location": "San Francisco Bay Area"
+        },
+        {
+          "name": "Jonathan McKay",
+          "url": null,
+          "role": "Head of Growth",
+          "org": "Xbox (Microsoft)",
+          "status": "Joined Xbox to lead growth in May 2026, after Microsoft CoreAI and OpenAI.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/jonathanbmckay_after-nearly-a-decade-at-facebook-im-thrilled-activity-7109913211402948609-Tx4h",
+            "https://www.linkedin.com/posts/jonathanbmckay_after-building-the-growth-team-at-openai-activity-7308956732074901506-skAu",
+            "https://www.linkedin.com/posts/jonathanbmckay_excited-to-share-that-im-joining-xbox-to-activity-7457512394123038720-t350",
+            "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html"
+          ],
+          "short": "Built ChatGPT's growth team → Xbox, May 2026.",
+          "signal": "OpenAI → Microsoft → Xbox",
+          "tag": "Joined",
+          "orgShort": "Xbox",
+          "why": "He connects social-network growth with AI's breakout consumer app. After nearly a decade at Facebook, he joined OpenAI in 2023 to work on product and growth and built the ChatGPT growth team. He also co-ran m5x2 investment funds with Louisa Xu. In March 2025 he joined Microsoft CoreAI as VP of Growth, and in May 2026 he moved to Xbox to lead growth under its new CEO. From chatbots to consoles.",
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Sreekar Kuchibhatla",
+          "url": null,
+          "role": "Growth Marketing",
+          "org": "Perplexity",
+          "status": "Growth Marketing at Perplexity since January 2025, as its first growth marketing hire.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/sreekar-kuchibhatla",
+            "https://www.linkedin.com/posts/sreekar-kuchibhatla_perplexity-computer-marketing-activity-7436853272881061888-kqO3",
+            "https://www.linkedin.com/posts/sreekar-kuchibhatla_computer-perplexity-activity-7432911911136153600-IVMT"
+          ],
+          "short": "Perplexity's first growth marketer; runs ads on Computer.",
+          "signal": "First growth marketer, Perplexity",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "why": "He connects paid acquisition with agents that run the campaigns. In January 2025 he joined Perplexity as its first growth marketing hire and built performance marketing that ships around 1,000 ads a day, including its celebrity spots. In 2026 he moved Perplexity's ad operations onto Perplexity Computer, letting the agent manage budgets, bids, keywords, creative and reporting, and said it replaced about $225K of marketing tools. The marketer who automated his own stack.",
+          "added": "2026-10-22"
+        },
+        {
+          "name": "Krithika Muthukumar",
+          "url": "https://krithix.com/",
+          "role": "Marketing Partner",
+          "org": "Thrive Capital",
+          "status": "Left OpenAI in December 2024 to partner on marketing with Thrive Capital's portfolio.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://review.firstround.com/why-startup-marketers-should-be-diagnosticians-advice-from-stripe-and-openais-first-marketing-hire/",
+            "https://www.linkedin.com/posts/krithix_some-exciting-news-im-wrapping-up-my-time-activity-7270106521991049218-JBq4",
+            "https://www.linkedin.com/posts/krithix_ive-been-lucky-to-build-marketing-teams-activity-7333149170385506305-J4vh"
+          ],
+          "short": "First marketing hire at Stripe and OpenAI → Thrive.",
+          "signal": "OpenAI → Thrive Capital",
+          "tag": "Moved",
+          "orgShort": "Thrive Capital",
+          "why": "She connects fintech's best-known brand with AI's fastest launch. She was the first marketing hire at Stripe, helped build marketing at Retool, and in 2023 became the first marketing hire at OpenAI, laying its marketing foundations during ChatGPT's first explosive years. In December 2024 she moved to Thrive Capital to help portfolio founders build their own marketing teams. Employee number one, twice, and now for everyone else.",
+          "media": {
+            "type": "youtube",
+            "id": "tIy0pXjUWOk",
+            "caption": "Inside marketing at Stripe, OpenAI and Retool",
+            "credit": "First Round Capital / YouTube"
+          },
+          "added": "2026-10-22"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Leher Pathak",
+          "url": null,
+          "role": "Head of Product Marketing, API Platform",
+          "org": "OpenAI",
+          "status": "Leads developer product marketing at OpenAI, after joining in December 2023 as the platform's first product marketer.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/leher-pathak_day-1-in-the-books-im-thrilled-to-share-activity-7140506562300628994-juw4",
+            "https://www.linkedin.com/posts/leher-pathak_this-week-we-hosted-openai-devday-2025-activity-7382527893408636928-MlDR",
+            "https://linkedin.com/in/leher-pathak"
+          ],
+          "short": "OpenAI's first developer-platform product marketer.",
+          "signal": "NVIDIA → Block → OpenAI",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Fei Guo",
+          "url": null,
+          "role": "Growth Engineering",
+          "org": "OpenAI",
+          "status": "Joined OpenAI's ChatGPT growth team in April 2026 after leading growth engineering at Superhuman.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/feiguo_openai-growth-chatgpt-activity-7455048420400160768-FTyd",
+            "https://linkedin.com/in/feiguo"
+          ],
+          "short": "Superhuman → ChatGPT growth, Apr 2026.",
+          "signal": "Superhuman → OpenAI",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "added": "2026-10-22",
+          "alternate": true
+        },
+        {
+          "name": "Sandy Banerjee",
+          "url": null,
+          "role": "Head of Customer Marketing",
+          "org": "Anthropic",
+          "status": "Anthropic's first marketing hire (Feb 2023); Head of Customer Marketing since April 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://linkedin.com/in/sandy-banerjee-4aa1b816"
+          ],
+          "short": "Anthropic's first marketing hire.",
+          "signal": "First marketing hire, Anthropic",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "added": "2026-10-22",
+          "alternate": true
+        }
+      ]
+    }
+  ]
+}

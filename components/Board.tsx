@@ -5,21 +5,24 @@ import Tabs from "@/components/Tabs";
 import GridHover from "@/components/GridHover";
 import GitHubMark from "@/components/GitHubMark";
 import CatIcon from "@/components/CatIcon";
+import { weeks, weekLabel } from "@/lib/weekly";
+import { profilePath } from "@/lib/people";
 
-export default function Board({ v }: { v: Vertical }) {
+export default function Board({ v, week }: { v: Vertical; week?: string }) {
+  const hasArchive = weeks().length > 0;
   const categories = v.categories, data = v;
   const ld = [ellaLd(), { "@context": "https://schema.org", "@type": "WebSite", "@id": abs(vpath(v)) + "#website", name: `Ella – ${v.title}`, description: "Five people, five disciplines, every status sourced.", url: abs(vpath(v)) || SITE, inLanguage: "en", dateModified: data.updated, publisher: { "@id": ELLA_ID }, hasPart: categories.map((c) => ({ "@id": abs(vpath(v, c.slug)) + "#list" })) }, ...categories.map((c) => itemListLd(c, v))];
   return (
     <div className="board">
       <script dangerouslySetInnerHTML={{ __html: `if(new URLSearchParams(location.search).get("grid")==="solid")document.documentElement.setAttribute("data-grid","solid")` }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+      {!week && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />}
       <header className="b-head">
         <Link href="/about" className="b-id" aria-label="Ella – AI Talent Tracker. What about me? About Ella">
           <img src="/ella.webp" alt="" width="44" height="44" className="avatar" />
           <h1>Ella <span>– AI Talent Tracker</span></h1>
           <span className="b-what" aria-hidden="true">What about me?</span>
         </Link>
-        <p className="b-upd">Updated <time dateTime={data.updated}>{formatUpdated(v.updated)}</time></p>
+        {week ? <p className="b-upd"><Link href="/archive">Archive</Link> · Lists from <time dateTime={week}>{weekLabel(week)}</time></p> : <p className="b-upd">Updated <time dateTime={data.updated}>{formatUpdated(v.updated)}</time></p>}
         <Link href="/subscribe" className="b-sub">Subscribe</Link>
       </header>
       <Tabs items={categories.map(({ slug, name }) => ({ slug, name }))} />
@@ -37,11 +40,11 @@ export default function Board({ v }: { v: Vertical }) {
                 <li key={p.name} data-row={i + 1} data-col={ci + 1}>
                   <span className="n" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
                   <div>
-                    <h3><Link className="cell-link" href={ppath(v, c.slug, p.name)} aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short}`}>{p.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1 12h20.5M13 3.5l8.5 8.5-8.5 8.5" /></svg></Link></h3>
+                    <h3><Link className="cell-link" href={profilePath(p.name) ?? ppath(v, c.slug, p.name)} aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short}`}>{p.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1 12h20.5M13 3.5l8.5 8.5-8.5 8.5" /></svg></Link></h3>
                     {p.orgShort && <p className="vb-org">{p.orgShort}</p>}
                     {p.signal && <p className="sig">{p.signal}</p>}
                     <p className="r">{p.role}<span>{p.org}</span></p>
-                    <p className="s">{p.short}{!p.verified && <abbr title={p.note || "Unverified"}> ·&nbsp;unverified</abbr>}</p>
+                    <p className="s">{p.short}</p>
                   </div>
                 </li>
               ))}
@@ -49,10 +52,10 @@ export default function Board({ v }: { v: Vertical }) {
           </section>
         ))}
       </div>
-      <GridHover />
+      {!week && <GridHover />}
       <footer className="b-foot">
         <span>Statuses come from public sources and describe roles, not availability.</span>
-        <GitHubMark />
+        <GitHubMark archive={hasArchive} />
       </footer>
     </div>
   );
