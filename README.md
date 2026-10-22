@@ -31,7 +31,7 @@ See `.env.example`. Subscriptions are disabled unless `RESEND_API_KEY`, `EMAIL_F
 
 ## Credits
 
-Built by [Jason Schmidt](https://jsn.io), who also appears on the Design list. MIT licensed.
+Built by JSN. MIT licensed.
 
 ## Credits
 
