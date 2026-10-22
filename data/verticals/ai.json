@@ -24,7 +24,10 @@
           "short": "Left OpenAI May 2026; building something new.",
           "signal": "Left OpenAI → building something new",
           "tag": "New venture",
-          "orgShort": "ex-OpenAI"
+          "orgShort": "ex-OpenAI",
+          "why": "He sits where social feeds, generative video and playful AI side projects meet. At Instagram he worked on feed ranking and presented that work at @Scale in 2017. He co-founded Global Illumination, which OpenAI acquired in August 2023. By June 2026 he had left OpenAI and co-built In the Weights with Joey Flynn. Next up, reportedly, is something new with Ian Silber.",
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         },
         {
           "name": "Sachin Katti",
@@ -41,7 +44,15 @@
           "short": "Leaving OpenAI Nov 15 to build something new.",
           "signal": "Leaving OpenAI Nov 15 to build",
           "tag": "Leaving",
-          "orgShort": "OpenAI"
+          "orgShort": "OpenAI",
+          "why": "He connects networking research, silicon and the physical buildout of AI. After a career spanning Stanford, startups and Intel, he became OpenAI's head of industrial compute. There he helped steer Stargate data centers and the custom chip effort known as Jalapeño. In October 2026 he announced he will leave on November 15 to build something new, staying on as an advisor. Electrons in, tokens out.",
+          "media": {
+            "type": "youtube",
+            "id": "do0znlHb8Lg",
+            "caption": "Networks moving towards cloud-based operations (Ericsson interview, while at Intel)",
+            "credit": "Ericsson / YouTube"
+          },
+          "added": "2026-10-20"
         },
         {
           "name": "Barret Zoph",
@@ -58,7 +69,16 @@
           "short": "Joined Google DeepMind as VP of Research, Aug 2026.",
           "signal": "VP of Research, Google DeepMind",
           "tag": "Joined",
-          "orgShort": "Google DeepMind"
+          "orgShort": "Google DeepMind",
+          "why": "He bridges deep-learning research and the frontier labs that ship it. At Google Brain he worked on neural architecture search and co-led the Switch Transformer work that scaled sparse models to a trillion parameters. He then went to OpenAI, co-founded Thinking Machines Lab, and returned to OpenAI in January 2026. In August 2026 he joined Google DeepMind as VP of Research. Few people have seen more of the frontier from more angles.",
+          "media": {
+            "type": "youtube",
+            "id": "2pbvnxdaKaw",
+            "caption": "Switch Transformers: Scaling to Trillion Parameter Models",
+            "credit": "KUIS AI / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         },
         {
           "name": "Harsh Mehta",
@@ -75,7 +95,16 @@
           "short": "Left Anthropic; co-founded Mirendil, Mar 2026.",
           "signal": "Ex-Anthropic → co-founded Mirendil",
           "tag": "Co-founded",
-          "orgShort": "Mirendil"
+          "orgShort": "Mirendil",
+          "why": "He works at the meeting point of large-scale pre-training and automated science. At Anthropic he initiated and led an automated pre-training R&D project, then left in December 2025. In March 2026 he co-founded Mirendil with Behnam Neyshabur to build self-accelerating AI that runs its own experiments. AI, meet the scientific method.",
+          "added": "2026-10-20",
+          "media": {
+            "type": "youtube",
+            "id": "JJkx8Rp_Trk",
+            "caption": "The Case for AI That Improves Itself, with Mirendil co-founders Behnam Neyshabur and Harsh Mehta",
+            "credit": "a16z Deep Dives / YouTube"
+          },
+          "location": "San Francisco, CA"
         },
         {
           "name": "Matthew Barnett",
@@ -91,7 +120,15 @@
           "short": "Joined Google from Mechanize, Aug 2026.",
           "signal": "Mechanize co-founder → Google",
           "tag": "Joined",
-          "orgShort": "Google"
+          "orgShort": "Google",
+          "why": "He links AI forecasting, economics and hands-on building. As a researcher at Epoch AI he dug into AGI timelines and the economics of automation. He then co-founded Mechanize, which aims to automate work starting with software engineering. In August 2026 he joined Google as a Senior Staff Software Engineer. From forecasting the curve to building on it.",
+          "added": "2026-10-20",
+          "media": {
+            "type": "youtube",
+            "id": "HTRnuDZJVbs",
+            "caption": "Disagreements on AGI timelines, with Ege Erdil (Epoch AI)",
+            "credit": "Epoch AI / YouTube"
+          }
         }
       ]
     },
@@ -115,7 +152,15 @@
           "short": "Left OpenAI Sept 2026; building something new.",
           "signal": "Left OpenAI → building something new",
           "tag": "New venture",
-          "orgShort": "ex-OpenAI"
+          "orgShort": "ex-OpenAI",
+          "why": "He connects consumer social design with the frontier of AI products. He spent eight years at Instagram, then designed at Artifact and Global Illumination. At OpenAI he led product design for ChatGPT, Codex and more for over three years. In September 2026 he wrapped up after transitioning the team, and he plans to build something new with Joey Flynn and Thomas Dimson. The interface for AGI had to come from somewhere.",
+          "media": {
+            "type": "image",
+            "url": "https://iansilber.com/og-image.png",
+            "caption": "iansilber.com",
+            "credit": "Ian Silber"
+          },
+          "added": "2026-10-20"
         },
         {
           "name": "JSN",
@@ -131,7 +176,14 @@
           "short": "Most recently led design for Visa agentic commerce.",
           "signal": "Led design for Visa agentic commerce",
           "tag": "Building",
-          "orgShort": "ex-Visa"
+          "orgShort": "ex-Visa",
+          "why": "Since 2018 his work has spanned AI, agentic commerce and crypto, linking together three worlds that are colliding with the energy of the big bang. Ahead of ChatGPT, in 2018 he designed an AI suggestion engine for Aktana helping inform doctors about treatments for their patients. In 2019 he was acqui-hired by Visa and went on to build their first crypto labs design team working alongside Cuy Sheffield. In 2024 he was tapped by leadership to be the founding designer for Visa Intelligent Commerce – the first agentic commerce framework from the global payments giant. Before all of this he founded a video startup. And in his early, formative years he contributed to Napster. All this in barely a half-life.",
+          "location": "Berkeley, CA",
+          "media": {
+            "type": "image",
+            "url": "/media/jsn-flower.svg",
+            "alt": "Visualplant flower"
+          }
         },
         {
           "name": "Benji Taylor",
@@ -147,7 +199,16 @@
           "short": "Head of Design, X and SpaceXSI at SpaceX.",
           "signal": "Head of Design, X and SpaceXSI",
           "tag": "Leads design",
-          "orgShort": "SpaceX"
+          "orgShort": "SpaceX",
+          "why": "He moves fluidly between crypto, consumer messaging and space-age interfaces. He founded Los Feliz Engineering, which made the real-time messaging app Honk and the self-custody wallet Family. When Aave Labs acquired LFE he became its CPO, and he later led design at Base, Coinbase's onchain network. Along the way he shipped beloved open-source tools like cmdk and Agentation. Today he is Head of Design for X and SpaceXSI at SpaceX. Pixels, wallets, rockets.",
+          "media": {
+            "type": "image",
+            "url": "https://benji.org/opengraph-image.jpeg?9f0cf4f0c140b923",
+            "caption": "benji.org",
+            "credit": "Benji Taylor"
+          },
+          "added": "2026-10-20",
+          "location": "Los Angeles, CA"
         },
         {
           "name": "Gavin Nelson",
@@ -164,7 +225,16 @@
           "short": "At OpenAI since Feb 2026 (ChatGPT Voice).",
           "signal": "OpenAI design · ChatGPT Voice",
           "tag": "Joined",
-          "orgShort": "OpenAI"
+          "orgShort": "OpenAI",
+          "why": "He brings an icon-maker's obsession with detail to the AI era. Since 2014 he has crafted iOS and macOS app icons under Superellipse. In 2021 he joined GitHub, designing GitHub Mobile and Copilot, and in 2024 he moved to Linear. In February 2026 he joined OpenAI, where he has worked on ChatGPT Voice, ChatGPT in CarPlay and Dots. Craft, compounding.",
+          "media": {
+            "type": "image",
+            "url": "https://media.nelson.co/media/c6ed6607930afb2bce443fb9090aa2874d8c502f1b439c76555e7a7d6629933c/og.png",
+            "caption": "nelson.co",
+            "credit": "Gavin Nelson"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco Bay Area"
         },
         {
           "name": "Evil Rabbit",
@@ -180,7 +250,16 @@
           "short": "Founding designer at Vercel since 2016.",
           "signal": "Vercel’s founding designer, since 2016",
           "tag": "Leads design",
-          "orgShort": "Vercel"
+          "orgShort": "Vercel",
+          "why": "He connects Buenos Aires design craft with the platform a generation of AI apps ships on. From 2010 to 2014 he was Viacom's head of design for Latin America. He then designed products at Aerolab from 2014 to 2015 and at Auth0 from 2015 to 2016. In 2016 he became Vercel's founding designer and head of design, and his Next.js Conf site later earned Site of the Day honors. A decade of taste, deployed globally.",
+          "media": {
+            "type": "image",
+            "url": "https://www.evilrabbit.com/opengraph-image.png?609bd3937e99757a",
+            "caption": "evilrabbit.com",
+            "credit": "Evil Rabbit"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         }
       ]
     },
@@ -204,7 +283,16 @@
           "short": "Left OpenAI May 2026; building on AI economics.",
           "signal": "Left OpenAI → AI economics projects",
           "tag": "New venture",
-          "orgShort": "ex-OpenAI"
+          "orgShort": "ex-OpenAI",
+          "why": "He links rigorous ML theory, AI safety and the economics of intelligence. As an MIT professor his adversarial-robustness research reshaped how the field thinks about reliable models. He spent almost three years at OpenAI, where he led the Preparedness team and later worked on reasoning. In May 2026 he left to invest in and build projects on AI's economic impact. Robust, then and now.",
+          "media": {
+            "type": "youtube",
+            "id": "mUt7w4UoYqM",
+            "caption": "A New Perspective on Adversarial Perturbations",
+            "credit": "Simons Institute / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "Cambridge, MA"
         },
         {
           "name": "Thore Graepel",
@@ -220,7 +308,16 @@
           "short": "Left DeepMind to launch Metis Reasoning, Sept 2026.",
           "signal": "Left DeepMind → founded Metis",
           "tag": "Founded",
-          "orgShort": "Metis Reasoning"
+          "orgShort": "Metis Reasoning",
+          "why": "He connects game-playing AI with the next wave of machine reasoning. As a DeepMind research leader he co-created AlphaGo, the system that mastered Go. In September 2026 he left DeepMind to launch Metis Reasoning, a startup focused on reasoning and planning. From move 37 to whatever comes next.",
+          "media": {
+            "type": "youtube",
+            "id": "wTSbvYBx4eg",
+            "caption": "The human pursuit of artificial intelligence, TEDxExeter",
+            "credit": "TEDx Talks / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "Cambridge & London, UK"
         },
         {
           "name": "Danijar Hafner",
@@ -236,7 +333,16 @@
           "short": "Co-founded Embo, world-model agents, 2026.",
           "signal": "Co-founded Embo, world-model agents",
           "tag": "Co-founded",
-          "orgShort": "Embo"
+          "orgShort": "Embo",
+          "why": "He works where world models meet agents that act. During a PhD at Toronto, with stints at Berkeley and DeepMind, he created Dreamer, an agent that learns by imagining outcomes, and its successors DreamerV2 and V3. With DayDreamer he showed a real robot learning to walk in about an hour with no simulator. In 2026 he co-founded Embo with Wilson Yan to build agents that plan ahead. Dream, then do.",
+          "media": {
+            "type": "youtube",
+            "id": "xAXvfVTgqr0",
+            "caption": "Learning to Walk in the Real World in 1 Hour (DayDreamer)",
+            "credit": "Danijar Hafner / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         },
         {
           "name": "Oriol Vinyals",
@@ -252,7 +358,16 @@
           "short": "Reported co-founder of Discovery Loop, 2026.",
           "signal": "Reported co-founder, Discovery Loop",
           "tag": "Co-founded",
-          "orgShort": "Discovery Loop (reported)"
+          "orgShort": "Discovery Loop (reported)",
+          "media": {
+            "type": "youtube",
+            "id": "vueAUa7OPCg",
+            "caption": "Towards Artificial General Intelligence, TEDxImperialCollege",
+            "credit": "TEDx Talks / YouTube"
+          },
+          "why": "He connects sequence learning, game-playing agents and automated discovery. At Google he co-invented seq2seq with Ilya Sutskever and Quoc Le, led the AlphaStar group at DeepMind, and became a technical lead on Gemini. He has spoken publicly on the road toward AGI. In August 2026 he left Gemini to co-found Discovery Loop with Jeff Dean, Quoc Le and Sanjay Ghemawat. Research, recursively.",
+          "added": "2026-10-20",
+          "location": "Silicon Valley, CA"
         },
         {
           "name": "Behnam Neyshabur",
@@ -269,7 +384,16 @@
           "short": "Left Anthropic; co-founded Mirendil, Mar 2026.",
           "signal": "Ex-Anthropic → co-founded Mirendil",
           "tag": "Co-founded",
-          "orgShort": "Mirendil"
+          "orgShort": "Mirendil",
+          "why": "He links the theory of why deep learning generalizes with labs that put it into practice. His research on generalization made him a fixture at venues like the IAS, and he led research efforts at Google and then Anthropic. He left Anthropic to start something new, and in March 2026 he co-founded Mirendil with Harsh Mehta to build self-accelerating AI for science. Theory, compounding.",
+          "media": {
+            "type": "youtube",
+            "id": "HAfQ-Q8pn0g",
+            "caption": "Toward a Causal Analysis of Generalization in Deep Learning",
+            "credit": "Institute for Advanced Study / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         }
       ]
     },
@@ -292,7 +416,16 @@
           "short": "Left OpenAI; reported AI-science startup, Aug 2026.",
           "signal": "Ex-OpenAI CPO; raising for AI science",
           "tag": "New venture",
-          "orgShort": "ex-OpenAI"
+          "orgShort": "ex-OpenAI",
+          "why": "He has led product across social, space, crypto and AI. He was SVP of Product at Twitter and VP of Product at Instagram, then co-founded Libra (later Diem) at Facebook. In 2021 he became President of Product and Business at Planet. In June 2024 he joined OpenAI as Chief Product Officer. In August 2026 he was reported to be raising funding for a new AI-science startup. Next stop, apparently, the lab bench.",
+          "media": {
+            "type": "youtube",
+            "id": "IxkvVZua28k",
+            "caption": "Kevin Weil, Mike Krieger and Sarah Guo at Lenny & Friends Summit",
+            "credit": "Lenny's Podcast / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco Bay Area"
         },
         {
           "name": "Fidji Simo",
@@ -308,7 +441,15 @@
           "short": "Stepped back July 2026; part-time OpenAI advisor.",
           "signal": "Stepped back; now advises OpenAI",
           "tag": "Stepped back",
-          "orgShort": "OpenAI"
+          "orgShort": "OpenAI",
+          "why": "She bridges consumer apps at billion-user scale and AI at the frontier. She spent a decade at Facebook, rising to head of the Facebook app. In 2021 she became CEO of Instacart, which she took public in 2023, and in March 2024 she joined OpenAI's board. In 2025 she became OpenAI's CEO of Applications, overseeing how its research reached hundreds of millions of people. In July 2026 she moved from her full-time role to a part-time advisory role at OpenAI. Scale is her native tongue.",
+          "media": {
+            "type": "youtube",
+            "id": "MmBKuPZLZUQ",
+            "caption": "OpenAI's Fidji Simo on why ads are coming to ChatGPT",
+            "credit": "Sources Podcast / YouTube"
+          },
+          "added": "2026-10-20"
         },
         {
           "name": "Mike Krieger",
@@ -324,7 +465,15 @@
           "short": "Now co-leads Anthropic Labs (former CPO).",
           "signal": "Ex-CPO → co-leads Anthropic Labs",
           "tag": "New role",
-          "orgShort": "Anthropic Labs"
+          "orgShort": "Anthropic Labs",
+          "why": "He connects consumer craft with frontier AI. In 2010 he co-founded Instagram, and in 2023 he co-launched Artifact, an AI-powered news app. In May 2024 he joined Anthropic as Chief Product Officer. He now co-leads Anthropic's Labs incubator, which explores new products at the edge of what Claude can do. From filters to frontier.",
+          "media": {
+            "type": "youtube",
+            "id": "DKrBGOFs0GY",
+            "caption": "Anthropic's CPO on what comes next",
+            "credit": "Lenny's Podcast / YouTube"
+          },
+          "added": "2026-10-20"
         },
         {
           "name": "Ami Vora",
@@ -340,7 +489,15 @@
           "short": "Head of Product at Anthropic.",
           "signal": "Head of Product, Anthropic",
           "tag": "Leads product",
-          "orgShort": "Anthropic"
+          "orgShort": "Anthropic",
+          "why": "She connects messaging at planetary scale with simple, human product design. She built product at Facebook, Instagram and WhatsApp, then became Chief Product Officer at Faire. She is now Head of Product at Anthropic, where she has shared lessons on clarity, simplicity and minimum viable strategy. Simple wins.",
+          "media": {
+            "type": "youtube",
+            "id": "RK2QmZz_yVs",
+            "caption": "WIP 2018: The Career Growth Playbook She Wishes She Had",
+            "credit": "Women In Product / YouTube"
+          },
+          "added": "2026-10-20"
         },
         {
           "name": "Tom Vieira",
@@ -356,7 +513,10 @@
           "short": "Left Base product lead; building Run up the Sky.",
           "signal": "Ex-Base product lead → Run up the Sky",
           "tag": "New venture",
-          "orgShort": "ex-Base"
+          "orgShort": "ex-Base",
+          "why": "He bridges onchain products and chamber music. He spent a couple of years leading product at Base, Coinbase's onchain network. He has since spent a year building Run up the Sky, a chamber music collective. Blocks to bars.",
+          "added": "2026-10-20",
+          "location": "Miami, FL"
         }
       ]
     },
@@ -379,7 +539,10 @@
           "short": "Wrapped up at OpenAI May 2026 after ~3 years.",
           "signal": "Left OpenAI after ~3 years in growth",
           "tag": "Left",
-          "orgShort": "ex-OpenAI"
+          "orgShort": "ex-OpenAI",
+          "why": "She connects monetization strategy with the fastest adoption curve in software. As OpenAI's head of growth she championed a counterintuitive playbook in which smarter models came at lower prices to ignite the market. She spent nearly three years scaling OpenAI's Growth and GTM organizations and wrapped up in May 2026. Growth, re-priced.",
+          "added": "2026-10-20",
+          "location": "New York City area"
         },
         {
           "name": "Kate Rouch",
@@ -396,7 +559,15 @@
           "short": "Stepped down as OpenAI CMO, Apr 2026.",
           "signal": "Stepped down as OpenAI CMO",
           "tag": "Stepped down",
-          "orgShort": "ex-OpenAI"
+          "orgShort": "ex-OpenAI",
+          "why": "She connects brand storytelling with the launch of AI products for everyone. As OpenAI's Chief Marketing Officer she shaped how ChatGPT and Codex reached very different audiences. She stepped down from the CMO role in April 2026. The story of AI needed a storyteller.",
+          "media": {
+            "type": "youtube",
+            "id": "NXqj4lG0rUQ",
+            "caption": "OpenAI's CMO on how they advertise for different products",
+            "credit": "Breaking & Entering Media / YouTube"
+          },
+          "added": "2026-10-20"
         },
         {
           "name": "Brad Lightcap",
@@ -413,23 +584,36 @@
           "short": "Leaving OpenAI to start something new (Aug 2026).",
           "signal": "Leaving OpenAI to start something new",
           "tag": "Leaving",
-          "orgShort": "OpenAI"
+          "orgShort": "OpenAI",
+          "why": "He links venture, operations and the business of AGI. He worked alongside Sam Altman at Y Combinator before joining OpenAI in 2018. He served as CFO from 2018 to 2022 and then as COO until April 2026, building the first versions of finance, legal, go-to-market and partnerships. In August 2026 he announced he is leaving to start something new. From research lab to one of the most consequential companies of our time.",
+          "media": {
+            "type": "youtube",
+            "id": "jdNwzYMtPN8",
+            "caption": "Hard Fork Live, with Sam Altman & Brad Lightcap",
+            "credit": "Hard Fork / YouTube"
+          },
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         },
         {
           "name": "Joshua Kim",
           "url": null,
           "role": "Growth Marketing lead",
-          "org": "Cursor",
-          "status": "Joined Cursor to build its growth marketing function in 2026.",
+          "org": "SpaceXAI",
+          "status": "Joined SpaceXAI in August 2026 to lead growth marketing, after serving as Cursor's Head of Growth Marketing from June to August 2026.",
           "verified": true,
           "note": null,
           "sources": [
-            "https://www.linkedin.com/posts/kimjoshua_excited-to-share-that-ive-joined-cursor-activity-7432473206571118592-0gDb"
+            "https://www.linkedin.com/posts/kimjoshua_excited-to-share-that-ive-joined-cursor-activity-7432473206571118592-0gDb",
+            "https://linkedin.com/in/kimjoshua"
           ],
-          "short": "Joined Cursor to build growth marketing, 2026.",
-          "signal": "Building growth marketing at Cursor",
+          "short": "At SpaceXAI since Aug 2026; ex-Cursor Head of Growth Marketing.",
+          "signal": "Cursor → SpaceXAI growth",
           "tag": "Joined",
-          "orgShort": "Cursor"
+          "orgShort": "SpaceXAI",
+          "why": "He connects developer marketing with product-led growth. He built growth at Credit Karma, Spotify and Notion, where he led self-serve growth marketing until early 2026. In February 2026 he joined Cursor to build its Growth Marketing function and became Head of Growth Marketing in June. In August 2026 he moved to SpaceXAI, where he now leads growth marketing. Growth, compounding.",
+          "added": "2026-10-20",
+          "location": "San Francisco Bay Area"
         },
         {
           "name": "Sarah Khogyani Wolf",
@@ -445,7 +629,10 @@
           "short": "Left Base Apr 2026; now at Anthropic.",
           "signal": "Base → Anthropic startup marketing",
           "tag": "Joined",
-          "orgShort": "Anthropic"
+          "orgShort": "Anthropic",
+          "why": "She bridges crypto marketing and AI's startup ecosystem. From 2021 to 2026 she was at Coinbase, most recently as Director of Marketing for Base. In April 2026 she joined Anthropic as Startup Marketing Lead. Onchain to on-Claude.",
+          "added": "2026-10-20",
+          "location": "San Francisco, CA"
         }
       ]
     }

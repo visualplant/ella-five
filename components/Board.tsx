@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { formatUpdated, itemListLd, SITE, REPO, host, abs, ellaLd, ELLA_ID } from "@/lib/data";
-import { vpath, type Vertical } from "@/lib/verticals";
+import { vpath, ppath, type Vertical } from "@/lib/verticals";
 import Tabs from "@/components/Tabs";
 import GridHover from "@/components/GridHover";
 import GitHubMark from "@/components/GitHubMark";
@@ -27,7 +27,7 @@ export default function Board({ v }: { v: Vertical }) {
         <div className="rays" aria-hidden="true"><i className="h t" /><i className="h b" /><i className="v l" /><i className="v r" /></div>
         <div className="col rail" aria-hidden="true">
           <h2>&nbsp;</h2>
-          <ol>{[1, 2, 3, 4, 5].map((n) => <li key={n} data-rail={n}>{n}</li>)}</ol>
+          <ol>{[1, 2, 3, 4, 5].map((n) => <li key={n} data-rail={n}>{String(n).padStart(2, "0")}</li>)}</ol>
         </div>
         {categories.map((c, ci) => (
           <section key={c.slug} id={`col-${c.slug}`} className="col" aria-labelledby={`h-${c.slug}`}>
@@ -35,9 +35,9 @@ export default function Board({ v }: { v: Vertical }) {
             <ol>
               {c.people.map((p, i) => (
                 <li key={p.name} data-row={i + 1} data-col={ci + 1}>
-                  <span className="n" aria-hidden="true">{i + 1}</span>
+                  <span className="n" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
                   <div>
-                    <h3><a className="cell-link" href={p.sources[0] || p.url || undefined} target="_blank" rel="noopener noreferrer" aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short} (opens ${host(p.sources[0] || p.url || "")} in a new tab)`}>{p.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1.5 22.5 22 2M10 1.5h12.5V14" /></svg></a></h3>
+                    <h3><Link className="cell-link" href={ppath(v, c.slug, p.name)} aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short}`}>{p.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1 12h20.5M13 3.5l8.5 8.5-8.5 8.5" /></svg></Link></h3>
                     {p.orgShort && <p className="vb-org">{p.orgShort}</p>}
                     {p.signal && <p className="sig">{p.signal}</p>}
                     <p className="r">{p.role}<span>{p.org}</span></p>

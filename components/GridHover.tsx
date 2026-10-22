@@ -20,9 +20,17 @@ export default function GridHover() {
       const rays = grid.querySelector<HTMLElement>(".rays");
       if (rays) {
         const g = grid.getBoundingClientRect(), f = cells[0].getBoundingClientRect(), l = cells[cells.length - 1].getBoundingClientRect(), c = cell.getBoundingClientRect();
-        const L = f.left - g.left, T = f.top - g.top, W = l.right - f.left, H = l.bottom - f.top;
+        // Edge/corner cells: lines continue past the grid edge and fade out (Figma: 70px vertical, 65px horizontal),
+        // Left/top may spill freely (negative overflow never scrolls); right/bottom are clamped to the
+        // document's existing scroll size so the hover never adds a scrollbar.
+        const last = (a: string) => Math.max(...cells.map((x) => +x.dataset[a as "row"]!));
+        const EX = 65, EY = 70;
+        const de = document.documentElement, maxR = de.scrollWidth - window.scrollX - 1, maxB = de.scrollHeight - window.scrollY - 1;
+        const eL = k === 1 ? EX : 0, eR = k === last("col") ? Math.max(0, Math.min(EX, maxR - l.right)) : 0;
+        const eT = r === 1 ? EY : 0, eB = r === last("row") ? Math.max(0, Math.min(EY, maxB - l.bottom)) : 0;
+        const L = f.left - g.left - eL, T = f.top - g.top - eT, W = l.right - f.left + eL + eR, H = l.bottom - f.top + eT + eB;
         Object.assign(rays.style, { left: L - 1 + "px", top: T - 1 + "px", width: W + 1 + "px", height: H + 1 + "px" });
-        const v = { x1: c.left - f.left, x2: c.right - f.left, y1: c.top - f.top, y2: c.bottom - f.top };
+        const v = { x1: c.left - f.left + eL, x2: c.right - f.left + eL, y1: c.top - f.top + eT, y2: c.bottom - f.top + eT };
         Object.entries(v).forEach(([k, n]) => rays.style.setProperty("--" + k, n + "px"));
       }
       cells.forEach((c) => { c.dataset.d = String(Math.max(Math.abs(+c.dataset.row! - r), Math.abs(+c.dataset.col! - k))); });
