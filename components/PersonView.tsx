@@ -22,6 +22,7 @@ export default function PersonView({ v, c, p }: { v: Vertical; c: Category; p: P
   const media = p.media ? <Media m={p.media} name={p.name} /> : PREVIEW ? <div className="pv-media pv-ph"><span>Media (preview placeholder)</span><small>Talk, product screenshot or image by or of {p.name}</small></div> : null;
   const lead: Row[] = [["Known for", p.short]];
   if (p.why) lead.push(["Why chosen", p.why]); else if (PREVIEW) lead.push(["Why chosen", <span className="pv-phw" key="w">Ella’s blurb goes here (preview placeholder).</span>]);
+  if (p.workedWith?.length) lead.push(["Worked with", <span className="pv-ww" key="ww">{p.workedWith.map((w) => { const sub = [w.role, w.org].filter(Boolean).join(", "); return <span key={w.name}>{w.url ? <Ext href={w.url}>{w.name}</Ext> : w.name}{sub && <span className="pv-mute">, {sub}</span>}</span>; })}</span>]);
   const rest: Row[] = [
     ["Role", <>{p.role}<span className="pv-mute">, {p.org}</span></>],
     ["Status", <>{p.tag && <span className="pv-tag">{p.tag}</span>}{p.status}{!p.verified && <> <span className="unverified" title={p.note || "Unverified"}>Unverified</span></>}</>],
@@ -35,12 +36,12 @@ export default function PersonView({ v, c, p }: { v: Vertical; c: Category; p: P
   rest.push(["Sources", <ol className="pv-links" key="s">{p.sources.map((s) => <li key={s}><Ext href={s}>{isLinkedIn(s) ? "LinkedIn" : host(s)}</Ext></li>)}</ol>]);
   rest.push(["Last checked", <time key="t" dateTime={v.updated}>{formatUpdated(v.updated)}</time>]);
   const ld = { "@context": "https://schema.org", "@type": "ProfilePage", url: abs(ppath(v, c.slug, p.name)), dateModified: v.updated,
-    mainEntity: { "@type": "Person", name: p.name, jobTitle: p.role, affiliation: { "@type": "Organization", name: p.org }, description: p.short, url: p.url || undefined, ...(p.location ? { homeLocation: { "@type": "Place", name: p.location } } : {}), sameAs: [...new Set([...(p.url ? [p.url] : []), ...(p.profiles || []).map((y) => y.url), ...p.sources])] } };
+    mainEntity: { "@type": "Person", name: p.name, jobTitle: p.role, affiliation: { "@type": "Organization", name: p.org }, description: p.short, url: p.url || undefined, ...(p.workedWith?.length ? { colleague: p.workedWith.map((w) => ({ "@type": "Person", name: w.name, ...(w.url ? { url: w.url } : {}) })) } : {}), ...(p.location ? { homeLocation: { "@type": "Place", name: p.location } } : {}), sameAs: [...new Set([...(p.url ? [p.url] : []), ...(p.profiles || []).map((y) => y.url), ...p.sources])] } };
   return <div className="pv-wrap wrap">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
     <article className="pv">
       <div className="pv-main">
-        <p className="pv-kick"><Link href={vpath(v, c.slug)} className="pv-cat"><CatIcon slug={c.slug} />{c.name}</Link><span className="pv-mute">No. {rank} of {c.people.length}</span>{c.people.length > 1 && <PersonNav prev={nb(-1)} next={nb(1)} />}</p>
+        <p className="pv-kick"><Link href={vpath(v, c.slug)} className="pv-cat"><CatIcon slug={c.slug} />{c.name}</Link><span className="pv-mute pv-no">No. {String(rank).padStart(2, "0")} of {String(c.people.length).padStart(2, "0")}</span>{c.people.length > 1 && <PersonNav prev={nb(-1)} next={nb(1)} />}</p>
         <h1 className="pv-name">{p.name}</h1>
         {media && <div className="pv-mslot pv-desk">{media}</div>}
       </div>

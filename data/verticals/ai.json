@@ -27,7 +27,30 @@
           "orgShort": "ex-OpenAI",
           "why": "He sits where social feeds, generative video and playful AI side projects meet. At Instagram he worked on feed ranking and presented that work at @Scale in 2017. He co-founded Global Illumination, which OpenAI acquired in August 2023. By June 2026 he had left OpenAI and co-built In the Weights with Joey Flynn. Next up, reportedly, is something new with Ian Silber.",
           "added": "2026-10-20",
-          "location": "San Francisco, CA"
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Joey Flynn",
+              "role": "Co-founder",
+              "org": "Global Illumination",
+              "relation": "co-founded with",
+              "url": "https://openai.com/index/openai-acquires-global-illumination/"
+            },
+            {
+              "name": "Taylor Gordon",
+              "role": "Co-founder",
+              "org": "Global Illumination",
+              "relation": "co-founded with",
+              "url": "https://openai.com/index/openai-acquires-global-illumination/"
+            },
+            {
+              "name": "Ian Silber",
+              "role": "Head of Product Design",
+              "org": "OpenAI",
+              "relation": "worked alongside",
+              "url": "https://iansilber.com"
+            }
+          ]
         },
         {
           "name": "Sachin Katti",
@@ -78,7 +101,27 @@
             "credit": "KUIS AI / YouTube"
           },
           "added": "2026-10-20",
-          "location": "San Francisco, CA"
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Mira Murati",
+              "role": "Founder & CEO",
+              "org": "Thinking Machines Lab",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "Luke Metz",
+              "role": "Researcher",
+              "org": "OpenAI",
+              "relation": "worked alongside"
+            },
+            {
+              "name": "Sam Schoenholz",
+              "role": "Researcher",
+              "org": "OpenAI",
+              "relation": "worked alongside"
+            }
+          ]
         },
         {
           "name": "Harsh Mehta",
@@ -104,7 +147,16 @@
             "caption": "The Case for AI That Improves Itself, with Mirendil co-founders Behnam Neyshabur and Harsh Mehta",
             "credit": "a16z Deep Dives / YouTube"
           },
-          "location": "San Francisco, CA"
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Behnam Neyshabur",
+              "role": "Co-founder & CEO",
+              "org": "Mirendil",
+              "relation": "co-founded with",
+              "url": "https://x.com/bneyshabur"
+            }
+          ]
         },
         {
           "name": "Matthew Barnett",
@@ -128,7 +180,21 @@
             "id": "HTRnuDZJVbs",
             "caption": "Disagreements on AGI timelines, with Ege Erdil (Epoch AI)",
             "credit": "Epoch AI / YouTube"
-          }
+          },
+          "workedWith": [
+            {
+              "name": "Ege Erdil",
+              "role": "Co-founder",
+              "org": "Mechanize",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "Tamay Besiroglu",
+              "role": "Co-founder",
+              "org": "Mechanize",
+              "relation": "co-founded with"
+            }
+          ]
         }
       ]
     },
@@ -160,7 +226,22 @@
             "caption": "iansilber.com",
             "credit": "Ian Silber"
           },
-          "added": "2026-10-20"
+          "added": "2026-10-20",
+          "workedWith": [
+            {
+              "name": "Joey Flynn",
+              "role": "Product Designer",
+              "org": "OpenAI",
+              "relation": "worked alongside"
+            },
+            {
+              "name": "Thomas Dimson",
+              "role": "Member of Technical Staff",
+              "org": "OpenAI",
+              "relation": "worked alongside",
+              "url": "https://x.com/turtlesoupy"
+            }
+          ]
         },
         {
           "name": "JSN",
@@ -181,9 +262,30 @@
           "location": "Berkeley, CA",
           "media": {
             "type": "image",
-            "url": "/media/jsn-flower.svg",
-            "alt": "Visualplant flower"
-          }
+            "url": "/media/jsn-visa-intelligent-commerce.jpg", "caption": "Visa Intelligent Commerce", "link": "https://www.visa.com/en-us/solutions/intelligent-commerce",
+            "alt": "Visa Intelligent Commerce: an AI agent asks the user to approve a hotel booking with Visa"
+          },
+          "workedWith": [
+            {
+              "name": "Cuy Sheffield",
+              "role": "Head of Visa Crypto",
+              "org": "Visa",
+              "relation": "worked alongside"
+            },
+            {
+              "name": "Rubail Birwadker",
+              "role": "Global Head of Growth",
+              "org": "Visa",
+              "relation": "worked alongside",
+              "url": "https://www.linkedin.com/in/rubail"
+            },
+            {
+              "name": "Oliver Jenkyn",
+              "role": "Group President",
+              "org": "Visa",
+              "relation": "worked alongside"
+            }
+          ]
         },
         {
           "name": "Benji Taylor",
@@ -342,7 +444,27 @@
             "credit": "Danijar Hafner / YouTube"
           },
           "added": "2026-10-20",
-          "location": "San Francisco, CA"
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Wilson Yan",
+              "role": "Co-founder",
+              "org": "Embo",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "Timothy Lillicrap",
+              "role": "Co-author, Dreamer",
+              "org": "DeepMind",
+              "relation": "worked alongside"
+            },
+            {
+              "name": "Jimmy Ba",
+              "role": "PhD advisor / co-author, Dreamer",
+              "org": "University of Toronto",
+              "relation": "worked alongside"
+            }
+          ]
         },
         {
           "name": "Oriol Vinyals",
@@ -367,7 +489,33 @@
           },
           "why": "He connects sequence learning, game-playing agents and automated discovery. At Google he co-invented seq2seq with Ilya Sutskever and Quoc Le, led the AlphaStar group at DeepMind, and became a technical lead on Gemini. He has spoken publicly on the road toward AGI. In August 2026 he left Gemini to co-found Discovery Loop with Jeff Dean, Quoc Le and Sanjay Ghemawat. Research, recursively.",
           "added": "2026-10-20",
-          "location": "Silicon Valley, CA"
+          "location": "Silicon Valley, CA",
+          "workedWith": [
+            {
+              "name": "Jeff Dean",
+              "role": "Co-founder",
+              "org": "Discovery Loop",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "Quoc Le",
+              "role": "Co-founder",
+              "org": "Discovery Loop",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "Sanjay Ghemawat",
+              "role": "Co-founder",
+              "org": "Discovery Loop",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "Ilya Sutskever",
+              "role": "Co-author, seq2seq",
+              "org": "Google Brain",
+              "relation": "worked alongside"
+            }
+          ]
         },
         {
           "name": "Behnam Neyshabur",
@@ -393,7 +541,16 @@
             "credit": "Institute for Advanced Study / YouTube"
           },
           "added": "2026-10-20",
-          "location": "San Francisco, CA"
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Harsh Mehta",
+              "role": "Co-founder & CTO",
+              "org": "Mirendil",
+              "relation": "co-founded with",
+              "url": "https://x.com/HarshMeh1a"
+            }
+          ]
         }
       ]
     },
@@ -425,7 +582,27 @@
             "credit": "Lenny's Podcast / YouTube"
           },
           "added": "2026-10-20",
-          "location": "San Francisco Bay Area"
+          "location": "San Francisco Bay Area",
+          "workedWith": [
+            {
+              "name": "Morgan Beller",
+              "role": "Co-founder, Libra/Diem",
+              "org": "Facebook",
+              "relation": "co-founded with"
+            },
+            {
+              "name": "David Marcus",
+              "role": "Head of Libra/Novi",
+              "org": "Facebook",
+              "relation": "worked alongside"
+            },
+            {
+              "name": "Sarah Friar",
+              "role": "CFO",
+              "org": "OpenAI",
+              "relation": "worked alongside"
+            }
+          ]
         },
         {
           "name": "Fidji Simo",
@@ -449,7 +626,15 @@
             "caption": "OpenAI's Fidji Simo on why ads are coming to ChatGPT",
             "credit": "Sources Podcast / YouTube"
           },
-          "added": "2026-10-20"
+          "added": "2026-10-20",
+          "workedWith": [
+            {
+              "name": "Sam Altman",
+              "role": "CEO",
+              "org": "OpenAI",
+              "relation": "reported to"
+            }
+          ]
         },
         {
           "name": "Mike Krieger",
@@ -473,7 +658,15 @@
             "caption": "Anthropic's CPO on what comes next",
             "credit": "Lenny's Podcast / YouTube"
           },
-          "added": "2026-10-20"
+          "added": "2026-10-20",
+          "workedWith": [
+            {
+              "name": "Kevin Systrom",
+              "role": "Co-founder",
+              "org": "Instagram, Artifact",
+              "relation": "co-founded with"
+            }
+          ]
         },
         {
           "name": "Ami Vora",
@@ -542,7 +735,16 @@
           "orgShort": "ex-OpenAI",
           "why": "She connects monetization strategy with the fastest adoption curve in software. As OpenAI's head of growth she championed a counterintuitive playbook in which smarter models came at lower prices to ignite the market. She spent nearly three years scaling OpenAI's Growth and GTM organizations and wrapped up in May 2026. Growth, re-priced.",
           "added": "2026-10-20",
-          "location": "New York City area"
+          "location": "New York City area",
+          "workedWith": [
+            {
+              "name": "Brad Lightcap",
+              "role": "COO",
+              "org": "OpenAI",
+              "relation": "reported to",
+              "url": "https://x.com/bradlightcap"
+            }
+          ]
         },
         {
           "name": "Kate Rouch",
@@ -593,7 +795,21 @@
             "credit": "Hard Fork / YouTube"
           },
           "added": "2026-10-20",
-          "location": "San Francisco, CA"
+          "location": "San Francisco, CA",
+          "workedWith": [
+            {
+              "name": "Sam Altman",
+              "role": "CEO",
+              "org": "OpenAI",
+              "relation": "reported to"
+            },
+            {
+              "name": "Alison Harmon",
+              "role": "Head of Growth",
+              "org": "OpenAI",
+              "relation": "managed"
+            }
+          ]
         },
         {
           "name": "Joshua Kim",

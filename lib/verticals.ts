@@ -1,11 +1,12 @@
+export type WorkedWith = { name: string; role?: string; org?: string; url?: string; relation?: string };
 // Verticals registry. To add one (e.g. biotech): create data/verticals/biotech.json
 // with the same shape as ai.json, import it here and append it to `verticals`.
 // Routes /biotech and /biotech/<category> are generated automatically.
 import ai from "@/data/verticals/ai.json";
 export type Person = { name: string; url: string | null; role: string; org: string; status: string; verified: boolean; note: string | null; short: string; sources: string[]; signal?: string; tag?: string; orgShort?: string;
   // Optional profile fields (filled by Ella persona research; hidden when absent)
-  why?: string; products?: { name: string; url: string }[]; profiles?: { label: string; url: string }[]; location?: string; added?: string; notable?: { title: string; url?: string }[];
-  media?: { type: "youtube" | "image"; id?: string; url?: string; caption?: string; credit?: string; alt?: string } };
+  why?: string; products?: { name: string; url: string }[]; profiles?: { label: string; url: string }[]; location?: string; workedWith?: WorkedWith[]; added?: string; notable?: { title: string; url?: string }[];
+  media?: { type: "youtube" | "image"; id?: string; url?: string; caption?: string; credit?: string; alt?: string; link?: string } };
 export type Category = { slug: string; name: string; blurb: string; people: Person[] };
 export type Vertical = { slug: string; name: string; title: string; updated: string; categories: Category[] };
 export const verticals = [ai] as Vertical[];

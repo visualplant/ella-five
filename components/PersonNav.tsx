@@ -23,7 +23,7 @@ export default function PersonNav({ prev, next }: { prev: N; next: N }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [router, prev.href, next.href]);
   return <span className="pv-nav">
-    <Link href={prev.href} className="pv-nb" aria-label={`Previous: No. ${prev.rank} ${prev.name}`}><Chev d="M15 4.5 7.5 12l7.5 7.5" /><span className="pv-tip" aria-hidden="true">No. {prev.rank} {prev.name}</span></Link>
-    <Link href={next.href} className="pv-nb" aria-label={`Next: No. ${next.rank} ${next.name}`}><Chev d="M9 4.5 16.5 12 9 19.5" /><span className="pv-tip" aria-hidden="true">No. {next.rank} {next.name}</span></Link>
+    <Link href={prev.href} className="pv-nb" aria-label={`Previous: No. ${String(prev.rank).padStart(2, "0")} ${prev.name}`}><Chev d="M15 4.5 7.5 12l7.5 7.5" /><span className="pv-tip" aria-hidden="true">No. {String(prev.rank).padStart(2, "0")} {prev.name}</span></Link>
+    <Link href={next.href} className="pv-nb" aria-label={`Next: No. ${String(next.rank).padStart(2, "0")} ${next.name}`}><Chev d="M9 4.5 16.5 12 9 19.5" /><span className="pv-tip" aria-hidden="true">No. {String(next.rank).padStart(2, "0")} {next.name}</span></Link>
   </span>;
 }

@@ -564,3 +564,8 @@ nav[aria-label="Categories"] a:active::before { background: color-mix(in srgb, v
 .person .rank, .person:first-child .rank { font-size: 14px; letter-spacing: .06em; }
 .person, .person:first-child { grid-template-columns: 46px minmax(0, 1fr); }
 @media (max-width: 760px) { .person { grid-template-columns: 42px minmax(0, 1fr); } .person .rank { font-size: 13px; } .hero .cat-title { font-size: 13px; } }
+
+.pv-ww { display: flex; flex-direction: column; gap: 4px; }
+.pv-no, .pv-tip { font-variant-numeric: tabular-nums; }
+.pv-media.pv-natural { aspect-ratio: auto; } .pv-media.pv-natural img { position: static; width: 100%; height: auto; }
+.pv-fig figcaption a { color: var(--soft); text-decoration: none; } .pv-fig figcaption a:hover { color: var(--ink); } .pv-fig figcaption .pv-arr { width: 9px; height: 9px; margin-left: 4px; }
