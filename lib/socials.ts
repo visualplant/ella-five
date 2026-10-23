@@ -4,8 +4,8 @@ export const SOCIALS: Record<"email" | "x" | "linkedin" | "bluesky" | "threads",
   email: "ella@ellafive.com",
   x: "ellatracker",
   linkedin: "ellatracker", // LinkedIn company page slug → linkedin.com/company/<slug>/
-  bluesky: "",
-  threads: "",
+  bluesky: "ellatracker.bsky.social",
+  threads: "ella5tracker",
 };
 
 export const socialLinks = () => {
