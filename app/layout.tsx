@@ -24,6 +24,7 @@ export const viewport: Viewport = { themeColor: "#f6f3ee" };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+      <head><link rel="alternate" type="application/rss+xml" title="Ella – archived lists" href="/feed.xml" /></head>
       <body>
         <a className="skip" href="#main">Skip to content</a>
         <header className="site-header wrap">
