@@ -5,6 +5,7 @@ import { vpath, ppath, type Vertical } from "@/lib/verticals";
 import CatIcon from "@/components/CatIcon";
 import Media from "@/components/PersonMedia";
 import PersonNav from "@/components/PersonNav";
+import ShareButton from "@/components/ShareButton";
 import { profilePath } from "@/lib/people";
 import { weekLabel } from "@/lib/weekly";
 
@@ -45,6 +46,7 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
   return <div className="pv-wrap wrap">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
     <article className="pv">
+      <div className="pv-share-top"><ShareButton url={abs(href(p.name))} title={`${p.name} – Ella`} /></div>
       <div className="pv-main">
         <p className="pv-kick"><Link href={vpath(v, c.slug)} className="pv-cat"><CatIcon slug={c.slug} />{c.name}</Link><span className="pv-mute pv-no">No. {String(rank).padStart(2, "0")} of {String(c.people.length).padStart(2, "0")}</span>{c.people.length > 1 && <PersonNav prev={nb(-1)} next={nb(1)} />}</p>
         <h1 className="pv-name">{p.name}</h1>
