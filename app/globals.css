@@ -575,9 +575,9 @@ nav[aria-label="Categories"] a:active::before { background: color-mix(in srgb, v
 }
 @media (min-width: 701px) {
   /* Intro sweep: active cell turns on instantly, the just-left cells ease off for a short overlapping trail */
-  .cols[data-intro] li, .cols[data-intro] li * { transition-duration: .15s !important; transition-timing-function: ease-out !important; }
+  .cols[data-intro] li, .cols[data-intro] li * { transition-duration: .3s !important; transition-timing-function: ease-out !important; }
   .cols[data-intro] li[data-d="0"], .cols[data-intro] li[data-hot] * { transition-duration: 0s !important; }
-  .cols[data-intro] li::before { content: ""; position: absolute; inset: -1px; border: 1px solid #2a2622; pointer-events: none; opacity: 0; transition: opacity .15s ease-out; }
+  .cols[data-intro] li::before { content: ""; position: absolute; inset: -1px; border: 1px solid #2a2622; pointer-events: none; opacity: 0; transition: opacity .3s ease-out; }
   .cols[data-intro] li[data-d="0"]::before { opacity: 1; transition: none; }
 }
 .cols[data-cut], .cols[data-cut] *, .cols[data-cut] li::before { transition: none !important; }

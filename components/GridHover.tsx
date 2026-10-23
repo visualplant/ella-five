@@ -38,7 +38,7 @@ export default function GridHover() {
     const over = (e: Event) => set(e.target);
     const leave = () => set(null);
     const fout = (e: FocusEvent) => { if (!grid.contains(e.relatedTarget as Node)) set(null); };
-    // Intro "disco floor": a simulated pointer sweeps ~14 distinct cells (~0.5s), lands on one person, holds, then fades out.
+    // Intro "disco floor": a simulated pointer sweeps ~14 distinct cells (~1s), lands on one person, holds, then fades out.
     // Drives the same set() as real hover; aborts on any real input. Large pointer layout only; skipped for reduced motion.
     const timers: number[] = [];
     let hot: HTMLElement | null = null;
@@ -77,7 +77,7 @@ export default function GridHover() {
         const [a, b] = key(nx); dr = a - r; dk = b - k; seen.add(nx); path.push(nx);
       }
       path.reverse();
-      const HOP = 36;
+      const HOP = 72;
       let ms = 250;
       requestAnimationFrame(() => {
         grid.dataset.intro = "";
