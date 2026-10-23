@@ -19,7 +19,7 @@ const person = (cat: string, sub: string) => { const e = people().get(sub); retu
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { category, sub } = await params;
   const hit = person(category, sub);
-  if (hit) { const { c, p } = hit; const t = `${p.name} – ${c.name}`; return { title: t, description: `${p.role}, ${p.org}. ${p.short}`, alternates: { canonical: `/${hit.home}/${hit.slug}` }, openGraph: { title: `${t} – Ella`, description: p.short } }; }
+  if (hit) { const { c, p } = hit; const t = `${p.name} – Ella`; return { title: { absolute: t }, description: `${p.role}, ${p.org}. ${p.short}`, alternates: { canonical: `/${hit.home}/${hit.slug}` }, openGraph: { title: t, description: p.short }, twitter: { title: t, description: p.short } }; }
   const v = getVertical(category); const c = v && getCategory(sub, v);
   return v && c ? { title: { absolute: `${c.name} – Ella – ${v.title}` }, alternates: { canonical: vpath(v, c.slug) } } : {};
 }

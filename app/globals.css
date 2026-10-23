@@ -613,3 +613,14 @@ nav[aria-label="Categories"] a:active::before { background: color-mix(in srgb, v
 .cat-kick { display: flex; align-items: center; flex-wrap: nowrap; margin: 0 0 18px; }
 .cat-kick .hero-x, .hero .cat-kick .cat-title { margin: 0; white-space: nowrap; flex: none; }
 .cat-kick .pv-nav { flex: none; margin-left: 6px; }
+
+/* Quiet share control, sits opposite the back link */
+.pv { position: relative; }
+.pv-share-top { position: absolute; top: 0; right: 0; height: 23px; display: flex; align-items: center; z-index: 2; }
+.pv-share { position: relative; z-index: 0; display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: none; font: inherit; font-family: var(--sans-f); font-size: 14px; color: var(--soft); cursor: pointer; transition: color .15s ease; }
+.pv-share svg { flex: none; margin-top: -2px; }
+.pv-share::before { content: ""; position: absolute; z-index: -1; inset: -6px -10px; border-radius: 8px; background: color-mix(in srgb, var(--ink) 7%, transparent); opacity: 0; transition: opacity .15s ease; }
+.pv-share:hover, .pv-share:focus-visible { color: var(--ink); outline: none; }
+.pv-share:hover::before, .pv-share:focus-visible::before { opacity: 1; }
+.pv-share:focus-visible::before { outline: 1px solid var(--ink); }
+.pv-share:active::before { background: color-mix(in srgb, var(--ink) 11%, transparent); }
