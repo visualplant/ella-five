@@ -550,7 +550,7 @@ nav[aria-label="Categories"] a:active::before { background: color-mix(in srgb, v
 .pv-kick .pv-cat, .pv-kick .pv-mute, .pv-kick .pv-nav { white-space: nowrap; flex: none; }
 
 /* Category pages share the quiet label + tabular number treatment */
-.hero .cat-title { font-family: var(--sans-f); font-weight: 500; font-style: normal; font-size: 11px; line-height: 1.2; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); opacity: .8; gap: .39em; margin: 0 0 14px; }
+.hero .cat-title { font-family: var(--sans-f); font-weight: 500; font-style: normal; font-size: 11px; line-height: 1.2; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); gap: .39em; margin: 0 0 14px; }
 .hero .cat-title .cat-ico { --ico: 12px; --ico-dy: 0; margin-right: 0; }
 .person, .person:first-child { grid-template-columns: 38px minmax(0, 1fr); align-items: first baseline; }
 .person .rank { text-align: left; padding-right: 0; align-self: first baseline; }
