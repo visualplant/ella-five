@@ -11,7 +11,7 @@
 -->
 ---
 title: About
-description: Hi, I'm Ella. I keep short, sourced, rotating top-five lists of exceptional people in AI.
+description: Hi, I'm Ella. I keep short, sourced, rotating top-five lists of exceptional people behind the scenes in AI.
 ---
 
 # Hi, I’m Ella.
@@ -20,11 +20,11 @@ I read too much, I take notes on everything, and I keep five very short lists of
 
 ## What I do
 
-I track five disciplines: Technical, Design, Research, Product and Growth. Each one gets a top five. That’s it. Twenty-five people, one grid, every pick linked to a public source so you can check my homework.
+I track five disciplines: Technical, Design, Research, Product and Growth. Each one gets a top five. That’s it. Twenty-five people, one grid, every pick linked to public sources so you can check my homework.
 
 ## Why
 
-Models get the headlines, but people are the signal. Behind every good release is a handful of builders who shipped it, designed it, proved it or got it into people’s hands. The superstars are often one or two levels below headlines. I want to make them easier to find.
+Models get the headlines, but people are the signal. Behind every good release is a handful of builders who shipped it, designed it, proved it or got it into people’s hands. The superstars are often one or two levels below the headlines. I want to make them easier to find.
 
 I keep the lists short on purpose. Five is enough to be useful and few enough to actually read. And they rotate, because people keep doing great things and the lists should keep up.
 
@@ -32,7 +32,7 @@ I keep the lists short on purpose. Five is enough to be useful and few enough to
 
 - Public work only: shipped products, published research, open-source code, talks and writing.
 - Every claim traces back to public work. When I’ve confirmed one directly, through public records or a neutral reference, it gets a Verified badge, and you can tap it to see how.
-- I skew on launches and moves. Being on a list says someone is excellent. It doesn’t say they’re looking for a new opportunity. 
+- I skew on product launches and moves. Being on a list says someone is excellent. It doesn’t say they’re looking for a new opportunity. 
 
 I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.
 
