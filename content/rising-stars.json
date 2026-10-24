@@ -1,0 +1,285 @@
+{
+  "updated": "2026-10-24T18:30:00Z",
+  "blurb": "Working notes on builders under consideration—not on the 5×5 yet. Anyone who has made Ella’s list can upvote a name or send a tip.",
+  "people": [
+    {
+      "slug": "justin-spahr-summers",
+      "name": "Justin Spahr-Summers",
+      "category": "technical",
+      "url": null,
+      "role": "Member of Technical Staff",
+      "org": "Anthropic",
+      "status": "Co-created the Model Context Protocol at Anthropic (open-sourced Nov 2024).",
+      "short": "Co-creator of MCP.",
+      "signal": "Co-created MCP",
+      "tag": "Builder",
+      "sources": [
+        "https://www.anthropic.com/news/model-context-protocol",
+        "https://www.latent.space/p/mcp"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "leo-shimonaka",
+      "name": "Leo Shimonaka",
+      "category": "technical",
+      "url": null,
+      "role": "Member of Technical Staff",
+      "org": "OpenAI",
+      "status": "Joined OpenAI in Nov 2025 with the Sky acquisition; founding engineer at Software Applications Inc., earlier at Humane.",
+      "short": "Humane → Sky founding engineer → OpenAI.",
+      "signal": "Sky → OpenAI",
+      "tag": "Acquired",
+      "sources": [
+        "https://linkedin.com/in/lshimonaka"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "yongxing-deng",
+      "name": "Yongxing Deng",
+      "category": "technical",
+      "url": null,
+      "role": "Software Engineer",
+      "org": "Anthropic",
+      "status": "Prototyped the Claude for Excel add-in in his second week at Anthropic; it launched about three months later.",
+      "short": "Prototyped Claude for Excel.",
+      "signal": "Prototype → Claude for Excel",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/yongxing-deng_three-months-at-anthropic-in-my-second-week-activity-7388704275125870592-axEE",
+        "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "barun-kwak",
+      "name": "Barun Kwak",
+      "category": "design",
+      "url": "https://barunkwak.framer.website/",
+      "role": "Product Design Lead",
+      "org": "Amazon",
+      "status": "Product Design Lead in Amazon Shopping Design.",
+      "short": "Designed Amazon Buy for Me and Rufus questions.",
+      "signal": "Designed Amazon Buy for Me",
+      "tag": "Builder",
+      "sources": [
+        "https://barunkwak.framer.website/works-amazon-buy-for-me",
+        "https://barunkwak.framer.website/works-rufus-clarifying-questions"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "antony-rishin-mukkath-roy",
+      "name": "Antony Rishin Mukkath Roy",
+      "category": "design",
+      "url": null,
+      "role": "Senior Manager, Design, AI Shopping & Agentic Commerce",
+      "org": "Walmart",
+      "status": "Leads design for Walmart's AI shopping and agentic commerce, including Walmart in ChatGPT.",
+      "short": "Designed Walmart's agent in ChatGPT and Sparky.",
+      "signal": "Walmart Sparky → ChatGPT",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/antonyrishin_powering-product-discovery-in-chatgpt-activity-7443044489285480448-jrpN",
+        "https://winners.webbyawards.com/2023/apps-software-immersive/app-features/best-use-of-voice-technology/249751/improve-item-search-with-conversational-ai"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "escha-vera",
+      "name": "Escha Vera",
+      "category": "design",
+      "url": null,
+      "role": "Product Designer",
+      "org": "Perplexity",
+      "status": "Product Designer at Perplexity.",
+      "short": "Designed Comet onboarding at Perplexity.",
+      "signal": "Designed Perplexity Comet",
+      "tag": "Builder",
+      "sources": [
+        "https://podcasts.apple.com/us/podcast/escha-vera-designing-perplexitys-comet-and-using-ai/id1686414242?i=1000728564414",
+        "https://dive-club.beehiiv.com/p/left-the-wii-on-all-night"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "nathan-chen",
+      "name": "Nathan Chen",
+      "category": "research",
+      "url": null,
+      "role": "Researcher",
+      "org": "Moonshot AI (former)",
+      "status": "Left Moonshot AI (Kimi) in September 2026.",
+      "short": "Left Moonshot AI, Sept 2026.",
+      "signal": "Left Moonshot AI (Kimi)",
+      "tag": "Left",
+      "sources": [
+        "https://www.turingtree.com/updates/nathan-chen-leaves-moonshot-ai"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "sharut-gupta",
+      "name": "Sharut Gupta",
+      "category": "research",
+      "url": null,
+      "role": "Researcher",
+      "org": "Google DeepMind",
+      "status": "Joined Google DeepMind after finishing her MIT PhD (2026).",
+      "short": "MIT PhD → Google DeepMind.",
+      "signal": "MIT → Google DeepMind",
+      "tag": "Joined",
+      "sources": [
+        "https://www.turingtree.com/updates"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "jacob-tsimerman",
+      "name": "Jacob Tsimerman",
+      "category": "research",
+      "url": null,
+      "role": "Mathematician",
+      "org": "MAISI",
+      "status": "Committed full-time to MAISI rather than joining OpenAI (2026).",
+      "short": "Chose MAISI over OpenAI, 2026.",
+      "signal": "Math → MAISI",
+      "tag": "Joined",
+      "sources": [
+        "https://www.turingtree.com/updates"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "josh-tobin",
+      "name": "Josh Tobin",
+      "category": "product",
+      "url": null,
+      "role": "Co-founder and CTO",
+      "org": "Recursive",
+      "status": "Left OpenAI in September 2025, where he was a product lead on Deep Research; co-founded Recursive.",
+      "short": "Deep Research PM → co-founded Recursive.",
+      "signal": "OpenAI → Recursive",
+      "tag": "New venture",
+      "sources": [
+        "https://sequoiacap.com/podcast/training-data-deep-research/",
+        "https://linkedin.com/in/josh-tobin-4b3b10a9"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "jon-okun",
+      "name": "Jon Okun",
+      "category": "product",
+      "url": null,
+      "role": "Product",
+      "org": "OpenAI",
+      "status": "Product at OpenAI; worked on the Instant Checkout launch in September 2025.",
+      "short": "Shipped ChatGPT Instant Checkout at OpenAI.",
+      "signal": "Shipped Instant Checkout",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/jonokun_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378632076000104448-pOOU"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "neel-ajjarapu",
+      "name": "Neel Ajjarapu",
+      "category": "product",
+      "url": null,
+      "role": "Commerce lead",
+      "org": "OpenAI",
+      "status": "Leads commerce at OpenAI.",
+      "short": "Leads commerce at OpenAI.",
+      "signal": "Leads OpenAI commerce",
+      "tag": "Leads product",
+      "sources": [
+        "https://365daily.net/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce/"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "leher-pathak",
+      "name": "Leher Pathak",
+      "category": "growth",
+      "url": null,
+      "role": "Head of Product Marketing, API Platform",
+      "org": "OpenAI",
+      "status": "Leads developer product marketing at OpenAI, after joining in December 2023 as the platform's first product marketer.",
+      "short": "OpenAI's first developer-platform product marketer.",
+      "signal": "NVIDIA → Block → OpenAI",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/leher-pathak_day-1-in-the-books-im-thrilled-to-share-activity-7140506562300628994-juw4",
+        "https://www.linkedin.com/posts/leher-pathak_this-week-we-hosted-openai-devday-2025-activity-7382527893408636928-MlDR",
+        "https://linkedin.com/in/leher-pathak"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "fei-guo",
+      "name": "Fei Guo",
+      "category": "growth",
+      "url": null,
+      "role": "Growth Engineering",
+      "org": "OpenAI",
+      "status": "Joined OpenAI's ChatGPT growth team in April 2026 after leading growth engineering at Superhuman.",
+      "short": "Superhuman → ChatGPT growth, Apr 2026.",
+      "signal": "Superhuman → OpenAI",
+      "tag": "Joined",
+      "sources": [
+        "https://www.linkedin.com/posts/feiguo_openai-growth-chatgpt-activity-7455048420400160768-FTyd",
+        "https://linkedin.com/in/feiguo"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "sandy-banerjee",
+      "name": "Sandy Banerjee",
+      "category": "growth",
+      "url": null,
+      "role": "Head of Customer Marketing",
+      "org": "Anthropic",
+      "status": "Anthropic's first marketing hire (Feb 2023); Head of Customer Marketing since April 2026.",
+      "short": "Anthropic's first marketing hire.",
+      "signal": "First marketing hire, Anthropic",
+      "tag": "Builder",
+      "sources": [
+        "https://linkedin.com/in/sandy-banerjee-4aa1b816"
+      ],
+      "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    }
+  ]
+}

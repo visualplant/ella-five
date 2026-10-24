@@ -1,4 +1,5 @@
 import NavLink from "@/components/NavLink";
+import HeaderSubscribe from "@/components/HeaderSubscribe";
 import { weeks } from "@/lib/weekly";
 import GitHubMark from "@/components/GitHubMark";
 import type { Metadata, Viewport } from "next";
@@ -31,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Link href="/" className="wordmark" aria-label="Ella home">Ella</Link>
           <nav aria-label="Categories">
             <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
-              <li><Link href="/subscribe" className="nav-sub">Subscribe</Link></li></ul>
+              <li><HeaderSubscribe variant="nav" /></li></ul>
           </nav>
         </header>
         <main id="main">{children}</main>
