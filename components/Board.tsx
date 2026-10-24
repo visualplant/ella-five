@@ -5,6 +5,7 @@ import Tabs from "@/components/Tabs";
 import GridHover from "@/components/GridHover";
 import GitHubMark from "@/components/GitHubMark";
 import CatIcon from "@/components/CatIcon";
+import HeaderSubscribe from "@/components/HeaderSubscribe";
 import { weeks, weekLabel } from "@/lib/weekly";
 import { profilePath } from "@/lib/people";
 
@@ -23,7 +24,7 @@ export default function Board({ v, week }: { v: Vertical; week?: string }) {
           <span className="b-what" aria-hidden="true">What about me?</span>
         </Link>
         {week ? <p className="b-upd"><Link href="/archive">Archive</Link> · Lists from <time dateTime={week}>{weekLabel(week)}</time></p> : <p className="b-upd">Updated <time dateTime={data.updated}>{formatUpdated(v.updated)}</time></p>}
-        <Link href="/subscribe" className="b-sub">Subscribe</Link>
+        <HeaderSubscribe variant="board" />
       </header>
       <Tabs items={categories.map(({ slug, name }) => ({ slug, name }))} />
       <div className="cols">

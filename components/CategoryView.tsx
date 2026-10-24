@@ -21,8 +21,7 @@ export default function CategoryView({ v, c }: { v: Vertical; c: Category }) {
       <section className="cat wrap solo"><PersonList c={c} v={v} headingLevel={2} /></section>
       <nav className="pv-back cat-next wrap" aria-label="Back to grid"><Link href="/">← 5×5</Link></nav>
       <section className="sub wrap">
-        <h2>Follow {c.name}</h2>
-        <SubscribeForm categories={categories.map(({ slug, name }) => ({ slug, name }))} preset={[c.slug]} />
+        <SubscribeForm heading={`Follow ${c.name}`} categories={categories.map(({ slug, name }) => ({ slug, name }))} preset={[c.slug]} />
       </section>
     </>
   );

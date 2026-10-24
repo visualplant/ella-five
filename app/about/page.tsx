@@ -1,12 +1,15 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE, ellaLd, ELLA_ID } from "@/lib/data";
+import { SITE, ellaLd, ELLA_ID, categories } from "@/lib/data";
 import { loadAbout } from "@/lib/about";
 import VerifiedBadge from "@/components/VerifiedBadge";
+import AboutStayInLoop from "@/components/AboutStayInLoop";
 
 // The word "Verified" in "it gets a Verified badge" renders as the live VerifiedBadge (sample popover).
 const VB_RE = /a Verified badge/;
 const VB_SAMPLE = "Ella confirmed this claim directly through public records or a neutral reference.";
+const SUB_RE = /<p><a href="\/subscribe">Subscribe<\/a>[^<]*<\/p>/;
+
 function splitAbout(html: string) {
   const i = html.search(VB_RE);
   if (i < 0) return null;
@@ -15,6 +18,24 @@ function splitAbout(html: string) {
   const items = html.slice(ul0 + 4, ul1).split(/<\/li>\s*/).map((x) => x.replace(/^\s*<li>/, "")).filter((x) => x.trim());
   return { before: html.slice(0, ul0), after: html.slice(ul1 + 5), items };
 }
+
+function renderAfter(afterHtml: string) {
+  const m = afterHtml.match(SUB_RE);
+  if (!m || m.index === undefined) {
+    return <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: afterHtml }} />;
+  }
+  const pre = afterHtml.slice(0, m.index);
+  const post = afterHtml.slice(m.index + m[0].length);
+  const cats = categories.map(({ slug, name }) => ({ slug, name }));
+  return (
+    <>
+      <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: pre }} />
+      <AboutStayInLoop categories={cats} />
+      <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: post }} />
+    </>
+  );
+}
+
 // Copy lives in content/about.md (rendered at build time).
 export const dynamic = "force-static";
 export function generateMetadata(): Metadata {
@@ -34,7 +55,7 @@ export default function Page() {
       </div>
       {(() => {
         const sp = splitAbout(a.html);
-        if (!sp) return <div className="about-body" dangerouslySetInnerHTML={{ __html: a.html }} />;
+        if (!sp) return <div className="about-body">{renderAfter(a.html)}</div>;
         return (
           <div className="about-body">
             <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: sp.before }} />
@@ -46,7 +67,7 @@ export default function Page() {
                 return <li key={k}><span dangerouslySetInnerHTML={{ __html: pre }} /><span className="vb-inline"><VerifiedBadge how={VB_SAMPLE} /></span><span dangerouslySetInnerHTML={{ __html: post }} /></li>;
               })}
             </ul>
-            <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: sp.after }} />
+            {renderAfter(sp.after)}
           </div>
         );
       })()}
