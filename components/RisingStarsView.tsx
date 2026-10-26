@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import CatIcon from "@/components/CatIcon";
+import { dedupeSourcesByHost } from "@/lib/sources";
 import type { Endorser, RisingPerson, SubscriberSession } from "@/lib/rising";
 
 type CategoryMeta = { slug: string; name: string };
@@ -434,7 +435,7 @@ export default function RisingStarsView({
 
                     <p className="rs-note-sub">
                       <span>{p.status}</span>
-                      {p.sources.map((s) => (
+                      {dedupeSourcesByHost(p.sources).map((s) => (
                         <a
                           key={s}
                           href={s}

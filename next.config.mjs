@@ -10,6 +10,7 @@ export default {
       { source: "/ai", destination: "/", permanent: true },
       { source: "/ai/:category", destination: "/:category", permanent: true },
       { source: "/rising", destination: "/rising-stars", permanent: false },
+      { source: "/archive/2026-10-20", destination: "/archive/2026-10-19", permanent: false },
     ];
   },
 };

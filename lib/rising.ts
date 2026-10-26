@@ -119,6 +119,18 @@ const ORG_DOMAINS: Record<string, string[]> = {
   energy: ["energy.ai"],
   humana: ["humana.com"],
   "xbox (microsoft)": ["microsoft.com", "xbox.com"],
+  tempo: ["tempo.xyz"],
+  "tempo labs": ["tempo.xyz"],
+  stripe: ["stripe.com"],
+  meta: ["meta.com", "fb.com"],
+  "meta superintelligence labs": ["meta.com", "fb.com"],
+  "first of kind": ["firstofkind.com", "soleio.com"],
+  mercury: ["mercury.com"],
+  shopify: ["shopify.com"],
+  coinbase: ["coinbase.com"],
+  elevenlabs: ["elevenlabs.io"],
+  gamma: ["gamma.app"],
+  "formerly openai": ["openai.com"],
 };
 
 export function loadRising(): RisingData {

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import VerifiedBadge from "@/components/VerifiedBadge";
 import { abs, host, formatUpdated, type Category, type Person } from "@/lib/data";
+import { groupSources } from "@/lib/sources";
 import { vpath, ppath, type Vertical } from "@/lib/verticals";
 import CatIcon from "@/components/CatIcon";
 import Media from "@/components/PersonMedia";
@@ -13,7 +14,6 @@ import { weekLabel } from "@/lib/weekly";
 // Optional fields (why, products, notable, profiles, location, added, media) are hidden when absent;
 // on preview deploys, a missing "Why chosen" shows clearly marked placeholders.
 const PREVIEW = process.env.VERCEL_ENV !== "production";
-const isLinkedIn = (u: string) => /linkedin\.com/.test(u);
 type Row = [string, React.ReactNode];
 
 function Arr() { return <svg className="pv-arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1" vectorEffect="non-scaling-stroke"><path d="M1.5 22.5 22 2M10 1.5h12.5V14" vectorEffect="non-scaling-stroke" /></svg>; }
@@ -30,7 +30,7 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
   if (p.workedWith?.length) lead.push(["Worked with", <span className="pv-ww" key="ww">{p.workedWith.map((w) => { const sub = [w.role, w.org].filter(Boolean).join(", "); return <span key={w.name}>{w.url ? <Ext href={w.url}>{w.name}</Ext> : w.name}{sub && <span className="pv-mute">, {sub}</span>}</span>; })}</span>]);
   const rest: Row[] = [
     ["Role", <>{p.role}<span className="pv-mute">, {p.org}</span></>],
-    ["Status", <>{p.tag && <span className="pv-tag">{p.tag}</span>}{p.status}{p.verified && <> <VerifiedBadge how={p.verifiedHow} /></>}</>],
+    ["Signal", <>{p.tag && <span className="pv-tag">{p.tag}</span>}{p.status}{p.verified && <> <VerifiedBadge how={p.verifiedHow} /></>}</>],
   ];
   if (p.location) rest.push(["Current location", p.location]);
   if (p.url) rest.push(["Personal site", <Ext href={p.url} key="u">{host(p.url)}</Ext>]);
@@ -39,7 +39,27 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
   if (p.profiles?.length) rest.push(["Public profiles", <span className="pv-list" key="pf">{p.profiles.map((x) => <Ext key={x.url} href={x.url}>{x.label}</Ext>)}</span>]);
   if (p.added) rest.push(["On the list since", <time key="a" dateTime={p.added}>{new Date(p.added + "T12:00:00Z").toLocaleDateString("en-US", { timeZone: "UTC", month: "long", day: "numeric", year: "numeric" })}</time>]);
   if (appeared.length) rest.push(["Appeared in", <span className="pv-list" key="ap">{appeared.map((w) => <Link key={w} href={`/archive/${w}`}>Lists from {weekLabel(w)}</Link>)}</span>]);
-  rest.push(["Sources", <ol className="pv-links" key="s">{p.sources.map((s) => <li key={s}><Ext href={s}>{isLinkedIn(s) ? "LinkedIn" : host(s)}</Ext></li>)}</ol>]);
+  const groupedSources = groupSources(p.sources);
+  rest.push([
+    "Sources",
+    <ol className="pv-links" key="s">
+      {groupedSources.map((g) => (
+        <li key={g.key}>
+          <Ext href={g.href}>{g.label}</Ext>
+          {g.children.length > 0 && (
+            <ul className="pv-sublinks">
+              {g.children.map((ch) => (
+                <li key={ch.href}>
+                  <span className="pv-sub-dash" aria-hidden="true">- </span>
+                  <Ext href={ch.href}>{ch.label}</Ext>
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))}
+    </ol>,
+  ]);
   rest.push(["Last checked", <time key="t" dateTime={v.updated}>{formatUpdated(v.updated)}</time>]);
   const ld = { "@context": "https://schema.org", "@type": "ProfilePage", url: abs(href(p.name)), dateModified: v.updated,
     mainEntity: { "@type": "Person", name: p.name, jobTitle: p.role, affiliation: { "@type": "Organization", name: p.org }, description: p.short, url: p.url || undefined, ...(p.workedWith?.length ? { colleague: p.workedWith.map((w) => ({ "@type": "Person", name: w.name, ...(w.url ? { url: w.url } : {}) })) } : {}), ...(p.location ? { homeLocation: { "@type": "Place", name: p.location } } : {}), sameAs: [...new Set([...(p.url ? [p.url] : []), ...(p.profiles || []).map((y) => y.url), ...p.sources])] } };
