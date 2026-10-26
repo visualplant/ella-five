@@ -1,7 +1,69 @@
 {
-  "updated": "2026-10-24T18:30:00Z",
+  "updated": "2026-10-26T09:00:00-07:00",
   "blurb": "Working notes on builders under consideration—not on the 5×5 yet. Anyone who has made Ella’s list can upvote a name or send a tip.",
   "people": [
+    {
+      "slug": "amit-handa",
+      "name": "Amit Handa",
+      "category": "technical",
+      "url": "https://linkedin.com/in/amhanda",
+      "role": "Engineering Lead, Google Commerce",
+      "org": "Google",
+      "status": "Helped create and launch the Universal Commerce Protocol (January 2026).",
+      "short": "Built and explained the Universal Commerce Protocol.",
+      "signal": "Google Commerce → UCP",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/amhanda_under-the-hood-universal-commerce-protocol-activity-7416141017176788992-WdcM",
+        "https://linkedin.com/in/amhanda",
+        "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
+        "https://ucp.dev/"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "josh-nickerson",
+      "name": "Josh Nickerson",
+      "category": "technical",
+      "url": null,
+      "role": "Engineer, Coinbase Developer Platform",
+      "org": "Coinbase",
+      "status": "Co-authored the Agentic Wallets launch (February 2026).",
+      "short": "Co-built Coinbase's Agentic Wallets.",
+      "signal": "CDP → Agentic Wallets",
+      "tag": "Builder",
+      "sources": [
+        "https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets",
+        "https://www.linkedin.com/posts/0xjnix_coinbase-developer-docs-coinbase-developer-activity-7236909420608176128-safw",
+        "https://www.linkedin.com/posts/0xjnix_im-heading-to-sf-this-weekend-for-coinbase-activity-7290885152879058944-wGJy"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "jake-moxey",
+      "name": "Jake Moxey",
+      "category": "technical",
+      "url": null,
+      "role": "Engineer",
+      "org": "Tempo Labs",
+      "status": "Co-author of the Payment HTTP authentication Internet-Draft (September 2026).",
+      "short": "Co-author of the HTTP 402 payment standard draft.",
+      "signal": "Tempo → IETF draft",
+      "tag": "Builder",
+      "sources": [
+        "https://datatracker.ietf.org/doc/html/draft-httpauth-payment-01",
+        "https://www.paradigm.xyz/2022/11/paradigm-and-wagmi",
+        "https://wevm.dev/",
+        "https://github.com/wevm"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
     {
       "slug": "justin-spahr-summers",
       "name": "Justin Spahr-Summers",
@@ -33,7 +95,8 @@
       "signal": "Sky → OpenAI",
       "tag": "Acquired",
       "sources": [
-        "https://linkedin.com/in/lshimonaka"
+        "https://linkedin.com/in/lshimonaka",
+        "https://www.linkedin.com/posts/lshimonaka_building-personal-integrated-assistants-activity-7387201454794727424-AukO"
       ],
       "added": "2026-10-22",
       "upvotes": 0,
@@ -55,6 +118,70 @@
         "https://www.anthropic.com/news/advancing-claude-for-financial-services"
       ],
       "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "kjell-reigstad",
+      "name": "Kjell Reigstad",
+      "category": "design",
+      "url": "https://kjellr.com/",
+      "role": "Senior Staff Product Designer",
+      "org": "Shopify",
+      "status": "Senior Staff Product Designer at Shopify since 2022; one of the designers of Canvas.",
+      "short": "Shopify theme designer turned Canvas designer.",
+      "signal": "Automattic → Shopify Horizon → Canvas",
+      "tag": "Builder",
+      "sources": [
+        "https://kjellr.com/",
+        "https://kjellr.com/about/",
+        "https://kjellr.com/work/shopify/",
+        "https://www.linkedin.com/posts/ustinknight_introducing-canvas-a-whole-new-way-to-build-activity-7511429641178451969-kQBO",
+        "https://www.shopify.com/news/introducing-canvas"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "ayda-oz",
+      "name": "Ayda Oz",
+      "category": "design",
+      "url": "https://aydaoz.co/",
+      "role": "Contract Design Engineer, Design Systems",
+      "org": "OpenAI",
+      "status": "Announced on October 25, 2026 that she joined OpenAI's Design Systems team as a contract Design Engineer; founder of Interface.",
+      "short": "Joined OpenAI's Design Systems team as a contract Design Engineer; founded Interface.",
+      "signal": "Superpeer → ClickUp → OpenAI Design Systems",
+      "tag": "Joined",
+      "sources": [
+        "https://x.com/aydaoz/status/2114419410224181383",
+        "https://aydaoz.co/",
+        "https://www.linkedin.com/in/aydaoz",
+        "https://linkedin.com/company/interfacehouse"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "ron-goldin",
+      "name": "Ron Goldin",
+      "category": "design",
+      "url": "https://rongoldin.com/",
+      "role": "Director of Product Design",
+      "org": "PayPal",
+      "status": "Announced in October 2026 that his PayPal role ends in late October.",
+      "short": "Designed checkout at Shopify and PayPal.",
+      "signal": "Shopify Checkout → PayPal",
+      "tag": "Moved",
+      "sources": [
+        "https://rongoldin.com/",
+        "https://www.rongoldin.com/work/shopify",
+        "https://www.rongoldin.com/about",
+        "https://rongoldin.substack.com/p/a-new-portfolio-for-a-new-adventure"
+      ],
+      "added": "2026-10-26",
       "upvotes": 0,
       "upvoters": []
     },
@@ -116,6 +243,64 @@
       "upvoters": []
     },
     {
+      "slug": "alexandre-passos",
+      "name": "Alexandre Passos",
+      "category": "research",
+      "url": null,
+      "role": "Researcher",
+      "org": "Anthropic",
+      "status": "Joined Anthropic in September 2026 after Periodic Labs.",
+      "short": "Moved from Periodic Labs to Anthropic.",
+      "signal": "Periodic Labs → Anthropic",
+      "tag": "Joined",
+      "sources": [
+        "https://www.turingtree.com/updates/alexandre-passos-joins-anthropic-2026-09",
+        "https://peopleofsi.com/people/alexandre-passos/",
+        "https://www.alphaxiv.org/@alexandre-passos"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "tom-zick",
+      "name": "Tom Zick",
+      "category": "research",
+      "url": null,
+      "role": "Co-founder",
+      "org": "Trillium Labs",
+      "status": "Co-founded Trillium Labs to do high-risk AI research in the open.",
+      "short": "Co-founded open research lab Trillium Labs.",
+      "signal": "→ Trillium Labs",
+      "tag": "New venture",
+      "sources": [
+        "https://blog.trilliumlabs.org/p/introducing-trillium-labs",
+        "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "pamela-mishkin",
+      "name": "Pamela Mishkin",
+      "category": "research",
+      "url": null,
+      "role": "Researcher",
+      "org": "Formerly OpenAI",
+      "status": "Led economics research at OpenAI (2020–26).",
+      "short": "InstructGPT co-author; led OpenAI economics research.",
+      "signal": "OpenAI → departed",
+      "tag": "Left",
+      "sources": [
+        "https://nymag.com/intelligencer/article/ai-researchers-quit-openai-anthropic.html",
+        "https://arxiv.org/abs/2203.02155"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
       "slug": "nathan-chen",
       "name": "Nathan Chen",
       "category": "research",
@@ -127,7 +312,8 @@
       "signal": "Left Moonshot AI (Kimi)",
       "tag": "Left",
       "sources": [
-        "https://www.turingtree.com/updates/nathan-chen-leaves-moonshot-ai"
+        "https://www.turingtree.com/updates/nathan-chen-leaves-moonshot-ai",
+        "https://www.turingtree.com/updates"
       ],
       "added": "2026-10-22",
       "upvotes": 0,
@@ -145,6 +331,7 @@
       "signal": "MIT → Google DeepMind",
       "tag": "Joined",
       "sources": [
+        "https://www.mit.edu/~sharut/",
         "https://www.turingtree.com/updates"
       ],
       "added": "2026-10-22",
@@ -163,9 +350,69 @@
       "signal": "Math → MAISI",
       "tag": "Joined",
       "sources": [
-        "https://www.turingtree.com/updates"
+        "https://www.turingtree.com/updates",
+        "https://en.wikipedia.org/wiki/Jacob_Tsimerman"
       ],
       "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "akshay-broota",
+      "name": "Akshay Broota",
+      "category": "product",
+      "url": "https://www.linkedin.com/in/akshay-broota",
+      "role": "Product Manager",
+      "org": "Google",
+      "status": "Part of the core team that launched the Universal Commerce Protocol.",
+      "short": "Core team member on Google's UCP launch.",
+      "signal": "Google Shopping → UCP",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/in/akshay-broota",
+        "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
+        "https://ucp.dev/"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "amol-sharma",
+      "name": "Amol Sharma",
+      "category": "product",
+      "url": null,
+      "role": "Product Lead",
+      "org": "Mastercard",
+      "status": "Core team for Mastercard Agent Pay for Machines.",
+      "short": "Helped launch Mastercard Agent Pay for Machines.",
+      "signal": "Mastercard → Agent Pay",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/amolx_mastercard-agent-pay-for-machines-activity-7470817871619670016-oWYG",
+        "https://linkedin.com/in/amolx"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "aarush-selvan",
+      "name": "Aarush Selvan",
+      "category": "product",
+      "url": null,
+      "role": "Product Manager, Intelligent UI",
+      "org": "OpenAI",
+      "status": "Product manager for GPT-6 Intelligent UI (October 2026).",
+      "short": "PM behind ChatGPT's Intelligent UI.",
+      "signal": "→ OpenAI Intelligent UI",
+      "tag": "Leads product",
+      "sources": [
+        "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+        "https://openai.com/index/gpt-6-for-everyone/",
+        "https://www.talkmezzo.com/events/ai-engineer-summit/2026"
+      ],
+      "added": "2026-10-26",
       "upvotes": 0,
       "upvoters": []
     },
@@ -200,7 +447,9 @@
       "signal": "Shipped Instant Checkout",
       "tag": "Builder",
       "sources": [
-        "https://www.linkedin.com/posts/jonokun_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378632076000104448-pOOU"
+        "https://www.linkedin.com/posts/jonokun_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378632076000104448-pOOU",
+        "https://linkedin.com/in/jonokun",
+        "https://openai.com/index/buy-it-in-chatgpt/"
       ],
       "added": "2026-10-22",
       "upvotes": 0,
@@ -218,9 +467,67 @@
       "signal": "Leads OpenAI commerce",
       "tag": "Leads product",
       "sources": [
-        "https://365daily.net/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce/"
+        "https://365daily.net/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce/",
+        "https://openai.com/index/buy-it-in-chatgpt/"
       ],
       "added": "2026-10-22",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "sam-saliba",
+      "name": "Sam Saliba",
+      "category": "growth",
+      "url": null,
+      "role": "Growth Marketing Lead",
+      "org": "Replit",
+      "status": "Joined Replit full-time to lead growth marketing in 2026.",
+      "short": "Leads growth marketing at Replit.",
+      "signal": "→ Replit growth",
+      "tag": "Joined",
+      "sources": [
+        "https://www.linkedin.com/posts/saliba_personal-update-after-starting-at-replit-activity-7505301621011296256-eCji",
+        "https://linkedin.com/in/saliba"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "sarah-goomar",
+      "name": "Sarah Goomar",
+      "category": "growth",
+      "url": null,
+      "role": "Startup Marketing Lead",
+      "org": "Cursor",
+      "status": "Leads marketing for Cursor's startup program.",
+      "short": "Built Cursor for Startups marketing.",
+      "signal": "→ Cursor for Startups",
+      "tag": "Joined",
+      "sources": [
+        "https://www.linkedin.com/posts/sarahgoomar_not-even-2-months-at-cursor-for-startups-activity-7490864317383213056-drkL",
+        "https://linkedin.com/in/sarahgoomar"
+      ],
+      "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "raman-malik",
+      "name": "Raman Malik",
+      "category": "growth",
+      "url": "https://www.linkedin.com/in/ramanrmalik",
+      "role": "VP of Product and Growth",
+      "org": "Perplexity",
+      "status": "Leads product and growth at Perplexity.",
+      "short": "Leads product and growth at Perplexity.",
+      "signal": "→ Perplexity growth",
+      "tag": "Leads product",
+      "sources": [
+        "https://www.linkedin.com/in/ramanrmalik",
+        "https://www.a16z.news/p/meet-the-a16z-growth-engineer-fellows"
+      ],
+      "added": "2026-10-26",
       "upvotes": 0,
       "upvoters": []
     },
@@ -275,7 +582,8 @@
       "signal": "First marketing hire, Anthropic",
       "tag": "Builder",
       "sources": [
-        "https://linkedin.com/in/sandy-banerjee-4aa1b816"
+        "https://linkedin.com/in/sandy-banerjee-4aa1b816",
+        "https://www.anthropic.com/customers"
       ],
       "added": "2026-10-22",
       "upvotes": 0,

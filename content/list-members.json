@@ -2,64 +2,123 @@
   "_comment": "SERVER-ONLY: Never import in client components or render on person pages. Holds verified domains and publicly listed emails for Ella 5x5 list members (current + archive) and founder.",
   "members": {
     "jsn": {
-      "domains": ["jsn.io", "awtonomy.ai", "visualplant.com", "visualplant.net", "ellafive.com"],
-      "emails": ["jsn@visualplant.net", "jsn@jsn.io", "jason@jsn.io"]
+      "domains": [
+        "jsn.io",
+        "awtonomy.ai",
+        "visualplant.com",
+        "visualplant.net",
+        "ellafive.com"
+      ],
+      "emails": [
+        "jsn@visualplant.net",
+        "jsn@jsn.io"
+      ]
     },
     "thomas-dimson": {
-      "domains": ["thomasdimson.com"],
-      "emails": ["tdimson@gmail.com", "contact@thomasdimson.com"]
+      "domains": [
+        "thomasdimson.com"
+      ],
+      "emails": [
+        "tdimson@gmail.com",
+        "contact@thomasdimson.com"
+      ]
     },
     "sachin-katti": {
-      "domains": ["stanford.edu"],
-      "emails": ["skatti@stanford.edu"]
+      "domains": [
+        "stanford.edu"
+      ],
+      "emails": [
+        "skatti@stanford.edu"
+      ]
     },
     "barret-zoph": {
       "domains": [],
-      "emails": ["barretzoph@gmail.com"]
+      "emails": [
+        "barretzoph@gmail.com"
+      ]
     },
     "harsh-mehta": {
-      "domains": ["mirendil.ai", "mirendil.com"],
-      "emails": ["harsh.idcglobal@gmail.com"]
+      "domains": [
+        "mirendil.ai",
+        "mirendil.com"
+      ],
+      "emails": [
+        "harsh.idcglobal@gmail.com"
+      ]
     },
     "matthew-barnett": {
-      "domains": ["mechanize.work"],
+      "domains": [
+        "mechanize.work"
+      ],
       "emails": []
     },
     "ian-silber": {
-      "domains": ["iansilber.com"],
-      "emails": ["iansilber@gmail.com"]
+      "domains": [
+        "iansilber.com"
+      ],
+      "emails": [
+        "iansilber@gmail.com"
+      ]
     },
     "benji-taylor": {
-      "domains": ["benji.org"],
-      "emails": ["benji@benji.org"]
+      "domains": [
+        "benji.org"
+      ],
+      "emails": [
+        "benji@benji.org"
+      ]
     },
     "gavin-nelson": {
-      "domains": ["nelson.co"],
+      "domains": [
+        "nelson.co"
+      ],
       "emails": []
     },
     "evil-rabbit": {
-      "domains": ["evilrabbit.com", "evilrabb.it"],
-      "emails": ["hello@evilrabb.it"]
+      "domains": [
+        "evilrabbit.com",
+        "evilrabb.it"
+      ],
+      "emails": [
+        "hello@evilrabb.it"
+      ]
     },
     "aleksander-madry": {
       "domains": [],
-      "emails": ["madry@mit.edu"]
+      "emails": [
+        "madry@mit.edu"
+      ]
     },
     "thore-graepel": {
-      "domains": ["metisreasoning.ai"],
+      "domains": [
+        "metisreasoning.ai"
+      ],
       "emails": []
     },
     "danijar-hafner": {
-      "domains": ["danijar.com", "embo.ai"],
-      "emails": ["mail@danijar.com"]
+      "domains": [
+        "danijar.com",
+        "embo.ai"
+      ],
+      "emails": [
+        "mail@danijar.com"
+      ]
     },
     "oriol-vinyals": {
-      "domains": ["discoveryloop.ai"],
+      "domains": [
+        "discoveryloop.ai"
+      ],
       "emails": []
     },
     "behnam-neyshabur": {
-      "domains": ["neyshabur.net", "mirendil.ai", "mirendil.com"],
-      "emails": ["bneyshabur@gmail.com"]
+      "domains": [
+        "neyshabur.net",
+        "mirendil.ai",
+        "mirendil.com"
+      ],
+      "emails": [
+        "bneyshabur@gmail.com"
+      ]
     },
     "kevin-weil": {
       "domains": [],
@@ -70,8 +129,12 @@
       "emails": []
     },
     "mike-krieger": {
-      "domains": ["mikeyk.co"],
-      "emails": ["m@mikeyk.co"]
+      "domains": [
+        "mikeyk.co"
+      ],
+      "emails": [
+        "m@mikeyk.co"
+      ]
     },
     "ami-vora": {
       "domains": [],
@@ -103,43 +166,77 @@
     },
     "erik-reppel": {
       "domains": [],
-      "emails": ["erikreppel@gmail.com"]
+      "emails": [
+        "erikreppel@gmail.com"
+      ]
     },
     "emil-ahlback": {
-      "domains": ["emil.zip"],
-      "emails": ["emil.ahlback99@gmail.com"]
+      "domains": [
+        "emil.zip"
+      ],
+      "emails": [
+        "emil.ahlback99@gmail.com"
+      ]
     },
     "sid-bidasaria": {
-      "domains": ["sidb.io"],
-      "emails": ["sid.bidasaria@gmail.com"]
+      "domains": [
+        "sidb.io"
+      ],
+      "emails": [
+        "sid.bidasaria@gmail.com"
+      ]
     },
     "fouad-matin": {
-      "domains": ["fouad.org", "indent.com"],
-      "emails": ["m@fouad.org"]
+      "domains": [
+        "fouad.org",
+        "indent.com"
+      ],
+      "emails": [
+        "m@fouad.org"
+      ]
     },
     "steve-klein": {
-      "domains": ["promptfoo.dev"],
-      "emails": ["steven.klein@discordapp.com"]
+      "domains": [
+        "promptfoo.dev"
+      ],
+      "emails": [
+        "steven.klein@discordapp.com"
+      ]
     },
     "barrett-white": {
-      "domains": ["barrettwhite.com"],
+      "domains": [
+        "barrettwhite.com"
+      ],
       "emails": []
     },
     "amara-hulslander": {
-      "domains": ["amara.design"],
+      "domains": [
+        "amara.design"
+      ],
       "emails": []
     },
     "oscar-dumlao": {
-      "domains": ["oscardumlao.com"],
-      "emails": ["osc.dumlao@gmail.com"]
+      "domains": [
+        "oscardumlao.com"
+      ],
+      "emails": [
+        "osc.dumlao@gmail.com"
+      ]
     },
     "chanpory-rith": {
-      "domains": ["chanpory.com"],
+      "domains": [
+        "chanpory.com"
+      ],
       "emails": []
     },
     "shelley-lai": {
-      "domains": ["shelley.world", "shedsgns.me"],
-      "emails": ["hello@shedsgns.me"]
+      "domains": [
+        "shelley.world",
+        "shedsgns.me"
+      ],
+      "emails": [
+        "hello@shedsgns.me"
+      ]
     },
     "kathryn-tunyasuvunakool": {
       "domains": [],
@@ -150,20 +247,32 @@
       "emails": []
     },
     "konstantin-mishchenko": {
-      "domains": ["konstmish.com"],
-      "emails": ["konsta.mish@gmail.com"]
+      "domains": [
+        "konstmish.com"
+      ],
+      "emails": [
+        "konsta.mish@gmail.com"
+      ]
     },
     "josh-engels": {
-      "domains": ["joshengels.com"],
-      "emails": ["josh.adam.engels@gmail.com"]
+      "domains": [
+        "joshengels.com"
+      ],
+      "emails": [
+        "josh.adam.engels@gmail.com"
+      ]
     },
     "isa-fulford": {
       "domains": [],
       "emails": []
     },
     "angela-jiang": {
-      "domains": ["worktrace.ai"],
-      "emails": ["hello@worktrace.ai"]
+      "domains": [
+        "worktrace.ai"
+      ],
+      "emails": [
+        "hello@worktrace.ai"
+      ]
     },
     "rohan-varma": {
       "domains": [],
@@ -182,8 +291,12 @@
       "emails": []
     },
     "elena-verna": {
-      "domains": ["elenaverna.com"],
-      "emails": ["alenka.us@gmail.com"]
+      "domains": [
+        "elenaverna.com"
+      ],
+      "emails": [
+        "alenka.us@gmail.com"
+      ]
     },
     "austin-lau": {
       "domains": [],
@@ -198,7 +311,137 @@
       "emails": []
     },
     "krithika-muthukumar": {
-      "domains": ["krithix.com"],
+      "domains": [
+        "krithix.com"
+      ],
+      "emails": []
+    },
+    "liam-horne": {
+      "domains": [
+        "liamhorne.com"
+      ],
+      "emails": []
+    },
+    "steve-kaliski": {
+      "domains": [],
+      "emails": []
+    },
+    "brendan-ryan": {
+      "domains": [
+        "brendanjryan.com"
+      ],
+      "emails": []
+    },
+    "aniket-das": {
+      "domains": [],
+      "emails": []
+    },
+    "anthony-morris": {
+      "domains": [
+        "anthonymorris.dev"
+      ],
+      "emails": []
+    },
+    "soleio-cuervo": {
+      "domains": [
+        "soleio.com",
+        "firstofkind.com"
+      ],
+      "emails": []
+    },
+    "alex-cornell": {
+      "domains": [
+        "alexcornell.com"
+      ],
+      "emails": []
+    },
+    "gretchen-roehrs": {
+      "domains": [
+        "groehrs.com",
+        "gretchenroehrs.com"
+      ],
+      "emails": []
+    },
+    "giel-cobben": {
+      "domains": [
+        "gielcobben.com"
+      ],
+      "emails": []
+    },
+    "chelsea-larsson": {
+      "domains": [],
+      "emails": []
+    },
+    "jeff-wu": {
+      "domains": [],
+      "emails": []
+    },
+    "tomek-korbak": {
+      "domains": [
+        "tomekkorbak.com"
+      ],
+      "emails": []
+    },
+    "mikita-balesni": {
+      "domains": [
+        "mikitabalesni.com"
+      ],
+      "emails": []
+    },
+    "jasmine-wang": {
+      "domains": [
+        "jasminew.me"
+      ],
+      "emails": []
+    },
+    "manuka-stratta": {
+      "domains": [],
+      "emails": []
+    },
+    "jeff-weinstein": {
+      "domains": [],
+      "emails": []
+    },
+    "karan-ahuja": {
+      "domains": [],
+      "emails": []
+    },
+    "lincoln-murr": {
+      "domains": [],
+      "emails": []
+    },
+    "max-george": {
+      "domains": [],
+      "emails": []
+    },
+    "ben-sehl": {
+      "domains": [
+        "sehl.ca"
+      ],
+      "emails": []
+    },
+    "amol-avasare": {
+      "domains": [],
+      "emails": []
+    },
+    "luke-harries": {
+      "domains": [
+        "harries.co"
+      ],
+      "emails": []
+    },
+    "ravish-agrawal": {
+      "domains": [
+        "ravish.work"
+      ],
+      "emails": []
+    },
+    "kacie-jenkins": {
+      "domains": [],
+      "emails": []
+    },
+    "kevin-leffew": {
+      "domains": [],
       "emails": []
     }
   }

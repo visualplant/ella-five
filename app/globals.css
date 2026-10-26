@@ -498,7 +498,12 @@ svg.arr, svg.arr path { stroke-width: 1px; vector-effect: non-scaling-stroke; }
 .pv-facts dt { color: var(--mute); font-size: 13px; }
 .pv-facts dd { margin: 0; }
 .pv-links { list-style: none; margin: 0; padding: 0; }
-.pv-links li { padding: 2px 0; }
+.pv-links > li { padding: 2px 0; }
+.pv-sublinks { list-style: none; margin: 2px 0 4px; padding: 0 0 0 12px; font-size: 14px; }
+.pv-sublinks li { padding: 1.5px 0; color: var(--soft); }
+.pv-sublinks a { color: var(--soft); }
+.pv-sublinks a:hover { color: var(--ink); }
+.pv-sub-dash { color: var(--mute); user-select: none; }
 .pv-phw { display: block; border: 1px dashed var(--line); padding: 6px 10px; color: var(--mute); font-style: italic; }
 .pv-mslot { margin-top: 8px; } .pv-mob { display: none; }
 .pv-fig { margin: 0; } .pv-fig figcaption { font-size: 12.5px; color: var(--mute); margin-top: 8px; line-height: 1.45; }

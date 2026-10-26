@@ -1,12 +1,13 @@
 // Per-person overrides from content/people/*.md (human-edited on GitHub).
-// Each file overrides the matching person in a vertical, field by field; fields it leaves out
-// fall back to the JSON data. Malformed files FAIL THE BUILD with a clear error, so a typo
-// can never ship a broken or half-empty page.
+// Each file overrides the matching person in a vertical (current or archived week), field by field;
+// fields it leaves out fall back to the JSON data. Malformed files FAIL THE BUILD with a clear error,
+// so a typo can never ship a broken or half-empty page.
 import fs from "fs";
 import path from "path";
 import type { Person, Vertical } from "@/lib/verticals";
 
 const DIR = path.join(process.cwd(), "content", "people");
+const WEEKLY_DIR = path.join(process.cwd(), "data", "weekly");
 const slug = (s: string) => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const SCALAR = ["name", "url", "role", "org", "orgShort", "tag", "location", "status", "short", "signal", "note", "added", "verifiedHow"] as const;
 const MEDIA = ["type", "id", "url", "caption", "credit", "alt", "link"] as const;
@@ -64,14 +65,37 @@ function parse(file: string, raw: string) {
   return { key, o };
 }
 
-export function applyPeopleOverrides(v: Vertical): Vertical {
+function existsInAnyWeek(key: string): boolean {
+  try {
+    if (!fs.existsSync(WEEKLY_DIR)) return false;
+    for (const f of fs.readdirSync(WEEKLY_DIR).filter((x) => /^\d{4}-\d{2}-\d{2}\.json$/.test(x))) {
+      const w = JSON.parse(fs.readFileSync(path.join(WEEKLY_DIR, f), "utf8")) as Vertical;
+      if (w.categories.some((c) => c.people.some((p) => slug(p.name) === key))) return true;
+    }
+  } catch {
+    // ignore
+  }
+  return false;
+}
+
+export function applyPeopleOverrides(v: Vertical, checkExists = true): Vertical {
   if (!fs.existsSync(DIR)) return v;
   for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith(".md")).sort()) {
     const { key, o } = parse(file, fs.readFileSync(path.join(DIR, file), "utf8"));
     const hits = v.categories.flatMap((c) => c.people.filter((p) => slug(p.name) === key));
-    if (!hits.length) fail(file, `no person with slug "${key}" in data/verticals/${v.slug}.json.`);
-    // Mutate in place so key order (and therefore output) stays identical to the JSON.
-    for (const p of hits) Object.assign(p, o);
+    if (!hits.length) {
+      if (checkExists && !existsInAnyWeek(key)) {
+        fail(file, `no person with slug "${key}" in data/verticals/${v.slug}.json or data/weekly/*.json.`);
+      }
+      continue;
+    }
+    // Mutate in place so key order stays identical to the JSON, while preserving enriched sources after override sources.
+    for (const p of hits) {
+      const mergedSources = o.sources
+        ? [...new Set([...o.sources, ...(p.sources || [])])]
+        : p.sources;
+      Object.assign(p, o, mergedSources ? { sources: mergedSources } : {});
+    }
   }
   return v;
 }

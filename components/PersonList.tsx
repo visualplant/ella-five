@@ -1,5 +1,6 @@
 import type { Category } from "@/lib/data";
 import { host } from "@/lib/data";
+import { dedupeSourcesByHost } from "@/lib/sources";
 import Link from "next/link";
 import { ppath, type Vertical } from "@/lib/verticals";
 
@@ -15,7 +16,7 @@ export default function PersonList({ c, v, headingLevel = 3 }: { c: Category; v?
               {p.url && <span className="p-site">{host(p.url)}</span>}</H>
             <p className="p-role">{p.role}, <span>{p.org}</span></p>
             <p className="p-status">{p.status}</p>
-            <p className="p-source">{p.sources.map((s, j) => <a key={s} href={s} rel="noopener nofollow">{j === 0 ? "Source" : "Also"}: {host(s)}</a>)}
+            <p className="p-source">{dedupeSourcesByHost(p.sources).map((s, j) => <a key={s} href={s} rel="noopener nofollow">{j === 0 ? "Source" : "Also"}: {host(s)}</a>)}
               {p.verified && p.note?.trim() && <span className="p-note">{p.note.trim()}</span>}</p>
           </article>
         </li>

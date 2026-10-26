@@ -86,6 +86,7 @@
           "sources": [
             "https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built",
             "https://sidb.io/about",
+            "https://sidb.io/",
             "https://code.claude.com/docs/en/sub-agents"
           ],
           "short": "Engineer #2 on Claude Code; created subagents.",
@@ -153,7 +154,8 @@
           "sources": [
             "https://www.linkedin.com/posts/sklein12_incredibly-exciting-day-at-promptfoo-we-activity-7436844894045962240-D8aW",
             "https://openai.com/index/openai-to-acquire-promptfoo/",
-            "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/"
+            "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+            "https://www.promptfoo.dev/"
           ],
           "short": "Promptfoo's first engineer → OpenAI via acquisition.",
           "signal": "Promptfoo → OpenAI",
@@ -200,7 +202,8 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://linkedin.com/in/lshimonaka"
+            "https://linkedin.com/in/lshimonaka",
+            "https://www.linkedin.com/posts/lshimonaka_building-personal-integrated-assistants-activity-7387201454794727424-AukO"
           ],
           "short": "Humane → Sky founding engineer → OpenAI.",
           "signal": "Sky → OpenAI",
@@ -245,7 +248,9 @@
           "note": null,
           "sources": [
             "https://www.barrettwhite.com/project/rufus-ai",
-            "https://www.barrettwhite.com/"
+            "https://www.barrettwhite.com/",
+            "https://www.aboutamazon.com/news/retail/amazon-rufus",
+            "https://linkedin.com/in/barrettwhite"
           ],
           "short": "First designer on Amazon Rufus; now at Pinterest.",
           "signal": "Amazon Rufus → Pinterest",
@@ -272,6 +277,7 @@
           "sources": [
             "https://amara.design/",
             "https://amara.design/portfolio/amazon-alexa-ai-agentic-developer-experience-foundations/",
+            "https://www.justwalkout.com/",
             "https://linkedin.com/in/amaravp"
           ],
           "short": "Founding UX on Just Walk Out and Alexa+ dev tools.",
@@ -329,7 +335,8 @@
           "sources": [
             "https://www.linkedin.com/posts/chanpory_comet-is-live-a-new-agentic-web-browser-activity-7349237689679761410-BgBK",
             "https://www.linkedin.com/posts/chanpory_new-chapter-ive-joined-perplexity-to-help-activity-7274490735398129664-q-mh",
-            "https://www.businessinsider.com/mixmax-cofounder-chanpory-rith-interview-2018-2"
+            "https://www.businessinsider.com/mixmax-cofounder-chanpory-rith-interview-2018-2",
+            "https://www.perplexity.ai/comet"
           ],
           "short": "Designed the agent experiences in Perplexity Comet.",
           "signal": "Designed Comet's agents",
@@ -451,7 +458,8 @@
           "sources": [
             "https://www.turingtree.com/updates/kathryn-tunyasuvunakool-joins-isomorphic-labs-2026-10",
             "https://www.turingtree.com/people/kathryn-tunyasuvunakool",
-            "https://peopleofsi.com/people/kathryn-tunyasuvunakool/"
+            "https://peopleofsi.com/people/kathryn-tunyasuvunakool/",
+            "https://www.nature.com/articles/s41586-021-03819-2"
           ],
           "short": "Joined Isomorphic Labs, Oct 2026; ex-DeepMind AlphaFold.",
           "signal": "DeepMind AlphaFold → Isomorphic Labs",
@@ -483,7 +491,10 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://www.turingtree.com/updates/da-huang-joins-discovery-loop"
+            "https://www.turingtree.com/updates/da-huang-joins-discovery-loop",
+            "https://www.turingtree.com/updates?page=3",
+            "https://arxiv.org/abs/2308.03958",
+            "https://www.jerrywei.net/papers.html"
           ],
           "short": "Left DeepMind for Discovery Loop, Oct 2026.",
           "signal": "DeepMind → Discovery Loop",
@@ -529,7 +540,9 @@
           "note": null,
           "sources": [
             "https://www.turingtree.com/updates/josh-engels-leaves-google-deepmind-for-metr",
-            "https://arxiv.org/abs/2405.14860"
+            "https://arxiv.org/abs/2405.14860",
+            "https://joshengels.github.io/",
+            "https://www.youtube.com/watch?v=eVlGeHA2Cnw"
           ],
           "short": "DeepMind AGI Safety → METR, 2026.",
           "signal": "DeepMind → METR",
@@ -600,7 +613,8 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://www.turingtree.com/updates/nathan-chen-leaves-moonshot-ai"
+            "https://www.turingtree.com/updates/nathan-chen-leaves-moonshot-ai",
+            "https://www.turingtree.com/updates"
           ],
           "short": "Left Moonshot AI, Sept 2026.",
           "signal": "Left Moonshot AI (Kimi)",
@@ -618,6 +632,7 @@
           "verified": false,
           "note": null,
           "sources": [
+            "https://www.mit.edu/~sharut/",
             "https://www.turingtree.com/updates"
           ],
           "short": "MIT PhD → Google DeepMind.",
@@ -636,7 +651,8 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://www.turingtree.com/updates"
+            "https://www.turingtree.com/updates",
+            "https://en.wikipedia.org/wiki/Jacob_Tsimerman"
           ],
           "short": "Chose MAISI over OpenAI, 2026.",
           "signal": "Math → MAISI",
@@ -699,7 +715,8 @@
           "sources": [
             "https://www.linkedin.com/posts/rohannvarma_im-joining-openai-codex-to-work-on-the-future-activity-7431784004246216704---Ee",
             "https://linkedin.com/in/rohannvarma",
-            "https://rohanpf.substack.com/"
+            "https://rohanpf.substack.com/",
+            "https://www.youtube.com/watch?v=fAdFE7y6K2o"
           ],
           "short": "Cursor's first PM → OpenAI Codex, Feb 2026.",
           "signal": "Cursor → OpenAI Codex",
@@ -725,7 +742,8 @@
           "sources": [
             "https://linkedin.com/in/leonid-persiantsev-ba9a3986",
             "https://www.linkedin.com/posts/leonid-persiantsev-ba9a3986_proud-of-what-weve-built-so-far-excited-activity-7361451891693600770-LmEU",
-            "https://www.reddit.com/r/ChatGPT/comments/1m1javp/comet_ama_with_perplexitys_aravind_srinivas_and/"
+            "https://www.reddit.com/r/ChatGPT/comments/1m1javp/comet_ama_with_perplexitys_aravind_srinivas_and/",
+            "https://www.perplexity.ai/comet"
           ],
           "short": "Product lead for Perplexity's Comet browser.",
           "signal": "Yandex → Perplexity Comet",
@@ -752,6 +770,7 @@
           "sources": [
             "https://www.cnbc.com/2025/09/29/chatgpt-instant-checkout-etsy-shopify.html",
             "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+            "https://openai.com/index/buy-it-in-chatgpt/",
             "https://linkedin.com/in/michellefradin"
           ],
           "short": "Leads ChatGPT commerce product at OpenAI.",
@@ -773,7 +792,8 @@
           "sources": [
             "https://linkedin.com/in/sailaja-shri",
             "https://www.linkedin.com/posts/sailaja-shri_mastercard-unveils-agent-pay-activity-7323093078636965888-t3qk",
-            "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html"
+            "https://www.mastercard.com/us/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html",
+            "https://www.mastercard.com/global/en/business/artificial-intelligence/mastercard-agent-pay.html"
           ],
           "short": "Helped launch Mastercard Agent Pay; now runs its product.",
           "signal": "Tokenization → Agent Pay",
@@ -812,7 +832,9 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://www.linkedin.com/posts/jonokun_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378632076000104448-pOOU"
+            "https://www.linkedin.com/posts/jonokun_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378632076000104448-pOOU",
+            "https://linkedin.com/in/jonokun",
+            "https://openai.com/index/buy-it-in-chatgpt/"
           ],
           "short": "Shipped ChatGPT Instant Checkout at OpenAI.",
           "signal": "Shipped Instant Checkout",
@@ -830,7 +852,8 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://365daily.net/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce/"
+            "https://365daily.net/shop-til-you-bot-google-openai-and-the-race-to-build-agentic-commerce/",
+            "https://openai.com/index/buy-it-in-chatgpt/"
           ],
           "short": "Leads commerce at OpenAI.",
           "signal": "Leads OpenAI commerce",
@@ -884,7 +907,9 @@
           "note": null,
           "sources": [
             "https://linkedin.com/in/austinlau1",
-            "https://www.linkedin.com/posts/austinlau1_last-week-i-crossed-2-years-at-anthropic-activity-7467624512558362624-LmHM"
+            "https://www.linkedin.com/posts/austinlau1_last-week-i-crossed-2-years-at-anthropic-activity-7467624512558362624-LmHM",
+            "https://www.youtube.com/watch?v=pVCTvJlo26M",
+            "https://www.tryprofound.com/"
           ],
           "short": "Anthropic's first growth hire, since 2024.",
           "signal": "First growth hire, Anthropic",
@@ -932,7 +957,8 @@
           "sources": [
             "https://linkedin.com/in/sreekar-kuchibhatla",
             "https://www.linkedin.com/posts/sreekar-kuchibhatla_perplexity-computer-marketing-activity-7436853272881061888-kqO3",
-            "https://www.linkedin.com/posts/sreekar-kuchibhatla_computer-perplexity-activity-7432911911136153600-IVMT"
+            "https://www.linkedin.com/posts/sreekar-kuchibhatla_computer-perplexity-activity-7432911911136153600-IVMT",
+            "https://theorg.com/org/perplexity-ai"
           ],
           "short": "Perplexity's first growth marketer; runs ads on Computer.",
           "signal": "First growth marketer, Perplexity",
@@ -952,7 +978,8 @@
           "sources": [
             "https://review.firstround.com/why-startup-marketers-should-be-diagnosticians-advice-from-stripe-and-openais-first-marketing-hire/",
             "https://www.linkedin.com/posts/krithix_some-exciting-news-im-wrapping-up-my-time-activity-7270106521991049218-JBq4",
-            "https://www.linkedin.com/posts/krithix_ive-been-lucky-to-build-marketing-teams-activity-7333149170385506305-J4vh"
+            "https://www.linkedin.com/posts/krithix_ive-been-lucky-to-build-marketing-teams-activity-7333149170385506305-J4vh",
+            "https://www.youtube.com/watch?v=tIy0pXjUWOk"
           ],
           "short": "First marketing hire at Stripe and OpenAI → Thrive.",
           "signal": "OpenAI → Thrive Capital",
@@ -1017,7 +1044,8 @@
           "verified": false,
           "note": null,
           "sources": [
-            "https://linkedin.com/in/sandy-banerjee-4aa1b816"
+            "https://linkedin.com/in/sandy-banerjee-4aa1b816",
+            "https://www.anthropic.com/customers"
           ],
           "short": "Anthropic's first marketing hire.",
           "signal": "First marketing hire, Anthropic",
