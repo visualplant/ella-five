@@ -530,7 +530,11 @@
             "https://arxiv.org/abs/2203.02155",
             "https://nymag.com/intelligencer/article/ai-researchers-quit-openai-anthropic.html",
             "https://www.turingtree.com/updates/jeffrey-wu-leaves-anthropic-2026",
-            "https://nlp.berkeley.edu/2022/10/13/oct-21-jeff-wu-training-models-to-critique-themselves/"
+            "https://nlp.berkeley.edu/2022/10/13/oct-21-jeff-wu-training-models-to-critique-themselves/",
+            "https://www.wuthejeff.com",
+            "https://www.crunchbase.com/person/jeff-wu-2",
+            "https://ethicalaidepartures.fyi/profiles/jeffrey-wu",
+            "https://x.com/WuTheFWasThat"
           ],
           "short": "Second author of InstructGPT; now an independent alignment researcher.",
           "signal": "OpenAI → Anthropic → independent",
