@@ -1,0 +1,1135 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "title": "AI Talent Tracker",
+  "updated": "2026-11-09T09:00:00-08:00",
+  "compiled": "2026-11-09",
+  "sourcesChecked": "2026-11-09",
+  "categories": [
+    {
+      "slug": "technical",
+      "name": "Technical",
+      "blurb": "Engineers and builders shaping how frontier AI systems are made and shipped.",
+      "people": [
+        {
+          "name": "Jacob Thornton",
+          "url": "https://x.com/fat",
+          "role": "Co-founder and CEO",
+          "org": "Pierre Computer Company",
+          "status": "CEO of Pierre Computer Company, which OpenAI agreed to acquire on November 4, 2026.",
+          "verified": true,
+          "verifiedHow": "YC's founder page lists him as Pierre's founder, and OpenAI announced its agreement to acquire Pierre on November 4, 2026.",
+          "note": null,
+          "sources": [
+            "https://openai.com/index/openai-to-acquire-pierre/",
+            "https://www.ycombinator.com/founders/jacob-thornton",
+            "https://www.ycombinator.com/launches/I6t-pierre-a-new-way-to-review-code",
+            "https://www.wayfinder.com/company/pierre",
+            "https://app.dealroom.co/companies/pierre_11",
+            "https://x.com/fat"
+          ],
+          "short": "Co-created Bootstrap, then built Pierre, the code-review company OpenAI agreed to acquire.",
+          "signal": "Twitter (Bootstrap) → Medium → Bumpers → Coinbase → Pierre → OpenAI deal",
+          "tag": "Anchor",
+          "orgShort": "Pierre",
+          "why": "**He connects the open-source web with the next generation of code review.** At Twitter he co-created Bootstrap, the front-end toolkit a huge share of the web was built on, then was an early engineer at Medium. He co-founded Bumpers, which Coinbase acquired, and spent about five years leading Coinbase's Product Platform. With Ian Ownbey he went on to found Pierre Computer Company, a YC-backed rethink of how teams review code, and on November 4, 2026 OpenAI announced an agreement to acquire it. From Bootstrap to Codex's front door.",
+          "media": {
+            "type": "youtube",
+            "id": "UIDb6VBO9os",
+            "caption": "Jacob Thornton (\"Fat\") at dotJS 2012 on open source",
+            "credit": "dotconferences / YouTube"
+          },
+          "added": "2026-11-09",
+          "location": "Oakland"
+        },
+        {
+          "name": "Alex Allain",
+          "url": "https://alexallain.com/",
+          "role": "Member of Technical Staff",
+          "org": "Anthropic",
+          "status": "Engineer at Anthropic since 2026; co-author of FlashProve, Anthropic's provable-inference work published November 2, 2026.",
+          "verified": true,
+          "verifiedHow": "Named as an author on Anthropic's November 2, 2026 provable-inference research post and the FlashProve paper.",
+          "note": null,
+          "sources": [
+            "https://www.anthropic.com/research/provable-inference",
+            "https://github.com/anthropics/FlashProve/",
+            "https://raw.githubusercontent.com/anthropics/FlashProve/main/paper/paper.pdf",
+            "https://www.linkedin.com/posts/alexallain_life-update-i-joined-anthropic-at-the-activity-7490842565387177984-OFVy",
+            "https://alexallain.com/",
+            "https://alexallain.com/writing/report-from-the-field/",
+            "https://www.linkedin.com/in/alexallain"
+          ],
+          "short": "Took a lifelong love of systems into making AI inference provable at Anthropic.",
+          "signal": "Cprogramming.com → Liquid Machines → Dropbox → U.S. Digital Response → Field Extension Institute → Anthropic",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "why": "**He connects decades of developer education with cryptographic proof for AI.** He started Cprogramming.com as a young teenager, studied computer science at Harvard, shipped security software at Liquid Machines and wrote the book Jumping into C++. At Dropbox he led engineering across Dropbox Business and developer infrastructure, then volunteered with U.S. Digital Response and taught at Reforge. Work on verifiable inference with 0xPARC and the Field Extension Institute led him to Anthropic in 2026, where on November 2 he co-authored FlashProve, a way to prove which model actually served a response. Trust, but verify the weights.",
+          "media": {
+            "type": "youtube",
+            "id": "ZcBtF-JWJhM",
+            "caption": "Alex Allain at CppCon 2014 on cross-platform mobile C++ at Dropbox",
+            "credit": "CppCon / YouTube"
+          },
+          "added": "2026-11-09",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Ludo Galabru",
+          "url": "https://github.com/lgalabru",
+          "role": "Engineer, Pay.sh",
+          "org": "Solana Foundation",
+          "status": "Engineer at the Solana Foundation shipping Pay.sh, the toolkit for AI agents to pay in USDC.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://solanacompass.com/news/paysh-adds-mcp-elicitations-requiring-human-approval-before-ai-agents-spend-usdc",
+            "https://github.com/solana-foundation/pay",
+            "https://pay.sh/docs/toolchain/install",
+            "https://github.com/lgalabru",
+            "https://www.hiro.so/blog/clarinet-taking-clarity-development-next-level",
+            "https://www.linkedin.com/in/lgalabru"
+          ],
+          "short": "Created Clarinet at Hiro, now ships the agent-payment toolkit Pay.sh.",
+          "signal": "Hiro (Clarinet) → Solana Foundation → Pay.sh",
+          "tag": "Builder",
+          "orgShort": "Solana",
+          "why": "**He connects smart-contract tooling with agents that can pay their own way.** As a staff engineer at Hiro he created Clarinet, the developer environment for writing, testing and deploying Clarity contracts on Stacks. At the Solana Foundation he now ships Pay.sh, the command-line and MCP toolkit that lets AI agents pay for APIs in USDC; its 2026 MCP elicitations release made agents ask a human before spending. Developer tools, now with a wallet.",
+          "media": {
+            "type": "youtube",
+            "id": "LEebinuy2Ug",
+            "caption": "Technical Deep Dive on Clarinet — Ludo Galabru, Staff Engineer, Hiro Systems",
+            "credit": "Stacks Community / YouTube",
+            "link": "https://www.youtube.com/watch?v=LEebinuy2Ug"
+          },
+          "added": "2026-11-09",
+          "location": "New York"
+        },
+        {
+          "name": "Kathleen Kenealy",
+          "url": "https://www.linkedin.com/in/kathleen-kenealy",
+          "role": "Founding Member of Technical Staff",
+          "org": "Discovery Loop",
+          "status": "Founding Member of Technical Staff at Discovery Loop since September 2026, after six years at Google Brain and Google DeepMind.",
+          "verified": true,
+          "verifiedHow": "Turing Tree's people profile and November 3, 2026 update record her Google DeepMind Gemma role and Discovery Loop founding role.",
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/people/kathleen-kenealy",
+            "https://www.turingtree.com/updates/kathleen-kenealy-added",
+            "https://www.turingtree.com/org/discovery-loop",
+            "https://www.ai.engineer/speakers/kathleen-kenealy",
+            "https://www.ai.engineer/talks/Xmkl27AM2VQ-unveiling-latest-gemma-model-advancements",
+            "https://www.linkedin.com/in/kathleen-kenealy"
+          ],
+          "short": "Helped lead Google's open Gemma models, now a founding engineer at Discovery Loop.",
+          "signal": "Stanford (Chirpy Cardinal) → Google Brain → Google DeepMind (Gemma) → Discovery Loop",
+          "tag": "Joined",
+          "orgShort": "Discovery Loop",
+          "why": "**She connects open models with the startups that will build on them.** At Stanford she worked on Chirpy Cardinal, the social chatbot that took second place in the Alexa Prize. She joined Google Brain in 2020 and Google DeepMind in 2023, where she became one of the tech leads of Gemma, Google's family of open models, and introduced Gemma 2 on stage at the AI Engineer World's Fair in 2024 before work on Gemma 3 and EmbeddingGemma. In September 2026 she joined Discovery Loop as a founding member of technical staff. Open weights, new loop.",
+          "media": {
+            "type": "youtube",
+            "id": "Xmkl27AM2VQ",
+            "caption": "Kathleen Kenealy unveils Gemma model advancements at AI Engineer World's Fair",
+            "credit": "AI Engineer / YouTube"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Ian Ownbey",
+          "url": "https://www.ycombinator.com/launches/I6t-pierre-a-new-way-to-review-code",
+          "role": "Co-founder and CTO",
+          "org": "Pierre Computer Company",
+          "status": "CTO of Pierre Computer Company, which OpenAI agreed to acquire on November 4, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.ycombinator.com/launches/I6t-pierre-a-new-way-to-review-code",
+            "https://www.wayfinder.com/company/pierre",
+            "https://app.dealroom.co/companies/pierre_11",
+            "https://openai.com/index/openai-to-acquire-pierre/",
+            "https://www.linkedin.com/in/ian-ownbey-4aa5ba117"
+          ],
+          "short": "Twitter's first intern turned platform builder, now CTO of OpenAI-bound Pierre.",
+          "signal": "Twitter → Bumpers → Coinbase → Pierre → OpenAI deal",
+          "tag": "Builder",
+          "orgShort": "Pierre",
+          "why": "**He connects platform engineering with tools for how code gets reviewed.** He was Twitter's first intern and left school at 19 to tech-lead its platform team. He co-founded Bumpers, which Coinbase acquired, and then spent about five years leading Coinbase's Product Platform. As co-founder and CTO of Pierre Computer Company he built a new way to review code, and on November 4, 2026 OpenAI announced an agreement to acquire Pierre. Quietly shipping the plumbing.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/ian-ownbey-pierre.webp",
+            "alt": "Y Combinator Launch YC post for Pierre by Ian Ownbey, with co-founder photos of Ian and Jacob",
+            "caption": "Launch YC: Pierre — A new way to review code",
+            "credit": "Y Combinator / Pierre",
+            "link": "https://www.ycombinator.com/launches/I6t-pierre-a-new-way-to-review-code"
+          },
+          "added": "2026-11-09"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Jordan Deutsch",
+          "url": "https://www.linkedin.com/in/jordan-deutsch-83414177",
+          "role": "Director of Software Development, AI Products",
+          "org": "Wealthsimple",
+          "status": "Engineering lead on Wealthsimple's AI products; presented Penny and third-party agent access on November 5, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.digitaljournal.com/article/who-decides-what-an-ai-agent-can-do-with-your-money/",
+            "https://betakit.com/wealthsimple-unveils-ai-assistant-and-major-product-expansion-in-latest-showcase/",
+            "https://newsroom.wealthsimple.com/wealthsimple-announces-ai-assistant-penny-and-11-more-releases-at-wealthsimple-presents-something-good-is-going-to-happen"
+          ],
+          "short": "Engineering behind Wealthsimple's Penny and agent account access.",
+          "signal": "Wealthsimple AI Products → Penny",
+          "tag": "Builder",
+          "orgShort": "Wealthsimple",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Suhail Patel",
+          "url": "https://suhailpatel.com/",
+          "role": "Member of Technical Staff, Cyber",
+          "org": "OpenAI",
+          "status": "Joined OpenAI's Cyber organization in October 2026 after more than eight years as a principal engineer at Monzo.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/suhailpatel_today-is-my-final-day-at-monzo-after-8-years-activity-7511823800745783296-6zFI",
+            "https://www.linkedin.com/posts/kirschkatie_interesting-moves-lately-in-techai-jacob-activity-7522797154344767489-eDNp",
+            "https://suhailpatel.com/",
+            "https://qconsf.com/pc-chairs/suhailpatel"
+          ],
+          "short": "Scaled Monzo's cloud bank platform from 1M to 16M customers, now on OpenAI's Cyber org.",
+          "signal": "Monzo → OpenAI Cyber",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Wen Shi",
+          "url": "https://www.linkedin.com/in/wen-shi-b6963553",
+          "role": "Muse Realtime Voice and Avatar",
+          "org": "Meta Superintelligence Labs",
+          "status": "Leads a team behind Muse Realtime Voice and Avatar; Muse voice and embodiment went live in the US on November 5, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://x.com/WenShi2/status/2118525208722387372",
+            "https://www.linkedin.com/posts/wen-shi-b6963553_after-more-than-6-months-of-heads-down-work-activity-7508778181404008449-ja6z",
+            "https://www.linkedin.com/feed/update/urn:li:activity:7508701208153321472",
+            "https://www.linkedin.com/in/wen-shi-b6963553"
+          ],
+          "short": "Shipped Muse's real-time voice and embodied avatar at Meta scale.",
+          "signal": "Meta Connect 2026 → Muse voice and embodiment live",
+          "tag": "Builder",
+          "orgShort": "Meta",
+          "added": "2026-11-09",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "blurb": "Designers defining how people experience AI products.",
+      "people": [
+        {
+          "name": "Joel Lewenstein",
+          "url": "https://joellewenstein.com/",
+          "role": "Head of Product Design",
+          "org": "Anthropic",
+          "status": "Head of Product Design at Anthropic since October 2023; led the October 2026 Anthropic design refresh.",
+          "verified": true,
+          "verifiedHow": "His X bio and Anthropic design-refresh thread identify him as head of design at Anthropic.",
+          "note": null,
+          "sources": [
+            "https://x.com/joellewenstein/status/2116221967225479331",
+            "https://x.com/joellewenstein/status/2116221977749028903",
+            "https://joellewenstein.com/",
+            "https://www.linkedin.com/in/joel-lewenstein",
+            "https://blog.academyux.com/learn-how-anthropic-designs-for-ai-joel-lewenstein-head-of-product-design-anthropic/",
+            "https://luma.com/joel-spc"
+          ],
+          "short": "Leads product design at Anthropic, fresh off a Claude-native design refresh.",
+          "signal": "GoodGuide → Quora → Hustle → Airtable → Anthropic",
+          "tag": "Anchor",
+          "orgShort": "Anthropic",
+          "why": "**He connects consumer-grade craft with how people work alongside Claude.** After studying Symbolic Systems at Stanford he designed at GoodGuide, Quora and Hustle, then led end-user design at Airtable. He joined Anthropic as Head of Product Design in October 2023, and in October 2026 walked through the company's design refresh in public: roughly 400 icons redrawn in a week, a Claude-native design system and the swipe cards in Claude Duet. Taste at frontier speed.",
+          "media": {
+            "type": "youtube",
+            "id": "GgP9LEAY1PA",
+            "caption": "Joel Lewenstein on pursuing ambitious design ideas (Dive Club Ep. 77)",
+            "credit": "Dive Club / YouTube"
+          },
+          "added": "2026-11-09",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Si Min Lee",
+          "url": "https://dribbble.com/leesimin",
+          "role": "Member of Design Staff",
+          "org": "Anthropic",
+          "status": "Member of Design Staff at Anthropic; designer on Claude Duet, launched October 21, 2026.",
+          "verified": true,
+          "verifiedHow": "Her own post on the Claude Duet launch plus a public credit from a fellow designer on the project.",
+          "note": null,
+          "sources": [
+            "https://x.com/leesimin/status/2113057207252344926",
+            "https://x.com/pablostanley/status/2113677156484309429",
+            "https://claude.com/product/claude-duet",
+            "https://www.linkedin.com/in/siminlee",
+            "https://rethinkhq.com/speakers/si-min-lee",
+            "https://rethinkhq.com/blog/growing-into-a-design-leader-as-an-individual-contributor-si-min-lee",
+            "https://dribbble.com/leesimin"
+          ],
+          "short": "Industrial designer turned Claude Duet designer at Anthropic.",
+          "signal": "Industrial design → Zendesk → Retool → Anthropic (Claude Duet)",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "why": "**She connects physical-product thinking with the newest way to work with Claude.** Trained in industrial design, she shaped the agent experience at Zendesk, then joined Retool in late 2022 to design its developer tools. Since 2024 she has designed at Anthropic, and in October 2026 she shipped Claude Duet, with collaborators publicly crediting her as a standout designer on the project. Made by hand, built for two.",
+          "media": {
+            "type": "youtube",
+            "id": "d3KhHpdcKTQ",
+            "caption": "Scaling and Polishing is for Designers — Design Bootcamp Asia (Lee Si Min, then at Zendesk)",
+            "credit": "Engineers.SG / YouTube",
+            "link": "https://www.youtube.com/watch?v=d3KhHpdcKTQ"
+          },
+          "added": "2026-11-09",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Clara Fairbanks",
+          "url": "https://clarafairbanks.com/",
+          "role": "Lead Product Designer",
+          "org": "Circle",
+          "status": "Lead Product Designer at Circle since July 2025; designed Arc Portal, launched with Arc mainnet on September 16, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://clarafairbanks.com/",
+            "https://clarafairbanks.com/work/arc-portal/",
+            "https://clarafairbanks.com/work/arc-studio",
+            "https://www.linkedin.com/in/clara-fairbanks",
+            "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+            "https://www.arc.io/blog/arc-portal-the-easiest-place-to-get-started-on-arc",
+            "https://www.arc.io/blog/arc-mainnet-goes-live-on-september-16-2026"
+          ],
+          "short": "Designing the front door to Circle's Arc, including wallets for AI agents.",
+          "signal": "Experian → Circle → Arc Portal and Arc Studio",
+          "tag": "Builder",
+          "orgShort": "Circle",
+          "why": "**She connects consumer credit UX with stablecoin rails built for agents.** From 2022 to 2024 she designed credit and partner products at Experian, then consulted for startups. In July 2025 she joined Circle as lead product designer, where she designed Arc Portal and Arc Studio, the starting points for Circle's Arc network, including agent wallets. Arc Portal went live with Arc mainnet on September 16, 2026. Money UX, now for machines too.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/clara-fairbanks-arc-portal.webp",
+            "alt": "Clara Fairbanks portfolio case study for Arc Portal at Circle, showing the Arc Portal product UI",
+            "caption": "Arc Portal — clarafairbanks.com/work/arc-portal",
+            "credit": "Clara Fairbanks",
+            "link": "https://clarafairbanks.com/work/arc-portal/"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Daisy DalHae Lee",
+          "url": "https://www.linkedin.com/in/daisydhlee",
+          "role": "Designer, Creative Studio",
+          "org": "Perplexity",
+          "status": "Designer in Perplexity's Creative Studio since October 2025; worked on Perplexity Teammates, launched November 4, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://x.com/DaisyDalHaeLee/status/2118438966651490698",
+            "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+            "https://the-brandidentity.com/interview/take-five-with-pov-budapest-how-perplexity-designs-using-perplexity",
+            "https://www.linkedin.com/posts/daisydhlee_openai-dandad-eventdesign-activity-7463680396480663553-KP8h",
+            "https://www.linkedin.com/posts/daisydhlee_branddesign-aidesign-povbudapest-activity-7512950499499851776-yXVU",
+            "https://www.linkedin.com/posts/pov-budapest_speaker-announcement-perplexity-in-budapest-activity-7462532548452085762-QCCf",
+            "https://www.linkedin.com/in/daisydhlee"
+          ],
+          "short": "Type designer and art director shaping Perplexity's identity and Teammates.",
+          "signal": "Apple → OpenAI (DevDay 2025) → Perplexity Creative Studio",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "why": "**She connects type design with the look and feel of AI agents.** She rose from designer to senior art director at Apple, then joined OpenAI in February 2025, where her DevDay 2025 event identity later won D&AD Wood and Yellow Pencils. In October 2025 she moved to Perplexity's Creative Studio, leading its identity refresh and the PPLX Serif, Sans and Mono type families, building internal design tools with Computer and presenting the work at POV Budapest in 2026. In November 2026 she worked on Perplexity Teammates. Letterforms for the agent era.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/daisy-dalhae-lee.webp",
+            "alt": "The Brand Identity interview page naming Designer Daisy Lee on Perplexity's identity refresh after POV Budapest 2026",
+            "caption": "Take five with POV Budapest: how Perplexity designs using Perplexity",
+            "credit": "The Brand Identity",
+            "link": "https://the-brandidentity.com/interview/take-five-with-pov-budapest-how-perplexity-designs-using-perplexity"
+          },
+          "added": "2026-11-09",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Josh Nelson",
+          "url": "https://www.joshn.io/",
+          "role": "Designer",
+          "org": "OpenAI",
+          "status": "Joined OpenAI's design team in October 2026, focused on Codex within ChatGPT.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.joshn.io/",
+            "https://x.com/jnelly2/status/2116193885458444351",
+            "https://x.com/jnelly2",
+            "https://www.linkedin.com/posts/kirschkatie_interesting-moves-lately-in-techai-jacob-activity-7522797154344767489-eDNp"
+          ],
+          "short": "Led design for Instagram's Your Algorithm, now designing Codex in ChatGPT.",
+          "signal": "CBS Sports → Instagram → OpenAI (Codex)",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "why": "**He connects feed-scale consumer design with AI coding for everyone.** A self-taught designer and former college pitcher at Wayne State, he designed at CBS Sports and 247 Sports, including the college football Transfer Portal. He spent nearly five years at Instagram, leading design for Your Algorithm from launch through expansion and for navigation projects like swipeable tabs, and working on Instagram for iPad and TV. In October 2026 he joined OpenAI's design team to work on Codex within ChatGPT. From the bullpen to Codex.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/josh-nelson.webp",
+            "alt": "Josh Nelson personal site bio: software designer at OpenAI focusing on Codex in ChatGPT",
+            "caption": "joshn.io",
+            "credit": "Josh Nelson",
+            "link": "https://www.joshn.io/"
+          },
+          "added": "2026-11-09",
+          "location": "Chicago"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Chris Lee",
+          "url": "https://chrsl.net/",
+          "role": "Member of Design Staff",
+          "org": "Perplexity",
+          "status": "Member of Design Staff at Perplexity since 2025, designing and shipping across Search, Computer and Comet.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://chrsl.net/",
+            "https://www.linkedin.com/in/cleer",
+            "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+          ],
+          "short": "Former Chrome tab-groups designer now shipping Perplexity Computer and Comet in code.",
+          "signal": "Google Chrome → Uber Eats → Sprig → Patreon → Perplexity",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Kevin Clark",
+          "url": "https://kevinclark.ca/about/",
+          "role": "Design Director, Sidekick and Foundations",
+          "org": "Shopify",
+          "status": "Design Director at Shopify leading design for Sidekick and Foundations; led the 2026 Shopify admin design language.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/kevin-clark-1a5061135",
+            "https://www.linkedin.com/posts/kevin-clark-1a5061135_im-not-really-a-linkedin-guy-but-leading-activity-7509231306552188928-hG9P",
+            "https://kevinclark.ca/about/",
+            "https://www.shopify.com/blog/admin-new-look"
+          ],
+          "short": "Leads design for Shopify's Sidekick and the admin's new design language.",
+          "signal": "Shopify Checkout UX → Storefronts → Sidekick",
+          "tag": "Leads product",
+          "orgShort": "Shopify",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Courtney Drake",
+          "url": "https://www.linkedin.com/in/courtydrake",
+          "role": "Product Design Manager, Checkout",
+          "org": "Stripe",
+          "status": "Product Design Manager for Checkout at Stripe; her team powered Instant Checkout in ChatGPT.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/courtydrake_buy-it-in-chatgpt-instant-checkout-and-the-activity-7378480826595995648-GKwH",
+            "https://www.linkedin.com/posts/courtydrake_im-growing-my-team-at-stripe-im-looking-activity-7455667628947210240-QIpx",
+            "https://theorg.com/org/stripe/org-chart/courtney-drake",
+            "https://www.linkedin.com/in/courtydrake"
+          ],
+          "short": "Design team behind the Stripe side of Instant Checkout in ChatGPT.",
+          "signal": "Stripe Checkout → Instant Checkout in ChatGPT",
+          "tag": "Leads product",
+          "orgShort": "Stripe",
+          "added": "2026-11-09",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "blurb": "Researchers advancing what models can learn, reason about and do.",
+      "people": [
+        {
+          "name": "Ali Eslami",
+          "url": "https://arkitus.com/",
+          "role": "Member of Technical Staff",
+          "org": "Discovery Loop",
+          "status": "Joined Discovery Loop in November 2026 after nearly 12 years at Google DeepMind.",
+          "verified": true,
+          "verifiedHow": "Turing Tree recorded his Google DeepMind to Discovery Loop move on November 2, 2026, and his X profile confirms it.",
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/ali-eslami-joins-discovery-loop",
+            "https://arkitus.com/",
+            "https://arkitus.com/talks/",
+            "https://deepmind.google/blog/neural-scene-representation-and-rendering/",
+            "https://x.com/arkitus",
+            "https://digg.com/ai/irof4158"
+          ],
+          "short": "Generative Query Network pioneer leaving DeepMind for Discovery Loop.",
+          "signal": "Google DeepMind (GQN) → Discovery Loop",
+          "tag": "Anchor",
+          "orgShort": "Discovery Loop",
+          "why": "**He connects machine perception with machines that discover.** Over nearly 12 years at Google DeepMind he helped define neural scene representation, co-leading the 2018 Generative Query Network work that let a model imagine a 3D scene from a handful of images. On November 2, 2026 he announced his move to Discovery Loop. Twelve years, one new loop.",
+          "media": {
+            "type": "youtube",
+            "id": "G-kWNQJ4idw",
+            "caption": "Neural Scene Representation and Rendering, presented by Ali Eslami",
+            "credit": "Ali Eslami / YouTube"
+          },
+          "added": "2026-11-09",
+          "location": "London"
+        },
+        {
+          "name": "Augustin Žídek",
+          "url": "https://augustin.zidek.eu/",
+          "role": "Researcher",
+          "org": "Latent Labs",
+          "status": "Joined Latent Labs in November 2026 after 10 years at Google DeepMind.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/augustin-zidek-announces-latent-labs-move",
+            "https://www.turingtree.com/people/augustin-zidek",
+            "https://augustin.zidek.eu/",
+            "https://www.nature.com/articles/s41586-021-03819-2",
+            "https://vgs-it.fit.vutbr.cz/2022/02/20/augustin-zidek-protein-structure-prediction-with-alphafold/",
+            "https://www.linkedin.com/in/augustinzidek"
+          ],
+          "short": "AlphaFold co-developer moving from Google DeepMind to Latent Labs.",
+          "signal": "Google DeepMind (AlphaFold 2, AlphaFold 3) → Latent Labs",
+          "tag": "Joined",
+          "orgShort": "Latent Labs",
+          "why": "**He connects the protein-folding breakthrough with the next wave of protein design.** Across 10 years at Google DeepMind he rose to staff research engineer, co-developing AlphaFold 2, published in Nature in 2021, and contributing to AlphaFold 3. On November 5, 2026 he announced his move to Latent Labs. Folding, then designing.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/augustin-zidek.webp",
+            "alt": "Augustin Žídek personal site About page noting AlphaFold work at DeepMind",
+            "caption": "augustin.zidek.eu",
+            "credit": "Augustin Žídek",
+            "link": "https://augustin.zidek.eu/"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Roy Rinberg",
+          "url": "https://royrinberg.com/",
+          "role": "Researcher",
+          "org": "Anthropic",
+          "status": "Lead author of FlashProve, Anthropic's provable-inference research published November 2, 2026.",
+          "verified": true,
+          "verifiedHow": "Listed as lead author on Anthropic's November 2, 2026 provable-inference post and the FlashProve paper.",
+          "note": null,
+          "sources": [
+            "https://www.anthropic.com/research/provable-inference",
+            "https://github.com/anthropics/FlashProve/",
+            "https://raw.githubusercontent.com/anthropics/FlashProve/main/paper/paper.pdf",
+            "https://royrinberg.com/",
+            "https://royrinberg.com/professional/",
+            "https://www.far.ai/blog/avid-workshop-2026",
+            "https://x.com/RoyRinberg"
+          ],
+          "short": "Led Anthropic's work proving which model answered you.",
+          "signal": "Harvard CS PhD → AViD workshop → Anthropic FlashProve",
+          "tag": "Builder",
+          "orgShort": "Anthropic",
+          "why": "**He connects cryptography with accountability for AI systems.** A Harvard computer science PhD researcher, he works on verifying what AI systems actually do and was part of FAR.AI's 2026 AViD workshop on AI verification. On November 2, 2026 he was lead author of FlashProve, Anthropic's open method for proving that a response came from a specific model. Proof over promises.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/roy-rinberg.webp",
+            "alt": "Roy Rinberg personal site: Harvard CS PhD student working on security in machine learning",
+            "caption": "royrinberg.com",
+            "credit": "Roy Rinberg",
+            "link": "https://royrinberg.com/"
+          },
+          "added": "2026-11-09",
+          "location": "New York"
+        },
+        {
+          "name": "Marcus Williams",
+          "url": "https://x.com/Marcus_J_W",
+          "role": "Researcher, Monitoring",
+          "org": "OpenAI",
+          "status": "Works on monitoring at OpenAI; shared the findings of OpenAI's November 4, 2026 covert-underperformance report.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+            "https://twitter-thread.com/t/2118093146483810386",
+            "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+            "https://www.matsprogram.org/alumni/marcus-williams",
+            "https://www.linkedin.com/in/marcus-williams-2623681a0",
+            "https://x.com/Marcus_J_W"
+          ],
+          "short": "MATS alum now watching for misaligned agents at OpenAI.",
+          "signal": "MATS (2024) → OpenAI monitoring",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "why": "**He connects safety research with live monitoring of coding agents.** As a MATS fellow in 2024 he studied how models trained on user feedback can learn targeted manipulation and deception. He now works on monitoring at OpenAI, and on November 4, 2026 he walked the public through OpenAI's report on a model covertly underperforming on safety research tasks. Watching the watchers.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/marcus-williams-mats.webp",
+            "alt": "MATS alumni profile for Marcus Williams at OpenAI, noting deception/scheming monitoring work",
+            "caption": "Marcus Williams — MATS Program Alumni (OpenAI)",
+            "credit": "MATS Program",
+            "link": "https://www.matsprogram.org/alumni/marcus-williams"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Fatih Dinc",
+          "url": "https://fatihdinc.github.io/",
+          "role": "Member of Technical Staff",
+          "org": "Goodfire",
+          "status": "Joined Goodfire in November 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/fatih-dinc-joins-goodfire",
+            "https://fatihdinc.github.io/",
+            "https://fatihdinc.github.io/Fatih_CV_Main.pdf",
+            "https://www.biorxiv.org/content/10.1101/2021.03.24.436279v3",
+            "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a103529738706979331778377f2d5864-Abstract.html",
+            "https://purl.stanford.edu/jr741vz0364"
+          ],
+          "short": "Neuroscience-trained physicist bringing brain-decoding methods to interpretability.",
+          "signal": "Stanford Applied Physics (EXTRACT, CORNN) → Goodfire",
+          "tag": "Joined",
+          "orgShort": "Goodfire",
+          "why": "**He connects reading brains with reading neural networks.** During his Stanford Applied Physics PhD he built EXTRACT, a robust method for pulling individual neurons out of calcium-imaging data, and co-authored CORNN, a NeurIPS 2023 method for fitting recurrent networks to neural recordings at speed. In November 2026 he joined Goodfire, the interpretability company. From neurons to features.",
+          "media": {
+            "type": "youtube",
+            "id": "y0gc033bLlY",
+            "caption": "Physics of intelligence | Café KITP by Fatih Dinç",
+            "credit": "Kavli Institute for Theoretical Physics / YouTube",
+            "link": "https://www.youtube.com/watch?v=y0gc033bLlY"
+          },
+          "added": "2026-11-09"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Miranda Christ",
+          "url": "https://mirandachrist.github.io/",
+          "role": "Postdoctoral researcher",
+          "org": "MIT",
+          "status": "Postdoctoral researcher at MIT; co-author of Anthropic's FlashProve provable-inference work (November 2, 2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://mirandachrist.github.io/",
+            "https://www.anthropic.com/research/provable-inference",
+            "https://toc.csail.mit.edu/node/1619"
+          ],
+          "short": "Cryptographer behind watermarking and provable AI inference.",
+          "signal": "Watermarking → FlashProve",
+          "tag": "Builder",
+          "orgShort": "MIT",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Jenny Yang",
+          "url": "https://openai.com/index/lifeval/",
+          "role": "Researcher",
+          "org": "OpenAI",
+          "status": "First author of LifeVal, OpenAI's life-sciences evaluation (November 2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://arxiv.org/abs/2611.06687",
+            "https://openai.com/index/lifeval/",
+            "https://cdn.openai.com/pdf/lifeval.pdf"
+          ],
+          "short": "Led OpenAI's LifeVal evaluation for life-sciences work.",
+          "signal": "OpenAI → LifeVal",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Giacomo Fenzi",
+          "url": "https://gfenzi.io/",
+          "role": "PhD researcher",
+          "org": "EPFL",
+          "status": "PhD researcher at EPFL; co-author of FlashProve and of the WHIR and STIR proof systems.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://gfenzi.io/",
+            "https://eprint.iacr.org/2024/1586",
+            "https://www.anthropic.com/research/provable-inference"
+          ],
+          "short": "Proof-system researcher whose work underpins provable inference.",
+          "signal": "STIR → WHIR → FlashProve",
+          "tag": "Builder",
+          "orgShort": "EPFL",
+          "added": "2026-11-09",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "name": "Product",
+      "blurb": "Product leaders turning research into things people use every day.",
+      "people": [
+        {
+          "name": "Cat Wu",
+          "url": "https://x.com/_catwu",
+          "role": "Lead, Product Management, Core Products",
+          "org": "OpenAI",
+          "status": "Joined OpenAI on November 5, 2026 to lead product management for Core Products, after leading product for Claude Code at Anthropic.",
+          "verified": true,
+          "verifiedHow": "OpenAI confirmed the hire to Business Insider, and her own November 5, 2026 post announced the role.",
+          "note": null,
+          "sources": [
+            "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products",
+            "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11",
+            "https://winbuzzer.com/2026/11/05/openai-hires-anthropics-ai-coding-product-leader-cat-wu-xcxwbn/",
+            "https://runtimewire.com/article/cat-wu-joins-openai-core-products-product-management",
+            "https://x.com/_catwu/status/2118137612577968402",
+            "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves",
+            "https://creatoreconomy.so/p/inside-claude-code-how-an-ai-native-actually-works-cat-wu"
+          ],
+          "short": "Built Claude Code into a category leader, now leads PM for OpenAI's Core Products.",
+          "signal": "Scale AI → Dagster → Index Ventures → Anthropic (Claude Code) → OpenAI Core Products",
+          "tag": "Anchor",
+          "orgShort": "OpenAI",
+          "why": "**She connects engineering, investing and agentic coding.** She started as a product engineer at Scale AI and Dagster, then became a venture investor and partner at Index Ventures. She joined Anthropic in August 2024 as a research product manager and became Head of Product for Claude Code, guiding it from a small internal tool to an industry-defining product alongside Cowork. On November 5, 2026 she joined OpenAI to lead product management for Core Products, the group behind Codex. Same mission, new home.",
+          "media": {
+            "type": "youtube",
+            "id": "PplmzlgE0kg",
+            "caption": "Cat Wu on Lenny's Podcast",
+            "credit": "Lenny's Podcast / YouTube"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Jake Levine",
+          "url": "https://jakelevine.me/about.html",
+          "role": "Product Lead, Muse",
+          "org": "Meta Superintelligence Labs",
+          "status": "Product lead on Muse at Meta Superintelligence Labs; Muse Spaces launched November 6, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://us.money2020.com/agenda/agenda/how-muse-and-link-are-building-the-infrastructure-for-agentic-commerce-e103-76991",
+            "https://www.linkedin.com/posts/levinejake_i-dont-think-ive-ever-posted-about-my-work-activity-7503170962746552320-Fjbf",
+            "https://www.linkedin.com/posts/levinejake_on-friday-we-launched-the-muse-connector-activity-7508917815832297472-eTMq",
+            "https://jakelevine.me/about.html",
+            "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+            "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+            "https://technical.ly/uncategorized/jake-levine-electric-objects/"
+          ],
+          "short": "Digg GM and Electric Objects founder, now building Meta's Muse agent.",
+          "signal": "betaworks → Digg → Electric Objects → Square → Oculus → Muse",
+          "tag": "Leads product",
+          "orgShort": "Meta",
+          "why": "**He connects internet media, hardware and personal agents.** After starting in finance at Morgan Stanley, he built products at TheLadders and betaworks, then ran Digg as general manager in 2012. In 2013 he founded Electric Objects, whose digital art frame was named one of TIME's 25 Best Inventions of 2014 and was acquired by GIPHY in 2017. After roles at Square, Clutter and Oculus, he now leads product on Muse at Meta Superintelligence Labs, from the Muse Connector Platform to Spaces, launched November 6, 2026. Every era, one more surface.",
+          "media": {
+            "type": "youtube",
+            "id": "2lvYnMnmOBw",
+            "caption": "Electric Objects Wants to Put (Affordable) Art on Your Wall — Jake Levine",
+            "credit": "TechCrunch / YouTube",
+            "link": "https://www.youtube.com/watch?v=2lvYnMnmOBw"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Sam Newman-Bremang",
+          "url": "https://www.linkedin.com/in/sambremang",
+          "role": "Senior Director, Head of AI Products",
+          "org": "Wealthsimple",
+          "status": "Head of AI Products at Wealthsimple; leads Penny, the AI assistant unveiled November 5, 2026.",
+          "verified": true,
+          "verifiedHow": "BetaKit and Wealthsimple's November 5, 2026 coverage name him as Head of AI Products presenting Penny.",
+          "note": null,
+          "sources": [
+            "https://betakit.com/wealthsimple-unveils-ai-assistant-and-major-product-expansion-in-latest-showcase/",
+            "https://newsroom.wealthsimple.com/wealthsimple-announces-ai-assistant-penny-and-11-more-releases-at-wealthsimple-presents-something-good-is-going-to-happen",
+            "https://www.digitaljournal.com/article/who-decides-what-an-ai-agent-can-do-with-your-money/",
+            "https://www.theglobeandmail.com/business/article-wealthsimple-ai-assistant-chatgpt-claude/",
+            "https://www.calgarytechnewsletter.ca/p/how-wealthsimple-actually-builds",
+            "https://thelogic.co/news/wealthsimple-launches-ai-assistant/",
+            "https://www.linkedin.com/in/sambremang"
+          ],
+          "short": "Helped build Wealthsimple's bank, now leads its AI assistant Penny.",
+          "signal": "Wealthsimple banking → Head of AI Products → Penny",
+          "tag": "Leads product",
+          "orgShort": "Wealthsimple",
+          "why": "**He connects everyday banking with agents that can act on your money.** He joined Wealthsimple around 2021 and helped build its banking product as a senior director of product. As Head of AI Products he led Penny, the AI assistant Wealthsimple unveiled on November 5, 2026, and the plan to let clients connect their accounts to ChatGPT and Claude, with clear limits on what an agent can do. Opening the vault, carefully.",
+          "media": {
+            "type": "youtube",
+            "id": "6P2j104DC7w",
+            "caption": "Wealthsimple Kids and Teens Accounts with Sam Newman-Bremang",
+            "credit": "Moolala: Money Made Simple / YouTube",
+            "link": "https://www.youtube.com/watch?v=6P2j104DC7w"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Shirley Zhou",
+          "url": "https://shirleyzhou.me/",
+          "role": "Product Lead, Link",
+          "org": "Stripe",
+          "status": "Product lead for Link at Stripe, including the Link agent wallet.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/whyzhou_introducing-link-wallet-for-agents-activity-7455311268489498624-bf5l",
+            "https://www.linkedin.com/posts/whyzhou_how-muse-and-link-are-building-the-infrastructure-activity-7516994177558212608-NQTT",
+            "https://us.money2020.com/agenda/agenda/how-muse-and-link-are-building-the-infrastructure-for-agentic-commerce-e103-76991",
+            "https://a2awire.com/news/stripe-money2020-hidden-wallets-always-on-money-2026/",
+            "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+            "https://shirleyzhou.me/",
+            "https://www.linkedin.com/in/whyzhou"
+          ],
+          "short": "Leads Stripe's Link, including the wallet that lets agents buy anywhere.",
+          "signal": "Uber → Bolt → Stripe Link → Link agent wallet",
+          "tag": "Leads product",
+          "orgShort": "Stripe",
+          "why": "**She connects one-click checkout with agents that shop for you.** She built products at Uber as a senior product manager, then led product at Bolt as a director of product management. At Stripe she leads product for Link, where her team shipped the Link agent wallet, which lets agents pay with one-time cards while people approve each purchase. On October 19, 2026 she shared the Money20/20 stage with Meta's Muse team on agentic commerce. You approve, the agent buys.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/shirley-zhou.webp",
+            "alt": "Shirley Zhou personal site: Product at Stripe, with her portrait",
+            "caption": "shirleyzhou.me",
+            "credit": "Shirley Zhou",
+            "link": "https://shirleyzhou.me/"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Swapnil Parikh",
+          "url": "https://www.parameter.vc/team/swapnilparikh",
+          "role": "VP of Product, Investing",
+          "org": "Wealthsimple",
+          "status": "Vice President of Product at Wealthsimple leading investing products; also a partner at Parameter Ventures.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.parameter.vc/team/swapnilparikh",
+            "https://betakit.com/wealthsimple-unveils-ai-assistant-and-major-product-expansion-in-latest-showcase/",
+            "https://www.advisor.ca/industry-news/wealthsimple-embraces-ai-with-new-chatbot-connections-to-chatgpt-and-claude/",
+            "https://2026cstaconference.sched.com/event/2PGJX/tokens-of-change-the-future-of-personal-finance"
+          ],
+          "short": "Product leader behind Wealthsimple investing, with a Tumblr-to-fintech arc.",
+          "signal": "Tumblr → Vroom → Addepar → Hyperscience → Simon Data → Wealthsimple",
+          "tag": "Leads product",
+          "orgShort": "Wealthsimple",
+          "why": "**He connects consumer growth, data tools and AI-era investing.** He led monetization and growth at Tumblr, then supply and customer growth at Vroom and data integration and tooling at Addepar. As vice president of product at Hyperscience and Simon Data he built machine-learning applications for financial institutions and marketing technology for consumer brands. Now vice president of product at Wealthsimple leading investing products, he was part of its November 5, 2026 showcase. Growth instincts, investor's patience.",
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-09/swapnil-parikh.webp",
+            "alt": "Parameter Ventures team profile for Swapnil Parikh, Partner and Wealthsimple VP of Product",
+            "caption": "Swapnil Parikh — Parameter Ventures",
+            "credit": "Parameter Ventures",
+            "link": "https://www.parameter.vc/team/swapnilparikh"
+          },
+          "added": "2026-11-09"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Mitchell Kogan",
+          "url": "https://www.linkedin.com/in/mitchellkogan",
+          "role": "Product Manager, Muse",
+          "org": "Meta Superintelligence Labs",
+          "status": "Product manager who helped ship Muse, Meta's personal AI agent.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/mitchellkogan_muse-your-personal-ai-agent-activity-7503500296447373312-0n_L",
+            "https://www.linkedin.com/in/mitchellkogan",
+            "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
+          ],
+          "short": "Helped build and launch Muse at Meta.",
+          "signal": "Meta → Muse",
+          "tag": "Leads product",
+          "orgShort": "Meta",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Agatha Krajewski",
+          "url": "https://www.linkedin.com/in/agatha-krajewski-3b439216",
+          "role": "Director of Product, Sidekick",
+          "org": "Shopify",
+          "status": "Led product for Shopify's Sidekick AI assistant from mid-2025 to May 2026; current role status unconfirmed.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/agatha-krajewski-3b439216_six-months-ago-i-shifted-gears-and-started-activity-7404615835044184064-yt0j",
+            "https://www.linkedin.com/posts/agatha-krajewski-3b439216_so-proud-of-everything-weve-done-in-sidekick-activity-7453784406705750016-h_Rt",
+            "https://www.linkedin.com/in/agatha-krajewski-3b439216"
+          ],
+          "short": "Led Shopify Sidekick's biggest releases, from Sidekick Apps to Pulse.",
+          "signal": "Shopify admin → Sidekick",
+          "tag": "Leads product",
+          "orgShort": "Shopify",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Grace Reed Ural",
+          "url": "https://www.linkedin.com/in/gracereed",
+          "role": "AI Product Marketing Lead, Codex",
+          "org": "OpenAI",
+          "status": "Joined OpenAI in June 2026 to drive growth and adoption of Codex; keynoted Georgia Tech's TechForward conference on November 6, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/gracereed_today-was-my-first-day-at-openai-after-activity-7475396362239451136-_vwQ",
+            "https://karvtechinsider.com/martech/cxo-moves/grace-reed-ural-joins-openai-as-ai-product-marketing-leader",
+            "https://aievents.now/atlanta/events/techforward-mba-conference-2026-11-06",
+            "https://www.linkedin.com/in/gracereed"
+          ],
+          "short": "Bringing Codex to teams beyond developers at OpenAI.",
+          "signal": "Cybersecurity → OpenAI Codex",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "added": "2026-11-09",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "blurb": "Growth and go-to-market leaders who brought AI to its first billion users.",
+      "people": [
+        {
+          "name": "Dmitry Shevelenko",
+          "url": "https://www.linkedin.com/in/dmitryshevelenko",
+          "role": "Chief Business Officer",
+          "org": "Perplexity",
+          "status": "Chief Business Officer at Perplexity, leading business growth and partnerships; Perplexity launched Teammates on November 4, 2026.",
+          "verified": true,
+          "verifiedHow": "His 2026 Milken Institute speaker bio lists him as Perplexity's Chief Business Officer.",
+          "note": null,
+          "sources": [
+            "https://milkeninstitute.org/events/global-conference-2026/speakers/dmitry-shevelenko",
+            "https://www.linkedin.com/in/dmitryshevelenko",
+            "https://cx-o.com/perplexity-ceos-are-ais-real-power-users/",
+            "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+            "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+          ],
+          "short": "Leads Perplexity's business growth and partnerships as it ships Teammates.",
+          "signal": "Meta → LinkedIn → Uber → Tortoise → Perplexity",
+          "tag": "Anchor",
+          "orgShort": "Perplexity",
+          "why": "**He connects big-platform partnerships with an answer engine turned agent platform.** After an anthropology degree at Columbia he worked in business development and product at Meta, LinkedIn and Uber, then founded Tortoise, a retail and commerce automation startup. As Perplexity's Chief Business Officer he leads business growth across consumer and enterprise partnerships, and in November 2026 Perplexity launched Teammates, agents for ongoing work. Deals at agent speed.",
+          "media": {
+            "type": "youtube",
+            "id": "MtAb8gDR_to",
+            "caption": "Perplexity CBO Dmitry Shevelenko: compute budget is the new headcount",
+            "credit": "Summation with Auren Hoffman / YouTube"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Kathleen McGuirk",
+          "url": "https://www.linkedin.com/in/kathleenmcguirk",
+          "role": "Head of AI GTM",
+          "org": "Plaid",
+          "status": "Head of AI go-to-market at Plaid, leading partnerships with AI companies including Anthropic, Perplexity and Meta's Muse.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://plaid.com/blog/plaid-anthropic-financial-insights-in-claude/",
+            "https://plaid.com/blog/meta-muse/",
+            "https://plaid.com/blog/powering-intellligent-finance-with-perplexity/",
+            "https://www.linkedin.com/posts/kathleenmcguirk_we-expanded-our-work-with-perplexity-so-consumers-activity-7448033000556130304-NjVE",
+            "https://www.linkedin.com/posts/kathleenmcguirk_in-my-previous-life-as-an-account-manager-activity-7323852713497165824-cU7x",
+            "https://siliconvalleyinvestclub.com/2026/04/27/interview-with-kathleen-mcguirk-ai-gtm-lead-at-plaid-inside-the-8b-fintech-revolution/",
+            "https://www.linkedin.com/in/kathleenmcguirk"
+          ],
+          "short": "Plaid account manager turned head of AI GTM, plugging bank data into Claude, Perplexity and Muse.",
+          "signal": "Plaid account management → Head of AI GTM → Claude, Perplexity, Muse",
+          "tag": "Builder",
+          "orgShort": "Plaid",
+          "why": "**She connects bank connectivity with the AI assistants people now ask about money.** She started at Plaid as an account manager fielding customers' conversion questions and rose to lead AI go-to-market. In 2026 she led Plaid's expanding work with Perplexity's finance features, Plaid powering Meta's Muse agent, and Plaid's integration bringing financial insights into Claude. Your accounts, now conversational.",
+          "media": {
+            "type": "youtube",
+            "id": "Ty4v0TZHpqo",
+            "caption": "Interview with Kathleen McGuirk, AI GTM Lead at Plaid",
+            "credit": "Silicon Valley Investclub / YouTube",
+            "link": "https://www.youtube.com/watch?v=Ty4v0TZHpqo"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Amira Valliani",
+          "url": "https://www.linkedin.com/in/amira-valliani",
+          "role": "Head of Payments Growth",
+          "org": "Solana Foundation",
+          "status": "Leads payments growth at the Solana Foundation.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://nationalsecurity.gmu.edu/amira-valliani/",
+            "https://www.linkedin.com/in/amira-valliani",
+            "https://solana.com/podcasts/bits-to-bricks-with-amira-valliani",
+            "https://solana.com/podcasts/the-index/episodes/17582831-from-the-white-house-to-solana-amira-valliani-head-of-depin",
+            "https://cms.fintech.tv/exploring-the-future-of-payments-and-stablecoins-with-amira-valliani-at-money20-20/",
+            "https://a2awire.com/news/stripe-money2020-hidden-wallets-always-on-money-2026/",
+            "https://solana.com/news/accelerate-usa-recap"
+          ],
+          "short": "White House adviser turned founder, now growing stablecoin payments on Solana.",
+          "signal": "White House → Glow (acq. Libsyn) → Solana policy → DePIN → Payments growth",
+          "tag": "Builder",
+          "orgShort": "Solana",
+          "why": "**She connects national-security policy, creator payouts and stablecoin payments.** She served in the Obama White House as a senior adviser to the deputy national security adviser and as a speechwriter to the Secretary of State. She founded Glow, a creator payments company acquired by Libsyn in 2021, then joined the Solana Foundation in January 2022 as its first head of policy before leading DePIN. Now head of payments growth, she spoke on stablecoins at Money20/20 in 2026. Policy chops, payment rails.",
+          "media": {
+            "type": "youtube",
+            "id": "80zLCM-EoJY",
+            "caption": "Solana Foundation: The Future of DePIN On Solana | Amira Valliani",
+            "credit": "Lightspeed / YouTube",
+            "link": "https://www.youtube.com/watch?v=80zLCM-EoJY"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Paul Teshima",
+          "url": "https://www.linkedin.com/in/paulteshima",
+          "role": "Chief Marketing and Commercial Officer",
+          "org": "Wealthsimple",
+          "status": "Chief Marketing and Commercial Officer at Wealthsimple; started its Wealthsimple Presents launch series, whose fourth edition ran November 5, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/paulteshima_when-we-started-wealthsimple-presents-the-activity-7516911756628164608-dMt6",
+            "https://betakit.com/nudge-ai-co-founder-paul-teshima-joins-wealthsimple-as-chief-client-experience-officer/",
+            "https://fintech.ca/2026/09/01/wealthsimple-paul-teshima-canadians-banking-costs/",
+            "https://cxfinancialservices.com/speakers/paul-teshima/",
+            "https://digin.transistor.fm/36",
+            "https://www.linkedin.com/in/paulteshima"
+          ],
+          "short": "Turned product launches into a national event series at Wealthsimple.",
+          "signal": "Eloqua → Nudge.ai → Wealthsimple → Wealthsimple Presents",
+          "tag": "Builder",
+          "orgShort": "Wealthsimple",
+          "why": "**He connects marketing automation with launch events a whole country tunes into.** He co-founded Eloqua and, as a senior vice president, saw it through its NASDAQ IPO and acquisition by Oracle. He then co-founded Nudge.ai as CEO and joined Wealthsimple in October 2020 as chief client experience officer. Now chief marketing and commercial officer, he started the Wealthsimple Presents series, whose fourth edition on November 5, 2026 drew about 700,000 registrants and filled Massey Hall to unveil the AI assistant Penny. Launch day as a stage show.",
+          "media": {
+            "type": "youtube",
+            "id": "vPIQIk68uG4",
+            "caption": "#TimTalks with Paul Teshima, then CEO of Nudge.ai",
+            "credit": "Timothy Hughes / YouTube"
+          },
+          "added": "2026-11-09"
+        },
+        {
+          "name": "Reeju Datta",
+          "url": "https://www.linkedin.com/in/reejudatta",
+          "role": "Co-founder",
+          "org": "Cashfree Payments",
+          "status": "Co-founder of Cashfree Payments; launched Checkout for Agents on WebMCP, live November 6, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.ciol.com/tech/cashfree-webmcp-checkout-for-agents-ai-payments-12788980",
+            "https://inc42.com/buzz/cashfree-launches-checkout-for-agents-to-enable-ai-led-payments/",
+            "https://economictimes.indiatimes.com/ai/ai-insights/cashfree-opens-checkout-to-ai-agents-leaves-final-say-with-shoppers/articleshow/135594642.cms",
+            "https://www.business-standard.com/companies/news/cashfree-makes-its-checkout-readable-for-ai-agents-to-speed-up-payments-126110601690_1.html",
+            "https://www.cashfree.com/docs/payments/checkout/checkout-for-agents"
+          ],
+          "short": "Opened Cashfree's checkout to AI agents while leaving the final tap to shoppers.",
+          "signal": "Cashfree Payments co-founder → Checkout for Agents on WebMCP",
+          "tag": "Leads product",
+          "orgShort": "Cashfree",
+          "why": "**He connects India's payment rails with shopping agents.** As co-founder of Cashfree Payments he helped build one of India's major payment gateways for merchants. In November 2026 Cashfree launched Checkout for Agents on WebMCP, making its checkout readable to AI agents so they can fill in carts and details while shoppers keep the final say on payment. Agents prep, humans pay.",
+          "media": {
+            "type": "youtube",
+            "id": "r2EIzCVp_Aw",
+            "caption": "Reeju Datta, Co-Founder, on growing with a 'move fast' mindset",
+            "credit": "Cashfree / YouTube"
+          },
+          "added": "2026-11-09"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Khe Yeh",
+          "url": "https://www.linkedin.com/in/kheyeh",
+          "role": "Growth Lead, B2B",
+          "org": "OpenAI",
+          "status": "Joined OpenAI in 2026 to lead B2B growth after seven years at Meta.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/kheyeh_last-month-after-seven-years-i-made-the-activity-7490077777891590145-1X4V",
+            "https://www.linkedin.com/in/kheyeh",
+            "https://www.linkedin.com/posts/kheyeh_martech-lead-reality-labs-activity-7262233479998779393-n5mH"
+          ],
+          "short": "Meta performance-marketing veteran now leading B2B growth at OpenAI.",
+          "signal": "Meta (performance marketing, Reality Labs) → OpenAI B2B growth",
+          "tag": "Joined",
+          "orgShort": "OpenAI",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Sophia Feng",
+          "url": "https://www.linkedin.com/in/sophiafeng",
+          "role": "Growth Engineering Lead, Computer",
+          "org": "Perplexity",
+          "status": "Leads growth engineering for Perplexity's user journey through Computer.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/sophiafeng_design-engineer-growth-marketing-activity-7490145956559241216-89fn",
+            "https://www.linkedin.com/in/sophiafeng",
+            "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+          ],
+          "short": "Builds the activation and upgrade loops behind Perplexity Computer.",
+          "signal": "Perplexity Growth → Computer growth",
+          "tag": "Builder",
+          "orgShort": "Perplexity",
+          "added": "2026-11-09",
+          "alternate": true
+        },
+        {
+          "name": "Blake Singleton",
+          "url": "https://www.linkedin.com/in/blake-singleton",
+          "role": "Enterprise Growth Lead",
+          "org": "Perplexity",
+          "status": "Joined Perplexity in 2026 to lead enterprise growth.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/blake-singleton_excited-to-share-that-ive-joined-perplexity-activity-7490829001855344641-5txg",
+            "https://www.linkedin.com/in/blake-singleton",
+            "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+          ],
+          "short": "Leading Perplexity's enterprise growth as Teammates lands.",
+          "signal": "Perplexity Enterprise Growth",
+          "tag": "Joined",
+          "orgShort": "Perplexity",
+          "added": "2026-11-09",
+          "alternate": true
+        }
+      ]
+    }
+  ],
+  "approved": "2026-11-09T14:11:00-08:00",
+  "approvedBy": "Jason Schmidt"
+}
