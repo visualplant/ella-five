@@ -279,8 +279,8 @@ section.col:first-of-type { border-left: 0; padding-left: 0; } section.col:last-
 
 /* Nav: 5x5 home link + thin rule separator */
 .nav-home { position: relative; }
-.nav-home::after { content: ""; position: absolute; right: -13px; top: 50%; width: 1px; height: 14px; transform: translateY(-50%); background: var(--mute); opacity: .55; }
-@media (max-width: 760px) { .nav-home::after { right: -8px; } }
+.nav-home > a::after { content: ""; position: absolute; right: -13px; top: 50%; width: 1px; height: 14px; transform: translateY(-50%); background: var(--mute); opacity: .55; }
+@media (max-width: 760px) { .nav-home > a::after { right: -8px; } }
 
 /* Column header arrow */
 .col h2 .h-link { position: relative; display: inline-block; }

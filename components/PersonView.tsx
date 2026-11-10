@@ -26,7 +26,7 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
   const nb = (d: number) => { const i = (rank - 1 + d + n) % n; const q = c.people[i]; return { href: href(q.name), name: q.name, rank: i + 1 }; };
   const media = p.media ? <Media m={p.media} name={p.name} /> : null;
   const lead: Row[] = [["Known for", p.short]];
-  if (p.why) lead.push(["Why chosen", p.why]); else if (PREVIEW) lead.push(["Why chosen", <span className="pv-phw" key="w">Ella’s blurb goes here (preview placeholder).</span>]);
+  if (p.why) lead.push(["Why chosen", <>{p.why.split(/(\*\*[^*]+\*\*)/g).map((t, i) => /^\*\*[^*]+\*\*$/.test(t) ? <strong key={i}>{t.slice(2, -2)}</strong> : t)}</>]); else if (PREVIEW) lead.push(["Why chosen", <span className="pv-phw" key="w">Ella’s blurb goes here (preview placeholder).</span>]);
   if (p.workedWith?.length) lead.push(["Worked with", <span className="pv-ww" key="ww">{p.workedWith.map((w) => { const sub = [w.role, w.org].filter(Boolean).join(", "); return <span key={w.name}>{w.url ? <Ext href={w.url}>{w.name}</Ext> : w.name}{sub && <span className="pv-mute">, {sub}</span>}</span>; })}</span>]);
   const rest: Row[] = [
     ["Role", <>{p.role}<span className="pv-mute">, {p.org}</span></>],
