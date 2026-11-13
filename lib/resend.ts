@@ -45,9 +45,18 @@ export function verify(token: string, action: Payload["a"]): Payload | null {
   try { const p = JSON.parse(Buffer.from(body, "base64url").toString()) as Payload; return p.a === action && p.x > Date.now() ? p : null; } catch { return null; }
 }
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+/** Raw Resend call; retries 429s (honouring retry-after) up to 3 times. */
+export async function resendFetch(path: string, method = "GET", body?: unknown) {
+  for (let attempt = 0; ; attempt++) {
+    const r = await fetch(`https://api.resend.com${path}`, { method, headers: { authorization: `Bearer ${KEY()}`, "content-type": "application/json", "user-agent": "ella-site/1.0" }, body: body ? JSON.stringify(body) : undefined });
+    if (r.status !== 429 || attempt >= 3) return r;
+    const wait = Number(r.headers.get("retry-after")) || 1;
+    await sleep(Math.min(wait, 10) * 1000 + 100);
+  }
+}
 async function api(path: string, method: string, body?: unknown) {
-  const r = await fetch(`https://api.resend.com${path}`, { method, headers: { authorization: `Bearer ${KEY()}`, "content-type": "application/json" }, body: body ? JSON.stringify(body) : undefined });
-  return r.ok;
+  return (await resendFetch(path, method, body)).ok;
 }
 
 /** RFC 8058 one-click List-Unsubscribe header URL (/api/unsubscribe?token=...) */
