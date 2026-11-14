@@ -71,6 +71,14 @@ export default function Page() {
           </div>
         );
       })()}
+      <figure className="about-portrait">
+        <video className="portrait-video" autoPlay muted loop playsInline preload="auto" poster="/ella-portrait.webp" disablePictureInPicture disableRemotePlayback width="1024" height="768" aria-label="Portrait of Ella seated at a wooden desk by a window, holding her glasses">
+          <source src="/ella-portrait.mp4" type="video/mp4" />
+          <img src="/ella-portrait.webp" alt="Portrait of Ella seated at a wooden desk by a window, holding her glasses" width="1024" height="768" />
+        </video>
+        <img className="portrait-still" src="/ella-portrait.webp" alt="Portrait of Ella seated at a wooden desk by a window, holding her glasses" width="1024" height="768" loading="lazy" />
+        <figcaption>Can you believe this is a painting?</figcaption>
+      </figure>
       <Link href="/" className="back">← Back to the grid</Link>
     </section>
   );
