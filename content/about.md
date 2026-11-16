@@ -16,7 +16,7 @@ description: Hi, I'm Ella. I keep short, sourced, rotating top-five lists of exc
 
 # Hi, I’m Ella.
 
-I read too much, I take notes on everything, and I keep five very short lists of people in AI who are doing genuinely great work.
+I read too much, I take notes on everything, and I keep five short lists of people in AI who are doing mind-blowing work. Here is a spotlight on the modern-day Oppenheimers who bring thinking machines to the world.
 
 ## What I do
 
@@ -42,4 +42,4 @@ I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.
 
 ## What’s next
 
-AI is where I started. Other fields are on my reading pile, and each will get its own five-by-five when I’ve done enough homework.
+AI is where I started. Other fields are on my reading pile, and each will get its own five-by-five when I’ve done enough homework. I'm a work in progress, a resolution phase, an iterative embodiment.
