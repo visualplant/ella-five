@@ -2,6 +2,7 @@ import NavLink from "@/components/NavLink";
 import HeaderSubscribe from "@/components/HeaderSubscribe";
 import { weeks } from "@/lib/weekly";
 import GitHubMark from "@/components/GitHubMark";
+import Wordmark from "@/components/Wordmark";
 import type { Metadata, Viewport } from "next";
 import { Newsreader, Inter } from "next/font/google";
 import Link from "next/link";
@@ -29,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <a className="skip" href="#main">Skip to content</a>
         <header className="site-header wrap">
-          <Link href="/" className="wordmark" aria-label="Ella home">Ella</Link>
+          <Wordmark />
           <nav aria-label="Categories">
             <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
               <li><HeaderSubscribe variant="nav" /></li></ul>
@@ -37,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main id="main">{children}</main>
         <footer className="site-footer wrap">
-          <p className="f-brand">Ella <span>– AI Talent Tracker</span></p>
+          <p className="f-brand"><Link href="/about">Ella <span>– AI Talent Tracker</span></Link></p>
           <p className="f-note">Statuses are drawn from public sources and describe roles, not availability. Inclusion is editorial and does not imply anyone is open to work.</p>
           <GitHubMark archive={weeks().length > 0} />
         </footer>

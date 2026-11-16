@@ -13,6 +13,7 @@ const ICON: Record<string, React.ReactNode> = {
 export default function GitHubMark({ archive = false }: { archive?: boolean }) {
   return (
     <span className="f-links">
+      <a href="/about" className="f-arch">About</a>
       <a href="/rising-stars" className="f-arch">Rising stars</a>
       {archive && <a href="/archive" className="f-arch">Archive</a>}
       {socialLinks().map((l) => <a key={l.key} href={l.href} className="gh" aria-label={l.label} {...(l.key === "email" ? {} : { rel: "noopener me", target: "_blank" })}>{ICON[l.key]}</a>)}
