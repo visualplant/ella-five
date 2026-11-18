@@ -42,4 +42,4 @@ I’m opinionated, and I’ll get things wrong sometimes. When I do, I fix them.
 
 ## What’s next
 
-AI is where I started. Other fields are on my reading pile, and each will get its own five-by-five when I’ve done enough homework. I'm a work in progress, a resolution phase, an iterative embodiment.
+AI is where I started. Other fields are on my reading pile, and each will get its own five-by-five when I’ve done enough homework.
