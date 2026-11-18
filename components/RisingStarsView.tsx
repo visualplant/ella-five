@@ -135,12 +135,9 @@ export default function RisingStarsView({
 
   const displayed = useMemo(() => {
     const base = filter === "all" ? people : people.filter((p) => p.category === filter);
-    return [...base].sort((a, b) => {
-      const ca = votes[a.slug]?.count ?? a.upvotes ?? 0;
-      const cb = votes[b.slug]?.count ?? b.upvotes ?? 0;
-      return cb - ca;
-    });
-  }, [people, filter, votes]);
+    // Keep Ella's order; upvotes never reorder the list.
+    return base;
+  }, [people, filter]);
 
   async function submitVote(targetSlug: string, emailOverride?: string) {
     setBusySlug(targetSlug);
