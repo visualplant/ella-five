@@ -648,7 +648,7 @@
           "url": "https://openai.com/index/lifeval/",
           "role": "Researcher",
           "org": "OpenAI",
-          "status": "First author of LifeVal, OpenAI's life-sciences evaluation (November 2026).",
+          "status": "First author of LifeVal, OpenAI's evaluation of AI on everyday personal tasks (November 2026).",
           "verified": false,
           "note": null,
           "sources": [
@@ -656,7 +656,7 @@
             "https://openai.com/index/lifeval/",
             "https://cdn.openai.com/pdf/lifeval.pdf"
           ],
-          "short": "Led OpenAI's LifeVal evaluation for life-sciences work.",
+          "short": "Led OpenAI's LifeVal evaluation of AI on everyday personal tasks.",
           "signal": "OpenAI → LifeVal",
           "tag": "Builder",
           "orgShort": "OpenAI",
