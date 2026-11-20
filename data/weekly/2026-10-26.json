@@ -615,11 +615,11 @@
             }
           ],
           "media": {
-            "type": "image",
-            "url": "/media/2026-10-26/mikita-balesni.webp",
-            "alt": "Mikita Balesni's research page showing highlighted alignment and anti-scheming papers",
-            "caption": "mbalesni.github.io",
-            "credit": "Mikita Balesni"
+            "type": "youtube",
+            "id": "tjAg_KxApmw",
+            "caption": "Fired OpenAI safety researchers Mikita Balesni and Tomek Korbak speak out",
+            "credit": "Machine Gods / YouTube",
+            "link": "https://www.youtube.com/watch?v=tjAg_KxApmw"
           }
         },
         {
@@ -1023,9 +1023,10 @@
           "why": "He connects medicine, reinforcement learning and the launch playbook behind AI voice. After studying medicine at Cambridge he worked on reinforcement learning at Microsoft Research, co-founded the Y Combinator-backed Fella Health and served as interim head of product at PostHog. He joined ElevenLabs in November 2023 to lead growth, where the mobile app reached $1 million in annual recurring revenue within 16 days of launch; on the side, his open-source WhatsApp MCP server passed 3,000 GitHub stars. Every launch a hackathon.",
           "media": {
             "type": "youtube",
-            "id": "l4HfPPvRhTs",
-            "caption": "Luke Harries from ElevenLabs - how to launch",
-            "credit": "Scaling DevTools / YouTube"
+            "id": "P-BuXyQZMi4",
+            "caption": "From $100K to $8M pipeline with AI: Luke Harries, ElevenLabs",
+            "credit": "Profound / YouTube",
+            "link": "https://www.youtube.com/watch?v=P-BuXyQZMi4"
           },
           "added": "2026-10-26"
         },
