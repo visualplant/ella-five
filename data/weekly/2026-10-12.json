@@ -286,11 +286,11 @@
           "orgShort": "Humana",
           "why": "She connects robots, cashierless stores and AI agents, usually as the first designer in the room. She founded the multimodal UX and research program behind the Star Wars BB-8 and Force Band consumer robots. At Amazon she was founding UX designer for Just Walk Out, worked on Amazon Monthly Payments, and was founding UX designer on the agentic developer studio for the LLM-powered Alexa+. In 2026 she moved to Humana to design emerging products, and she teaches as an adjunct at CU Denver. Serial first designer.",
           "media": {
-            "type": "image",
-            "url": "/media/2026-10-12/amara-hulslander.webp",
-            "alt": "Amazon Just Walk Out home page: a shopper taps in at a Just Walk Out store gate",
-            "caption": "Just Walk Out by Amazon",
-            "credit": "Amazon"
+            "type": "youtube",
+            "id": "8DA9FUt10fM",
+            "caption": "Using AI for UX and usability research",
+            "credit": "Amara Hulslander / YouTube",
+            "link": "https://www.youtube.com/watch?v=8DA9FUt10fM"
           },
           "added": "2026-10-22",
           "location": "Denver, CO"
@@ -524,9 +524,10 @@
           "why": "He connects optimization theory with the brute work of training frontier models. After a PhD at KAUST and a stint at Samsung AI Center, he co-authored D-Adaptation and Prodigy, optimizers that cut out manual learning-rate tuning. In 2024 his Schedule-Free AdamW submission won the self-tuning track of the first MLCommons AlgoPerf competition, and that October he joined Meta as a research scientist. In October 2026 he joined Mistral AI's pretraining team, saying model quality now comes before papers. Less tuning, more training.",
           "media": {
             "type": "youtube",
-            "id": "0lXvUMfafBY",
-            "caption": "Regularized Newton Method with Global O(1/k^2) Convergence (One World Optimization Seminar)",
-            "credit": "One World Optimization Seminar / YouTube"
+            "id": "i4v0rO5yILQ",
+            "caption": "Konstantin Mishchenko: Distributed Optimization Stories (Protocol Learning Workshop, ICML 2026)",
+            "credit": "Pluralis Research / YouTube",
+            "link": "https://www.youtube.com/watch?v=i4v0rO5yILQ"
           },
           "added": "2026-10-22"
         },
@@ -587,9 +588,10 @@
           "why": "She connects reinforcement learning with agents that do hours of work in minutes. At OpenAI she was a research lead on Deep Research, the browsing research agent launched in February 2025 and trained end to end on hard browsing tasks. That July she helped ship ChatGPT agent, which combined browsing, computer use, code and tools into one system, and she now leads post-training work on both. Forbes has profiled her among AI's rising builders. Quiet name, loud agents.",
           "media": {
             "type": "youtube",
-            "id": "jFZ9hJKJKtw",
-            "caption": "How OpenAI Built its Groundbreaking Deep Research Product",
-            "credit": "Sequoia Capital / YouTube"
+            "id": "1Hdm4lxWZI4",
+            "caption": "The future of AI agents: inside OpenAI with Isa Fulford",
+            "credit": "Sabrina Halper Show / YouTube",
+            "link": "https://www.youtube.com/watch?v=1Hdm4lxWZI4"
           },
           "added": "2026-10-22",
           "location": "San Francisco, CA",

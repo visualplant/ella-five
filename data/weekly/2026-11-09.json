@@ -35,9 +35,10 @@
           "why": "**He connects the open-source web with the next generation of code review.** At Twitter he co-created Bootstrap, the front-end toolkit a huge share of the web was built on, then was an early engineer at Medium. He co-founded Bumpers, which Coinbase acquired, and spent about five years leading Coinbase's Product Platform. With Ian Ownbey he went on to found Pierre Computer Company, a YC-backed rethink of how teams review code, and on November 4, 2026 OpenAI announced an agreement to acquire it. From Bootstrap to Codex's front door.",
           "media": {
             "type": "youtube",
-            "id": "UIDb6VBO9os",
-            "caption": "Jacob Thornton (\"Fat\") at dotJS 2012 on open source",
-            "credit": "dotconferences / YouTube"
+            "id": "O3TH8_vOSNs",
+            "caption": "Jacob Thornton on reinventing the wheel (Blackboard Lectures on Tap)",
+            "credit": "Greptile / YouTube",
+            "link": "https://www.youtube.com/watch?v=O3TH8_vOSNs"
           },
           "added": "2026-11-09",
           "location": "Oakland"
@@ -67,9 +68,10 @@
           "why": "**He connects decades of developer education with cryptographic proof for AI.** He started Cprogramming.com as a young teenager, studied computer science at Harvard, shipped security software at Liquid Machines and wrote the book Jumping into C++. At Dropbox he led engineering across Dropbox Business and developer infrastructure, then volunteered with U.S. Digital Response and taught at Reforge. Work on verifiable inference with 0xPARC and the Field Extension Institute led him to Anthropic in 2026, where on November 2 he co-authored FlashProve, a way to prove which model actually served a response. Trust, but verify the weights.",
           "media": {
             "type": "youtube",
-            "id": "ZcBtF-JWJhM",
-            "caption": "Alex Allain at CppCon 2014 on cross-platform mobile C++ at Dropbox",
-            "credit": "CppCon / YouTube"
+            "id": "frXmE4wRM6M",
+            "caption": "Technical Foundations for Product Managers: course overview with Alex Allain and Anand Subramani",
+            "credit": "Reforge / YouTube",
+            "link": "https://www.youtube.com/watch?v=frXmE4wRM6M"
           },
           "added": "2026-11-09",
           "location": "San Francisco"
@@ -97,10 +99,10 @@
           "why": "**He connects smart-contract tooling with agents that can pay their own way.** As a staff engineer at Hiro he created Clarinet, the developer environment for writing, testing and deploying Clarity contracts on Stacks. At the Solana Foundation he now ships Pay.sh, the command-line and MCP toolkit that lets AI agents pay for APIs in USDC; its 2026 MCP elicitations release made agents ask a human before spending. Developer tools, now with a wallet.",
           "media": {
             "type": "youtube",
-            "id": "LEebinuy2Ug",
-            "caption": "Technical Deep Dive on Clarinet — Ludo Galabru, Staff Engineer, Hiro Systems",
-            "credit": "Stacks Community / YouTube",
-            "link": "https://www.youtube.com/watch?v=LEebinuy2Ug"
+            "id": "shmq4Achmqg",
+            "caption": "Scale or Die: from localnet to mainnet with Surfpool (Ludo Galabru, Txtx)",
+            "credit": "Solana / YouTube",
+            "link": "https://www.youtube.com/watch?v=shmq4Achmqg"
           },
           "added": "2026-11-09",
           "location": "New York"
@@ -129,9 +131,10 @@
           "why": "**She connects open models with the startups that will build on them.** At Stanford she worked on Chirpy Cardinal, the social chatbot that took second place in the Alexa Prize. She joined Google Brain in 2020 and Google DeepMind in 2023, where she became one of the tech leads of Gemma, Google's family of open models, and introduced Gemma 2 on stage at the AI Engineer World's Fair in 2024 before work on Gemma 3 and EmbeddingGemma. In September 2026 she joined Discovery Loop as a founding member of technical staff. Open weights, new loop.",
           "media": {
             "type": "youtube",
-            "id": "Xmkl27AM2VQ",
-            "caption": "Kathleen Kenealy unveils Gemma model advancements at AI Engineer World's Fair",
-            "credit": "AI Engineer / YouTube"
+            "id": "70POPwwbDWM",
+            "caption": "Kathleen Kenealy on creating, building and releasing Gemma, Google's open model family",
+            "credit": "Google for Developers / YouTube",
+            "link": "https://www.youtube.com/watch?v=70POPwwbDWM"
           },
           "added": "2026-11-09"
         },
@@ -260,9 +263,10 @@
           "why": "**He connects consumer-grade craft with how people work alongside Claude.** After studying Symbolic Systems at Stanford he designed at GoodGuide, Quora and Hustle, then led end-user design at Airtable. He joined Anthropic as Head of Product Design in October 2023, and in October 2026 walked through the company's design refresh in public: roughly 400 icons redrawn in a week, a Claude-native design system and the swipe cards in Claude Duet. Taste at frontier speed.",
           "media": {
             "type": "youtube",
-            "id": "GgP9LEAY1PA",
-            "caption": "Joel Lewenstein on pursuing ambitious design ideas (Dive Club Ep. 77)",
-            "credit": "Dive Club / YouTube"
+            "id": "GBxs67h4_lo",
+            "caption": "Joel Lewenstein on the hidden design choices behind Claude",
+            "credit": "Canva / YouTube",
+            "link": "https://www.youtube.com/watch?v=GBxs67h4_lo"
           },
           "added": "2026-11-09",
           "location": "San Francisco"
@@ -490,9 +494,10 @@
           "why": "**He connects machine perception with machines that discover.** Over nearly 12 years at Google DeepMind he helped define neural scene representation, co-leading the 2018 Generative Query Network work that let a model imagine a 3D scene from a handful of images. On November 2, 2026 he announced his move to Discovery Loop. Twelve years, one new loop.",
           "media": {
             "type": "youtube",
-            "id": "G-kWNQJ4idw",
-            "caption": "Neural Scene Representation and Rendering, presented by Ali Eslami",
-            "credit": "Ali Eslami / YouTube"
+            "id": "-cVWLHAfh48",
+            "caption": "From Artifact to Process: Ali Eslami with Valentina Culatti and Doddz at Augmented Humans",
+            "credit": "GIFLondon / YouTube",
+            "link": "https://www.youtube.com/watch?v=-cVWLHAfh48"
           },
           "added": "2026-11-09",
           "location": "London"
@@ -1001,10 +1006,10 @@
           "why": "**She connects national-security policy, creator payouts and stablecoin payments.** She served in the Obama White House as a senior adviser to the deputy national security adviser and as a speechwriter to the Secretary of State. She founded Glow, a creator payments company acquired by Libsyn in 2021, then joined the Solana Foundation in January 2022 as its first head of policy before leading DePIN. Now head of payments growth, she spoke on stablecoins at Money20/20 in 2026. Policy chops, payment rails.",
           "media": {
             "type": "youtube",
-            "id": "80zLCM-EoJY",
-            "caption": "Solana Foundation: The Future of DePIN On Solana | Amira Valliani",
-            "credit": "Lightspeed / YouTube",
-            "link": "https://www.youtube.com/watch?v=80zLCM-EoJY"
+            "id": "rCRvfeuu1yc",
+            "caption": "Stablecoins went from 'if' to 'how' in 12 months: Amira Valliani, Solana Foundation",
+            "credit": "Stabledash / YouTube",
+            "link": "https://www.youtube.com/watch?v=rCRvfeuu1yc"
           },
           "added": "2026-11-09"
         },
@@ -1031,9 +1036,10 @@
           "why": "**He connects marketing automation with launch events a whole country tunes into.** He co-founded Eloqua and, as a senior vice president, saw it through its NASDAQ IPO and acquisition by Oracle. He then co-founded Nudge.ai as CEO and joined Wealthsimple in October 2020 as chief client experience officer. Now chief marketing and commercial officer, he started the Wealthsimple Presents series, whose fourth edition on November 5, 2026 drew about 700,000 registrants and filled Massey Hall to unveil the AI assistant Penny. Launch day as a stage show.",
           "media": {
             "type": "youtube",
-            "id": "vPIQIk68uG4",
-            "caption": "#TimTalks with Paul Teshima, then CEO of Nudge.ai",
-            "credit": "Timothy Hughes / YouTube"
+            "id": "PyOQGUt1RyY",
+            "caption": "The operator behind Wealthsimple's growth: Paul Teshima on brand bets and blitz hiring",
+            "credit": "Between Two Brunettes / YouTube",
+            "link": "https://www.youtube.com/watch?v=PyOQGUt1RyY"
           },
           "added": "2026-11-09"
         },
@@ -1059,9 +1065,10 @@
           "why": "**He connects India's payment rails with shopping agents.** As co-founder of Cashfree Payments he helped build one of India's major payment gateways for merchants. In November 2026 Cashfree launched Checkout for Agents on WebMCP, making its checkout readable to AI agents so they can fill in carts and details while shoppers keep the final say on payment. Agents prep, humans pay.",
           "media": {
             "type": "youtube",
-            "id": "r2EIzCVp_Aw",
-            "caption": "Reeju Datta, Co-Founder, on growing with a 'move fast' mindset",
-            "credit": "Cashfree / YouTube"
+            "id": "OncwR1z8Ke0",
+            "caption": "UPI, AI and the future of payments: how Cashfree was built, with Reeju Datta",
+            "credit": "Saurabh Samdani / YouTube",
+            "link": "https://www.youtube.com/watch?v=OncwR1z8Ke0"
           },
           "added": "2026-11-09"
         }

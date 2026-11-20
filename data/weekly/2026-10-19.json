@@ -78,9 +78,10 @@
           "why": "He connects networking research, silicon and the physical buildout of AI. After a career spanning Stanford, startups and Intel, he became OpenAI's head of industrial compute. There he helped steer Stargate data centers and the custom chip effort known as Jalapeño. In October 2026 he announced he will leave on November 15 to build something new, staying on as an advisor. Electrons in, tokens out.",
           "media": {
             "type": "youtube",
-            "id": "do0znlHb8Lg",
-            "caption": "Networks moving towards cloud-based operations (Ericsson interview, while at Intel)",
-            "credit": "Ericsson / YouTube"
+            "id": "wEZBlmvxx4o",
+            "caption": "OpenAI's compute chief: we can't build fast enough (Sachin Katti on the MAD Podcast)",
+            "credit": "The MAD Podcast with Matt Turck / YouTube",
+            "link": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
           },
           "added": "2026-10-20"
         },
@@ -105,9 +106,10 @@
           "why": "He bridges deep-learning research and the frontier labs that ship it. At Google Brain he worked on neural architecture search and co-led the Switch Transformer work that scaled sparse models to a trillion parameters. He then went to OpenAI, co-founded Thinking Machines Lab, and returned to OpenAI in January 2026. In August 2026 he joined Google DeepMind as VP of Research. Few people have seen more of the frontier from more angles.",
           "media": {
             "type": "youtube",
-            "id": "2pbvnxdaKaw",
-            "caption": "Switch Transformers: Scaling to Trillion Parameter Models",
-            "credit": "KUIS AI / YouTube"
+            "id": "YXiRbRacTF0",
+            "caption": "Research x Product, with Barret Zoph and Joanne Jang",
+            "credit": "OpenAI / YouTube",
+            "link": "https://www.youtube.com/watch?v=YXiRbRacTF0"
           },
           "added": "2026-10-20",
           "location": "San Francisco, CA",
@@ -192,9 +194,10 @@
           "added": "2026-10-20",
           "media": {
             "type": "youtube",
-            "id": "HTRnuDZJVbs",
-            "caption": "Disagreements on AGI timelines, with Ege Erdil (Epoch AI)",
-            "credit": "Epoch AI / YouTube"
+            "id": "M5Lycj5IRwQ",
+            "caption": "Meet the founders looking to automate all jobs: Matthew Barnett and Ege Erdil of Mechanize",
+            "credit": "Hard Fork / YouTube",
+            "link": "https://www.youtube.com/watch?v=M5Lycj5IRwQ"
           },
           "workedWith": [
             {
@@ -240,10 +243,11 @@
           "orgShort": "ex-OpenAI",
           "why": "He connects consumer social design with the frontier of AI products. He spent eight years at Instagram, then designed at Artifact and Global Illumination. At OpenAI he led product design for ChatGPT, Codex and more for over three years. In September 2026 he wrapped up after transitioning the team, and he plans to build something new with Joey Flynn and Thomas Dimson. The interface for AGI had to come from somewhere.",
           "media": {
-            "type": "image",
-            "url": "https://iansilber.com/og-image.png",
-            "caption": "iansilber.com",
-            "credit": "Ian Silber"
+            "type": "youtube",
+            "id": "BV0hy6NET-U",
+            "caption": "Chatbots are not the final interface: Ian Silber on what's next",
+            "credit": "Lenny's Podcast / YouTube",
+            "link": "https://www.youtube.com/watch?v=BV0hy6NET-U"
           },
           "added": "2026-10-20",
           "workedWith": [
@@ -426,9 +430,10 @@
           "why": "He links rigorous ML theory, AI safety and the economics of intelligence. As an MIT professor his adversarial-robustness research reshaped how the field thinks about reliable models. He spent almost three years at OpenAI, where he led the Preparedness team and later worked on reasoning. In May 2026 he left to invest in and build projects on AI's economic impact. Robust, then and now.",
           "media": {
             "type": "youtube",
-            "id": "mUt7w4UoYqM",
-            "caption": "A New Perspective on Adversarial Perturbations",
-            "credit": "Simons Institute / YouTube"
+            "id": "rv09Bd-NhxQ",
+            "caption": "OpenAI and MIT CSAIL discuss frontier research: Aleksander Madry and Daniela Rus",
+            "credit": "Imagination in Action / YouTube",
+            "link": "https://www.youtube.com/watch?v=rv09Bd-NhxQ"
           },
           "added": "2026-10-20",
           "location": "Cambridge, MA"
@@ -455,9 +460,10 @@
           "why": "He connects game-playing AI with the next wave of machine reasoning. As a DeepMind research leader he co-created AlphaGo, the system that mastered Go. In September 2026 he left DeepMind to launch Metis Reasoning, a startup focused on reasoning and planning. From move 37 to whatever comes next.",
           "media": {
             "type": "youtube",
-            "id": "wTSbvYBx4eg",
-            "caption": "The human pursuit of artificial intelligence, TEDxExeter",
-            "credit": "TEDx Talks / YouTube"
+            "id": "r4tB1cfi9ug",
+            "caption": "AI needs to reason like a scientist before we can trust it: Thore Graepel, Metis Reasoning",
+            "credit": "Scaling-Europe / YouTube",
+            "link": "https://www.youtube.com/watch?v=r4tB1cfi9ug"
           },
           "added": "2026-10-20",
           "location": "Cambridge & London, UK"
@@ -484,9 +490,10 @@
           "why": "He works where world models meet agents that act. During a PhD at Toronto, with stints at Berkeley and DeepMind, he created Dreamer, an agent that learns by imagining outcomes, and its successors DreamerV2 and V3. With DayDreamer he showed a real robot learning to walk in about an hour with no simulator. In 2026 he co-founded Embo with Wilson Yan to build agents that plan ahead. Dream, then do.",
           "media": {
             "type": "youtube",
-            "id": "xAXvfVTgqr0",
-            "caption": "Learning to Walk in the Real World in 1 Hour (DayDreamer)",
-            "credit": "Danijar Hafner / YouTube"
+            "id": "OzVC6pT2TBI",
+            "caption": "Danijar Hafner on world models and scalable objectives for AI improvement",
+            "credit": "BuzzRobot / YouTube",
+            "link": "https://www.youtube.com/watch?v=OzVC6pT2TBI"
           },
           "added": "2026-10-20",
           "location": "San Francisco, CA",
@@ -531,9 +538,10 @@
           "orgShort": "Discovery Loop (reported)",
           "media": {
             "type": "youtube",
-            "id": "vueAUa7OPCg",
-            "caption": "Towards Artificial General Intelligence, TEDxImperialCollege",
-            "credit": "TEDx Talks / YouTube"
+            "id": "IO9N8O1HJ4k",
+            "caption": "Oriol Vinyals: Recursive Self Improvement... of What?",
+            "credit": "Berkeley RDI / YouTube",
+            "link": "https://www.youtube.com/watch?v=IO9N8O1HJ4k"
           },
           "why": "He connects sequence learning, game-playing agents and automated discovery. At Google he co-invented seq2seq with Ilya Sutskever and Quoc Le, led the AlphaStar group at DeepMind, and became a technical lead on Gemini. He has spoken publicly on the road toward AGI. In August 2026 he left Gemini to co-found Discovery Loop with Jeff Dean, Quoc Le and Sanjay Ghemawat. Research, recursively.",
           "added": "2026-10-20",
@@ -586,9 +594,10 @@
           "why": "He links the theory of why deep learning generalizes with labs that put it into practice. His research on generalization made him a fixture at venues like the IAS, and he led research efforts at Google and then Anthropic. He left Anthropic to start something new, and in March 2026 he co-founded Mirendil with Harsh Mehta to build self-accelerating AI for science. Theory, compounding.",
           "media": {
             "type": "youtube",
-            "id": "HAfQ-Q8pn0g",
-            "caption": "Toward a Causal Analysis of Generalization in Deep Learning",
-            "credit": "Institute for Advanced Study / YouTube"
+            "id": "JJkx8Rp_Trk",
+            "caption": "The case for AI that improves itself, with Mirendil co-founders Behnam Neyshabur and Harsh Mehta",
+            "credit": "a16z Deep Dives / YouTube",
+            "link": "https://www.youtube.com/watch?v=JJkx8Rp_Trk"
           },
           "added": "2026-10-20",
           "location": "San Francisco, CA",
@@ -631,9 +640,10 @@
           "why": "He has led product across social, space, crypto and AI. He was SVP of Product at Twitter and VP of Product at Instagram, then co-founded Libra (later Diem) at Facebook. In 2021 he became President of Product and Business at Planet. In June 2024 he joined OpenAI as Chief Product Officer. In August 2026 he was reported to be raising funding for a new AI-science startup. Next stop, apparently, the lab bench.",
           "media": {
             "type": "youtube",
-            "id": "IxkvVZua28k",
-            "caption": "Kevin Weil, Mike Krieger and Sarah Guo at Lenny & Friends Summit",
-            "credit": "Lenny's Podcast / YouTube"
+            "id": "NJBs3ZMXr50",
+            "caption": "How robotics can bring preclinical drug discovery back to the US: Kevin Weil and Sol Reisberg, Warp Sciences",
+            "credit": "Lightspeed Venture Partners / YouTube",
+            "link": "https://www.youtube.com/watch?v=NJBs3ZMXr50"
           },
           "added": "2026-10-20",
           "location": "San Francisco Bay Area",
@@ -714,9 +724,10 @@
           "why": "He connects consumer craft with frontier AI. In 2010 he co-founded Instagram, and in 2023 he co-launched Artifact, an AI-powered news app. In May 2024 he joined Anthropic as Chief Product Officer. He now co-leads Anthropic's Labs incubator, which explores new products at the edge of what Claude can do. From filters to frontier.",
           "media": {
             "type": "youtube",
-            "id": "DKrBGOFs0GY",
-            "caption": "Anthropic's CPO on what comes next",
-            "credit": "Lenny's Podcast / YouTube"
+            "id": "ZkDRXs_LvWw",
+            "caption": "Mike Krieger, co-lead of Anthropic Labs: lessons learned at the frontier",
+            "credit": "SIERRA Ventures / YouTube",
+            "link": "https://www.youtube.com/watch?v=ZkDRXs_LvWw"
           },
           "added": "2026-10-20",
           "workedWith": [
@@ -750,9 +761,10 @@
           "why": "She connects messaging at planetary scale with simple, human product design. She built product at Facebook, Instagram and WhatsApp, then became Chief Product Officer at Faire. She is now Head of Product at Anthropic, where she has shared lessons on clarity, simplicity and minimum viable strategy. Simple wins.",
           "media": {
             "type": "youtube",
-            "id": "RK2QmZz_yVs",
-            "caption": "WIP 2018: The Career Growth Playbook She Wishes She Had",
-            "credit": "Women In Product / YouTube"
+            "id": "sEXdyK6woKU",
+            "caption": "Why Claude can't be your PM (yet): Ami Vora and Mike Krieger with Dan Shipper",
+            "credit": "Lenny's Podcast / YouTube",
+            "link": "https://www.youtube.com/watch?v=sEXdyK6woKU"
           },
           "added": "2026-10-20"
         },
@@ -864,9 +876,10 @@
           "why": "He links venture, operations and the business of AGI. He worked alongside Sam Altman at Y Combinator before joining OpenAI in 2018. He served as CFO from 2018 to 2022 and then as COO until April 2026, building the first versions of finance, legal, go-to-market and partnerships. In August 2026 he announced he is leaving to start something new. From research lab to one of the most consequential companies of our time.",
           "media": {
             "type": "youtube",
-            "id": "jdNwzYMtPN8",
-            "caption": "Hard Fork Live, with Sam Altman & Brad Lightcap",
-            "credit": "Hard Fork / YouTube"
+            "id": "HC0QkUNXNtg",
+            "caption": "Brad Lightcap on the future of AI (Benchmark Breakfast, Ep. 46)",
+            "credit": "Uncapped / YouTube",
+            "link": "https://www.youtube.com/watch?v=HC0QkUNXNtg"
           },
           "added": "2026-10-20",
           "location": "San Francisco, CA",
