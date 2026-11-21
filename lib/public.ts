@@ -123,3 +123,28 @@ export const publicListIndex = () => ({
     return { date: w, title: x.title, url: x.url, json: `${SITE}/api/v1/lists/${w}` };
   }),
 });
+
+/** Every person on every 5x5 (current + all weekly archives), full public profile plus where they placed. */
+export function publicAllPeople() {
+  const idx = people();
+  const placements = new Map<string, { list: string; category: string; rank: number }[]>();
+  const add = (list: string, v: { categories: { slug: string; people: Person[] }[] }) => {
+    for (const c of v.categories) c.people.forEach((p, i) => {
+      const s = pslugOf(p.name);
+      const arr = placements.get(s) ?? [];
+      arr.push({ list, category: c.slug, rank: i + 1 });
+      placements.set(s, arr);
+    });
+  };
+  add("current", defaultVertical);
+  for (const w of weeks()) { const v = getWeek(w); if (v) add(w, v); }
+  const list = [...idx.values()]
+    .sort((a, b) => Number(b.current) - Number(a.current) || a.p.name.localeCompare(b.p.name))
+    .map((e) => ({ ...publicPerson(e), placements: placements.get(e.slug) ?? [] }));
+  return {
+    updated: str(defaultVertical.updated),
+    lists: ["current", ...weeks()],
+    count: list.length,
+    people: list,
+  };
+}

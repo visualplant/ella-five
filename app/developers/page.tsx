@@ -26,6 +26,11 @@ export default function Page() {
       <h2>Endpoints</h2>
       <p>All paths are under <code>/api/v1</code> and return JSON. CORS allows <code>GET</code> from any origin.</p>
 
+      <h3>GET /api/v1/people</h3>
+      <p>Everyone who has appeared on any 5×5, current and past, in one call. Each person includes their full public profile and a <code>placements</code> array of every list, category and rank they held. People on the current list come first.</p>
+      <pre><code>{`curl -sS https://ellafive.com/api/v1/people \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
       <h3>GET /api/v1/lists/current</h3>
       <p>The current 5×5 list.</p>
       <pre><code>{`curl -sS https://ellafive.com/api/v1/lists/current \\
