@@ -31,18 +31,13 @@ export default function Page() {
       <pre><code>{`curl -sS https://ellafive.com/api/v1/people \\
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 
-      <h3>GET /api/v1/archive</h3>
-      <p>Every published list, current and archived, named by the date it was published, newest first. Each entry has its <code>status</code> (<code>current</code> or <code>archived</code>), its categories, and links to the page and its JSON.</p>
-      <pre><code>{`curl -sS https://ellafive.com/api/v1/archive \\
-  -H "Authorization: Bearer ${KEY}"`}</code></pre>
-
       <h3>GET /api/v1/lists/current</h3>
       <p>The current 5×5 list.</p>
       <pre><code>{`curl -sS https://ellafive.com/api/v1/lists/current \\
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 
       <h3>GET /api/v1/lists</h3>
-      <p>An index of weekly lists (dates) plus a link to the current list.</p>
+      <p>Every published list, current and archived, named by the date it was published, newest first. Each entry has its <code>status</code> (<code>current</code> or <code>archived</code>), its categories, and links to the page and its JSON.</p>
       <pre><code>{`curl -sS https://ellafive.com/api/v1/lists \\
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 

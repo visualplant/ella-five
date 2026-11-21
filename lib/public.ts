@@ -116,13 +116,7 @@ export function publicSearch(query: string): { error: string } | { query: string
   return { query: query.trim(), results };
 }
 
-export const publicListIndex = () => ({
-  current: `${SITE}/api/v1/lists/current`,
-  lists: weeks().map((w) => {
-    const x = publicWeek(w)!;
-    return { date: w, title: x.title, url: x.url, json: `${SITE}/api/v1/lists/${w}` };
-  }),
-});
+
 
 /** Every person on every 5x5 (current + all weekly archives), full public profile plus where they placed. */
 export function publicAllPeople() {
@@ -150,7 +144,7 @@ export function publicAllPeople() {
 }
 
 /** Every published list (current + archived), one entry per publish date, newest first. */
-export function publicArchive() {
+export function publicListIndex() {
   const cur = defaultVertical;
   const curDate = (str(cur.updated) ?? "").slice(0, 10);
   const dates = new Set(weeks());
