@@ -8,7 +8,9 @@ export default function PersonList({ c, v, headingLevel = 3 }: { c: Category; v?
   const H = (headingLevel === 2 ? "h2" : "h3") as "h2" | "h3";
   return (
     <ol className="people">
-      {c.people.map((p, i) => (
+      {c.people.map((p, i) => {
+        const sources = dedupeSourcesByHost(p.sources);
+        return (
         <li key={p.name} className="person" style={{ animationDelay: `${i * 60}ms` }}>
           <span className="rank" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
           <article>
@@ -16,11 +18,20 @@ export default function PersonList({ c, v, headingLevel = 3 }: { c: Category; v?
               {p.url && <span className="p-site">{host(p.url)}</span>}</H>
             <p className="p-role">{p.role}, <span>{p.org}</span></p>
             <p className="p-status">{p.status}</p>
-            <p className="p-source">{dedupeSourcesByHost(p.sources).map((s, j) => <a key={s} href={s} rel="noopener nofollow">{j === 0 ? "Source" : "Also"}: {host(s)}</a>)}
-              {p.verified && p.note?.trim() && <span className="p-note">{p.note.trim()}</span>}</p>
+            <p className="p-source">
+              {sources[0] && <a href={sources[0]} rel="noopener nofollow">Source: {host(sources[0])}</a>}
+              {sources.length > 1 && (
+                <span className="p-also">
+                  <span className="p-also-label">Also:</span>
+                  <span className="p-also-links">{sources.slice(1).map((s) => <a key={s} href={s} rel="noopener nofollow">{host(s)}</a>)}</span>
+                </span>
+              )}
+              {p.verified && p.note?.trim() && <span className="p-note">{p.note.trim()}</span>}
+            </p>
           </article>
         </li>
-      ))}
+        );
+      })}
     </ol>
   );
 }
