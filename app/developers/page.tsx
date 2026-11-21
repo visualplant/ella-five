@@ -1,0 +1,62 @@
+export const metadata = {
+  title: "API",
+  description: "Read-only JSON API for Ella’s lists, people and Rising Stars. Keys are available by request.",
+  openGraph: { title: "API – Ella – AI Talent Tracker" },
+  twitter: { title: "API – Ella – AI Talent Tracker" },
+  alternates: { canonical: "/developers" },
+};
+
+const KEY = "ella_live_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+export default function Page() {
+  return (
+    <section className="hero wrap compact docs">
+      <p className="eyebrow">Developers</p>
+      <h1>A read-only API for Ella’s lists</h1>
+      <p className="lede">JSON endpoints for the current 5×5, weekly lists, people, Rising Stars and search. Authentication is required. Keys are available by request.</p>
+
+      <h2>Authentication</h2>
+      <p>Every request must include an API key in the <code>Authorization</code> header:</p>
+      <pre><code>{`Authorization: Bearer ${KEY}`}</code></pre>
+      <p>Keys are issued by JSN. There is no self-serve signup. A missing or invalid key returns <code>401</code> with a JSON error. Keys can be revoked at any time.</p>
+
+      <h2>Rate limits</h2>
+      <p>Each key may make 60 requests per minute. A limit response is <code>429</code> and includes <code>Retry-After</code> and <code>X-RateLimit-*</code> headers.</p>
+
+      <h2>Endpoints</h2>
+      <p>All paths are under <code>/api/v1</code> and return JSON. CORS allows <code>GET</code> from any origin.</p>
+
+      <h3>GET /api/v1/lists/current</h3>
+      <p>The current 5×5 list.</p>
+      <pre><code>{`curl -sS https://ellafive.com/api/v1/lists/current \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
+      <h3>GET /api/v1/lists</h3>
+      <p>An index of weekly lists (dates) plus a link to the current list.</p>
+      <pre><code>{`curl -sS https://ellafive.com/api/v1/lists \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
+      <h3>GET /api/v1/lists/{"{date}"}</h3>
+      <p>One weekly list, by date (<code>YYYY-MM-DD</code>).</p>
+      <pre><code>{`curl -sS https://ellafive.com/api/v1/lists/2026-11-09 \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
+      <h3>GET /api/v1/people/{"{slug}"}</h3>
+      <p>A person’s public profile: name, role, org, category, blurbs, sources, media, and the lists they appeared on.</p>
+      <pre><code>{`curl -sS https://ellafive.com/api/v1/people/ilya-sutskever \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
+      <h3>GET /api/v1/rising-stars</h3>
+      <p>People on the Rising Stars list.</p>
+      <pre><code>{`curl -sS https://ellafive.com/api/v1/rising-stars \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
+      <h3>GET /api/v1/search?q=</h3>
+      <p>Search people by name, role or organization. The query must be at least 3 characters.</p>
+      <pre><code>{`curl -sS "https://ellafive.com/api/v1/search?q=openai" \\
+  -H "Authorization: Bearer ${KEY}"`}</code></pre>
+
+      <p className="docs-note">Questions about access can be sent to JSN. Keys are available by request.</p>
+    </section>
+  );
+}
