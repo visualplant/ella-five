@@ -15,7 +15,7 @@ a{color:inherit;text-decoration-color:var(--line);text-underline-offset:3px;tran
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .site-header{display:flex;justify-content:space-between;align-items:center;padding-top:24px;padding-bottom:20px;gap:24px;flex-wrap:wrap}
 .wordmark{font:italic 400 30px/1 var(--serif-f);letter-spacing:-.01em;text-decoration:none}.wordmark.small{font-size:22px;margin-right:8px}
-nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul{display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 nav a{font-size:14px;color:var(--soft);text-decoration:none}.nav-sub{color:var(--ink)!important;border-bottom:1px solid var(--ink)}
 .hero{padding-top:96px;padding-bottom:88px}.hero.compact{padding-top:64px;padding-bottom:48px}
 .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin:0 0 28px}.eyebrow a{text-decoration:none}
