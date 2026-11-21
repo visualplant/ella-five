@@ -97,14 +97,23 @@ export type ApiAuth =
   | { ok: true; key: ApiKeyRecord; remaining: number; reset: number }
   | { ok: false; response: Response };
 
+// Keys are optional for now (JSN, Nov 21 2026): Tavus had trouble sending the header.
+// Set to true to require a valid key again. Unkeyed callers share a per-IP rate limit.
+const KEY_REQUIRED = false;
+const ANON: ApiKeyRecord = { id: "anon", label: "anonymous", hash: "", created: "" };
+
+function clientIp(req: Request): string {
+  return (req.headers.get("x-forwarded-for") || "").split(",")[0].trim() || req.headers.get("x-real-ip") || "unknown";
+}
+
 export function requireApiKey(req: Request): ApiAuth {
   const token = takeToken(req);
-  if (!token) return { ok: false, response: apiJson({ error: "Unauthorized" }, { status: 401 }) };
-  const key = matchKey(token);
-  if (!key) return { ok: false, response: apiJson({ error: "Unauthorized" }, { status: 401 }) };
-  const rl = rateLimit(key.id);
+  const key = token ? matchKey(token) : null;
+  if (!key && KEY_REQUIRED) return { ok: false, response: apiJson({ error: "Unauthorized" }, { status: 401 }) };
+  const id = key ? key.id : `ip:${clientIp(req)}`;
+  const rl = rateLimit(id);
   if (!rl.ok) return { ok: false, response: apiJson({ error: "Rate limit exceeded" }, { status: 429, remaining: 0, reset: rl.reset }) };
-  return { ok: true, key, remaining: rl.remaining, reset: rl.reset };
+  return { ok: true, key: key ?? ANON, remaining: rl.remaining, reset: rl.reset };
 }
 
 export function withAuth(req: Request, handler: (auth: Extract<ApiAuth, { ok: true }>) => Response): Response {
