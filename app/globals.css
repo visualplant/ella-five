@@ -234,7 +234,6 @@ section.col:first-of-type { border-left: 0; padding-left: 0; } section.col:last-
 @media (prefers-reduced-motion: reduce) { .about-portrait .portrait-video { display: none; } .about-portrait .portrait-still { display: block; } }
 .about-portrait figcaption { margin-top: 10px; font-size: 14px; color: var(--mute); font-style: normal; }
 .about-coda { margin-top: 24px; }
-.about-meet { margin-top: 12px; }
 .about .back { display: inline-block; margin-top: 28px; font-size: 14px; }
 @media (max-width: 760px) { .about-head .avatar { width: 56px; height: 56px; } }
 
@@ -838,8 +837,9 @@ nav[aria-label="Categories"] .u-pop a::before { display: none; }
 .talk-ella-board:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .talk-ella-person { color: var(--soft); transition: color .15s ease; }
 .talk-ella-person:hover:not(:disabled), .talk-ella-person:focus-visible:not(:disabled) { color: var(--ink); }
-.talk-ella-about { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
-.talk-ella-about:hover:not(:disabled), .talk-ella-about:focus-visible:not(:disabled) { color: var(--ink); }
+.talk-ella.talk-ella-about { font: inherit; color: inherit; white-space: normal; text-align: inherit; vertical-align: baseline; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.talk-ella-about:hover:not(:disabled), .talk-ella-about:focus-visible:not(:disabled) { color: var(--accent); }
+.talk-ella.talk-ella-about:disabled { opacity: 1; cursor: default; }
 .talk-ella-about:focus-visible { outline: 1px solid var(--ink); outline-offset: 4px; border-radius: 4px; }
 .talk-ella-person:focus-visible { outline: 1px solid var(--ink); outline-offset: 4px; border-radius: 4px; }
 
