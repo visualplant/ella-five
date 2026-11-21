@@ -1,0 +1,1075 @@
+{
+  "slug": "ai",
+  "name": "AI",
+  "title": "AI Talent Tracker",
+  "updated": "2026-11-02T09:00:00-08:00",
+  "compiled": "2026-11-02",
+  "sourcesChecked": "2026-11-02",
+  "categories": [
+    {
+      "slug": "technical",
+      "name": "Technical",
+      "blurb": "Engineers and builders shaping how frontier AI systems are made and shipped.",
+      "people": [
+        {
+          "name": "Vaibhav Srivastav",
+          "url": "https://www.linkedin.com/in/vaibhavs10",
+          "role": "Developer Experience & Community Lead, EMEA",
+          "org": "OpenAI",
+          "status": "Joined OpenAI in December 2025 after three years at Hugging Face; leads developer experience and community across EMEA.",
+          "verified": true,
+          "verifiedHow": "Hugging Face departure and OpenAI move confirmed by his public LinkedIn announcements and Hugging Face profile; OpenAI role and DevDay work confirmed by The New Stack interview (Oct 27, 2026) and AI Engineer's Codex Masterclass (Apr 2026).",
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/vaibhavs10",
+            "https://www.linkedin.com/posts/vaibhavs10_after-3-years-of-countless-sprints-at-hugging-activity-7400185745405038592-RvYE",
+            "https://www.linkedin.com/posts/vaibhavs10_excited-to-share-that-i-joined-openai-last-activity-7408952828020527106-b-dB",
+            "https://huggingface.co/reach-vb",
+            "https://www.youtube.com/watch?v=MhHEGMFCEB0",
+            "https://ai.engineer/talks/MhHEGMFCEB0-codex-subagents",
+            "https://thenewstack.io/openai-devday-models-agents/",
+            "https://www.linkedin.com/posts/vaibhavs10_boom-starting-today-you-can-use-open-source-activity-7371953168144011264-nR7K"
+          ],
+          "short": "Hugging Face's builder voice, now running OpenAI developer experience across EMEA.",
+          "signal": "Hugging Face → OpenAI Codex Masterclass → OpenAI DevEx EMEA",
+          "tag": "Anchor",
+          "orgShort": "OpenAI",
+          "why": "He connects the open-weight model community with the developers shipping on OpenAI's frontier stack. Over three years at Hugging Face he became one of the hub's best-known builder voices, watching it grow roughly 200x and, in September 2025, bringing open-source frontier models into VS Code through HF Inference Providers. In December 2025 he joined OpenAI to help builders ship, and in April 2026 he co-taught the Codex Masterclass at AI Engineer, walking through subagents, plugins and automations live. Now based in London as developer experience and community lead for EMEA, he helped ship four of the 20-plus updates OpenAI announced at DevDay in September 2026, including GPT-6.1 Sol and the Decisions API. Open weights in, shipped agents out.",
+          "media": {
+            "type": "youtube",
+            "id": "MhHEGMFCEB0",
+            "caption": "OpenAI Codex Masterclass — Vaibhav Srivastav & Katia Gil Guzman",
+            "credit": "AI Engineer / YouTube"
+          },
+          "added": "2026-11-02",
+          "location": "London",
+          "workedWith": [
+            {
+              "name": "Katia Gil Guzman",
+              "org": "OpenAI",
+              "relation": "co-taught the Codex Masterclass with",
+              "url": "https://www.youtube.com/watch?v=MhHEGMFCEB0"
+            }
+          ]
+        },
+        {
+          "name": "Jayant Jitesh",
+          "url": "https://www.linkedin.com/in/jayant-jitesh",
+          "role": "Distinguished Engineer",
+          "org": "Walmart Global Tech",
+          "status": "Distinguished Engineer at Walmart Global Tech; architect of Walmart's Agent Gateway platform layer; writing a public series on enterprise AI platforms since August 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/jayant-jitesh",
+            "https://medium.com/@jayant.jitesh",
+            "https://www.linkedin.com/posts/jayant-jitesh_from-ai-sprawl-to-enterprise-ai-platforms-activity-7491268429044183040-d3ro",
+            "https://www.linkedin.com/posts/jayant-jitesh_when-every-capability-became-an-agent-activity-7495967591157456896-5X03",
+            "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/wibey-announcement.html",
+            "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers"
+          ],
+          "short": "Walmart Distinguished Engineer who architected its Agent Gateway layer.",
+          "signal": "Walmart Global Tech → Agent Gateway → Enterprise AI Platform series",
+          "tag": "Builder",
+          "orgShort": "Walmart",
+          "why": "He connects a retailer's sprawl of AI experiments with the shared platform underneath them. As a Distinguished Engineer at Walmart Global Tech he architected Walmart's Agent Gateway, a common entry layer that normalizes requests, isolates tenants and channels, and routes agent traffic with observability, compliance and per-channel controls built in. In August 2026 he began a public series on Medium and LinkedIn with \"From AI Sprawl to Enterprise AI Platforms,\" then followed with a piece on what happens when every capability becomes an agent. Plumbing for the agent era, at retail scale.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Luca Borletti",
+          "url": "https://lucaborletti.com/",
+          "role": "Founding Engineer",
+          "org": "Instinct",
+          "status": "Founding engineer at Instinct; previously a software engineer at Sierra and co-founder of Fundusol (acquired by Okovate, January 2026).",
+          "verified": true,
+          "verifiedHow": "Fundusol's acquisition confirmed on Okovate's blog and Fundusol's site; Instinct founding-team role listed on The Org.",
+          "note": null,
+          "sources": [
+            "https://lucaborletti.com/",
+            "https://www.linkedin.com/in/lucaborletti",
+            "https://github.com/luca-borletti",
+            "https://www.okovate.com/blog-posts/okovate-acquires-fundusol",
+            "https://fundusol.com/our-story",
+            "https://theorg.com/org/instinct",
+            "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+          ],
+          "short": "Solar-design founder turned founding engineer at Instinct.",
+          "signal": "CMU → Fundusol (acquired) → Sierra → Instinct",
+          "tag": "Builder",
+          "orgShort": "Instinct",
+          "why": "He connects climate infrastructure with the personal agents people now trust with their whole day. While studying computer science at Carnegie Mellon he co-founded Fundusol, an agrivoltaic solar-design platform that went on to design more than 850 MW of optimized solar projects. In 2025 he joined Sierra as a software engineer, and late that year became a founding engineer at Instinct, the app-less personal agent you text, call or email. In January 2026 Okovate acquired Fundusol, and in September 2026 Instinct raised a $1B Series C at a $10B valuation. From solar farms to agents that run errands.",
+          "media": null,
+          "added": "2026-11-02",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Steven Heidel",
+          "url": "https://stevenheidel.com/",
+          "role": "Member of Technical Staff",
+          "org": "OpenAI",
+          "status": "Member of Technical Staff at OpenAI since late 2022; announced the Decisions API, in public beta from October 6 and generally available since October 22, 2026.",
+          "verified": true,
+          "verifiedHow": "Decisions API general availability confirmed by OpenAI (Oct 22, 2026) and The New Stack (Oct 27, 2026); OpenAI tenure confirmed by his Startupfest 2026 speaker profile.",
+          "note": null,
+          "sources": [
+            "https://stevenheidel.com/",
+            "https://www.linkedin.com/in/stevenheidel",
+            "https://www.linkedin.com/posts/stevenheidel_were-launching-a-new-api-around-a-very-specific-activity-7513342501932453889-6UBP",
+            "https://github.com/stevenheidel",
+            "https://openai.com/index/decisions-api/",
+            "https://thenewstack.io/openai-devday-models-agents/",
+            "https://www.startupfest.com/speaker/3179/heidel-steven",
+            "https://www.startupfest.com/session/2048/the-finals-100k-2slgbtqia-investment-prize-created-with-queertech"
+          ],
+          "short": "OpenAI engineer who took the Decisions API from prototype to public beta in two weeks.",
+          "signal": "Quantum computing → OpenAI (2022) → Decisions API",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "why": "He connects the rigor of quantum computing with the fastest decisions on OpenAI's platform. After working across AI and quantum computing, he joined OpenAI in late 2022 as a member of technical staff on the API. In July 2026 he judged Startupfest's $100K 2SLGBTQIA+ Investment Prize finals in Montreal. On September 22, 2026 he started a prototype, OpenAI announced it at DevDay a week later, and on October 6 the Decisions API opened to every developer in public beta: up to 10x faster than calling GPT-6 Luna through Responses, returning predicates, choices and scores. On October 22 it went generally available. Small decisions, now cheap and fast.",
+          "media": null,
+          "added": "2026-11-02",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Saagar Godithi",
+          "url": "https://www.linkedin.com/in/saagargodithi",
+          "role": "Chief Architect",
+          "org": "Instinct",
+          "status": "Chief Architect and founding-team member at Instinct; previously an engineer at Sierra (2024–2025) and AI product engineer at Tome (2023–2024).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/saagargodithi",
+            "https://github.com/SaagarGodithi",
+            "https://theorg.com/org/instinct",
+            "https://rocketreach.co/instinct-management_b658b9bbcb590c06",
+            "https://www.linkedin.com/posts/saagargodithi_activity-7501759442871406592-NWg-",
+            "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+          ],
+          "short": "Instinct's chief architect, from AI slides at Tome to agents at Sierra.",
+          "signal": "Tome → Sierra → Instinct",
+          "tag": "Builder",
+          "orgShort": "Instinct",
+          "why": "He connects generative product craft with the architecture of a trusted personal agent. In July 2023 he joined Tome as an AI product engineer, building one of the first generative presentation tools. In November 2024 he moved to Sierra as an engineer on its customer-service agents. In late 2025 he joined Instinct's founding team as chief architect, and in September 2026 he shared 1Password's planned integration to let people securely hand credentials to their Instinct agent, the same month Instinct raised a $1B Series C. Built to be trusted with the keys.",
+          "media": null,
+          "added": "2026-11-02"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Kyle Reese",
+          "url": "https://www.linkedin.com/in/kylepreese",
+          "role": "Software Engineer, Link",
+          "org": "Stripe",
+          "status": "Announced and built Link's agent wallet CLI (April 2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/kylepreese_introducing-link-wallet-for-agents-activity-7455299813497073665-0NzM",
+            "https://github.com/stripe/link-cli",
+            "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+            "https://docs.link.com/quickstart/agents"
+          ],
+          "short": "Shipped the Link CLI that lets agents request single-use payment credentials.",
+          "signal": "Stripe Link → link-cli",
+          "tag": "Builder",
+          "orgShort": "Stripe",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Aman Rusia",
+          "url": "https://arxiv.org/abs/2610.11539",
+          "role": "ML Engineer",
+          "org": "Kombai",
+          "status": "Corresponding author of Design Creativity Bench (October 2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://arxiv.org/abs/2610.11539",
+            "https://arxiv.org/html/2610.11539v1",
+            "https://huggingface.co/datasets/Kombai/design-creativity-bench",
+            "https://kombai.com/benchmark/",
+            "https://github.com/rusiaaman"
+          ],
+          "short": "Built the benchmark measuring creativity in LLM-generated UI.",
+          "signal": "Kombai → Design Creativity Bench",
+          "tag": "Builder",
+          "orgShort": "Kombai",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Benjamin Bauer",
+          "url": "https://www.linkedin.com/in/benjamin-bauer2",
+          "role": "Developer Relations",
+          "org": "Celo Core Co.",
+          "status": "Moved from Celo Brazil ambassador to DevRel at Celo Core Co. (September 2026); builds x402 and agent-payment tooling.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/benjamin-bauer2_new-chapter-devrel-at-celo-core-co-after-activity-7503079696142721025-T07U",
+            "https://www.linkedin.com/posts/benjamin-bauer2_most-of-the-tools-we-use-every-day-were-built-activity-7516192987111165952-5acO",
+            "https://blog.celo.org/meet-celos-new-regional-ambassadors-aeae713d87bb",
+            "https://www.linkedin.com/in/benjamin-bauer2"
+          ],
+          "short": "Brings agent payments and LatAm stablecoins to Celo builders.",
+          "signal": "Celo Brazil ambassador → Celo DevRel",
+          "tag": "Joined",
+          "orgShort": "Celo",
+          "added": "2026-11-02",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "blurb": "Designers defining how people experience AI products.",
+      "people": [
+        {
+          "name": "Nicole Netland",
+          "url": "https://www.linkedin.com/in/nicolenetland",
+          "role": "Head of Design & Research, Google Shopping",
+          "org": "Google",
+          "status": "Leads design and research for Google Shopping across Search, AI Mode, Gemini and YouTube; Universal Cart launched in the U.S. in October 2026.",
+          "verified": true,
+          "verifiedHow": "Role confirmed by The Jason & Scot Show interview (Sep 2026); Universal Cart launch confirmed by Google's official blog.",
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/nicolenetland",
+            "https://www.linkedin.com/feed/update/urn:li:activity:7516510235201658880",
+            "https://www.youtube.com/watch?v=HDmewzP6vI0",
+            "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+            "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/",
+            "https://www.linkedin.com/posts/yaelgrossman_we-launched-universal-cart-shopping-doesnt-activity-7517022814462337024-txzR"
+          ],
+          "short": "Heads Google Shopping design and research; Universal Cart is her team's latest.",
+          "signal": "Amazon · Target · Best Buy → Google Shopping → Universal Cart",
+          "tag": "Anchor",
+          "orgShort": "Google",
+          "why": "She connects years on the retail front line with the agentic shopping cart. Before Google she built her craft in retail experience at Amazon, Target and Best Buy. At Google she now heads design and research for Shopping, with a team designing across Search, AI Mode, Gemini and YouTube. In May 2026 she introduced Universal Cart at Google I/O, a cross-merchant cart that saves items from any retailer and watches prices, restocks and deals. In September she told The Jason & Scot Show why a cart is also a wish list and why personalization's big moment has finally arrived, and in October 2026 Universal Cart launched across the U.S. One cart, every store.",
+          "media": {
+            "type": "youtube",
+            "id": "HDmewzP6vI0",
+            "caption": "Personalization's Big Moment with Google Shopping's Nicole Netland",
+            "credit": "The Jason & Scot Show / YouTube"
+          },
+          "added": "2026-11-02",
+          "location": "San Francisco Bay Area"
+        },
+        {
+          "name": "Eunie Kwon",
+          "url": "https://www.euniejkwon.com/",
+          "role": "Director of UX Design",
+          "org": "Reddit",
+          "status": "Director of UX Design at Reddit since July 2026; previously led UX for Google's Universal Cart and Universal Commerce Protocol.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.euniejkwon.com/",
+            "https://www.linkedin.com/in/euniejkwon",
+            "https://www.linkedin.com/posts/euniejkwon_today-marked-my-last-day-at-google-as-activity-7480070272914706433-aMgF",
+            "https://www.linkedin.com/feed/update/urn:li:activity:7493130693062004736",
+            "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/",
+            "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/"
+          ],
+          "short": "Led the UX for Google's Universal Cart, now Director of UX Design at Reddit.",
+          "signal": "R/GA · AKQA → Intuit → Meta → Google Universal Cart → Reddit",
+          "tag": "Left",
+          "orgShort": "Reddit",
+          "why": "She connects agency-grade creative direction with the plumbing of agentic shopping. She rose as an executive creative director at R/GA, JWT and AKQA, then led TurboTax design as Director of Design at Intuit and UX for Profile and Identity at Meta. At Google she led personalized shopping UX and then the product design architecture for Universal Cart and the Universal Commerce Protocol, the cross-merchant cart Google introduced at I/O in May 2026. In July 2026 she moved to Reddit as Director of UX Design. From brand campaigns to the cart itself.",
+          "media": null,
+          "added": "2026-11-02",
+          "location": "San Diego"
+        },
+        {
+          "name": "Sam Jau",
+          "url": "https://x.com/samjau",
+          "role": "Member of Design Staff",
+          "org": "OpenAI",
+          "status": "Designer at OpenAI since June 2024; core contributor on Operator (January 2025) and worked on ChatGPT Atlas (October 2025).",
+          "verified": true,
+          "verifiedHow": "Listed as a core contributor on OpenAI's \"Introducing Operator\" page (Jan 2025); Multi's move to OpenAI confirmed on the Multi blog.",
+          "note": null,
+          "sources": [
+            "https://x.com/samjau",
+            "https://openai.com/index/introducing-operator/",
+            "https://multi.app/blog/multi-is-joining-openai",
+            "https://www.linkedin.com/in/sam-jau",
+            "https://www.linkedin.com/posts/sam-jau_introducing-multi-activity-7097247398690734080-4SP7"
+          ],
+          "short": "Designer on OpenAI's Operator and Atlas; ex-Multi head of design.",
+          "signal": "Dropbox → Multi → OpenAI Operator → ChatGPT Atlas",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "why": "He connects hand-crafted Mac software with agents that use a computer on your behalf. After leading product design work at Dropbox, he joined Multi in 2021 as head of design and in August 2023 launched its multiplayer macOS collaboration app with what he called a borderline unreasonable quality bar. In June 2024 the Multi team joined OpenAI, and he joined its design team to explore ChatGPT on the desktop. In January 2025 he shipped Operator as a core contributor, OpenAI's first agent with its own browser, even posting from it on launch day, and in October 2025 he helped launch ChatGPT Atlas, OpenAI's AI-first web browser. The cursor finally has company.",
+          "media": null,
+          "added": "2026-11-02",
+          "location": "New York",
+          "workedWith": [
+            {
+              "name": "Alexander Embiricos",
+              "org": "OpenAI",
+              "relation": "Multi teammate who joined OpenAI with him",
+              "url": "https://multi.app/blog/multi-is-joining-openai"
+            }
+          ]
+        },
+        {
+          "name": "Emerson Ward",
+          "url": "https://www.emerson.fun/",
+          "role": "Principal Designer",
+          "org": "SpaceXAI",
+          "status": "Principal Designer at SpaceXAI; at Perplexity from September 2025 to August 2026, where he designed agentic shopping and founded the Agent Experiences team.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.emerson.fun/",
+            "https://www.linkedin.com/in/emersonward",
+            "https://www.linkedin.com/posts/emersonward_great-to-have-been-dhruvs-product-designer-activity-7399278540216651776-bp1K",
+            "https://www.macrumors.com/2025/11/26/perplexity-ai-shopping-feature/",
+            "https://www.softsystems.co/",
+            "https://www.folioindex.site/profiles/emerson-ward"
+          ],
+          "short": "Designed Perplexity's agentic shopping, then founded its Agent Experiences team.",
+          "signal": "Apple · Google → Visual Electric → Perplexity → SpaceXAI",
+          "tag": "Left",
+          "orgShort": "SpaceXAI",
+          "why": "He connects Apple-and-Google polish with agents that actually check out for you. He designed at Apple and Google, then at the generative design studio Visual Electric. In September 2025 he joined Perplexity as Dhruv Bhalla's product designer on agentic shopping, which launched with PayPal that November with native checkout, a more conversational way to refine results and recommendations right inside answers. He went on to found Perplexity's Agent Experiences team, and in 2026 became Principal Designer at SpaceXAI. Shopping first, then the stars.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Grant Heinlein",
+          "url": "https://grantheinlein.com/",
+          "role": "Head of Product Design, Link",
+          "org": "Stripe",
+          "status": "Head of Product Design for Link at Stripe; Link's wallet for agents launched in April 2026, followed by Link balance in October 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://grantheinlein.com/",
+            "https://www.linkedin.com/in/grantheinlein",
+            "https://www.linkedin.com/posts/grantheinlein_introducing-link-wallet-for-agents-activity-7455326324866461696-YXlp",
+            "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+            "https://www.linkedin.com/posts/tanya-khakbaz-a725732_one-of-the-things-people-dont-always-know-activity-7515794332180811776-xGTy"
+          ],
+          "short": "Leads design for Stripe's Link, the wallet agents now spend from.",
+          "signal": "VSCO · Airtable → WeTransfer VP Design → Stripe Link",
+          "tag": "Leads product",
+          "orgShort": "Stripe",
+          "why": "He connects consumer-grade craft with the wallet agents spend from. A RISD-trained designer, he shaped products at VSCO, Chorus and Airtable, then led design as VP of Product Design at WeTransfer. At Stripe he now heads product design for Link, the checkout wallet used by hundreds of millions of people. In April 2026 the Link team sprinted to launch a wallet for agents that lets people approve every agent purchase without exposing their card details, and in October 2026 Link balance followed. Approve, tap, done.",
+          "media": null,
+          "added": "2026-11-02",
+          "location": "San Francisco"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Antony Rishin Mukkath Roy",
+          "url": "https://www.linkedin.com/in/antonyrishin",
+          "role": "Design Leader, Walmart Global Tech",
+          "org": "Walmart",
+          "status": "Leads design work on Walmart Agent Gateway and Agent Profiles (launched October 21, 2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/antonyrishin_walmart-agent-gateway-walmartcom-activity-7519276177526800384-A-vH",
+            "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
+            "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+            "https://www.linkedin.com/in/antonyrishin"
+          ],
+          "short": "Designing how shoppers grant, limit and revoke agent access at Walmart.",
+          "signal": "Ask Sam → Sparky → Agent Gateway",
+          "tag": "Leads product",
+          "orgShort": "Walmart",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Hwi Lee",
+          "url": "https://www.linkedin.com/in/hwikyounglee",
+          "role": "Design Lead, Commerce AI",
+          "org": "Google",
+          "status": "Design Lead for Commerce AI at Google since November 2025, when the Big Sur AI team joined Google; previously led design at Big Sur AI.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/hwikyounglee",
+            "https://www.linkedin.com/posts/hwikyounglee_big-sur-ai-ai-agents-to-supercharge-your-activity-7173779777185591296-28Mb",
+            "https://www.linkedin.com/posts/hwikyounglee_navigating-ai-product-design-today-recommended-activity-7191073861298188292-PSVV",
+            "https://github.com/hwikyounglee"
+          ],
+          "short": "Led design for Big Sur AI's sales agents, now commerce AI design at Google.",
+          "signal": "Big Sur AI → Google Commerce AI",
+          "tag": "Joined",
+          "orgShort": "Google",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Natasha Tenggoro",
+          "url": "https://tash.work/",
+          "role": "Founding Designer",
+          "org": "Simile",
+          "status": "Founding designer at Simile (2026); previously led design for Figma's first AI features in FigJam.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://tash.work/",
+            "https://tash.work/info",
+            "https://www.figma.com/blog/introducing-ai-to-figjam/",
+            "https://www.linkedin.com/posts/natashatenggoro_some-news-i-recently-joined-simile-as-founding-activity-7467606620424814592-k3rl"
+          ],
+          "short": "Designed FigJam AI; now founding designer at Simile.",
+          "signal": "Figma FigJam AI → Simile",
+          "tag": "New venture",
+          "orgShort": "Simile",
+          "added": "2026-11-02",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "blurb": "Researchers advancing what models can learn, reason about and do.",
+      "people": [
+        {
+          "name": "Noah Shinn",
+          "url": "https://noahshinn.com/",
+          "role": "Founder & CEO",
+          "org": "Instinct",
+          "status": "Founder and CEO of Instinct, which raised a $1B Series C at a $10B valuation in September 2026.",
+          "verified": true,
+          "verifiedHow": "Funding and role confirmed by TechCrunch (Sep 28, 2026) and Fortune (Sep 30, 2026); Reflexion and τ-bench authorship confirmed on arXiv.",
+          "note": null,
+          "sources": [
+            "https://noahshinn.com/",
+            "https://arxiv.org/abs/2303.11366",
+            "https://arxiv.org/abs/2406.12045",
+            "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+            "https://fortune.com/2026/09/30/noah-shinn-instinct-ai-assistant-meta-muse-alexandr-wang-tech-series-c-ai-agent-mark-zuckerberg/",
+            "https://www.businessinsider.com/instinct-is-the-ai-assistant-silicon-valley-cant-stop-talking-2026-9",
+            "https://colossus.com/episode/instinct-the-personal-agent/",
+            "https://www.youtube.com/watch?v=Am7IWP8IpEc"
+          ],
+          "short": "Reflexion first author who founded Instinct, the personal agent everyone's texting.",
+          "signal": "Reflexion → Sierra τ-bench → Instinct",
+          "tag": "Anchor",
+          "orgShort": "Instinct",
+          "why": "He connects agent research with the personal assistant Silicon Valley can't stop talking about. As a Northeastern student in 2023 he was first author of Reflexion, the NeurIPS paper that taught language agents to improve by reflecting on their own mistakes in words. He became one of Sierra's first employees and co-authored τ-bench, a benchmark for agents that use tools while talking with people. He then founded Instinct, an app-less personal agent you text, call or email to book travel, chase customer service and handle errands. In September 2026 Instinct raised a $1B Series C at a $10B valuation, and he walked Patrick O'Shaughnessy through it on Invest Like the Best. Reflect, then act.",
+          "media": {
+            "type": "youtube",
+            "id": "Am7IWP8IpEc",
+            "caption": "The $10B AI Assistant Challenging Meta's Muse, Grok's Bots, and OpenAI's Dots",
+            "credit": "Invest Like The Best / YouTube"
+          },
+          "added": "2026-11-02",
+          "location": "San Francisco"
+        },
+        {
+          "name": "Joy Jiao",
+          "url": "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities-and-benchmarks/",
+          "role": "Research Lead, Life Sciences",
+          "org": "OpenAI",
+          "status": "Leads life-sciences research at OpenAI, the team behind the GPT-Rosalind models.",
+          "verified": true,
+          "verifiedHow": "Role confirmed by R&D World's GPT-Rosalind interview, OpenAI's own podcast (Episode 16, Apr 2026) and her SynBioBeta 2026 speaker profile.",
+          "note": null,
+          "sources": [
+            "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities-and-benchmarks/",
+            "https://www.syntheticbiologysummit.com/2026/speakers/joy-jiao",
+            "https://ai4s.fyi/interviews/openai-life-sciences-model-series",
+            "https://www.youtube.com/watch?v=UZyH0nx5zgI",
+            "https://podcasts.apple.com/us/podcast/episode-16-building-ai-for-life-sciences/id1820330260?i=1000761869134",
+            "https://shows.acast.com/openai-podcast/episodes/episode-16-building-ai-for-life-sciences",
+            "https://forum.openai.com/public/videos/event-replay-decoding-biological-intelligence-building-ai-agents-for-the-brain-genome-2026-04-22"
+          ],
+          "short": "Systems biologist leading OpenAI's life-sciences research.",
+          "signal": "Harvard systems biology → OpenAI safety & search → OpenAI Life Sciences",
+          "tag": "Builder",
+          "orgShort": "OpenAI",
+          "why": "She connects systems biology with frontier models built for the lab bench. At Harvard she earned a PhD in systems biology studying how cancer cells evolve during immunotherapy and how antibiotic resistance emerges. At OpenAI she first worked on model safety, personalization, search and representation learning, and now leads life-sciences research. In April 2026 she introduced OpenAI's life-sciences model series and its autonomous-lab work with Ginkgo Bioworks on the OpenAI Podcast. In May she spoke at SynBioBeta on self-driving labs and multi-agent simulations of life, and she later detailed GPT-Rosalind's benchmarks to R&D World, with rubrics written by outside experts and validated by a second expert panel. Less pipetting, more discovery.",
+          "media": {
+            "type": "youtube",
+            "id": "UZyH0nx5zgI",
+            "caption": "Episode 16: Building AI for Life Sciences",
+            "credit": "OpenAI / YouTube"
+          },
+          "added": "2026-11-02",
+          "workedWith": [
+            {
+              "name": "Yunyun Wang",
+              "org": "OpenAI",
+              "relation": "life-sciences product lead; co-guest on the OpenAI Podcast",
+              "url": "https://www.youtube.com/watch?v=UZyH0nx5zgI"
+            }
+          ]
+        },
+        {
+          "name": "Beicheng Lou",
+          "url": "https://lbc45123.github.io/",
+          "role": "Researcher",
+          "org": "Flapping Airplanes",
+          "status": "Joined Flapping Airplanes in October 2026 after leaving Anthropic, where he was a member of technical staff.",
+          "verified": true,
+          "verifiedHow": "Move confirmed by Turing Tree (Oct 2026); CRoPE co-authorship confirmed on arXiv.",
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/beicheng-lou-joins-flapping-airplanes",
+            "https://www.turingtree.com/people/beicheng-lou",
+            "https://lbc45123.github.io/",
+            "https://arxiv.org/html/2601.02728v2",
+            "https://www.linkedin.com/in/beicheng-lou",
+            "https://x.com/lou_beicheng/status/2112958149355549024"
+          ],
+          "short": "Stanford photonics PhD who left Anthropic to chase new learning paradigms.",
+          "signal": "Stanford photonics → Anthropic → Flapping Airplanes",
+          "tag": "Left",
+          "orgShort": "Flapping Airplanes",
+          "why": "He connects the physics of light with the next paradigm of machine learning. He earned a PhD in applied physics at Stanford working on photonics, then moved into AI research. In January 2026 he co-authored CRoPE on arXiv, and in April 2026 he joined Anthropic as a member of technical staff. In October 2026 he left for Flapping Airplanes to explore continual learning, automated research and recursive self-improvement in a leaner setting. Optics first, then open questions.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Asa Cooper Stickland",
+          "url": "https://asacooperstickland.github.io/",
+          "role": "Member of Technical Staff",
+          "org": "METR",
+          "status": "Joined METR's embedded monitoring assessment team in October 2026 and moved to the San Francisco Bay Area.",
+          "verified": true,
+          "verifiedHow": "Move confirmed by Turing Tree (Oct 2026); GPQA authorship confirmed on arXiv.",
+          "note": null,
+          "sources": [
+            "https://asacooperstickland.github.io/",
+            "https://www.turingtree.com/updates/asa-cooper-stickland-added-to-turing-tree",
+            "https://www.turingtree.com/people/asa-cooper-stickland",
+            "https://arxiv.org/abs/2311.12022",
+            "https://github.com/idavidrein/gpqa",
+            "https://control-arena.aisi.org.uk/",
+            "https://x.com/AsaCoopStick/status/2113329377870237726"
+          ],
+          "short": "GPQA co-creator now testing AI lab control systems from the inside.",
+          "signal": "GPQA → ControlArena → METR",
+          "tag": "Joined",
+          "orgShort": "METR",
+          "why": "He connects hard benchmarks with the monitors that keep AI labs honest. In 2023 he co-created GPQA, the graduate-level, Google-proof science benchmark that became a standard yardstick for frontier models. He went on to contribute to ControlArena, the UK AI Security Institute's open library for AI control experiments. In October 2026 he joined METR's embedded monitoring assessment team, going inside AI labs to test whether their control systems really cover what they should, hold up under pressure and survive human review. Trust, measured from the inside.",
+          "media": null,
+          "added": "2026-11-02",
+          "location": "San Francisco Bay Area"
+        },
+        {
+          "name": "Jean-Stanislas Denain",
+          "url": "https://metr.org/team/jean-stanislas-denain/",
+          "role": "Member of Technical Staff",
+          "org": "METR",
+          "status": "Joined METR in October 2026 after two years at Epoch AI; works on embedded assessments of AI R&D acceleration.",
+          "verified": true,
+          "verifiedHow": "Role confirmed on METR's team page and by Turing Tree (Oct 23, 2026).",
+          "note": null,
+          "sources": [
+            "https://metr.org/team/jean-stanislas-denain/",
+            "https://www.linkedin.com/posts/jean-stanislas-denain-087332172_how-an-assessor-could-investigate-evidence-activity-7519490388047466496-dG74",
+            "https://www.turingtree.com/updates/jean-stanislas-denain-joins-metr-2026-10-23",
+            "https://www.turingtree.com/people/jean-stanislas-denain",
+            "https://arxiv.org/abs/2512.00193"
+          ],
+          "short": "Epoch AI researcher now measuring how much AI speeds up AI labs.",
+          "signal": "Epoch AI → METR",
+          "tag": "Joined",
+          "orgShort": "METR",
+          "why": "He connects AI forecasting with on-the-ground measurement inside the labs. For two years at Epoch AI he researched the data and trends behind AI progress. In October 2026 he joined METR to run embedded assessments of AI R&D acceleration, going inside AI developers to measure how much AI is speeding up their own research and development, and published his thinking on how an assessor could investigate the evidence. Forecasts meet field notes.",
+          "media": null,
+          "added": "2026-11-02"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Silas Alberti",
+          "url": "https://sil.as/",
+          "role": "Chief Research Officer",
+          "org": "Cognition",
+          "status": "Chief Research Officer and founding-team member at Cognition; leads research on coding models including SWE-2.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://sil.as/",
+            "https://www.turingtree.com/updates/silas-alberti-added-to-turing-tree",
+            "https://www.turingtree.com/people/silas-alberti",
+            "https://www.linkedin.com/in/silasalberti",
+            "https://web.stanford.edu/~salberti/"
+          ],
+          "short": "Stanford PhD leading Cognition's coding-model research.",
+          "signal": "Stanford → Cognition SWE-2",
+          "tag": "Leads product",
+          "orgShort": "Cognition",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Arwen Bradley",
+          "url": "https://www.turingtree.com/people/arwen-bradley",
+          "role": "Member of Technical Staff",
+          "org": "Goodfire",
+          "status": "Joined Goodfire in October 2026 after Mirendil and more than a decade at Apple ML research.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.turingtree.com/updates/arwen-bradley-joins-goodfire-2026-10-20",
+            "https://www.turingtree.com/people/arwen-bradley",
+            "https://www.linkedin.com/in/arwen-bradley-2084ba2b",
+            "https://www.alphaxiv.org/@arwen-v-bradley"
+          ],
+          "short": "Apple ML research veteran now on interpretability at Goodfire.",
+          "signal": "Apple → Mirendil → Goodfire",
+          "tag": "Joined",
+          "orgShort": "Goodfire",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Laura Luebbert",
+          "url": "https://www.lauraluebbert.com/home/",
+          "role": "AI-for-Science Postdoctoral Fellow",
+          "org": "FutureHouse",
+          "status": "FutureHouse fellow; creator of gget and VirBench, a benchmark showing agents reach 90%+ accuracy on viral-data tasks with deterministic tools (2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.futurehouse.org/fellows/laura-luebbert",
+            "https://www.lauraluebbert.com/home/",
+            "https://arxiv.org/abs/2606.06749",
+            "https://github.com/lauraluebbert/VirBench/blob/main/docs/gget_virus_docs.md",
+            "https://www.syntheticbiologysummit.com/2026/speakers-2/laura-luebbert"
+          ],
+          "short": "Built gget and VirBench, giving science agents reliable tools for viral genomics.",
+          "signal": "gget → VirBench → FutureHouse",
+          "tag": "Builder",
+          "orgShort": "FutureHouse",
+          "added": "2026-11-02",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "name": "Product",
+      "blurb": "Product leaders turning research into things people use every day.",
+      "people": [
+        {
+          "name": "Alexander Embiricos",
+          "url": "https://x.com/embirico",
+          "role": "Product Lead, dots",
+          "org": "OpenAI",
+          "status": "Leads product for dots, OpenAI's always-on personal assistant launched at DevDay on September 29, 2026; previously led product for Codex.",
+          "verified": true,
+          "verifiedHow": "Role confirmed by TechCrunch (Sep 29 and Oct 26, 2026) and Business Insider (Oct 2026).",
+          "note": null,
+          "sources": [
+            "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+            "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+            "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
+            "https://www.businessinsider.com/openai-dots-head-ai-lets-workers-do-less-or-more-2026-10",
+            "https://www.youtube.com/watch?v=z1ISq9Ty4Cg",
+            "https://multi.app/blog/multi-is-joining-openai",
+            "https://x.com/embirico"
+          ],
+          "short": "Took Codex from pair programmer to dots, OpenAI's always-on assistant.",
+          "signal": "Multi → ChatGPT desktop → Codex → dots",
+          "tag": "Anchor",
+          "orgShort": "OpenAI",
+          "why": "He connects multiplayer pair programming with an assistant that never logs off. He spent five years building Multi, a collaboration app for engineers, until the team joined OpenAI in June 2024 and he took on the ChatGPT desktop app. He then led product for Codex, which grew 20x from August to December 2025 as OpenAI turned it into a software-engineering teammate. On September 29, 2026 at DevDay, OpenAI launched dots, an always-on assistant built from its coding agents with its own cloud computer, and he leads its product. Chatbot, coding agent, now companion.",
+          "media": {
+            "type": "youtube",
+            "id": "z1ISq9Ty4Cg",
+            "caption": "Inside OpenAI: 2026 is the year of agents, AI's biggest bottleneck, and why compute isn't the issue",
+            "credit": "Lenny's Podcast / YouTube"
+          },
+          "added": "2026-11-02",
+          "location": "San Francisco",
+          "workedWith": [
+            {
+              "name": "Sam Jau",
+              "org": "OpenAI",
+              "relation": "Multi head of design who joined OpenAI with him",
+              "url": "https://multi.app/blog/multi-is-joining-openai"
+            }
+          ]
+        },
+        {
+          "name": "Yael Grossman Levy",
+          "url": "https://www.linkedin.com/in/yaelgrossman",
+          "role": "Group Product Manager",
+          "org": "Google",
+          "status": "Group Product Manager at Google; helped lead Universal Cart, launched in the U.S. in October 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/yaelgrossman",
+            "https://www.linkedin.com/posts/yaelgrossman_we-launched-universal-cart-shopping-doesnt-activity-7517022814462337024-txzR",
+            "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+            "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/",
+            "https://www.linkedin.com/posts/chinmayee-rathi_this-year-ive-been-working-on-the-universal-activity-7469480517294419968--1Qf"
+          ],
+          "short": "Founded Google Shopping personalization; helped lead Universal Cart.",
+          "signal": "Google Shopping Personalization → Universal Cart",
+          "tag": "Leads product",
+          "orgShort": "Google",
+          "why": "She connects shopping personalization with a cart that follows you across every store. At Google she founded and led the Shopping Personalization effort, then helped lead Universal Cart, which saves items from any retailer, watches prices and restocks, and checks out through Google Pay or the merchant's own site. Google introduced it at I/O in May 2026, and in October 2026 it launched across Search and the Gemini app in the U.S. The tabs can finally close.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Srishti Chaudhary",
+          "url": "https://www.srishtichy.com/",
+          "role": "Product Lead, Agentic AI",
+          "org": "Walmart",
+          "status": "Leads agentic AI shopping product at Walmart; led a TechCrunch Disrupt 2026 session on commerce AI in October 2026.",
+          "verified": true,
+          "verifiedHow": "TechCrunch Disrupt 2026 session confirmed on TechCrunch's official agenda.",
+          "note": null,
+          "sources": [
+            "https://www.srishtichy.com/",
+            "https://www.linkedin.com/in/srishti-chaudhary",
+            "https://www.linkedin.com/posts/srishti-chaudhary_techcrunch-disrupt-agents-activity-7516279218318573568-5Nxx",
+            "https://techcrunch.com/events/techcrunch-disrupt/agenda/",
+            "https://techcrunch.com/events/techcrunch-disrupt/speakers/"
+          ],
+          "short": "Walmart product lead building shopping agents and the evals behind them.",
+          "signal": "Checkout → Identity → Agentic AI at Walmart",
+          "tag": "Leads product",
+          "orgShort": "Walmart",
+          "why": "She connects checkout and identity with agents that shop on your behalf. She started in engineering, crossed into product on checkout in 2019 and identity in 2021, then moved into agentic AI in 2024, where she now leads product on Walmart's AI shopping experiences and the evals that prove whether an agent actually worked. She earned Walmart Tech's 2024 Women in Tech Rising Star Award, spoke at AI Engineer World's Fair in June 2025, and in October 2026 led \"Beyond Inventory: The Commerce AI Playbook for the Intent Era\" at TechCrunch Disrupt. Measured, trusted, shipped.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Yunyun Wang",
+          "url": "https://www.syntheticbiologysummit.com/2026/speakers/yunyun-wang",
+          "role": "Product Lead, Life Sciences",
+          "org": "OpenAI",
+          "status": "Product lead for life sciences at OpenAI; previously led OpenAI's biorisk safeguards.",
+          "verified": true,
+          "verifiedHow": "Role confirmed by Axios (Apr 16, 2026), R&D World, and OpenAI's own podcast (Episode 16).",
+          "note": null,
+          "sources": [
+            "https://www.syntheticbiologysummit.com/2026/speakers/yunyun-wang",
+            "https://www.axios.com/2026/04/16/openai-models-life-sciences-drugs",
+            "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities-and-benchmarks/",
+            "https://www.youtube.com/watch?v=UZyH0nx5zgI",
+            "https://shows.acast.com/openai-podcast/episodes/episode-16-building-ai-for-life-sciences",
+            "https://www.linkedin.com/in/yunyunw"
+          ],
+          "short": "Went from OpenAI biorisk safeguards to leading its life-sciences product.",
+          "signal": "OpenAI biorisk safeguards → OpenAI Life Sciences product",
+          "tag": "Leads product",
+          "orgShort": "OpenAI",
+          "why": "She connects biosecurity with the models scientists are starting to trust. At OpenAI she first led biorisk safeguards, spanning safety testing, threat research and capability evaluations. She now leads product and research partnerships for life sciences: in April 2026 she helped launch OpenAI's life-sciences models with trusted, restricted access, telling Axios the aim was to enable beneficial research while mitigating misuse, and she spoke at SynBioBeta 2026. She has since explained how GPT-Rosalind pairs with Codex plugins for medicinal chemistry, genomics and wet-lab troubleshooting. Safety first, science faster.",
+          "media": {
+            "type": "youtube",
+            "id": "UZyH0nx5zgI",
+            "caption": "Episode 16: Building AI for Life Sciences",
+            "credit": "OpenAI / YouTube"
+          },
+          "added": "2026-11-02",
+          "workedWith": [
+            {
+              "name": "Joy Jiao",
+              "org": "OpenAI",
+              "relation": "life-sciences research lead; co-guest on the OpenAI Podcast",
+              "url": "https://www.youtube.com/watch?v=UZyH0nx5zgI"
+            }
+          ]
+        },
+        {
+          "name": "Gali Erez",
+          "url": "https://www.linkedin.com/in/gali-erez-07184597",
+          "role": "VP, Studio Two",
+          "org": "Wix",
+          "status": "VP for Wix Studio Two, launched November 2, 2026; previously head of Wix Studio.",
+          "verified": true,
+          "verifiedHow": "Confirmed by Wix's Studio Two press release (GlobeNewswire, Nov 2, 2026).",
+          "note": null,
+          "sources": [
+            "https://www.globenewswire.com/news-release/2026/11/02/3393216/0/en/wix-introduces-studio-two-a-truly-open-ai-native-visual-editor-for-professional-web-creation.html",
+            "https://www.wix.com/blog/meet-wix-studio-two",
+            "https://www.wix.com/press-room/home/post/wix-introduces-studio-two-a-truly-open-ai-native-visual-editor-for-professional-web-creation",
+            "https://designbetterpodcast.com/p/gali-erez",
+            "https://www.mikebrennan.me/blog/2024/7/18/bridging-tech-and-creativity-gali-erez-on-innovation-and-design-at-wix-studio",
+            "https://creativechats.libsyn.com/251-creativity-technology-and-human-touch-with-wix-studios-gali-erez",
+            "https://www.linkedin.com/in/gali-erez-07184597"
+          ],
+          "short": "Built Wix Studio for pros; today launches Studio Two, its AI-native editor.",
+          "signal": "Wix Studio → Studio Two",
+          "tag": "Leads product",
+          "orgShort": "Wix",
+          "why": "She connects pixel-level visual design with AI generation and real React code. As head of Wix Studio she built Wix's platform for agencies and professional designers, talking creativity and the human touch on Creative Chats in 2024 and AI-enabled web workflows on the Design Better Podcast that November. On November 2, 2026 she launched Studio Two as its VP: an open, AI-native editor where creators move freely between AI, canvas and code, then export standard React and deploy anywhere. Prompt, push pixels, ship code.",
+          "media": null,
+          "added": "2026-11-02"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Chinmayee Rathi",
+          "url": "https://www.linkedin.com/in/chinmayee-rathi",
+          "role": "Product Manager",
+          "org": "Google",
+          "status": "Product manager on Google's Universal Cart (launched in the U.S. in October 2026).",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/chinmayee-rathi_this-year-ive-been-working-on-the-universal-activity-7469480517294419968--1Qf",
+            "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+            "https://girlgeek.io/speaker/chinmayee-rathi/",
+            "https://www.linkedin.com/in/chinmayee-rathi"
+          ],
+          "short": "Spent 2026 building Google's Universal Cart.",
+          "signal": "Google Shopping → Universal Cart",
+          "tag": "Builder",
+          "orgShort": "Google",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Dan Hill",
+          "url": "https://danhill.is/",
+          "role": "Head of Consumer Product",
+          "org": "Stripe",
+          "status": "Head of consumer product at Stripe, leading Link; previously CPO at Blank Street and Head of Growth at Brex.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://danhill.is/",
+            "https://danhill.is/story",
+            "https://www.linkedin.com/in/hilldan",
+            "https://www.linkedin.com/posts/hilldan_staff-product-manager-link-consumer-product-activity-7424828862443880449-RuK9",
+            "https://stripe.com/blog/giving-agents-the-ability-to-pay"
+          ],
+          "short": "Airbnb, Brex and Blank Street veteran now leading Link's consumer product.",
+          "signal": "Airbnb → Brex → Blank Street → Stripe Link",
+          "tag": "Joined",
+          "orgShort": "Stripe",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Brayden McCarthy",
+          "url": "https://www.linkedin.com/in/braydenmccarthy",
+          "role": "Product Lead, Link Merchant",
+          "org": "Stripe",
+          "status": "Leads Link's merchant business and 0-to-1 initiatives at Stripe, including Link's stablecoin balance with Bridge and Privy.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/braydenmccarthy_link-is-looking-for-three-exceptional-activity-7414499991370625024-IOiU",
+            "https://www.stackforce.co/talent/69d20d6770f1f6edffd3d67e",
+            "https://docs.stripe.com/payments/link/stablecoins"
+          ],
+          "short": "Building Link's stablecoin balance with Bridge and Privy.",
+          "signal": "Stripe Link merchant → Link balance",
+          "tag": "Builder",
+          "orgShort": "Stripe",
+          "added": "2026-11-02",
+          "alternate": true
+        }
+      ]
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "blurb": "Growth and go-to-market leaders who brought AI to its first billion users.",
+      "people": [
+        {
+          "name": "Dan Romero",
+          "url": "https://www.linkedin.com/in/danielwromero",
+          "role": "Go-to-Market Lead",
+          "org": "Tempo",
+          "status": "Leads go-to-market at Tempo since February 2026, after co-founding Farcaster.",
+          "verified": true,
+          "verifiedHow": "Tempo move confirmed by The Block (Feb 9, 2026); role discussed on PYMNTS and The Rollup (Oct 2026).",
+          "note": null,
+          "sources": [
+            "https://www.theblock.co/news/business/2026-02-09-farcaster-founders-dan-romero-and-varun-srinivasan-join-stablecoin-startup-tempo-389076",
+            "https://www.linkedin.com/posts/danielwromero_im-thrilled-to-announce-that-im-joining-activity-7426752063973494784-abEM",
+            "https://www.linkedin.com/in/danielwromero",
+            "https://www.pymnts.com/cryptocurrency/2026/podcast-tempos-dan-romero-on-cryptos-barbell-economy/",
+            "https://therollup.co/podcast/dan-romero-how-stablecoin-growth-is-setting-the-stage-for-an-explosive-bull-market-bull-case",
+            "https://cryptobriefing.com/tempo-blockchain-expansion/",
+            "https://stabletakes.com/"
+          ],
+          "short": "Farcaster co-founder taking Tempo's stablecoin rails to market.",
+          "signal": "Coinbase → Farcaster → Tempo",
+          "tag": "Anchor",
+          "orgShort": "Tempo",
+          "why": "He connects consumer crypto networks with the stablecoin rails agents will pay on. An early Coinbase leader, he co-founded Farcaster with Varun Srinivasan and built it into crypto's best-known social protocol. In February 2026 both joined Tempo, the Stripe-backed payments chain, where he leads go-to-market. Through 2026 he has made the case for agentic payments, private enterprise zones and instant stablecoin payroll on The Rollup, PYMNTS and Tempo's weekly Stable Takes. Dollars, now at internet speed.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Rishin Sharma",
+          "url": "https://www.linkedin.com/in/rishinsharma",
+          "role": "Head of AI Growth",
+          "org": "Solana Foundation",
+          "status": "Head of AI Growth at the Solana Foundation; co-architect of Pay.sh, launched with Google Cloud in May 2026; hosts the Open Intelligence podcast.",
+          "verified": true,
+          "verifiedHow": "Pay.sh launch confirmed by the Solana Foundation and The Block (May 2026); Solana Accelerate USA 2026 talk listed with him as speaker.",
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/rishinsharma",
+            "https://solana.com/news/solana-foundation-launches-pay-sh-in-collaboration-with-google-cloud",
+            "https://www.theblock.co/news/web3/2026-05-05-google-cloud-solana-foundation-ai-payments-400059",
+            "https://pay.sh/",
+            "https://confpad.io/conferences/solana-accelerate-usa-2026/building-the-future-of-agentic-payments-with-google-cloud",
+            "https://solana.com/podcasts/open-intelligence-with-rishin-sharma/episodes/agentic-payments-with-coinbases-lincoln-murr-e38b8uf",
+            "https://luma.com/0s7q3k0b"
+          ],
+          "short": "Co-architected Pay.sh so agents can pay for APIs in stablecoins.",
+          "signal": "Solana Foundation → Pay.sh with Google Cloud",
+          "tag": "Builder",
+          "orgShort": "Solana",
+          "why": "He connects the Solana ecosystem with agents that pay their own way. As Head of AI Growth at the Solana Foundation he drives adoption of machine payments and hosts Open Intelligence, talking agentic payments with builders like Coinbase's Lincoln Murr. In May 2026 he co-architected Pay.sh with Google Cloud and demoed it live at Solana Accelerate USA: agents discovering and paying for APIs in stablecoins with no accounts, keys or subscriptions, chaining six calls in one prompt for seven cents. No keys, no subscriptions, just pay.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Ishan Goyal",
+          "url": "https://igoyal.ai/",
+          "role": "Go-to-Market",
+          "org": "Tempo",
+          "status": "Joined Tempo's go-to-market team in August 2026, focused on the Machine Payments Protocol; previously GTM lead at Paradigm.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://igoyal.ai/",
+            "https://igoyal.ai/about",
+            "https://www.linkedin.com/posts/ishan-goyal_timeline-update-im-leaving-paradigm-to-activity-7498007101961850880-E8tA",
+            "https://www.linkedin.com/in/ishan-goyal"
+          ],
+          "short": "Left Paradigm to take the Machine Payments Protocol to market at Tempo.",
+          "signal": "Paradigm GTM → Tempo MPP",
+          "tag": "Joined",
+          "orgShort": "Tempo",
+          "why": "He connects venture-backed crypto startups with the protocol that lets machines pay machines. From January 2025 he was GTM lead at Paradigm, helping portfolio companies find product-market fit. In August 2026 he left to join Tempo's go-to-market team, focused on the Machine Payments Protocol for payments between AI agents, services and businesses. From portfolio to protocol.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Rich Widmann",
+          "url": "https://www.linkedin.com/in/rich-widmann-a816a54b",
+          "role": "Head of Strategy, Web3",
+          "org": "Google Cloud",
+          "status": "Leads Web3 strategy at Google Cloud; Google's representative on the x402 Foundation governance body.",
+          "verified": true,
+          "verifiedHow": "Consensus Miami remarks reported by CoinDesk (May 10, 2026); x402 Foundation membership announced publicly.",
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/in/rich-widmann-a816a54b",
+            "https://www.linkedin.com/posts/rich-widmann-a816a54b_coinbases-ai-payments-system-joins-linux-activity-7445461276035760128-a1Qf",
+            "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
+            "https://solana.com/news/solana-foundation-launches-pay-sh-in-collaboration-with-google-cloud",
+            "https://solanacompass.com/news/solana-foundation-and-google-cloud-launch-paysh-a-native-payment-rail-for-ai-agents"
+          ],
+          "short": "Google Cloud's Web3 strategist on the x402 Foundation.",
+          "signal": "Google Cloud Web3 → AP2 + x402 → x402 Foundation",
+          "tag": "Leads product",
+          "orgShort": "Google Cloud",
+          "why": "He connects Google Cloud with the open standards for agents paying on crypto rails. As Google Cloud's head of Web3 strategy he championed Google's x402 extension alongside its Agent Payments Protocol, and in 2026 he announced Google joining the x402 Foundation as a founding member, serving as Google's representative on its governance body. In May 2026 he told Consensus Miami that agentic commerce will run on crypto rails, the same week Google Cloud and the Solana Foundation rolled out Pay.sh. Standards first, rails everywhere.",
+          "media": null,
+          "added": "2026-11-02"
+        },
+        {
+          "name": "Lena Hierzi",
+          "url": "https://www.linkedin.com/in/lena-hierzi-8221151ab",
+          "role": "DevRel Lead",
+          "org": "Celo Core Co.",
+          "status": "DevRel lead at Celo Core Co.; helped build Celo's x402 facilitator and the buy agent marketplace; speaking at Devcon 8's Agentic Hub in Mumbai (Nov 3–6, 2026).",
+          "verified": true,
+          "verifiedHow": "Devcon 8 Agentic Hub sessions confirmed on the Devcon program; x402 facilitator and buy listings documented in Celo's docs.",
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/lena-hierzi-8221151ab_celo-aiagents-x402-activity-7516121177946284033-REpN",
+            "https://x402.celo.org/",
+            "https://docs.celo.org/build/agents/x402-get-discovered",
+            "https://luma.com/jesredvk",
+            "https://cfp.devcon.org/devcon8/speaker/CACWFQ/",
+            "https://cfp.devcon.org/devcon8/talk/CPNQHC/",
+            "https://luma.com/rvtbmx2s"
+          ],
+          "short": "Built Celo's x402 facilitator and buy, a marketplace where agents pay per request.",
+          "signal": "Celo DevRel → x402 facilitator → buy → Devcon 8 Agentic Hub",
+          "tag": "Builder",
+          "orgShort": "Celo",
+          "why": "She connects stablecoin rails with the agents that need to buy things on their own. As DevRel lead at Celo Core Co. she helped build Celo's x402 facilitator, which settles non-custodially with gas sponsored for most assets. In October 2026 she helped launch buy, a marketplace of 700+ compute, data and API services where agents request a quote and pay per request from their own wallets in USDC, USD₮ or USA₮, then ran workshops to get builders listed. This week she takes the stage at Devcon 8's Agentic Hub in Mumbai with \"x402 beyond USDC\" and a live trial asking whether we can trust the machines. Wallets for agents, shelves to match.",
+          "media": null,
+          "added": "2026-11-02"
+        }
+      ],
+      "alternates": [
+        {
+          "name": "Tanya Khakbaz",
+          "url": "https://www.linkedin.com/in/tanya-khakbaz-a725732",
+          "role": "Head of Product, Experience Platform",
+          "org": "Stripe",
+          "status": "Announced Link's \"All systems green\" campaign on October 13, 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/tanya-khakbaz-a725732_one-of-the-things-people-dont-always-know-activity-7515794332180811776-xGTy",
+            "https://www.linkedin.com/in/tanya-khakbaz-a725732",
+            "https://www.linkedin.com/posts/mariasturgeon_all-systems-green-learn-more-about-link-activity-7516489586190159872-yFi8"
+          ],
+          "short": "Took Link's agent-payments story to hundreds of millions of users.",
+          "signal": "Stripe Experience Platform → Link campaign",
+          "tag": "Leads product",
+          "orgShort": "Stripe",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Devan Mitchem",
+          "url": "https://www.linkedin.com/in/devanmitchem",
+          "role": "Global Product & Partnerships, Web3",
+          "org": "Google Cloud",
+          "status": "Co-presented Pay.sh at Solana Accelerate USA 2026; leads Google Cloud Web3 x402 partnerships.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.youtube.com/watch?v=80_1d_2i2mY",
+            "https://confpad.io/conferences/solana-accelerate-usa-2026/building-the-future-of-agentic-payments-with-google-cloud",
+            "https://www.eventible.com/speakers/profile/devan-mitchem-2422",
+            "https://ethcc.io/archives/dark-forest-public-cloud-building-for-speed-and-scale-flashbots-x-google-cloud-web3"
+          ],
+          "short": "Google Cloud's Web3 partnerships lead behind x402 demos and Pay.sh.",
+          "signal": "Google Cloud Web3 → x402 → Pay.sh",
+          "tag": "Builder",
+          "orgShort": "Google Cloud",
+          "added": "2026-11-02",
+          "alternate": true
+        },
+        {
+          "name": "Bobbilee Hartman",
+          "url": "https://www.linkedin.com/in/bobbileehartman",
+          "role": "Developer Community Lead, Arc",
+          "org": "Circle",
+          "status": "Joined Circle in November 2025 to lead developer community programs for Arc; launched Arc House and the Architects program in April 2026.",
+          "verified": false,
+          "note": null,
+          "sources": [
+            "https://www.linkedin.com/posts/bobbileehartman_arc-the-economic-os-for-the-internet-activity-7395143979937226752-43Us",
+            "https://www.linkedin.com/posts/bobbileehartman_introducing-arc-house-the-home-of-the-arc-activity-7445207732397252609-THQ7",
+            "https://community.arc.io/public/videos/event-replay-introducing-arc-house-and-architects-2026-04-03"
+          ],
+          "short": "Building Arc's global developer community at Circle.",
+          "signal": "Coinbase → Circle Arc",
+          "tag": "Joined",
+          "orgShort": "Circle",
+          "added": "2026-11-02",
+          "alternate": true
+        }
+      ]
+    }
+  ]
+}

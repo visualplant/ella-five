@@ -8,6 +8,9 @@ import { defaultVertical, pslug as pslugOf, type Person } from "@/lib/verticals"
 import { loadRising } from "@/lib/rising";
 import { searchPeople, type SearchHit } from "@/lib/search";
 import { isSearchReady, searchFilter } from "@/lib/search-query";
+import { initVisibility, publicVisibility } from "@/lib/visibility";
+
+initVisibility(() => new Set(people().keys()));
 
 const str = (s: unknown) => (typeof s === "string" && s.trim() ? s.trim() : null);
 const abs = (u: string) => (u.startsWith("/") ? SITE + u : u);
@@ -37,6 +40,7 @@ export function publicPerson(e: Entry) {
     workedWith: (p.workedWith ?? []).map((w) => ({ name: w.name, role: str(w.role), org: str(w.org), url: str(w.url), relation: str(w.relation) })),
     media: media(p.media), onCurrentList: e.current,
     appearedIn: e.appeared.map((w) => ({ week: w, url: `${SITE}/archive/${w}` })),
+    visibility: publicVisibility(e.slug),
   };
 }
 export const weekUrl = (w: string) => `${SITE}/archive/${w}`;
@@ -146,7 +150,7 @@ export function publicAllPeople() {
 /** Every published list (current + archived), one entry per publish date, newest first. */
 export function publicListIndex() {
   const cur = defaultVertical;
-  const curDate = (str(cur.updated) ?? "").slice(0, 10);
+  const curDate = (str((cur as { compiled?: string }).compiled) ?? str(cur.updated) ?? "").slice(0, 10);
   const dates = new Set(weeks());
   if (/^\d{4}-\d{2}-\d{2}$/.test(curDate)) dates.add(curDate);
   const lists = [...dates].sort().reverse().map((d) => {

@@ -854,3 +854,12 @@ nav[aria-label="Categories"] .u-pop a::before { display: none; }
 .docs pre{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:10px 0 1.4em;font:400 13px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink)}
 .docs pre code{font:inherit}
 .docs .docs-note{color:var(--mute);font-size:15px}
+
+/* Visibility meter on profiles: five-step heat bar, deeper tone per level */
+.vis { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.vis-bar { display: inline-flex; gap: 3px; flex: none; }
+.vis-seg { position: relative; width: 22px; height: 8px; border-radius: 2px; background: var(--line); }
+.vis-seg.on { background: color-mix(in srgb, var(--accent) calc(25% + var(--i) * 15%), var(--paper)); }
+.vis-seg.spot::after { content: ""; position: absolute; left: 50%; bottom: -7px; width: 4px; height: 4px; margin-left: -2px; border-radius: 50%; background: var(--soft); }
+.vis-text { min-width: 0; }
+.vis-label { color: var(--ink); }

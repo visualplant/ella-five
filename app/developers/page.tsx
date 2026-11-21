@@ -27,7 +27,7 @@ export default function Page() {
       <p>All paths are under <code>/api/v1</code> and return JSON. CORS allows <code>GET</code> from any origin.</p>
 
       <h3>GET /api/v1/people</h3>
-      <p>Everyone who has appeared on any 5×5, current and past, in one call. Each person includes their full public profile and a <code>placements</code> array of every list, category and rank they held. People on the current list come first.</p>
+      <p>Everyone who has appeared on any 5×5, current and past, in one call. Each person includes their full public profile, including the <code>visibility</code> field described below, and a <code>placements</code> array of every list, category and rank they held. People on the current list come first.</p>
       <pre><code>{`curl -sS https://ellafive.com/api/v1/people \\
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 
@@ -47,7 +47,9 @@ export default function Page() {
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 
       <h3>GET /api/v1/people/{"{slug}"}</h3>
-      <p>A person’s public profile: name, role, org, category, blurbs, sources, media, and the lists they appeared on.</p>
+      <p>A person’s public profile: name, role, org, category, blurbs, sources, media, and the lists they appeared on. Each person also has a <code>visibility</code> object, or <code>null</code> when Ella has not yet recorded one. Visibility is how widely known someone is today. It is separate from talent, which is expressed only by list placement, and it never affects list order.</p>
+      <p>The five levels are: <strong>Under the radar</strong> — known mostly to their team and close peers; <strong>Emerging</strong> — has a following in a niche, such as talks, open source or a strong portfolio; <strong>Recognized</strong> — well known in their discipline, and peers name them unprompted; <strong>Prominent</strong> — senior at a major company or frequently cited, and known beyond their field; <strong>Iconic</strong> — leads at a frontier lab or is a household name in AI. A check that cannot yet be confirmed is labeled <strong>Unconfirmed</strong> and has a null <code>level</code>.</p>
+      <p>The object is <code>{"{ level, label, checked, spotted, rise, history }"}</code>. <code>checked</code> is the date of the latest check. <code>spotted</code> is <code>{"{ level, label, date }"}</code> from the day Ella first listed them, or <code>null</code>. <code>rise</code> is the current level minus the spotted level, or <code>null</code>. Each history item is <code>{"{ date, level, label, provisional, retroactive, note, sources }"}</code>, with <code>sources</code> as URLs only.</p>
       <pre><code>{`curl -sS https://ellafive.com/api/v1/people/ilya-sutskever \\
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 

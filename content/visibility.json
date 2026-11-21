@@ -1,0 +1,6181 @@
+{
+  "method": "v1",
+  "people": {
+    "jacob-thornton": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 1,
+          "following": 3,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 41253,
+          "linkedin": null,
+          "github": 8832,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Co-founder and CEO of Pierre Computer Company and co-creator of Bootstrap; interviewed in 2026 and spoke at a San Francisco lecture series in September 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/fat",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/fat",
+            "signal": "following"
+          },
+          {
+            "url": "https://creativeconviction.ai/interviews/jacob-thornton/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.theframeworkproject.com/interviews/jacob-thornton",
+            "signal": "press"
+          },
+          {
+            "url": "https://luma.com/greptile-ke3n",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.ycombinator.com/founders/jacob-thornton",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "alex-allain": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 2233,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Member of Technical Staff at Anthropic since June 2026; previously Director of Engineering at Dropbox.",
+        "sources": [
+          {
+            "url": "https://x.com/alexallain",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/alexallain_life-update-i-joined-anthropic-at-the-activity-7490842565387177984-OFVy",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "ludo-galabru": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 2844,
+          "linkedin": null,
+          "github": 301,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Engineer at the Solana Foundation working on agentic payments and Pay.sh; previously co-founded Txtx.",
+        "sources": [
+          {
+            "url": "https://x.com/ludo_txtx",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/lgalabru",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/solana-foundation/pay/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7433164025015742464",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "kathleen-kenealy": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Founding Member of Technical Staff at Discovery Loop since September 2026; previously a technical lead on Google's Gemma models.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/kathleen-kenealy",
+            "signal": "role"
+          },
+          {
+            "url": "https://ai.engineer/talks/Xmkl27AM2VQ-unveiling-latest-gemma-model-advancements",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09",
+        "nullReasons": {
+          "following": "LinkedIn count dropped: Follow mode (Follow as the main button / creator status) could not be confirmed from the 2026-11-21 fetch, so Following is scored only from X, GitHub and Substack. No verified counts remain on those platforms."
+        },
+        "provisional": true
+      }
+    ],
+    "ian-ownbey": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 141,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Co-founder and CTO of Pierre Computer Company.",
+        "sources": [
+          {
+            "url": "https://x.com/foobar1234",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.ycombinator.com/launches/I6t-pierre-a-new-way-to-review-code",
+            "signal": "role"
+          },
+          {
+            "url": "https://cosign.co/x/foobar1234",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "joel-lewenstein": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 3,
+          "stage": 2,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 5901,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Head of Product Design at Anthropic; appeared on Fast Company's By Design podcast in April 2026 and spoke at a San Francisco design event that month.",
+        "sources": [
+          {
+            "url": "https://x.com/joellewenstein",
+            "signal": "following"
+          },
+          {
+            "url": "https://podcasts.apple.com/us/podcast/what-is-a-design-job-in-2026-plus-anthropics-head/id1815767140?i=1000758616636",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.fastcompany.com/91519289/inside-anthropics-biggest-design-choices",
+            "signal": "press"
+          },
+          {
+            "url": "https://assemblydesign.ai/future/",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "si-min-lee": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1105,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Member of Design Staff at Anthropic.",
+        "sources": [
+          {
+            "url": "https://x.com/leesimin",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/siminlee",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "clara-fairbanks": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "nullReasons": {
+          "following": "No verified X account or LinkedIn follower count could be read on 2026-11-21 (LinkedIn blocked automated reads; no X account could be matched to this person with confidence), and the only count found was GitHub; following is left unscored rather than estimated."
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": 0,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "provisional": true,
+        "note": "Lead Product Designer at Circle, working on developer tooling and agentic workflows.",
+        "sources": [
+          {
+            "url": "https://clarafairbanks.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.linkedin.com/in/clara-fairbanks",
+            "signal": "following"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "daisy-dalhae-lee": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "nullReasons": {
+          "following": "No verified X account or LinkedIn follower count could be read on 2026-11-21 (LinkedIn blocked automated reads; no X account could be matched to this person with confidence); following is left unscored rather than estimated."
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "provisional": true,
+        "note": "Designer in Perplexity's Creative Studio since October 2025; previously a designer at Pentagram.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/daisydhlee",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.pentagram.com/work/barwis",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "josh-nelson": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1748,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Designer at OpenAI working on Codex since October 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/jnelly2",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.joshn.io/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "ali-eslami": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 2,
+          "stage": 2,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 11375,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Founding Member of Technical Staff at Discovery Loop since November 2026, after 12 years at Google DeepMind.",
+        "sources": [
+          {
+            "url": "https://x.com/arkitus",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/ali-eslami-joins-discovery-loop",
+            "signal": "press"
+          },
+          {
+            "url": "https://exa.ai/library/podcast/sg637kymczl/episode/pdkmg6ncqpf",
+            "signal": "press"
+          },
+          {
+            "url": "https://arkitus.com/talks/",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "augustin-zidek": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Researcher at Latent Labs since November 2026, after 10 years at Google DeepMind and work on AlphaFold.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/posts/augustinzidek_after-10-years-at-google-deepmind-ive-decided-activity-7524162102664564736-g1Qu",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/augustin-zidek-announces-latent-labs-move",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09",
+        "nullReasons": {
+          "following": "LinkedIn count dropped: Follow mode (Follow as the main button / creator status) could not be confirmed from the 2026-11-21 fetch, so Following is scored only from X, GitHub and Substack. No verified counts remain on those platforms."
+        },
+        "provisional": true
+      }
+    ],
+    "roy-rinberg": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 847,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Researcher at Anthropic and Harvard CS PhD candidate working on AI safety, security and verification.",
+        "sources": [
+          {
+            "url": "https://x.com/RoyRinberg",
+            "signal": "following"
+          },
+          {
+            "url": "https://royrinberg.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "marcus-williams": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 7750,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Researcher on monitoring at OpenAI.",
+        "sources": [
+          {
+            "url": "https://x.com/Marcus_J_W",
+            "signal": "following"
+          },
+          {
+            "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "fatih-dinc": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 3962,
+          "linkedin": null,
+          "github": 20,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Member of Technical Staff at Goodfire since November 2026, working on interpretability; previously a neuroscience postdoc.",
+        "sources": [
+          {
+            "url": "https://x.com/fatihdin4en",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/fatihdinc",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/fatih-dinc-joins-goodfire",
+            "signal": "press"
+          },
+          {
+            "url": "https://fatihdinc.github.io/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "cat-wu": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 4,
+          "stage": 3,
+          "following": 3,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 195627,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 15,
+        "level": 4,
+        "note": "Leads product management for Core Products at OpenAI since November 2026; previously head of product for Claude Code at Anthropic.",
+        "sources": [
+          {
+            "url": "https://x.com/_catwu",
+            "signal": "following"
+          },
+          {
+            "url": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products",
+            "signal": "press"
+          },
+          {
+            "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves",
+            "signal": "press"
+          },
+          {
+            "url": "https://cosign.co/x/_catwu",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "jake-levine": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 2,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 6621,
+          "linkedin": null,
+          "github": 8,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Product lead for Muse at Meta Superintelligence Labs; spoke at Money20/20 in October 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/jrlevine",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/jakelevine",
+            "signal": "following"
+          },
+          {
+            "url": "https://us.money2020.com/agenda/agenda/how-muse-and-link-are-building-the-infrastructure-for-agentic-commerce-e103-76991",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/levinejake_how-muse-and-link-are-building-the-infrastructure-activity-7517076678825930752-dBXS",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "sam-newman-bremang": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 252,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Senior Director and Head of AI Products at Wealthsimple; quoted on the company's AI assistant launch in The Globe and Mail and The Logic.",
+        "sources": [
+          {
+            "url": "https://x.com/snbremang",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.theglobeandmail.com/business/article-wealthsimple-ai-assistant-chatgpt-claude/",
+            "signal": "press"
+          },
+          {
+            "url": "https://thelogic.co/news/wealthsimple-launches-ai-assistant/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "shirley-zhou": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 2,
+          "following": null,
+          "peers": 1
+        },
+        "nullReasons": {
+          "following": "No verified X account or LinkedIn follower count could be read on 2026-11-21 (LinkedIn blocked automated reads; no X account could be matched to this person with confidence); following is left unscored rather than estimated."
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "provisional": true,
+        "note": "Product Lead for Link at Stripe; spoke at Money20/20 in October 2026.",
+        "sources": [
+          {
+            "url": "https://shirleyzhou.me/",
+            "signal": "role"
+          },
+          {
+            "url": "https://us.money2020.com/agenda/agenda/how-muse-and-link-are-building-the-infrastructure-for-agentic-commerce-e103-76991",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/whyzhou_had-a-great-time-on-stage-at-money2020-with-activity-7519072511003824128-TuF0",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "swapnil-parikh": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "nullReasons": {
+          "following": "No verified X account or LinkedIn follower count could be read on 2026-11-21 (LinkedIn blocked automated reads; no X account could be matched to this person with confidence); following is left unscored rather than estimated."
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "provisional": true,
+        "note": "VP of Product, Investing at Wealthsimple; quoted in BetaKit and The Globe and Mail coverage of Wealthsimple product launches.",
+        "sources": [
+          {
+            "url": "https://betakit.com/wealthsimple-unveils-ai-assistant-and-major-product-expansion-in-latest-showcase/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.theglobeandmail.com/investing/personal-finance/article-wealthsimple-kalshi-partnership-prediction-markets/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.parameter.vc/team/swapnilparikh",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "dmitry-shevelenko": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 4,
+          "stage": 3,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 6672,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 13,
+        "level": 4,
+        "note": "Chief Business Officer at Perplexity; 2026 guest on Big Technology, ARK's FYI and HSBC podcasts and a Shoptalk Spring keynote speaker.",
+        "sources": [
+          {
+            "url": "https://x.com/dmitry140",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/dmitryshevelenko",
+            "signal": "role"
+          },
+          {
+            "url": "https://podcasts.apple.com/us/podcast/ai-agents-mirage-or-real-revolution-with-dmitry-shevelenko/id1522960417?i=1000766636236",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.ark-invest.com/podcast/building-an-ai-ecosystem",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.incisiv.com/shoptalk-spring-2026",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "kathleen-mcguirk": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Head of AI Go-to-Market at Plaid; interviewed in April 2026.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/kathleenmcguirk",
+            "signal": "role"
+          },
+          {
+            "url": "https://siliconvalleyinvestclub.com/2026/04/27/interview-with-kathleen-mcguirk-ai-gtm-lead-at-plaid-inside-the-8b-fintech-revolution/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.11fs.com/podcasts/1066-news-openai-enters-finance-revolut-pushes-into-wealth-and-primer-raises-100m",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09",
+        "nullReasons": {
+          "following": "LinkedIn count dropped: Follow mode (Follow as the main button / creator status) could not be confirmed from the 2026-11-21 fetch, so Following is scored only from X, GitHub and Substack. No verified counts remain on those platforms."
+        },
+        "provisional": true
+      }
+    ],
+    "amira-valliani": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 3,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 5347,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 9,
+        "level": 3,
+        "note": "Head of Payments Growth at the Solana Foundation and showrunner for Breakpoint 2026; listed speaker at Money20/20 US and Solana events in 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/amiravalliani",
+            "signal": "following"
+          },
+          {
+            "url": "https://us.money2020.com/agenda/speakers/amira-valliani-s103-116555",
+            "signal": "stage"
+          },
+          {
+            "url": "https://solana.com/accelerate/miami/agenda",
+            "signal": "stage"
+          },
+          {
+            "url": "https://cms.fintech.tv/solanas-breakpoint-heads-to-london-with-a-token-supercycle-and-big-finance-in-the-room/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "paul-teshima": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 5825,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Chief Marketing and Commercial Officer at Wealthsimple; appeared on the Between Two Brunettes podcast in July 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/paulteshima",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/paulteshima",
+            "signal": "role"
+          },
+          {
+            "url": "https://podcasts.apple.com/ie/podcast/the-operator-behind-wealthsimples-growth-brand-bets/id1852522109?i=1000775080811",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.fintech.ca/2026/09/01/wealthsimple-paul-teshima-canadians-banking-costs/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "reeju-datta": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 2,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 362,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Co-founder of Cashfree Payments; interviewed by CNBC-TV18 and podcasts in 2026 and appeared on a Global Fintech Fest panel.",
+        "sources": [
+          {
+            "url": "https://x.com/indianjones90",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/reejudatta",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.cnbctv18.com/videos/business/startup/ai-payments-startup-cashfree-ebitda-profitability-fundraise-ipo-plans-outlook-19913912.htm",
+            "signal": "press"
+          },
+          {
+            "url": "https://exa.ai/library/podcast/x2jx95f56k7/episode/q0qt7n9pjb3",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/et-now-live_cashfreepayments-reejudatta-agenticpayments-activity-7503410344183361536-0zKu",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-09"
+      }
+    ],
+    "lauren-tan": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 3,
+          "following": 4,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 328111,
+          "linkedin": null,
+          "github": 18920,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 13,
+        "level": 4,
+        "note": "Software Engineer on Grok Bot at SpaceX Super Intelligence and a member of the React Compiler core team; spoke at AI Engineer Code Summit on November 11, 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/poteto",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/poteto",
+            "signal": "following"
+          },
+          {
+            "url": "https://ai.engineer/code/2026/talks/lauren-tan",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=O_zcc6Xl12g",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.teamday.ai/ai/roman-ugarte-lauren-tan-grok-bot-ai-coworkers-trust-ladder",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "tracy-chou": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 1,
+          "following": 3,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 109730,
+          "linkedin": null,
+          "github": 610,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Member of Technical Staff at Anthropic Labs since July 2026; founder of Block Party, acquired by DeleteMe in March 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/triketora",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/triketora",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/25/deleteme-acquires-social-media-security-tool-block-party/",
+            "signal": "press"
+          },
+          {
+            "url": "https://stvp.stanford.edu/av/tracy-chou-block-party-founding-mission-driven-startup-entire-talk",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/tracy-chou-joins-anthropic",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "riley-strong": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 617,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Leads Payments Engineering at OpenAI and represents OpenAI on the Agentic Commerce Protocol.",
+        "sources": [
+          {
+            "url": "https://x.com/strongriley",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/strongriley_i-joined-openai-3-weeks-ago-to-leadpayments-activity-7341934378094051330-x6Za",
+            "signal": "role"
+          },
+          {
+            "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "eric-zhang": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 25369,
+          "linkedin": null,
+          "github": 3305,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Technical Staff at Modal, returning in November 2026 after a year at Thinking Machines Lab.",
+        "sources": [
+          {
+            "url": "https://x.com/ekzhang1",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/ekzhang",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/eric-zhang-returns-to-modal",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.ekzhang.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "tej-chajed": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 211,
+          "linkedin": null,
+          "github": 382,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Senior Research Scientist at Google DeepMind since August 2026, working on AI-enabled formal verification.",
+        "sources": [
+          {
+            "url": "https://x.com/tchajed",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/tchajed",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.chajed.io/",
+            "signal": "role"
+          },
+          {
+            "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "sebastian-speier": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 2,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 3607,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Head of Design at Perplexity; gave a Double Diamond talk in September 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/scspeier",
+            "signal": "following"
+          },
+          {
+            "url": "https://doublediamondnyc.substack.com/p/how-perplexity-recursively-built",
+            "signal": "press"
+          },
+          {
+            "url": "https://luma.com/double-diamond-sep-2026",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.linkedin.com/in/sspeier",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "adam-noffsinger": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 10091,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Designer at OpenAI since May 2026; previously a designer-founder at Alma.",
+        "sources": [
+          {
+            "url": "https://x.com/ANoffsinger",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/anoffsinger_excited-to-share-that-ive-joined-the-openai-activity-7460753936916840448-I6pH",
+            "signal": "role"
+          },
+          {
+            "url": "https://noff.me/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "ryan-mather": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 1,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 13113,
+          "linkedin": null,
+          "github": 6,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Designer at Anthropic who worked on Claude Docs, Claude Design and Claude Science; presented at a July 2026 internal design tools demo night.",
+        "sources": [
+          {
+            "url": "https://x.com/Flomerboy",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/flomerboy",
+            "signal": "following"
+          },
+          {
+            "url": "https://ryancan.build/about",
+            "signal": "role"
+          },
+          {
+            "url": "https://luma.com/design-tool-demos",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "ed-bayes": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 8034,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Product designer at OpenAI working on Codex and Sora; featured on podcasts in 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/edbayes",
+            "signal": "following"
+          },
+          {
+            "url": "https://exa.ai/library/podcast/gmcrvcq78jh/episode/558vhgft3rg",
+            "signal": "press"
+          },
+          {
+            "url": "https://exa.ai/library/podcast/07kcpqlzvq9/episode/bvysmykl5mc",
+            "signal": "press"
+          },
+          {
+            "url": "https://productschool.com/resources/product-podcast/openai-figma-killing-design-to-code-handoff",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "daniela-muntyan": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 3,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 80668,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Product Designer at Figma who worked on Figma Motion; presented the Config 2026 Motion deep dive and was interviewed in July 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/daniela_muntyan",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3evAfmLVZK8",
+            "signal": "stage"
+          },
+          {
+            "url": "https://radioua.com.ua/podcast/21180-radio-knopka.html",
+            "signal": "press"
+          },
+          {
+            "url": "https://danielamuntyan.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "swarat-chaudhuri": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 2,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 3760,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Senior Staff Research Scientist at Google DeepMind and Professor at UT Austin; gave a 2026 workshop keynote and a seminar in October 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/swarat",
+            "signal": "following"
+          },
+          {
+            "url": "https://asset.engineering.upenn.edu/event/swarat-chaudhuri-google-deepmind-and-ut-austin-trust-substrates-for-ai-driven-mathematics/",
+            "signal": "stage"
+          },
+          {
+            "url": "https://easychair.org/smart-program/EuroProofNet-WG5/",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.cs.utexas.edu/~swarat/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "adam-gayoso": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1768,
+          "linkedin": null,
+          "github": 196,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Senior Research Scientist at Google DeepMind who led AlphaGenome 2; previously built scvi-tools.",
+        "sources": [
+          {
+            "url": "https://x.com/adamgayoso",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/adamgayoso",
+            "signal": "following"
+          },
+          {
+            "url": "https://ai4s.fyi/interviews/deepmind-avsec-gayoso-alphagenome-2",
+            "signal": "press"
+          },
+          {
+            "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "shayne-longpre": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 4,
+          "stage": 2,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 7546,
+          "linkedin": null,
+          "github": 50,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Member of Technical Staff at Anthropic and lead of the Data Provenance Initiative; quoted in major outlets in 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/ShayneRedford",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/shayne-longpre",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.shaynelongpre.com/press-talks",
+            "signal": "press"
+          },
+          {
+            "url": "https://newsfilter.io/interviews/going-in-deep-on-data-yc-paper-club-a91bc86ce5fe5b388f2886889f965e81",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.technologyreview.com/innovator/shayne-longpre-holding-tech-firms-accountable/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "tara-rezaei": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 6181,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Co-founder of Mirendil, which is backed by a16z and Kleiner Perkins.",
+        "sources": [
+          {
+            "url": "https://x.com/tararezaeikh",
+            "signal": "following"
+          },
+          {
+            "url": "https://a16z.com/announcement/investing-in-mirendil/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.kleinerperkins.com/perspectives/mirendil-building-the-system-that-builds-systems/",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "jack-cook": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 2191,
+          "linkedin": null,
+          "github": 243,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Member of Technical Staff at Thinking Machines Lab; co-author of the November 2026 end-to-end 4-bit training post.",
+        "sources": [
+          {
+            "url": "https://x.com/jackcookjack",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/jackcook",
+            "signal": "following"
+          },
+          {
+            "url": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "mona-sarantakos": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 3,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 1916,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "VP of Product at Meta Superintelligence Labs and head of product for Muse; her first podcast interview aired on Lenny's Podcast on November 15, 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/mona_sarantakos",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+            "signal": "press"
+          },
+          {
+            "url": "https://podcasts.apple.com/us/podcast/metas-muse-how-we-launched-the-most-successful/id1627920305?i=1000802077970",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "roman-ugarte": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 13019,
+          "linkedin": null,
+          "github": 6,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 9,
+        "level": 3,
+        "note": "Product lead on Grok Bot at SpaceX Super Intelligence; featured on Lenny's Podcast in September 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/romanugarte_",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/rcugarte",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.teamday.ai/ai/roman-ugarte-lauren-tan-grok-bot-ai-coworkers-trust-ladder",
+            "signal": "press"
+          },
+          {
+            "url": "https://romanugarte.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "chaya-nayak": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 46,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Product lead for Sign in with ChatGPT and ChatGPT Wallet at OpenAI; interviewed by CNBC on the Wallet launch in November 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/ChayaJNayak",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+            "signal": "press"
+          },
+          {
+            "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "matt-piccolella": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 1,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 4402,
+          "linkedin": null,
+          "github": 35,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Product Manager at Anthropic and PM for Claude Meetings, which launched in beta in November 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/mattpiccolella",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/mattpiccolella",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HlX2LZ7JAyA",
+            "signal": "press"
+          },
+          {
+            "url": "https://anthropic.ondemand.goldcast.io/on-demand/36bd8160-a713-4bfe-9fb0-f9df696a3835",
+            "signal": "stage"
+          },
+          {
+            "url": "https://claude.com/resources/articles/claude-meetings",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "kevin-arifin": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 2,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 2700,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Head of Agents at MoonPay; covered by Decrypt and Blockleaders and a listed speaker at Consensus Miami 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/kevarifin",
+            "signal": "following"
+          },
+          {
+            "url": "https://blockleaders.io/ai-agents-need-wallets/",
+            "signal": "press"
+          },
+          {
+            "url": "https://decrypt.co/369746/moonpay-brings-crypto-transactions-claude-codex-moonagents",
+            "signal": "press"
+          },
+          {
+            "url": "https://consensus2026.coindesk.com/agenda/speaker/-kevin-arifin",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "sara-rowghani": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1679,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Go-to-market lead for Muse at Meta, which launched on September 8, 2026; previously at the startup /dev/agents (Dreamer).",
+        "sources": [
+          {
+            "url": "https://x.com/sarar",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/sararowghani_we-launched-muse-eight-weeks-ago-on-september-activity-7523044266785562624-SSGO",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/sararowghani_last-year-i-uprooted-my-family-from-nyc-activity-7429997271959900160-k3pp",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "lorry-destainville": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 2,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 573,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Leads Monetization Partnerships at OpenAI; spoke at HubSpot UNBOUND in September 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/Lorry_D",
+            "signal": "following"
+          },
+          {
+            "url": "https://unbound.hubspot.com/speakers/lorry-destainville",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505976758454599680",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "tanmay-jain": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 618,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Mobile Growth Lead at ElevenLabs; guest on RevenueCat's Sub Club podcast in 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/tanmay_jain_",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.revenuecat.com/blog/growth/jack-tanmay-elevenlabs-sub-club-podcast-2026",
+            "signal": "press"
+          },
+          {
+            "url": "https://subclub.com/episode/how-elevenlabs-builds-prices-and-grows-ai-consumer-apps",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "andrew-stirk": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "nullReasons": {
+          "following": "No verified X account or LinkedIn follower count could be read on 2026-11-21 (LinkedIn blocked automated reads; no X account could be matched to this person with confidence); following is left unscored rather than estimated."
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "provisional": true,
+        "note": "Head of Brand Marketing at Anthropic; interviewed by Cultured in April 2026.",
+        "sources": [
+          {
+            "url": "https://www.culturedmag.com/article/2026/04/23/culture-ai-anthropic-sasha-de-marigny-and-andrew-stirk/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.itsnicethat.com/articles/pov-could-claude-or-chatgpt-be-the-next-apple-advertising-161025",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.creativereview.co.uk/anthropic-claude-keep-thinking-campaign/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "haider-sabri": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 859,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Leads Growth Engineering at OpenAI since May 2026; previously at Uber and LinkedIn.",
+        "sources": [
+          {
+            "url": "https://x.com/hsabri",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/haidersabri_im-very-excited-to-share-that-ive-joined-activity-7458539028250910720-9B9I",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-16"
+      }
+    ],
+    "erik-reppel": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 15882,
+          "linkedin": null,
+          "github": 109,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Founder of an unannounced company and a member of the x402 Foundation Technical Steering Committee; previously led developer platform work at Coinbase.",
+        "sources": [
+          {
+            "url": "https://x.com/programmer",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/erikreppel",
+            "signal": "following"
+          },
+          {
+            "url": "https://thecoinformer.com/news/x402-founder-leaves-coinbase-to-start-new-company",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.coinbase.com/developer-platform/discover/launches/x402",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "emil-ahlback": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 9017,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Founding engineer at Energy; previously the first engineer at Lovable.",
+        "sources": [
+          {
+            "url": "https://x.com/emilahlback",
+            "signal": "following"
+          },
+          {
+            "url": "https://allthe.news/articles/emil-ahlback-leaves-lovable-to-join-energy-as-founding-engineer",
+            "signal": "press"
+          },
+          {
+            "url": "https://lovable.dev/gpt-engineer",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "sid-bidasaria": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": 66,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Founding engineer and tech lead on Claude Code at Anthropic.",
+        "sources": [
+          {
+            "url": "https://github.com/sid374",
+            "signal": "following"
+          },
+          {
+            "url": "https://sidb.io/",
+            "signal": "role"
+          },
+          {
+            "url": "https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "fouad-matin": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 10519,
+          "linkedin": null,
+          "github": 229,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Engineer on Codex at OpenAI; previously founded Indent.",
+        "sources": [
+          {
+            "url": "https://x.com/fouadmatin",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/fouad",
+            "signal": "following"
+          },
+          {
+            "url": "https://fouad.org/about",
+            "signal": "role"
+          },
+          {
+            "url": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "steve-klein": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Member of Technical Staff at OpenAI after OpenAI's March 2026 acquisition of Promptfoo, which he co-founded.",
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+            "signal": "press"
+          },
+          {
+            "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.promptfoo.dev/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "barrett-white": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Senior product designer at Pinterest; previously worked on Amazon's Rufus shopping assistant.",
+        "sources": [
+          {
+            "url": "https://www.barrettwhite.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.barrettwhite.com/project/rufus-ai",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.aboutamazon.com/news/retail/amazon-rufus",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "amara-hulslander": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Principal product designer, emerging products, at Humana; previously worked on Amazon Alexa developer experience and Just Walk Out.",
+        "sources": [
+          {
+            "url": "https://amara.design/",
+            "signal": "role"
+          },
+          {
+            "url": "https://amara.design/portfolio/amazon-alexa-ai-agentic-developer-experience-foundations/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.justwalkout.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "oscar-dumlao": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 5930,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Design Staff at OpenAI; previously a designer at Figma and Reve.",
+        "sources": [
+          {
+            "url": "https://x.com/oscardumlao",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.oscardumlao.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.figma.com/blog/what-is-good-design-in-the-age-of-ai/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "chanpory-rith": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": 11,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Principal designer at Perplexity, including work on the Comet browser.",
+        "sources": [
+          {
+            "url": "https://github.com/chanpory",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.perplexity.ai/comet",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "shelley-lai": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Product designer at Harvey.",
+        "sources": [
+          {
+            "url": "https://shelley.world/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "kathryn-tunyasuvunakool": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Principal research scientist at Isomorphic Labs and a co-author of AlphaFold.",
+        "sources": [
+          {
+            "url": "https://www.turingtree.com/updates/kathryn-tunyasuvunakool-joins-isomorphic-labs-2026-10",
+            "signal": "press"
+          },
+          {
+            "url": "https://peopleofsi.com/people/kathryn-tunyasuvunakool/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.nature.com/articles/s41586-021-03819-2",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "da-huang": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Technical Staff at Discovery Loop.",
+        "sources": [
+          {
+            "url": "https://www.turingtree.com/updates/da-huang-joins-discovery-loop",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "konstantin-mishchenko": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 8826,
+          "linkedin": null,
+          "github": 86,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "AI researcher on pretraining at Mistral AI; previously at Meta AI.",
+        "sources": [
+          {
+            "url": "https://x.com/konstmish",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/konstmish",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/konstantin-mishchenko-joins-mistral-2026-10-06",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.konstmish.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "josh-engels": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 5998,
+          "linkedin": null,
+          "github": 60,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Technical Staff at METR; previously at Google DeepMind.",
+        "sources": [
+          {
+            "url": "https://x.com/JoshAEngels",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/JoshEngels",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/josh-engels-leaves-google-deepmind-for-metr",
+            "signal": "press"
+          },
+          {
+            "url": "https://joshengels.github.io/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "isa-fulford": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Member of Technical Staff at OpenAI and a builder of Deep Research.",
+        "sources": [
+          {
+            "url": "https://openai.com/index/introducing-deep-research/",
+            "signal": "role"
+          },
+          {
+            "url": "https://inferencebysequoia.substack.com/p/how-openai-built-its-groundbreaking",
+            "signal": "press"
+          },
+          {
+            "url": "https://sequoiacap.com/podcast/training-data-chatgpt-agent/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.forbes.com/profile/isa-fulford/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "angela-jiang": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Co-founder and CEO of Worktrace AI.",
+        "sources": [
+          {
+            "url": "https://www.worktrace.ai/our-story",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.upstartsmedia.com/p/worktrace-ai-automation-openai",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "rohan-varma": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Product, Codex, at OpenAI.",
+        "sources": [
+          {
+            "url": "https://rohanpf.substack.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "leonid-persiantsev": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Product lead for Comet at Perplexity.",
+        "sources": [
+          {
+            "url": "https://www.perplexity.ai/comet",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1m1javp/comet_ama_with_perplexitys_aravind_srinivas_and",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "michelle-fradin": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 14714,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Product lead for ChatGPT commerce at OpenAI.",
+        "sources": [
+          {
+            "url": "https://x.com/michelle_fradin",
+            "signal": "following"
+          },
+          {
+            "url": "https://openai.com/index/buy-it-in-chatgpt/",
+            "signal": "role"
+          },
+          {
+            "url": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "sailaja-shri": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Director of product management for Agent Pay at Mastercard.",
+        "sources": [
+          {
+            "url": "https://www.mastercard.com/global/en/business/artificial-intelligence/mastercard-agent-pay.html",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "elena-verna": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 1,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 12157,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 9,
+        "level": 3,
+        "note": "Head of Growth at Lovable.",
+        "sources": [
+          {
+            "url": "https://x.com/ElenaVerna",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.elenaverna.com/p/ive-joined-lovable-to-lead-growth",
+            "signal": "role"
+          },
+          {
+            "url": "https://lennydistilled.com/episodes/the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22"
+      }
+    ],
+    "austin-lau": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Growth marketing at Anthropic.",
+        "sources": [
+          {
+            "url": "https://www.tryprofound.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "jonathan-mckay": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Head of Growth at Xbox (Microsoft); previously built growth teams at OpenAI and Facebook.",
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/05/05/microsoft-xbox-ceo-asha-sharma-executive-overhaul.html",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "sreekar-kuchibhatla": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Growth marketing at Perplexity.",
+        "sources": [
+          {
+            "url": "https://theorg.com/org/perplexity-ai",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "krithika-muthukumar": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Marketing partner at Thrive Capital; previously an early marketing hire at Stripe and OpenAI.",
+        "sources": [
+          {
+            "url": "https://krithix.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://review.firstround.com/why-startup-marketers-should-be-diagnosticians-advice-from-stripe-and-openais-first-marketing-hire/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-22",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "thomas-dimson": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 9505,
+          "linkedin": null,
+          "github": 259,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Former member of technical staff on Sora at OpenAI and a co-founder of Global Illumination and In the Weights.",
+        "sources": [
+          {
+            "url": "https://x.com/turtlesoupy",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/turtlesoupy",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+            "signal": "press"
+          },
+          {
+            "url": "https://thomasdimson.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "sachin-katti": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 3,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 9475,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 9,
+        "level": 3,
+        "note": "Infrastructure and compute lead at OpenAI, with a planned move to an advisor role announced in October 2026; also a Stanford faculty member.",
+        "sources": [
+          {
+            "url": "https://x.com/sk7037",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.indiatoday.in/technology/news/story/sachin-katti-leaves-openai-uday-ruddaraju-to-lead-chatgpt-compute-unit-3017670-2026-10-15",
+            "signal": "press"
+          },
+          {
+            "url": "https://profiles.stanford.edu/sachin-katti",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "barret-zoph": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 3,
+          "stage": 0,
+          "following": 2,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 29147,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "VP of Research at Google DeepMind; previously a VP at OpenAI and a co-founder of Thinking Machines Lab.",
+        "sources": [
+          {
+            "url": "https://x.com/barret_zoph",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+            "signal": "press"
+          },
+          {
+            "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "harsh-mehta": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 7340,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Co-founder of Mirendil; previously worked on pre-training at Anthropic and Google DeepMind.",
+        "sources": [
+          {
+            "url": "https://x.com/HarshMeh1a",
+            "signal": "following"
+          },
+          {
+            "url": "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "matthew-barnett": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Senior staff software engineer at Google; previously a researcher at Epoch AI and a co-founder of Mechanize.",
+        "sources": [
+          {
+            "url": "https://www.mechanize.work/press/",
+            "signal": "press"
+          },
+          {
+            "url": "https://forum.effectivealtruism.org/posts/HqKnreqC3EFF9YcEs/epoch-ai-alumni-launch-mechanize-to-automate-the-whole",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.mechanize.work/blog/how-to-fully-automate-software-engineering/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "ian-silber": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 17304,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Former head of product design at OpenAI; previously at Artifact and Instagram.",
+        "sources": [
+          {
+            "url": "https://x.com/iansilber",
+            "signal": "following"
+          },
+          {
+            "url": "https://iansilber.com",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.benzinga.com/markets/private-markets/26/09/61908222/openai-loses-key-design-leader-after-shaping-chatgpt-and-codex",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.saytrace.com/interviews/ian-silber-product-design-ai-20260816",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "jsn": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": 2,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Former founding design lead for Visa agentic commerce.",
+        "sources": [
+          {
+            "url": "https://github.com/visualplant",
+            "signal": "following"
+          },
+          {
+            "url": "https://jsn.io",
+            "signal": "role"
+          },
+          {
+            "url": "https://jsn.io/work/visa-intelligent-commerce",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.visa.com/en-us/solutions/intelligent-commerce",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "benji-taylor": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 0,
+          "stage": 0,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 233002,
+          "linkedin": null,
+          "github": 1033,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 3,
+        "note": "Head of Design for X and SpaceX Super Intelligence.",
+        "sources": [
+          {
+            "url": "https://x.com/benjitaylor",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/benjitaylor",
+            "signal": "following"
+          },
+          {
+            "url": "https://benji.org",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nudge": 1,
+        "nudgeReason": "Head of design at X and SpaceX Super Intelligence with a large public audience; named press in the 12-month window is thin, so the band alone understates current reach."
+      }
+    ],
+    "gavin-nelson": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 145051,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Member of Design Staff at OpenAI.",
+        "sources": [
+          {
+            "url": "https://x.com/Gavmn",
+            "signal": "following"
+          },
+          {
+            "url": "https://nelson.co",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "evil-rabbit": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 47065,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Founding designer and head of design at Vercel.",
+        "sources": [
+          {
+            "url": "https://x.com/evilrabbit_",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.evilrabbit.com",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "aleksander-madry": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 2,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 45896,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Former head of preparedness at OpenAI and MIT faculty (on leave).",
+        "sources": [
+          {
+            "url": "https://x.com/aleks_madry",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/935587/aleksander-madry-is-leaving-openai",
+            "signal": "press"
+          },
+          {
+            "url": "https://people.csail.mit.edu/madry/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "thore-graepel": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 5276,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Founder of Metis Reasoning; previously at Google DeepMind and a contributor to AlphaGo.",
+        "sources": [
+          {
+            "url": "https://x.com/ThoreG",
+            "signal": "following"
+          },
+          {
+            "url": "https://pathfounders.com/p/alphago-co-creator-thore-graepel-launches-ai-startup",
+            "signal": "press"
+          },
+          {
+            "url": "https://iascope.eu/en/article/2026-09-25-deepmind-graepel-metis-reasoning-depart/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "danijar-hafner": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 1,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 34770,
+          "linkedin": null,
+          "github": 2421,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Co-founder of Embo; previously at Google DeepMind, known for the Dreamer line of research.",
+        "sources": [
+          {
+            "url": "https://x.com/danijarh",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/danijar",
+            "signal": "following"
+          },
+          {
+            "url": "https://danijar.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://diyai.io/news/danijar-hafner-embo-ai-agents-plan-ahead/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.talkrl.com/episodes/danijar-hafner-2",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "oriol-vinyals": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 3,
+          "peers": 3
+        },
+        "followingCounts": {
+          "x": 224524,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Co-founder of Discovery Loop; previously a VP at Google DeepMind and a technical lead on Gemini.",
+        "sources": [
+          {
+            "url": "https://x.com/OriolVinyalsML",
+            "signal": "following"
+          },
+          {
+            "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
+            "signal": "press"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Oriol_Vinyals",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "behnam-neyshabur": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 48592,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Co-founder and CEO of Mirendil; previously co-led research teams at Anthropic and Google DeepMind.",
+        "sources": [
+          {
+            "url": "https://x.com/bneyshabur",
+            "signal": "following"
+          },
+          {
+            "url": "https://the-decoder.com/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/",
+            "signal": "press"
+          },
+          {
+            "url": "https://neyshabur.net/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "kevin-weil": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 3,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 124116,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Former chief product officer at OpenAI; previously held product leadership roles at Instagram, Twitter and Planet.",
+        "sources": [
+          {
+            "url": "https://x.com/kevinweil",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.businessinsider.com/weil-valuation-750-million-for-ai-science-startup-2026-8",
+            "signal": "press"
+          },
+          {
+            "url": "https://openai.com/index/openai-welcomes-cfo-cpo/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "fidji-simo": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 4,
+          "stage": 0,
+          "following": 4,
+          "peers": 3
+        },
+        "followingCounts": {
+          "x": 695102,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 14,
+        "level": 4,
+        "note": "Former CEO of Applications at OpenAI; previously CEO of Instacart and head of the Facebook app.",
+        "sources": [
+          {
+            "url": "https://x.com/fidjissimo",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
+            "signal": "press"
+          },
+          {
+            "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+            "signal": "press"
+          },
+          {
+            "url": "https://openai.com/index/leadership-expansion-with-fidji-simo/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "mike-krieger": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": null,
+          "peers": 3
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Co-lead of Anthropic Labs and former chief product officer at Anthropic; co-founder of Instagram.",
+        "sources": [
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "ami-vora": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 3,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Head of Product at Anthropic; previously chief product officer at Faire and a product leader at Facebook, Instagram and WhatsApp.",
+        "sources": [
+          {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/861475/anthropic-ai-c-suite-internal-incubator-labs-team-mike-krieger",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.anthropic.com/company/leadership",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "tom-vieira": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Former product lead at Base.",
+        "sources": [
+          {
+            "url": "https://www.base.org/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "alison-harmon": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Former growth and go-to-market leader at OpenAI.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/alisonharmon",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "kate-rouch": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 16915,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 9,
+        "level": 3,
+        "note": "Former chief marketing officer at OpenAI; previously the first CMO of Coinbase.",
+        "sources": [
+          {
+            "url": "https://x.com/kate_rouch",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+            "signal": "press"
+          },
+          {
+            "url": "https://adage.com/executive-moves/aa-openai-cmo-kate-rouch-exits/",
+            "signal": "press"
+          },
+          {
+            "url": "https://openai.com/index/openai-appoints-kate-rouch-as-chief-marketing-officer/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "brad-lightcap": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 4,
+          "stage": 0,
+          "following": 2,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 41087,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Former chief operating officer at OpenAI, a widely covered operator in AI.",
+        "sources": [
+          {
+            "url": "https://x.com/bradlightcap",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20"
+      }
+    ],
+    "joshua-kim": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Growth marketing lead at SpaceX Super Intelligence; previously at Cursor.",
+        "sources": [
+          {
+            "url": "https://www.cursor.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "sarah-khogyani-wolf": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Startup marketing lead at Anthropic; previously on the early Base team at Coinbase.",
+        "sources": [
+          {
+            "url": "https://phemex.com/news/article/bases-early-core-market-leader-sarah-zorah-departs-coinbase-for-anthropic-74124",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.base.org/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-20",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "liam-horne": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 19054,
+          "linkedin": null,
+          "github": 465,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Head of Product at Tempo; previously helped build Optimism and co-founded ETHGlobal.",
+        "sources": [
+          {
+            "url": "https://x.com/liamihorne",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/snario",
+            "signal": "following"
+          },
+          {
+            "url": "https://liamhorne.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://stripe.com/blog/machine-payments-protocol",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "steve-kaliski": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 3,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Principal software engineer and engineering lead for agentic commerce at Stripe; spoke at AI Engineer in June 2026.",
+        "sources": [
+          {
+            "url": "https://ai.engineer/talks/KLSuFPj2ld0-building-safe-payment-infrastructure-autonomous",
+            "signal": "stage"
+          },
+          {
+            "url": "https://stripe.com/blog/developing-an-open-standard-for-agentic-commerce",
+            "signal": "role"
+          },
+          {
+            "url": "https://stripe.com/blog/machine-payments-protocol",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "brendan-ryan": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1611,
+          "linkedin": null,
+          "github": 175,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Software engineer at Tempo Labs, working on machine payments.",
+        "sources": [
+          {
+            "url": "https://x.com/brendan_j_ryan",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/brendanjryan",
+            "signal": "following"
+          },
+          {
+            "url": "https://brendanjryan.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://tempo.xyz/developers/docs/guide/machine-payments",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "aniket-das": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Engineering lead for Muse at Meta Superintelligence Labs.",
+        "sources": [
+          {
+            "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "anthony-morris": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 0,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 52330,
+          "linkedin": null,
+          "github": 435,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Creator of Claude Code on desktop at Anthropic.",
+        "sources": [
+          {
+            "url": "https://x.com/amorriscode",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/amorriscode",
+            "signal": "following"
+          },
+          {
+            "url": "https://anthonymorris.dev/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.tokenpost.com/news/people/40410",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "soleio-cuervo": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 2,
+          "following": 3,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 124502,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Designer, investor and host of First of Kind; previously a design leader at Facebook and Dropbox.",
+        "sources": [
+          {
+            "url": "https://x.com/soleio",
+            "signal": "following"
+          },
+          {
+            "url": "https://soleio.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://firstofkind.com/",
+            "signal": "stage"
+          },
+          {
+            "url": "https://designbuddies.substack.com/p/design-lessons-from-soleio-the-designer",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "alex-cornell": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 0,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 70742,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Director of Design, Generative AI, at Meta, including design work on Muse.",
+        "sources": [
+          {
+            "url": "https://x.com/alexcornell",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.alexcornell.com/about/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+            "signal": "press"
+          },
+          {
+            "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "gretchen-roehrs": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Senior product designer at Mercury.",
+        "sources": [
+          {
+            "url": "https://www.groehrs.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.gretchenroehrs.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "giel-cobben": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 2163,
+          "linkedin": null,
+          "github": 157,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Staff product designer at Shopify, including work on Canvas.",
+        "sources": [
+          {
+            "url": "https://x.com/gielcobben",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/gielcobben",
+            "signal": "following"
+          },
+          {
+            "url": "https://gielcobben.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.shopify.com/news/introducing-canvas",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "chelsea-larsson": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 3,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Head of Content Design at Anthropic; spoke at Figma Config 2026 and PUSH UX 2026.",
+        "sources": [
+          {
+            "url": "https://config.figma.com/san-francisco/session/47d280de-e85a-4e10-b6e6-b97734490e9f/",
+            "signal": "stage"
+          },
+          {
+            "url": "https://push-conference.com/2026/designing-between-two-intelligences",
+            "signal": "stage"
+          },
+          {
+            "url": "https://claude.com/resources/articles/claude-duet",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "jeff-wu": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Independent alignment researcher; a co-author of InstructGPT who later worked at OpenAI and Anthropic.",
+        "sources": [
+          {
+            "url": "https://nymag.com/intelligencer/article/ai-researchers-quit-openai-anthropic.html",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.turingtree.com/updates/jeffrey-wu-leaves-anthropic-2026",
+            "signal": "press"
+          },
+          {
+            "url": "https://arxiv.org/abs/2203.02155",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "tomek-korbak": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 12169,
+          "linkedin": null,
+          "github": 135,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "AI safety researcher whose work has been covered in AI press.",
+        "sources": [
+          {
+            "url": "https://x.com/tomekkorbak",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/tomekkorbak",
+            "signal": "following"
+          },
+          {
+            "url": "https://tomekkorbak.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "mikita-balesni": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 7440,
+          "linkedin": null,
+          "github": 47,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "AI safety researcher whose work has been covered in AI press.",
+        "sources": [
+          {
+            "url": "https://x.com/balesni",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/mbalesni",
+            "signal": "following"
+          },
+          {
+            "url": "https://mbalesni.github.io/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "jasmine-wang": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 3,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "AI safety researcher whose work has been covered in AI press.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2507.11473",
+            "signal": "peers"
+          },
+          {
+            "url": "https://www.aisi.gov.uk/research/chain-of-thought-monitorability-a-new-and-fragile-opportunity-for-ai-safety",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "manuka-stratta": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 609,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Member of Technical Staff, post-training, at OpenAI.",
+        "sources": [
+          {
+            "url": "https://x.com/ManukaStratta",
+            "signal": "following"
+          },
+          {
+            "url": "https://openai.com/index/gpt-6-for-everyone/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "jeff-weinstein": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 55781,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Product lead for agentic commerce at Stripe.",
+        "sources": [
+          {
+            "url": "https://x.com/jeff_weinstein",
+            "signal": "following"
+          },
+          {
+            "url": "https://stripe.com/blog/developing-an-open-standard-for-agentic-commerce",
+            "signal": "role"
+          },
+          {
+            "url": "https://stripe.com/blog/machine-payments-protocol",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "karan-ahuja": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 9076,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Product lead for Claude Duet at Anthropic; previously a product director at Meta Superintelligence Labs.",
+        "sources": [
+          {
+            "url": "https://x.com/ahuja_karan",
+            "signal": "following"
+          },
+          {
+            "url": "https://claude.com/resources/articles/claude-duet",
+            "signal": "role"
+          },
+          {
+            "url": "https://africa.businessinsider.com/news/anthropic-launches-claude-duet-its-answer-to-meta-and-openais-personal-agents/x3qszrd",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "lincoln-murr": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 3,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Head of AI Product at Coinbase; spoke at AI Engineer in October 2026 and appeared on industry podcasts.",
+        "sources": [
+          {
+            "url": "https://ai.engineer/talks/f_HwzoYrZ7s-why-ai-agents-will-need-their-own",
+            "signal": "stage"
+          },
+          {
+            "url": "https://therollup.co/podcast/coinbase-head-of-ai-agentic-finance-is-the-biggest-opportunity-in-fintech-full-explanation",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.theblock.co/post/404458/coinbase-agents-dedicated-accounts-ai-bots-trade-pay-users",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "max-george": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Former global product lead for agentic commerce at Google, including work on the Universal Commerce Protocol.",
+        "sources": [
+          {
+            "url": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
+            "signal": "role"
+          },
+          {
+            "url": "https://ucp.dev/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "ben-sehl": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Director of Product, Online Store, at Shopify.",
+        "sources": [
+          {
+            "url": "https://www.shopify.com/news/introducing-canvas",
+            "signal": "role"
+          },
+          {
+            "url": "https://sehl.ca/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "amol-avasare": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 4,
+          "press": 3,
+          "stage": 0,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 59224,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Head of Growth at Anthropic; featured in Observer and Lenny's Newsletter in 2026 on Anthropic's growth.",
+        "sources": [
+          {
+            "url": "https://x.com/TheAmolAvasare",
+            "signal": "following"
+          },
+          {
+            "url": "https://observer.com/2026/04/anthropic-growth-amol-avasare-open-culture/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.growthtalent.org/insights/amol-avasare-on-how-anthropic-grew-from-1b-to-19b-arr-in-14-months",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "luke-harries": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 13682,
+          "linkedin": null,
+          "github": 476,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Head of Growth at ElevenLabs; appeared on The Twenty Minute VC.",
+        "sources": [
+          {
+            "url": "https://x.com/lukeharries",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/lharries",
+            "signal": "following"
+          },
+          {
+            "url": "https://harries.co/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.thetwentyminutevc.com/luke-harries",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26"
+      }
+    ],
+    "ravish-agrawal": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Head of Growth Marketing at Gamma.",
+        "sources": [
+          {
+            "url": "https://ravish.work/",
+            "signal": "role"
+          },
+          {
+            "url": "https://thegtmengineer.substack.com/p/a-modern-growth-deep-dive-youtube",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.nin.rs/english/news/107098/ravish-agrawal-growth-marketing-lead-at-the-startup-gamma",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "kacie-jenkins": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Head of Marketing for Claude Code at Anthropic.",
+        "sources": [
+          {
+            "url": "https://www.founderbrand.org/p/claude-codes-new-head-of-marketing",
+            "signal": "press"
+          },
+          {
+            "url": "https://thetransactionpod.com/episodes/building-a-movement-through-b2b-marketing-with-kacie-jenkins-head-of-marketing-for-claude-code-at-anthropic-ep-76",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "kevin-leffew": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 2,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "AI business development and go-to-market lead on Coinbase's developer platform, including AgentKit and x402.",
+        "sources": [
+          {
+            "url": "https://podcasts.apple.com/us/podcast/every-agent-deserves-a-wallet-with-kevin-leffew/id1651565766?i=1000709622854",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.chainalysis.com/blog/x402-agentic-payments-adoption/",
+            "signal": "press"
+          },
+          {
+            "url": "https://x402.org/x402-v2-launch/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-10-26",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "vaibhav-srivastav": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 3,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 62542,
+          "linkedin": null,
+          "github": 1849,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Developer Experience and Community Lead for EMEA at OpenAI; co-taught the Codex Masterclass at AI Engineer Europe in April 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/reach_vb",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/vaibhavs10",
+            "signal": "following"
+          },
+          {
+            "url": "https://huggingface.co/reach-vb",
+            "signal": "role"
+          },
+          {
+            "url": "https://ai.engineer/talks/MhHEGMFCEB0-codex-subagents",
+            "signal": "stage"
+          },
+          {
+            "url": "https://thenewstack.io/openai-devday-models-agents/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "jayant-jitesh": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Distinguished Engineer at Walmart Global Tech and architect of Walmart's Agent Gateway; writing a public series on enterprise AI platforms.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/jayant-jitesh",
+            "signal": "role"
+          },
+          {
+            "url": "https://medium.com/@jayant.jitesh",
+            "signal": "role"
+          },
+          {
+            "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/wibey-announcement.html",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "luca-borletti": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 324,
+          "linkedin": null,
+          "github": 16,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Founding engineer at Instinct; previously a software engineer at Sierra and co-founder of Fundusol.",
+        "sources": [
+          {
+            "url": "https://lucaborletti.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/luca_borletti",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/luca-borletti",
+            "signal": "following"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "steven-heidel": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 1,
+          "following": 2,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 29204,
+          "linkedin": null,
+          "github": 864,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Member of Technical Staff at OpenAI, where he announced the Decisions API in 2026; listed as a speaker at Startupfest in July 2026.",
+        "sources": [
+          {
+            "url": "https://stevenheidel.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/stevenheidel",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/stevenheidel",
+            "signal": "following"
+          },
+          {
+            "url": "https://openai.com/index/decisions-api/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.startupfest.com/speaker/3179/heidel-steven",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "saagar-godithi": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": 10,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Chief Architect and a founding-team member at Instinct; previously an engineer at Sierra and Tome.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/saagargodithi",
+            "signal": "role"
+          },
+          {
+            "url": "https://github.com/SaagarGodithi",
+            "signal": "following"
+          },
+          {
+            "url": "https://theorg.com/org/instinct",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "nicole-netland": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 1,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 882,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Head of Design and Research for Google Shopping; discussed Universal Cart on The Jason & Scot Show, recorded in September 2026.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/nicolenetland",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/nicolenetland",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.jasonandscot.com/ep349-personalizations-big-moment-with-google-shoppings-nicole-netland/",
+            "signal": "press"
+          },
+          {
+            "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "eunie-kwon": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Director of UX Design at Reddit; previously led UX for Google's Universal Cart and Universal Commerce Protocol.",
+        "sources": [
+          {
+            "url": "https://www.euniejkwon.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.linkedin.com/in/euniejkwon",
+            "signal": "role"
+          },
+          {
+            "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "sam-jau": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 933,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "Member of Design Staff at OpenAI and a core contributor on Operator and ChatGPT Atlas.",
+        "sources": [
+          {
+            "url": "https://x.com/samjau",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/sam-jau",
+            "signal": "role"
+          },
+          {
+            "url": "https://openai.com/index/introducing-operator/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "emerson-ward": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 2844,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Principal Designer at SpaceXAI; previously designed agentic shopping at Perplexity and founded the Agent Experiences team there.",
+        "sources": [
+          {
+            "url": "https://www.emerson.fun/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/emersonward",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/emersonward",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "grant-heinlein": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1516,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Head of Product Design for Link at Stripe, including Link's wallet for agents launched in 2026.",
+        "sources": [
+          {
+            "url": "https://grantheinlein.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/grantheinlein",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/grantheinlein",
+            "signal": "role"
+          },
+          {
+            "url": "https://stripe.com/blog/giving-agents-the-ability-to-pay",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "noah-shinn": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 4,
+          "stage": 0,
+          "following": 2,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 48441,
+          "linkedin": null,
+          "github": 643,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Founder and CEO of Instinct and a co-author of the Reflexion paper; Instinct's 2026 Series C was covered by major outlets.",
+        "sources": [
+          {
+            "url": "https://noahshinn.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/noahrshinn",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/noahshinn",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+            "signal": "press"
+          },
+          {
+            "url": "https://fortune.com/2026/09/30/noah-shinn-instinct-ai-assistant-meta-muse-alexandr-wang-tech-series-c-ai-agent-mark-zuckerberg/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.businessinsider.com/instinct-is-the-ai-assistant-silicon-valley-cant-stop-talking-2026-9",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "joy-jiao": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 3,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 5156,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Research Lead for life sciences at OpenAI, the team behind the GPT-Rosalind models; spoke at SynBioBeta and the OpenAI Forum in 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/joyjiao12",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.syntheticbiologysummit.com/2026/speakers/joy-jiao",
+            "signal": "stage"
+          },
+          {
+            "url": "https://forum.openai.com/public/videos/event-replay-decoding-biological-intelligence-building-ai-agents-for-the-brain-genome-2026-04-22",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities-and-benchmarks/",
+            "signal": "press"
+          },
+          {
+            "url": "https://shows.acast.com/openai-podcast/episodes/episode-16-building-ai-for-life-sciences",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "beicheng-lou": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 0,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 1039,
+          "linkedin": null,
+          "github": 16,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 0,
+        "level": 1,
+        "note": "Researcher at Flapping Airplanes; previously a member of technical staff at Anthropic, with a PhD in applied physics from Stanford.",
+        "sources": [
+          {
+            "url": "https://lbc45123.github.io/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/lou_beicheng",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/lbc45123",
+            "signal": "following"
+          },
+          {
+            "url": "https://arxiv.org/html/2601.02728v2",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "asa-cooper-stickland": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 2256,
+          "linkedin": null,
+          "github": 35,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Technical Staff at METR on the embedded monitoring assessment team, and a co-creator of the GPQA benchmark.",
+        "sources": [
+          {
+            "url": "https://asacooperstickland.github.io/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/AsaCoopStick",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/AsaCooperStickland",
+            "signal": "following"
+          },
+          {
+            "url": "https://arxiv.org/abs/2311.12022",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "jean-stanislas-denain": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 2387,
+          "linkedin": null,
+          "github": 57,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Technical Staff at METR; previously a senior researcher at Epoch AI, and a guest on Interconnects in September 2026.",
+        "sources": [
+          {
+            "url": "https://metr.org/team/jean-stanislas-denain/",
+            "signal": "role"
+          },
+          {
+            "url": "https://jsdena.in/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/datagenproc",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/js-d",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "alexander-embiricos": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 4,
+          "stage": 3,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 34351,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 13,
+        "level": 4,
+        "note": "Product Lead for dots at OpenAI, previously product lead for Codex; spoke at TechCrunch Disrupt in October 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/embirico",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.businessinsider.com/openai-dots-head-ai-lets-workers-do-less-or-more-2026-10",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1pqxcQJImgY",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "yael-grossman-levy": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Group Product Manager at Google; helped lead Universal Cart, which launched in the U.S. in October 2026.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/yaelgrossman",
+            "signal": "role"
+          },
+          {
+            "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "srishti-chaudhary": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 2,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 12,
+          "linkedin": null,
+          "github": 2,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Product Lead for agentic AI at Walmart; led a session at TechCrunch Disrupt in October 2026.",
+        "sources": [
+          {
+            "url": "https://www.srishtichy.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/srishti_chy",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/chaudharyS",
+            "signal": "following"
+          },
+          {
+            "url": "https://techcrunch.com/events/techcrunch-disrupt/agenda/",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "yunyun-wang": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 2,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 266,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Product Lead for life sciences at OpenAI; quoted in Ars Technica on GPT-Rosalind and spoke at SynBioBeta 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/yunyunash",
+            "signal": "following"
+          },
+          {
+            "url": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.rdworldonline.com/openai-research-and-product-leads-detail-gpt-rosalind-capabilities-and-benchmarks/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.syntheticbiologysummit.com/2026/speakers/yunyun-wang",
+            "signal": "stage"
+          },
+          {
+            "url": "https://shows.acast.com/openai-podcast/episodes/episode-16-building-ai-for-life-sciences",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "gali-erez": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "VP for Wix Studio Two, launched on November 2, 2026; previously head of Wix Studio.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/gali-erez-07184597",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.wix.com/press-room/home/post/wix-introduces-studio-two-a-truly-open-ai-native-visual-editor-for-professional-web-creation",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.wix.com/blog/meet-wix-studio-two",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ],
+    "dan-romero": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 3,
+          "following": 3,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": 143967,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 14,
+        "level": 4,
+        "note": "Go-to-market lead at Tempo and co-founder of Farcaster; spoke at Consensus Miami in May 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/dwr",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.coindesk.com/business/2026/05/05/crypto-s-barbell-speculation-and-stablecoin-payments-drive-adoption-tempo-s-romero-says",
+            "signal": "press"
+          },
+          {
+            "url": "https://consensus2026.coindesk.com/agenda/speaker/-dan-romero",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.pymnts.com/cryptocurrency/2026/podcast-tempos-dan-romero-on-cryptos-barbell-economy/",
+            "signal": "press"
+          },
+          {
+            "url": "https://danromero.org",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "rishin-sharma": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 3,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 3699,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 8,
+        "level": 2,
+        "note": "Head of AI Growth at the Solana Foundation and co-architect of Pay.sh; gave a keynote at Solana Accelerate USA in May 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/rishinsharma",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/rishinsharma",
+            "signal": "role"
+          },
+          {
+            "url": "https://solanafloor.com/news/top-announcements-from-solana-accelerate-usa-2026",
+            "signal": "press"
+          },
+          {
+            "url": "https://confpad.io/conferences/solana-accelerate-usa-2026/building-the-future-of-agentic-payments-with-google-cloud",
+            "signal": "stage"
+          },
+          {
+            "url": "https://luma.com/0s7q3k0b",
+            "signal": "stage"
+          },
+          {
+            "url": "https://pay.sh/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "ishan-goyal": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 1,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 4591,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 2,
+        "level": 1,
+        "note": "On Tempo's go-to-market team, focused on the Machine Payments Protocol; previously GTM lead at Paradigm.",
+        "sources": [
+          {
+            "url": "https://igoyal.ai/",
+            "signal": "role"
+          },
+          {
+            "url": "https://igoyal.ai/about",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/jpegmogul",
+            "signal": "following"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "rich-widmann": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 3,
+          "press": 3,
+          "stage": 3,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 3657,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 11,
+        "level": 3,
+        "note": "Head of Web3 strategy at Google Cloud and Google's representative on the x402 Foundation governance body; spoke at Consensus Miami in 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/RichJWidmann",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/rich-widmann-a816a54b",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.coindesk.com/business/2026/05/10/agentic-commerce-will-run-on-crypto-rails-paypal-and-google-reps-tell-consensus-miami",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.coindesk.com/opinion/2026/04/28/the-age-of-agentic-commerce-has-arrived-consensus-2026-is-where-you-can-experience-it-irl",
+            "signal": "press"
+          },
+          {
+            "url": "https://state-of-crypto.coindesk.com/agenda/speaker/-richard-widmann",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02"
+      }
+    ],
+    "lena-hierzi": [
+      {
+        "date": "2026-11-21",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-21"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "DevRel lead at Celo Core Co.; helped build Celo's x402 facilitator and the buy agent marketplace.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/lena-hierzi-8221151ab",
+            "signal": "role"
+          },
+          {
+            "url": "https://x402.celo.org/",
+            "signal": "role"
+          },
+          {
+            "url": "https://docs.celo.org/build/agents/x402-get-discovered",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "retroactive": true,
+        "windowEnd": "2026-11-02",
+        "nullReasons": {
+          "following": "No verified public follower counts on X, GitHub or Substack as of 2026-11-21. LinkedIn is recorded as null unless Follow mode (Follow as the main button) is confirmed; it was not confirmed here, so Following is left unscored rather than estimated."
+        },
+        "provisional": true
+      }
+    ]
+  }
+}

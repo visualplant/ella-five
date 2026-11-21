@@ -9,6 +9,10 @@ import PersonNav from "@/components/PersonNav";
 import ShareButton from "@/components/ShareButton";
 import { profilePath } from "@/lib/people";
 import { weekLabel } from "@/lib/weekly";
+import { pslug } from "@/lib/verticals";
+import { publicVisibility } from "@/lib/visibility";
+import "@/lib/public";
+import VisibilityMeter from "@/components/VisibilityMeter";
 
 // Per-person profile: narrow column (category, rank, name, media) + wide column of stacked label/value fields.
 // Optional fields (why, products, notable, profiles, location, added, media) are hidden when absent;
@@ -32,6 +36,8 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
     ["Role", <>{p.role}<span className="pv-mute">, {p.org}</span></>],
     ["Signal", <>{p.tag && <span className="pv-tag">{p.tag}</span>}{p.status}{p.verified && <> <VerifiedBadge how={p.verifiedHow} /></>}</>],
   ];
+  const vis = publicVisibility(pslug(p.name));
+  if (vis) rest.push(["Visibility", <VisibilityMeter vis={vis} key="vis" />]);
   if (p.location) rest.push(["Current location", p.location]);
   if (p.url) rest.push(["Personal site", <Ext href={p.url} key="u">{host(p.url)}</Ext>]);
   if (p.products?.length) rest.push(["Products", <span className="pv-list" key="pr">{p.products.map((x) => <Ext key={x.url} href={x.url}>{x.name}</Ext>)}</span>]);
