@@ -12,6 +12,8 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE, REPO, categories } from "@/lib/data";
 import { searchPeople } from "@/lib/search";
+import TavusElla from "@/components/TavusElla";
+import { loadEllaCatalog } from "@/lib/tavus-site";
 
 const serif = Newsreader({ subsets: ["latin"], style: ["normal", "italic"], variable: "--serif", display: "swap" });
 const sans = Inter({ subsets: ["latin"], variable: "--sans", display: "swap" });
@@ -27,6 +29,7 @@ export const viewport: Viewport = { themeColor: "#f6f3ee" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const hits = searchPeople();
+  const catalog = loadEllaCatalog();
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <head><link rel="alternate" type="application/rss+xml" title="Ella – archived lists" href="/feed.xml" /></head>
@@ -48,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <p className="f-note">Statuses are drawn from public sources and describe roles, not availability. Inclusion is editorial and does not imply anyone is open to work.</p>
           <GitHubMark archive={weeks().length > 0} />
         </footer>
+        <TavusElla catalog={catalog} />
         <Analytics />
         <SpeedInsights />
       </body>

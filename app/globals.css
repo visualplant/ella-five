@@ -110,7 +110,7 @@ section.col:first-of-type { border-left: 0; padding-left: 0; } section.col:last-
   .cols::-webkit-scrollbar { display: none; }
   .col { flex: 0 0 33.333%; scroll-snap-align: start; }
   section.col:first-of-type { padding-left: 0; }
-  .b-upd { display: none; } .b-sub { margin-left: auto; }
+  .b-upd, .talk-ella-board { display: none; } .b-sub { margin-left: auto; }
 }
 /* Phones: one full-screen card per list, swiped, with tabs */
 @media (max-width: 700px) {
@@ -234,6 +234,7 @@ section.col:first-of-type { border-left: 0; padding-left: 0; } section.col:last-
 @media (prefers-reduced-motion: reduce) { .about-portrait .portrait-video { display: none; } .about-portrait .portrait-still { display: block; } }
 .about-portrait figcaption { margin-top: 10px; font-size: 14px; color: var(--mute); font-style: normal; }
 .about-coda { margin-top: 24px; }
+.about-meet { margin-top: 12px; }
 .about .back { display: inline-block; margin-top: 28px; font-size: 14px; }
 @media (max-width: 760px) { .about-head .avatar { width: 56px; height: 56px; } }
 
@@ -530,7 +531,7 @@ svg.arr, svg.arr path { stroke-width: 1px; vector-effect: non-scaling-stroke; }
 .pv-play { padding: 0; cursor: pointer; background: none; }
 .pv-play img { filter: saturate(.85); transition: filter .2s; } .pv-play:hover img { filter: none; }
 .pv-pbtn { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 48px; height: 48px; border-radius: 99px; background: rgba(251, 249, 245, .92); color: var(--ink); display: grid; place-items: center; }
-.pv-back { margin-top: 56px; font-size: 14px; } .pv-back a { color: var(--soft); text-decoration: none; }
+.pv-back { margin-top: 56px; font-size: 14px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; } .pv-back a { color: var(--soft); text-decoration: none; }
 @media (max-width: 700px) {
   .pv-wrap { padding-top: 32px; }
   .pv { grid-template-columns: 1fr; gap: 0; } .pv-side { padding-top: 4px; }
@@ -806,7 +807,8 @@ nav[aria-label="Categories"] .u-pop a::before { display: none; }
 .b-upd { white-space: nowrap; overflow: hidden; max-width: 20rem; transition: opacity 220ms ease, max-width 220ms ease; }
 .b-meta .b-upd { margin: 0; }
 .b-head > .u-board { margin-left: 0; }
-.b-head:has(.header-search[data-expanded]) .b-upd { opacity: 0; max-width: 0; pointer-events: none; }
+.b-head:has(.header-search[data-expanded]) .b-upd,
+.b-head:has(.header-search[data-expanded]) .talk-ella-board { opacity: 0; max-width: 0; pointer-events: none; }
 @media (min-width: 701px) {
   .b-head { gap: 18px; flex-wrap: nowrap; }
   .site-header { flex-wrap: nowrap; }
@@ -824,8 +826,22 @@ nav[aria-label="Categories"] .u-pop a::before { display: none; }
   .header-search [data-slot="autocomplete-content"] { width: 100%; max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .header-search-btn, .header-search-panel, .b-upd { transition: none; }
+  .header-search-btn, .header-search-panel, .b-upd, .talk-ella-board { transition: none; }
 }
+
+
+/* Quiet "Talk to Ella" host trigger — not the Tavus launcher itself */
+.talk-ella { margin: 0; padding: 0; border: 0; background: none; font: inherit; font-family: var(--sans-f); cursor: pointer; white-space: nowrap; text-decoration: none; }
+.talk-ella:disabled { opacity: .45; cursor: default; }
+.talk-ella-board { font-size: 12.5px; color: var(--mute); overflow: hidden; max-width: 10rem; transition: opacity 220ms ease, max-width 220ms ease; }
+.talk-ella-board:hover:not(:disabled), .talk-ella-board:focus-visible:not(:disabled) { color: var(--accent); }
+.talk-ella-board:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.talk-ella-person { color: var(--soft); transition: color .15s ease; }
+.talk-ella-person:hover:not(:disabled), .talk-ella-person:focus-visible:not(:disabled) { color: var(--ink); }
+.talk-ella-about { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.talk-ella-about:hover:not(:disabled), .talk-ella-about:focus-visible:not(:disabled) { color: var(--ink); }
+.talk-ella-about:focus-visible { outline: 1px solid var(--ink); outline-offset: 4px; border-radius: 4px; }
+.talk-ella-person:focus-visible { outline: 1px solid var(--ink); outline-offset: 4px; border-radius: 4px; }
 
 /* API docs at /developers — unlisted, not in the nav */
 .docs{max-width:40rem;padding-bottom:80px}
