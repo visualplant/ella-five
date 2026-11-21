@@ -1,5 +1,6 @@
 import NavLink from "@/components/NavLink";
 import HeaderSubscribe from "@/components/HeaderSubscribe";
+import HeaderSearch from "@/components/HeaderSearch";
 import { weeks } from "@/lib/weekly";
 import GitHubMark from "@/components/GitHubMark";
 import Wordmark from "@/components/Wordmark";
@@ -10,6 +11,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE, REPO, categories } from "@/lib/data";
+import { searchPeople } from "@/lib/search";
 
 const serif = Newsreader({ subsets: ["latin"], style: ["normal", "italic"], variable: "--serif", display: "swap" });
 const sans = Inter({ subsets: ["latin"], variable: "--sans", display: "swap" });
@@ -24,6 +26,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: "#f6f3ee" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const hits = searchPeople();
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <head><link rel="alternate" type="application/rss+xml" title="Ella – archived lists" href="/feed.xml" /></head>
@@ -31,10 +34,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a className="skip" href="#main">Skip to content</a>
         <header className="site-header wrap">
           <Wordmark />
-          <nav aria-label="Categories">
-            <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
-              <li><HeaderSubscribe variant="nav" /></li></ul>
-          </nav>
+          <div className="header-end">
+            <HeaderSearch people={hits} variant="nav" />
+            <nav aria-label="Categories">
+              <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
+                <li><HeaderSubscribe variant="nav" /></li></ul>
+            </nav>
+          </div>
         </header>
         <main id="main">{children}</main>
         <footer className="site-footer wrap">
