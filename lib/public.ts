@@ -148,3 +148,24 @@ export function publicAllPeople() {
     people: list,
   };
 }
+
+/** Every published list (current + archived), one entry per publish date, newest first. */
+export function publicArchive() {
+  const cur = defaultVertical;
+  const curDate = (str(cur.updated) ?? "").slice(0, 10);
+  const dates = new Set(weeks());
+  if (/^\d{4}-\d{2}-\d{2}$/.test(curDate)) dates.add(curDate);
+  const lists = [...dates].sort().reverse().map((d) => {
+    const isCurrent = d === curDate;
+    const v = isCurrent ? cur : getWeek(d);
+    return {
+      date: d,
+      name: weekLabel(d),
+      status: isCurrent ? "current" : "archived",
+      categories: (v?.categories ?? []).map((c) => c.name),
+      url: isCurrent ? SITE + "/" : weekUrl(d),
+      json: isCurrent ? `${SITE}/api/v1/lists/current` : `${SITE}/api/v1/lists/${d}`,
+    };
+  });
+  return { count: lists.length, lists };
+}
