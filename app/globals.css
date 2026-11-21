@@ -826,3 +826,15 @@ nav[aria-label="Categories"] .u-pop a::before { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .header-search-btn, .header-search-panel, .b-upd { transition: none; }
 }
+
+/* API docs at /developers — unlisted, not in the nav */
+.docs{max-width:40rem;padding-bottom:80px}
+.docs h2{font:400 28px/1.2 var(--serif-f);letter-spacing:-.02em;margin:2.2em 0 .5em;color:var(--ink)}
+.docs h3{font:600 14px/1.4 var(--sans-f);letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin:1.8em 0 .5em}
+.docs p,.docs li{font:400 16px/1.65 var(--sans-f);color:var(--soft)}
+.docs ul{margin:.3em 0 1em;padding-left:1.2em}
+.docs li{margin:.25em 0}
+.docs code{font:400 13.5px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink)}
+.docs pre{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow:auto;margin:10px 0 1.4em;font:400 13px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink)}
+.docs pre code{font:inherit}
+.docs .docs-note{color:var(--mute);font-size:15px}

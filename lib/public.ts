@@ -4,7 +4,10 @@
 import { people, type Entry } from "@/lib/people";
 import { weeks, getWeek, weekLabel } from "@/lib/weekly";
 import { SITE } from "@/lib/data";
-import type { Person } from "@/lib/verticals";
+import { defaultVertical, pslug as pslugOf, type Person } from "@/lib/verticals";
+import { loadRising } from "@/lib/rising";
+import { searchPeople, type SearchHit } from "@/lib/search";
+import { isSearchReady, searchFilter } from "@/lib/search-query";
 
 const str = (s: unknown) => (typeof s === "string" && s.trim() ? s.trim() : null);
 const abs = (u: string) => (u.startsWith("/") ? SITE + u : u);
@@ -36,7 +39,6 @@ export function publicPerson(e: Entry) {
     appearedIn: e.appeared.map((w) => ({ week: w, url: `${SITE}/archive/${w}` })),
   };
 }
-export const publicPeople = () => [...people().values()].sort((a, b) => a.slug.localeCompare(b.slug)).map(publicPerson);
 export const weekUrl = (w: string) => `${SITE}/archive/${w}`;
 export function publicWeek(w: string) {
   const v = getWeek(w); if (!v) return null;
@@ -47,6 +49,77 @@ export function publicWeek(w: string) {
       people: c.people.map((p, i) => { const e = idx.get(pslugOf(p.name)); return { rank: i + 1, slug: e?.slug ?? pslugOf(p.name), name: p.name, role: str(p.role), org: str(p.org), location: cityLevel(p.location), status: str(p.status), short: str(p.short), verified: p.verified === true, profileUrl: e ? profileUrl(e) : null }; }) })),
   };
 }
-import { pslug as pslugOf } from "@/lib/verticals";
-export const publicWeeks = () => weeks().map((w) => { const x = publicWeek(w)!; return { week: w, title: x.title, url: x.url, json: `${SITE}/api/v1/weeks/${w}.json`, categories: x.categories.map((c) => c.name) }; });
-export const json = (body: unknown) => new Response(JSON.stringify(body, null, 2), { headers: { "content-type": "application/json; charset=utf-8", "access-control-allow-origin": "*", "cache-control": "public, max-age=0, must-revalidate" } });
+
+function publicListPerson(p: Person, rank: number, e: Entry | undefined) {
+  return {
+    rank,
+    slug: e?.slug ?? pslugOf(p.name),
+    name: p.name,
+    role: str(p.role),
+    org: str(p.org),
+    location: cityLevel(p.location),
+    status: str(p.status),
+    short: str(p.short),
+    verified: p.verified === true,
+    profileUrl: e ? profileUrl(e) : null,
+  };
+}
+
+/** Current 5x5. Allowlisted fields only — never copies approvedBy or other raw keys. */
+export function publicCurrentList() {
+  const v = defaultVertical;
+  const idx = people();
+  return {
+    id: "current",
+    slug: v.slug,
+    name: v.name,
+    title: v.title,
+    updated: str(v.updated),
+    url: SITE + "/",
+    categories: v.categories.map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      blurb: str(c.blurb),
+      people: c.people.map((p, i) => publicListPerson(p, i + 1, idx.get(pslugOf(p.name)))),
+    })),
+  };
+}
+
+export function publicRisingStars() {
+  const r = loadRising();
+  return {
+    updated: str(r.updated),
+    blurb: str(r.blurb),
+    people: r.people.map((p) => ({
+      slug: p.slug,
+      name: p.name,
+      category: p.category,
+      url: str(p.url),
+      role: str(p.role),
+      org: str(p.org),
+      status: str(p.status),
+      short: str(p.short),
+      signal: str(p.signal),
+      tag: str(p.tag),
+      sources: Array.isArray(p.sources) ? p.sources.filter((s) => typeof s === "string") : [],
+      added: str(p.added),
+      upvotes: typeof p.upvotes === "number" ? p.upvotes : 0,
+    })),
+  };
+}
+
+export function publicSearch(query: string): { error: string } | { query: string; results: { id: string; name: string; href: string; secondary: string }[] } {
+  if (!isSearchReady(query)) return { error: "Query must be at least 3 characters" };
+  const results = searchPeople()
+    .filter((h: SearchHit) => searchFilter({ value: h.id, label: h.name, keywords: h.keywords }, query))
+    .map((h) => ({ id: h.id, name: h.name, href: h.href, secondary: h.secondary }));
+  return { query: query.trim(), results };
+}
+
+export const publicListIndex = () => ({
+  current: `${SITE}/api/v1/lists/current`,
+  lists: weeks().map((w) => {
+    const x = publicWeek(w)!;
+    return { date: w, title: x.title, url: x.url, json: `${SITE}/api/v1/lists/${w}` };
+  }),
+});
