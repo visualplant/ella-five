@@ -101,7 +101,14 @@
           "tag": "Builder",
           "orgShort": "OpenAI",
           "why": "**He connects a career in payments plumbing with agents that can actually pay.** He worked on payments at Square and Deliveroo, managed engineers at Stripe, and led payments and trust engineering at Lime. In 2025 he joined OpenAI to lead Payments Engineering, and on November 13, 2026 he shared what he had been building: ChatGPT Wallet in dots, which lets agents check out with stored cards and passes. His own summary: giving agents identities and money.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/riley-strong-wallet.webp",
+            "alt": "OpenAI launch page for ChatGPT Wallet, dated November 13, 2026, showing a dots chat about buying a gift",
+            "caption": "Introducing ChatGPT Wallet",
+            "credit": "OpenAI",
+            "link": "https://openai.com/index/introducing-chatgpt-wallet/"
+          },
           "added": "2026-11-16"
         },
         {
@@ -127,7 +134,14 @@
           "tag": "Builder",
           "orgShort": "Modal",
           "why": "**He connects deep systems work with tools that feel good to use.** An IOI gold medalist with a Harvard AB/SM, he was the first engineer hired at Convex, then joined Modal as founding engineer number four, building the runtime that runs customer code in isolated containers and the collaborative Modal Notebooks. In October 2025 he moved to Thinking Machines Lab, where he made early Inkling training more reliable and expanded the service researchers used to run models. On November 9, 2026 he went back to Modal. A systems person who still calls himself an interaction designer.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/eric-zhang.webp",
+            "alt": "Turing Tree update on Eric Zhang returning to Modal from Thinking Machines Lab, dated November 14, 2026, with his portrait",
+            "caption": "Eric Zhang returns to Modal from Thinking Machines Lab",
+            "credit": "Turing Tree",
+            "link": "https://www.turingtree.com/updates/eric-zhang-returns-to-modal"
+          },
           "added": "2026-11-16",
           "location": "New York"
         },
@@ -589,7 +603,14 @@
           "tag": "Builder",
           "orgShort": "Mirendil",
           "why": "**She connects interpretability research with a lab built to automate AI research itself.** An Olympiad medalist, she studied at MIT and researched interpretability and unlearning there, and was an early student researcher at OpenAI in 2024. In 2026 she co-founded Mirendil with Behnam Neyshabur, Harsh Mehta and Shayan Salehian to build AI systems that can carry out research and engineering for scientists far beyond the big labs. On November 12, 2026 Mirendil announced a $1B Series A. Twenty-three, and already building the system that builds systems.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/tara-rezaei-series-a.webp",
+            "alt": "Mirendil announcement that the company raised $1B in a Series A, published November 12, 2026",
+            "caption": "Mirendil Raises $1B to Democratize Frontier AI R&D",
+            "credit": "Mirendil",
+            "link": "https://mirendil.com/news/series-a/"
+          },
           "added": "2026-11-16"
         },
         {
@@ -614,7 +635,14 @@
           "tag": "Builder",
           "orgShort": "Thinking Machines",
           "why": "**He connects efficient ML systems with frontier-scale training.** As a teenager he was lead mobile engineer at Beam, the game-streaming startup Microsoft acquired in 2016 and relaunched as Mixer, and stayed on at Microsoft before directing HackMIT. He studied at Oxford as a Rhodes Scholar and pursued machine learning for systems in Song Han's lab at MIT, with stints on LLMs at Modal, The New York Times and NVIDIA. Now at Thinking Machines Lab, he wrote the November 13, 2026 post on training Inkling 2 Small end to end in 4-bit precision. Fewer bits, same brains.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/jack-cook.webp",
+            "alt": "Thinking Machines Lab blog post End-to-End 4-Bit Training by Jack Cook, dated November 13, 2026, with Monet's The Seine at Vétheuil quantized to 16 colors",
+            "caption": "End-to-End 4-Bit Training",
+            "credit": "Thinking Machines Lab",
+            "link": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/"
+          },
           "added": "2026-11-16"
         }
       ],
@@ -808,7 +836,14 @@
           "tag": "Leads product",
           "orgShort": "Anthropic",
           "why": "**He connects the docs people already live in with an AI that joins the meeting.** At Notion he led product work including Notion Sites, which launched in 2024, and the template marketplace. He joined Anthropic in 2025 and is the product manager for Claude Meetings, which launched in beta on November 12, 2026 and drafts docs, whiteboards and plans during the call. He also works on Claude's documents and data tools. His own words: it feels like working in the future.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/matt-piccolella-meetings.webp",
+            "alt": "Anthropic article Introducing Claude Meetings, now in beta, dated November 12, 2026",
+            "caption": "Introducing Claude Meetings, now in beta",
+            "credit": "Anthropic",
+            "link": "https://claude.com/resources/articles/claude-meetings"
+          },
           "added": "2026-11-16",
           "location": "Berkeley"
         },
@@ -937,7 +972,14 @@
           "tag": "Builder",
           "orgShort": "Meta",
           "why": "**She connects startup marketing instincts with the year's fastest consumer AI launch.** She was CMO at Detect and led marketing at Justworks before joining Meta. She leads go-to-market for Muse, which launched September 8, 2026, and eight weeks in she shared that it had expanded to Canada, Japan and Singapore while she hired its first community lead. Launch, then land, then expand.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/sara-rowghani-muse.webp",
+            "alt": "Muse product homepage, Meta's personal AI agent, with the line Muse, AI that books reservations and email",
+            "caption": "Muse — your personal AI agent from Meta",
+            "credit": "Meta / Muse",
+            "link": "https://muse.ai/"
+          },
           "added": "2026-11-16"
         },
         {
@@ -1022,7 +1064,14 @@
           "tag": "Builder",
           "orgShort": "Anthropic",
           "why": "**He connects big-agency brand craft with an AI company that wants to feel humane.** He worked at Wieden+Kennedy, led BETC London and was Facebook's global head of planning. At Anthropic he heads brand marketing and launched Claude's first major campaign, \"Keep Thinking,\" with the agency Mother, positioning AI as a partner to problem solvers. The brand behind the curiosity.",
-          "media": null,
+          "media": {
+            "type": "image",
+            "url": "/media/2026-11-16/andrew-stirk-keep-thinking.webp",
+            "alt": "Mother-Made case study for Anthropic's Keep Thinking campaign, showing the campaign key art with three people seated under the line Keep thinking and the Claude mark",
+            "caption": "Keep Thinking — Claude's first brand campaign",
+            "credit": "Mother / Anthropic",
+            "link": "https://www.mother-made.studio/work/anthropic-claude-keep-thinking"
+          },
           "added": "2026-11-16"
         },
         {
