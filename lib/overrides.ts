@@ -9,7 +9,7 @@ import type { Person, Vertical } from "@/lib/verticals";
 const DIR = path.join(process.cwd(), "content", "people");
 const WEEKLY_DIR = path.join(process.cwd(), "data", "weekly");
 const slug = (s: string) => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const SCALAR = ["name", "url", "role", "org", "orgShort", "tag", "location", "status", "short", "signal", "note", "added", "verifiedHow"] as const;
+const SCALAR = ["name", "url", "role", "org", "orgShort", "tag", "location", "status", "short", "signal", "note", "added", "verifiedHow", "updated"] as const;
 const MEDIA = ["type", "id", "url", "caption", "credit", "alt", "link"] as const;
 const SECTIONS: Record<string, string> = { status: "status", short: "short", signal: "signal", "why chosen": "why", "known for": "why", sources: "sources", "worked with": "workedWith", products: "products", "notable work": "notable", "public profiles": "profiles" };
 

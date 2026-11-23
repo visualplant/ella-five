@@ -9,11 +9,9 @@ import HeaderSubscribe from "@/components/HeaderSubscribe";
 import HeaderSearch from "@/components/HeaderSearch";
 import { weeks, weekLabel } from "@/lib/weekly";
 import { profilePath } from "@/lib/people";
-import { searchPeople } from "@/lib/search";
 
 export default function Board({ v, week }: { v: Vertical; week?: string }) {
   const hasArchive = weeks().length > 0;
-  const hits = searchPeople();
   const categories = v.categories, data = v;
   const ld = [ellaLd(), { "@context": "https://schema.org", "@type": "WebSite", "@id": abs(vpath(v)) + "#website", name: `Ella – ${v.title}`, description: "Five people, five disciplines, every status sourced.", url: abs(vpath(v)) || SITE, inLanguage: "en", dateModified: data.updated, publisher: { "@id": ELLA_ID }, hasPart: categories.map((c) => ({ "@id": abs(vpath(v, c.slug)) + "#list" })) }, ...categories.map((c) => itemListLd(c, v))];
   return (
@@ -27,7 +25,7 @@ export default function Board({ v, week }: { v: Vertical; week?: string }) {
           <span className="b-what" aria-hidden="true">What about me?</span>
         </Link>
         <div className="b-meta">
-          <HeaderSearch people={hits} variant="board" />
+          <HeaderSearch variant="board" />
           {week ? <p className="b-upd"><Link href="/archive">Archive</Link> · Lists from <time dateTime={week}>{weekLabel(week)}</time></p> : <p className="b-upd">Updated <time dateTime={data.updated}>{formatUpdated(v.updated)}</time></p>}
         </div>
         <HeaderSubscribe variant="board" />

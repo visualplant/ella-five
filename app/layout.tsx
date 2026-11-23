@@ -11,7 +11,6 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE, REPO, categories } from "@/lib/data";
-import { searchPeople } from "@/lib/search";
 import TavusElla from "@/components/TavusElla";
 import { loadEllaCatalog } from "@/lib/tavus-site";
 
@@ -28,7 +27,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: "#f6f3ee" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const hits = searchPeople();
   const catalog = loadEllaCatalog();
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
@@ -38,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header wrap">
           <Wordmark />
           <div className="header-end">
-            <HeaderSearch people={hits} variant="nav" />
+            <HeaderSearch variant="nav" />
             <nav aria-label="Categories">
               <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
                 <li><HeaderSubscribe variant="nav" /></li></ul>

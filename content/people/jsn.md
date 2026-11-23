@@ -19,6 +19,7 @@ orgShort: ex-Visa
 tag: Building
 location: Berkeley, CA
 verified: false
+updated: 2026-11-22T23:30:00-08:00
 note:
 media_type: image
 media_url: /media/jsn-visa-intelligent-commerce.jpg
@@ -42,6 +43,8 @@ Full name: Jason Schmidt. Since 2018 his work has spanned AI, agentic commerce a
 ## Sources
 - https://jsn.io
 - https://www.linkedin.com/in/visualplant/
+- https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/
+- https://www.visa.com/en-us/products/visa-stablecoin-platform
 
 ## Worked with
 - Cuy Sheffield, Head of Visa Crypto, Visa

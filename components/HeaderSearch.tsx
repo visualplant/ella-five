@@ -10,20 +10,38 @@ import {
   AutocompleteItem,
   AutocompleteList,
 } from "@ui-sdk/react/autocomplete";
-import type { SearchHit } from "@/lib/search";
-import { searchFilter, shouldOpenSuggestions } from "@/lib/search-query";
+import { isSearchReady, shouldOpenSuggestions } from "@/lib/search-query";
 
-export default function HeaderSearch({
-  people,
-  variant = "nav",
-}: {
-  people: SearchHit[];
-  variant?: "nav" | "board";
-}) {
+type Hit = { id: string; name: string; href: string; secondary: string };
+
+// Results come from the server once 3 characters are typed, so pages don't carry the index.
+const serverFilter = (_item: unknown, query: string) => isSearchReady(query);
+
+export default function HeaderSearch({ variant = "nav" }: { variant?: "nav" | "board" }) {
   const [expanded, setExpanded] = useState(false);
   const [query, setQuery] = useState("");
   const wrapRef = useRef<HTMLDivElement>(null);
+  const [hits, setHits] = useState<Hit[]>([]);
+  const [loading, setLoading] = useState(false);
+  const cache = useRef(new Map<string, Hit[]>());
   const suggestOpen = shouldOpenSuggestions(expanded, query);
+
+  useEffect(() => {
+    const q = query.trim().toLowerCase();
+    if (!isSearchReady(q)) { setHits([]); setLoading(false); return; }
+    const cached = cache.current.get(q);
+    if (cached) { setHits(cached); setLoading(false); return; }
+    setHits([]);
+    setLoading(true);
+    const ctrl = new AbortController();
+    const t = window.setTimeout(() => {
+      fetch(`/api/search?q=${encodeURIComponent(q)}`, { signal: ctrl.signal })
+        .then((r) => (r.ok ? r.json() : { results: [] }))
+        .then((d: { results?: Hit[] }) => { const res = d.results ?? []; cache.current.set(q, res); setHits(res); setLoading(false); })
+        .catch(() => {});
+    }, 150);
+    return () => { window.clearTimeout(t); ctrl.abort(); };
+  }, [query]);
 
   function collapse() {
     setExpanded(false);
@@ -105,7 +123,7 @@ export default function HeaderSearch({
           value={query}
           onValueChange={setQuery}
           open={suggestOpen}
-          filter={searchFilter}
+          filter={serverFilter}
           autoHighlight
           presentation="popover"
         >
@@ -119,14 +137,13 @@ export default function HeaderSearch({
             placeholder="Search people…"
           />
           <AutocompleteContent side="bottom" align="end" sideOffset={6}>
-            <AutocompleteEmpty>No one found</AutocompleteEmpty>
+            <AutocompleteEmpty>{loading ? <span className="hs-loading" role="status"><span className="hs-spinner" aria-hidden="true" />Searching…</span> : "No one found"}</AutocompleteEmpty>
             <AutocompleteList>
-              {people.map((hit) => (
+              {hits.map((hit) => (
                 <AutocompleteItem
                   key={hit.id}
                   value={hit.id}
                   label={hit.name}
-                  keywords={hit.keywords}
                   render={<Link href={hit.href} onClick={collapse} />}
                 >
                   <span className="hs-name">{hit.name}</span>

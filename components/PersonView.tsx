@@ -66,8 +66,9 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
       ))}
     </ol>,
   ]);
-  rest.push(["Last checked", <time key="t" dateTime={v.updated}>{formatUpdated(v.updated)}</time>]);
-  const ld = { "@context": "https://schema.org", "@type": "ProfilePage", url: abs(href(p.name)), dateModified: v.updated,
+  const checked = p.updated || v.updated;
+  rest.push(["Last checked", <time key="t" dateTime={checked}>{formatUpdated(checked)}</time>]);
+  const ld = { "@context": "https://schema.org", "@type": "ProfilePage", url: abs(href(p.name)), dateModified: p.updated || v.updated,
     mainEntity: { "@type": "Person", name: p.name, jobTitle: p.role, affiliation: { "@type": "Organization", name: p.org }, description: p.short, url: p.url || undefined, ...(p.workedWith?.length ? { colleague: p.workedWith.map((w) => ({ "@type": "Person", name: w.name, ...(w.url ? { url: w.url } : {}) })) } : {}), ...(p.location ? { homeLocation: { "@type": "Place", name: p.location } } : {}), sameAs: [...new Set([...(p.url ? [p.url] : []), ...(p.profiles || []).map((y) => y.url), ...p.sources])] } };
   return <div className="pv-wrap wrap">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
