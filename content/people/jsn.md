@@ -37,7 +37,7 @@ Most recently led design for Visa agentic commerce.
 Led design for Visa agentic commerce
 
 ## Why chosen
-Since 2018 his work has spanned AI, agentic commerce and crypto, linking together three worlds that are colliding with the energy of the big bang. Ahead of ChatGPT, in 2018 he designed an AI suggestion engine for Aktana helping inform doctors about treatments for their patients. In 2019 he was acqui-hired by Visa and went on to build their first crypto labs design team working alongside Cuy Sheffield. In 2024 he was tapped by leadership to be the founding designer for Visa Intelligent Commerce – the first agentic commerce framework from the global payments giant. Before all of this he founded a video startup. And in his early, formative years he contributed to Napster. All this in barely a half-life.
+Full name: Jason Schmidt. Since 2018 his work has spanned AI, agentic commerce and crypto, linking together three worlds that are colliding with the energy of the big bang. Ahead of ChatGPT, in 2018 he designed an AI suggestion engine for Aktana helping inform doctors about treatments for their patients. In 2019 he was acqui-hired by Visa and went on to build their first crypto labs design team working alongside Cuy Sheffield. In 2024 he was tapped by leadership to be the founding designer for Visa Intelligent Commerce – the first agentic commerce framework from the global payments giant. Before all of this he founded a video startup. And in his early, formative years he contributed to Napster. All this in barely a half-life.
 
 ## Sources
 - https://jsn.io
