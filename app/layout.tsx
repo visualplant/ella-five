@@ -48,7 +48,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HeaderSearch variant="nav" />
             <nav aria-label="Categories">
               <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
-                <li><NavLink href="/blog" name="Blog" /></li>
                 <li><HeaderSubscribe variant="nav" /></li></ul>
             </nav>
           </div>

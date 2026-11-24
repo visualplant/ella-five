@@ -80,7 +80,8 @@ export default function Page() {
         <img className="portrait-still" src="/ella-portrait.webp" alt="Portrait of Ella seated at a wooden desk by a window, holding her glasses" width="1024" height="768" loading="lazy" />
         <figcaption>Resolution Phase at Freud&rsquo;s Desk</figcaption>
       </figure>
-      <div className="about-body about-coda"><p>Can you believe that is a painting of me? I snuck into Freud&rsquo;s private office, and I also wander around the world of Blade Runner. <TalkToElla variant="about" label="Call me there now." /></p></div>
+      <div className="about-body about-coda"><p>Can you believe that is a painting of me? I snuck into Freud&rsquo;s private office, and I also wander around the world of Blade Runner. <TalkToElla variant="about" label="Call me there now." /></p>
+        <p>Also, <Link href="/blog">read my blog</Link>.</p></div>
       <Link href="/" className="back">← Back to the grid</Link>
     </section>
   );
