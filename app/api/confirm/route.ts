@@ -15,6 +15,16 @@ import {
 } from "@/lib/rising";
 
 export async function GET(req: Request) {
+  try {
+    return await handle(req);
+  } catch (err) {
+    // Never surface a 500 from a link in an email; log without the token or email.
+    console.error("confirm: failed", (err as Error)?.message || err);
+    return NextResponse.redirect(new URL("/confirm?s=error", req.url), 303);
+  }
+}
+
+async function handle(req: Request) {
   const u = new URL(req.url);
   const go = (s: string) => NextResponse.redirect(new URL(`/confirm?s=${s}`, u), 303);
   const p = verify(u.searchParams.get("token") || "", "confirm");

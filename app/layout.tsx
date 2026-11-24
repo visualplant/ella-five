@@ -26,8 +26,14 @@ export const metadata: Metadata = {
 };
 export const viewport: Viewport = { themeColor: "#f6f3ee" };
 
+function safeHasWeeks() { try { return weeks().length > 0; } catch { return false; } }
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const catalog = loadEllaCatalog();
+  let catalog: ReturnType<typeof loadEllaCatalog>;
+  try { catalog = loadEllaCatalog(); } catch (err) {
+    console.error("layout: loadEllaCatalog failed", err);
+    catalog = { people: [], weeks: [], categories: categories.map((c) => ({ slug: c.slug, name: c.name })) };
+  }
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <head>
@@ -51,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer wrap">
           <p className="f-brand"><Link href="/about">Ella <span>– AI Talent Tracker</span></Link></p>
           <p className="f-note">Statuses are drawn from public sources and describe roles, not availability. Inclusion is editorial and does not imply anyone is open to work.</p>
-          <GitHubMark archive={weeks().length > 0} />
+          <GitHubMark archive={safeHasWeeks()} />
         </footer>
         <TavusElla catalog={catalog} />
         <Analytics />

@@ -67,7 +67,6 @@ export type PersonTip = {
 
 // SERVER-ONLY paths — never imported by client bundles or rendered on person pages.
 const RISING_FILE = path.join(process.cwd(), "content", "rising-stars.json");
-const MEMBERS_FILE = path.join(process.cwd(), "content", "list-members.json");
 const TMP_VOTES_FILE = "/tmp/ella-rising-votes.json";
 const TMP_TIPS_FILE = "/tmp/ella-rising-tips.json";
 const TMP_CLAIMED_EMAILS_FILE = "/tmp/ella-claimed-emails.json";
@@ -134,20 +133,34 @@ const ORG_DOMAINS: Record<string, string[]> = {
 };
 
 export function loadRising(): RisingData {
-  const raw = JSON.parse(fs.readFileSync(RISING_FILE, "utf8")) as RisingData;
-  return raw;
+  // Never throw: a missing/unreadable file (e.g. not traced into a serverless
+  // function) must not take down the root layout on dynamic pages like /confirm.
+  try {
+    return JSON.parse(fs.readFileSync(RISING_FILE, "utf8")) as RisingData;
+  } catch (err) {
+    console.error("loadRising: could not read content/rising-stars.json", (err as NodeJS.ErrnoException)?.code || err);
+    return { updated: "", blurb: "", people: [] };
+  }
 }
 
 type MembersConfig = {
   members?: Record<string, { domains?: string[]; emails?: string[] }>;
 };
 
+// Member email/domain rules are private. They live only in the Sensitive env var
+// LIST_MEMBERS_JSON (base64-encoded JSON: { members: { [slug]: { emails, domains } } }).
+// Never commit them; a reference copy is kept outside the repo.
+let membersCache: Record<string, { domains?: string[]; emails?: string[] }> | null = null;
 function loadMembersConfig(): Record<string, { domains?: string[]; emails?: string[] }> {
+  if (membersCache) return membersCache;
+  const b64 = process.env.LIST_MEMBERS_JSON;
+  if (!b64) return (membersCache = {});
   try {
-    const raw = JSON.parse(fs.readFileSync(MEMBERS_FILE, "utf8")) as MembersConfig;
-    return raw.members || {};
+    const raw = JSON.parse(Buffer.from(b64, "base64").toString("utf8")) as MembersConfig;
+    return (membersCache = raw.members || {});
   } catch {
-    return {};
+    console.error("loadMembersConfig: LIST_MEMBERS_JSON is not valid base64 JSON");
+    return (membersCache = {});
   }
 }
 
@@ -235,7 +248,7 @@ export function matchListMemberByEmail(rawEmail: string, claimedSlug?: string | 
 
   const cfg = loadMembersConfig();
 
-  // 1. Check explicit emails and personal domains in server-only content/list-members.json
+  // 1. Check explicit emails and personal domains from the private LIST_MEMBERS_JSON env var
   for (const [slug, rule] of Object.entries(cfg)) {
     const entry = allPeople.get(slug);
     if (!entry) continue;
@@ -316,7 +329,7 @@ export function buildSubscriberSession(
   if (!clean && claimedSlug) {
     const m = getMemberBySlug(claimedSlug);
     if (!m) return null;
-    // If claimed member has a primary public email in list-members.json, keep session email blank unless known, or use their slug
+    // If claimed member has a private email rule in LIST_MEMBERS_JSON, keep session email blank unless known, or use their slug
     return {
       email: "",
       verified,

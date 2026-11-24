@@ -9,3 +9,6 @@ node_modules
 next-env.d.ts
 .env*
 src.tgz
+
+# Private: member emails live in the LIST_MEMBERS_JSON env var, never in git
+content/list-members.json
