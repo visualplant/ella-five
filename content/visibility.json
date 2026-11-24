@@ -6176,6 +6176,965 @@
         },
         "provisional": true
       }
+    ],
+    "tuan-nguyen": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Principal Software Engineer and co-lead of the Gemini app at Google DeepMind; the November 2026 computer-use-on-Mac launch is public, but official blogs do not name him.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/in/tuanng",
+            "signal": "role"
+          },
+          {
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "johnny-dallas": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 1,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 3168,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Tech lead for Figma Specs; named as engineering lead on Specs in Figma's November 23, 2026 post.",
+        "sources": [
+          {
+            "url": "https://www.figma.com/blog/introducing-figma-specs/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/",
+            "signal": "peers"
+          },
+          {
+            "url": "https://x.com/_johnnydallas_",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "priyanka-phatak": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 2,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 1758,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Builds Claude Managed Agents at Anthropic; spoke on the self-hosted release at AI Engineer in October 2026.",
+        "sources": [
+          {
+            "url": "https://ai.engineer/speakers/priyanka-phatak",
+            "signal": "stage"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Uv0nAf_7tyU",
+            "signal": "stage"
+          },
+          {
+            "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/PriyankaPhatak",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "brendan-falk": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 1,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 11469,
+          "linkedin": null,
+          "github": 187,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Founder and CEO of Hercules; previously founded Fig, which AWS acquired. Spoke with Codeship Labs in October 2026.",
+        "sources": [
+          {
+            "url": "https://hercules.app/docs/company/who-we-are",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.codeship.com/articles/founders-room-brendan-falk-hercules",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2TvnjJngfpE",
+            "signal": "stage"
+          },
+          {
+            "url": "https://x.com/BrendanFalk",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/brendanfalk",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "felix-zhang": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 113,
+          "linkedin": null,
+          "github": 52,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Senior Software Engineer at Coinbase, working on wallet and agent-payment tooling. A Coinbase lead named him among collaborators on Base MCP in May 2026.",
+        "sources": [
+          {
+            "url": "https://felix-zhang.dev/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/montanawong_excited-to-share-that-base-mcp-is-live-activity-7465425101245800449-Cagb",
+            "signal": "peers"
+          },
+          {
+            "url": "https://github.com/fan-zhang-sv",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "katarina-batina": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 2,
+          "following": 3,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 82403,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Head of Product Design at Square, announced November 18, 2026 after serving as VP of Design at Shopify; appeared on Dive Club in May 2026 and a Designer Fund panel in August 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/katarinabatina",
+            "signal": "following"
+          },
+          {
+            "url": "https://x.com/katarinabatina/status/2123089023963169120",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0YjO7wShTkQ",
+            "signal": "stage"
+          },
+          {
+            "url": "https://cosignwatch.substack.com/p/jason-wei-is-joining-mercor-katarina",
+            "signal": "press"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "geoff-barnes": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 257,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Head of Design at Tavus since July 2025; previously UX Lead for Gemini at Google DeepMind.",
+        "sources": [
+          {
+            "url": "https://www.heygeoffbarnes.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/gbarnes",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/quinn-favret_over-the-moon-that-geoff-barnes-joined-the-activity-7356786849085882370-oKA9",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "carmah-hawwari": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 1,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 301,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Member of Technical Staff at Replit; designed the Replit Missions experience, launched November 17, 2026, and is named in Replit's launch video.",
+        "sources": [
+          {
+            "url": "https://carmahhawwari.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=srXQZppNtTk",
+            "signal": "stage"
+          },
+          {
+            "url": "https://x.com/Carmahhawwari",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "annie-zhou": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Staff UX Designer and design lead for Project Genie at Google; acknowledged on Google DeepMind's Genie 4 announcement.",
+        "sources": [
+          {
+            "url": "https://anniezhou.me/projects/project-genie",
+            "signal": "role"
+          },
+          {
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "signal": "peers"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "david-pasztor": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Founder and CEO of UX studio and product lead for Arca, a coding agent for designers launched November 17, 2026.",
+        "sources": [
+          {
+            "url": "https://www.uxstudioteam.com/about-us",
+            "signal": "role"
+          },
+          {
+            "url": "https://luma.com/t85rqaog",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "jason-wei": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 0,
+          "following": 3,
+          "peers": 4
+        },
+        "followingCounts": {
+          "x": 118730,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 12,
+        "level": 4,
+        "note": "Chief Scientist at Mercor as of November 17, 2026, after work at Google Brain, OpenAI and Meta; known for popularizing chain-of-thought prompting.",
+        "sources": [
+          {
+            "url": "https://www.jasonwei.net/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/_jasonwei",
+            "signal": "following"
+          },
+          {
+            "url": "https://cosignwatch.substack.com/p/jason-wei-is-joining-mercor-katarina",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "nudge": 1,
+        "nudgeReason": "Chain-of-thought is among the most widely cited ideas in current AI; the Mercor chief-scientist appointment is ahead of a full major-outlet press cycle in this 12-month window."
+      }
+    ],
+    "chawin-sitawarin": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 376,
+          "linkedin": null,
+          "github": 129,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Member of Technical Staff on Safeguards Research at Anthropic; co-built Anvil, Anthropic's automated red-teamer, announced November 12, 2026.",
+        "sources": [
+          {
+            "url": "https://chawin.sitawarin.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://safeguards.anthropic.com/2026/automated-red-teaming/",
+            "signal": "press"
+          },
+          {
+            "url": "https://x.com/csitawarin",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/chawins",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "nora-kassner": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 5,
+        "level": 2,
+        "note": "Research Scientist at Google DeepMind; co-wrote the November 19, 2026 Gemini API Tool Retrieval launch.",
+        "sources": [
+          {
+            "url": "https://www.alphaxiv.org/@nora-kassner",
+            "signal": "role"
+          },
+          {
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "hang-qi": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 1,
+          "following": 0,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": 10,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Senior Research Scientist at Google DeepMind; bylined on Genie 4, released October 27, 2026, and named in the announcement video.",
+        "sources": [
+          {
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=LOP8ul3KqQI",
+            "signal": "stage"
+          },
+          {
+            "url": "https://github.com/hangqi",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "jan-dubinski": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 1,
+          "press": 1,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 823,
+          "linkedin": null,
+          "github": 14,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Research scientist at Truthful AI and co-first author of Homeopathic Learning, announced November 10, 2026; received his PhD from Warsaw University of Technology in June 2026.",
+        "sources": [
+          {
+            "url": "https://alignment.anthropic.com/2026/homeopathic-learning/",
+            "signal": "press"
+          },
+          {
+            "url": "https://jandubinski.github.io/",
+            "signal": "role"
+          },
+          {
+            "url": "https://x.com/jan_dubinski_",
+            "signal": "following"
+          },
+          {
+            "url": "https://github.com/jandubinski",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "samuel-spitz": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 1,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 34761,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Product at Replit and a named builder on Replit Missions, launched November 17, 2026; appeared in the November 21 showcase video.",
+        "sources": [
+          {
+            "url": "https://samuel-spitz.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=VKbQ9TDttvg",
+            "signal": "stage"
+          },
+          {
+            "url": "https://x.com/samuel_spitz",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "diego-rivas": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 3,
+          "press": 2,
+          "stage": 1,
+          "following": null,
+          "peers": 2
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 10,
+        "level": 3,
+        "note": "Group Product Manager at Google DeepMind; bylined on Genie 4 and on the November 18, 2026 post bringing Genie 4 into Project Genie.",
+        "sources": [
+          {
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "signal": "press"
+          },
+          {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=LOP8ul3KqQI",
+            "signal": "stage"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "meredith-neyrand": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 0,
+          "following": 0,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 962,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Product lead for Stripe Treasury; bylined on the November 19, 2026 public preview that lets agents move money with human approval.",
+        "sources": [
+          {
+            "url": "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds",
+            "signal": "press"
+          },
+          {
+            "url": "https://x.com/MeredithNeyrand",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/meredithneyrand",
+            "signal": "role"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "jinen-kamdar": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 3,
+          "press": 1,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 11854,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Director of Product at Figma; bylined on the November 23, 2026 post bringing the Figma agent to FigJam and Slides. Previously co-founder and CPO of Gather.",
+        "sources": [
+          {
+            "url": "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/",
+            "signal": "press"
+          },
+          {
+            "url": "https://x.com/jinen",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "chantel-benson": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 3,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 4,
+        "level": 1,
+        "note": "Director of Product Management at Adobe; wrote that she leads the product team for Firefly Design, which entered public beta at Adobe MAX in November 2026.",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/posts/chantelbenson_i-am-incredibly-proud-of-the-product-that-activity-7527080271360405504-g5C4",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.campminted.com/2026-speakers",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "hector-serrano": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 2,
+          "stage": 0,
+          "following": 2,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": 23947,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 7,
+        "level": 2,
+        "note": "Formerly Head of Content at Wispr Flow, now Growth at Whop, as of November 2026. Featured on Lenny's Podcast on November 1, 2026 for the paid-UGC program he built at Wispr Flow.",
+        "sources": [
+          {
+            "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+            "signal": "press"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KzS5Qs7vSMg",
+            "signal": "press"
+          },
+          {
+            "url": "https://cosign.co/hector",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/apurv-acharya2003_growthmarketing-startupgrowth-ugcmarketing-activity-7526008850085437441-93Lp",
+            "signal": "peers"
+          },
+          {
+            "url": "https://x.com/hectorserrranoo",
+            "signal": "following"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "tulika-gupta": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 1,
+          "press": 0,
+          "stage": 0,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 64,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 1,
+        "level": 1,
+        "note": "Member of Marketing Staff at Replit, working on go-to-market for Replit Missions, launched November 17, 2026.",
+        "sources": [
+          {
+            "url": "https://x.com/2lika_gupta",
+            "signal": "following"
+          },
+          {
+            "url": "https://www.linkedin.com/in/tulika-gupta",
+            "signal": "role"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "rourke-mcnamara": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 1,
+          "following": 0,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": 748,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Product marketing lead for Codex and ChatGPT Work at OpenAI; named as Product Marketing Leader, Codex, OpenAI on a Databricks session page.",
+        "sources": [
+          {
+            "url": "https://answers.databricks.com/sponsored-by-open-ai-build-working-applications-faster-openai-databricks-Q8OsEcyP7gQ",
+            "signal": "stage"
+          },
+          {
+            "url": "https://x.com/rourkem",
+            "signal": "following"
+          },
+          {
+            "url": "https://rourkem.com/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true
+      }
+    ],
+    "grace-baena": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 0,
+          "stage": 0,
+          "following": null,
+          "peers": 0
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 3,
+        "level": 1,
+        "note": "Head of Brand Marketing and Social at Daydream, the company behind an autonomous fashion-shopping agent launched November 18, 2026.",
+        "sources": [
+          {
+            "url": "https://www.gracebaena.com/",
+            "signal": "role"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/daydream-launches-first-ever-autonomous-agent-for-fashion-shopping-styling-and-checkout-302941544.html",
+            "signal": "press"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
+    ],
+    "bella-nazzari": [
+      {
+        "date": "2026-11-23",
+        "signals": {
+          "role": 2,
+          "press": 1,
+          "stage": 1,
+          "following": null,
+          "peers": 1
+        },
+        "followingCounts": {
+          "x": null,
+          "linkedin": null,
+          "github": null,
+          "substack": null,
+          "observedAt": "2026-11-23"
+        },
+        "total": 6,
+        "level": 2,
+        "note": "Growth lead for Cosign at a16z; appeared on the a16z MTS episode of November 19, 2026 about agents recruiting builders on Cosign.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=buNSr7W0UOk",
+            "signal": "stage"
+          },
+          {
+            "url": "https://daily.scuttlebutt.co/p/people-have-connected-their-agents",
+            "signal": "press"
+          },
+          {
+            "url": "https://a16z.com/author/bella-nazzari/",
+            "signal": "role"
+          }
+        ],
+        "spotted": true,
+        "nullReasons": {
+          "following": "No reliable public follower counts found."
+        },
+        "provisional": true
+      }
     ]
   }
 }

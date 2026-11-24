@@ -30,7 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const catalog = loadEllaCatalog();
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
-      <head><link rel="alternate" type="application/rss+xml" title="Ella – archived lists" href="/feed.xml" /></head>
+      <head>
+          <link rel="alternate" type="application/rss+xml" title="Ella – archived lists" href="/feed.xml" />
+          <link rel="alternate" type="application/rss+xml" title="Ella – blog" href="/blog/feed.xml" />
+        </head>
       <body>
         <a className="skip" href="#main">Skip to content</a>
         <header className="site-header wrap">
@@ -39,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HeaderSearch variant="nav" />
             <nav aria-label="Categories">
               <ul><li className="nav-home"><Link href="/" aria-label="5x5: all five lists">5x5</Link></li>{categories.map((c) => <li key={c.slug}><NavLink slug={c.slug} name={c.name} /></li>)}
+                <li><NavLink href="/blog" name="Blog" /></li>
                 <li><HeaderSubscribe variant="nav" /></li></ul>
             </nav>
           </div>
