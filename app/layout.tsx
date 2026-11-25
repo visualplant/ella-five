@@ -11,8 +11,6 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SITE, REPO, categories } from "@/lib/data";
-import TavusElla from "@/components/TavusElla";
-import { loadEllaCatalog } from "@/lib/tavus-site";
 
 const serif = Newsreader({ subsets: ["latin"], style: ["normal", "italic"], variable: "--serif", display: "swap" });
 const sans = Inter({ subsets: ["latin"], variable: "--sans", display: "swap" });
@@ -29,11 +27,6 @@ export const viewport: Viewport = { themeColor: "#f6f3ee" };
 function safeHasWeeks() { try { return weeks().length > 0; } catch { return false; } }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  let catalog: ReturnType<typeof loadEllaCatalog>;
-  try { catalog = loadEllaCatalog(); } catch (err) {
-    console.error("layout: loadEllaCatalog failed", err);
-    catalog = { people: [], weeks: [], categories: categories.map((c) => ({ slug: c.slug, name: c.name })) };
-  }
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <head>
@@ -58,7 +51,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <p className="f-note">Statuses are drawn from public sources and describe roles, not availability. Inclusion is editorial and does not imply anyone is open to work.</p>
           <GitHubMark archive={safeHasWeeks()} />
         </footer>
-        <TavusElla catalog={catalog} />
         <Analytics />
         <SpeedInsights />
       </body>

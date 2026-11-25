@@ -6,6 +6,8 @@ import { loadAbout } from "@/lib/about";
 import VerifiedBadge from "@/components/VerifiedBadge";
 import AboutStayInLoop from "@/components/AboutStayInLoop";
 import TalkToElla from "@/components/TalkToElla";
+import TavusElla from "@/components/TavusElla";
+import { loadEllaCatalog } from "@/lib/tavus-site";
 
 // The word "Verified" in "it gets a Verified badge" renders as the live VerifiedBadge (sample popover).
 const VB_RE = /a Verified badge/;
@@ -52,8 +54,14 @@ export function generateMetadata(): Metadata {
 }
 export default function Page() {
   const a = loadAbout();
+  let catalog: ReturnType<typeof loadEllaCatalog>;
+  try { catalog = loadEllaCatalog(); } catch (err) {
+    console.error("about: loadEllaCatalog failed", err);
+    catalog = { people: [], weeks: [], categories: categories.map((c) => ({ slug: c.slug, name: c.name })) };
+  }
   const ld = [ellaLd(), { "@context": "https://schema.org", "@type": "AboutPage", "@id": SITE + "/about#page", url: SITE + "/about", name: `${a.title} – Ella – AI Talent Tracker`, description: a.description || "Who Ella is, what she tracks, why, and how picks are made.", inLanguage: "en", dateModified: a.updated, about: { "@id": ELLA_ID }, mainEntity: { "@id": ELLA_ID }, isPartOf: { "@type": "WebSite", url: SITE + "/" } }];
   return (
+    <>
     <section className="hero wrap compact about">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <p className="eyebrow">About</p>
@@ -91,5 +99,7 @@ export default function Page() {
         <p>Also, <Link href="/blog">read my blog</Link>.</p></div>
       <Link href="/" className="back">← Back to the grid</Link>
     </section>
+    <TavusElla catalog={catalog} />
+    </>
   );
 }
