@@ -10,9 +10,11 @@ import { people, profilePath } from "@/lib/people";
 const DIR = path.join(process.cwd(), "content", "blog");
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
-const KNOWN = new Set(["title", "date", "category", "excerpt", "slug", "related", "draft", "example"]);
+const KNOWN = new Set(["title", "date", "category", "excerpt", "slug", "related", "draft", "example", "metatitle", "updated"]);
 
 export type RelatedList = { slug: string; name: string; href: string };
+export type FaqItem = { question: string; answer: string };
+export type BlogMention = { name: string; href: string };
 export type BlogPost = {
   slug: string;
   title: string;
@@ -24,6 +26,13 @@ export type BlogPost = {
   example: boolean;
   html: string;
   file: string;
+  /** When set, used verbatim as the document and social title (no site suffix). */
+  metaTitle?: string;
+  /** Optional last-updated date (YYYY-MM-DD). Defaults to `date` for dateModified. */
+  updated?: string;
+  dateModified: string;
+  mentions: BlogMention[];
+  faq: FaqItem[];
 };
 
 /** Visible status label for unpublished posts. */
@@ -122,6 +131,55 @@ function decorateHtml(html: string): string {
     .replace(/<a href="(\/[^"]*)"/g, (m, href: string) => (profiles.has(href) ? `<a class="blog-person" href="${href}"` : m));
 }
 
+function textOf(html: string): string {
+  return html
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&times;/g, "×")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/** FAQ pairs from a post's ## FAQ section, using the visible text of each question and answer. */
+export function extractFaq(html: string): FaqItem[] {
+  const start = html.match(/<h2[^>]*>\s*FAQ\s*<\/h2>/i);
+  if (!start || start.index == null) return [];
+  const rest = html.slice(start.index + start[0].length);
+  const section = rest.split(/<h[12]\b/i)[0];
+  const items: FaqItem[] = [];
+  const pRe = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = pRe.exec(section))) {
+    const q = m[1].match(/^\s*<strong>([\s\S]*?)<\/strong>\s*([\s\S]*)$/i);
+    if (!q) continue;
+    const question = textOf(q[1]);
+    const answer = textOf(q[2]);
+    if (question && answer) items.push({ question, answer });
+  }
+  return items;
+}
+
+export function extractMentions(html: string): BlogMention[] {
+  const seen = new Set<string>();
+  const out: BlogMention[] = [];
+  const re = /<a class="blog-person" href="(\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(html))) {
+    const href = m[1];
+    if (seen.has(href)) continue;
+    seen.add(href);
+    const name = textOf(m[2]);
+    if (name) out.push({ name, href });
+  }
+  return out;
+}
+
 function parseFile(file: string, raw: string): BlogPost {
   const { meta, body } = parseFrontMatter(file, raw);
   const title = (meta.title || "").trim();
@@ -142,6 +200,9 @@ function parseFile(file: string, raw: string): BlogPost {
   };
   const draft = boolField("draft");
   const example = boolField("example");
+  const metaTitle = (meta.metatitle || "").trim() || undefined;
+  const updated = (meta.updated || "").trim();
+  if (updated && !DATE_RE.test(updated)) fail(file, `"updated:" must be YYYY-MM-DD (got "${updated}").`);
   const related: RelatedList[] = [];
   const seen = new Set<string>();
   for (const part of (meta.related || "").split(",").map((s) => s.trim()).filter(Boolean)) {
@@ -154,7 +215,24 @@ function parseFile(file: string, raw: string): BlogPost {
   const markdown = rewriteLinks(file, body.trim());
   if (!markdown) fail(file, "the post body is empty.");
   const html = decorateHtml(marked.parse(markdown, { async: false, gfm: true }) as string);
-  return { slug, title, date, category, excerpt, related, draft, example, html, file };
+  const dateModified = updated || date;
+  return {
+    slug,
+    title,
+    date,
+    category,
+    excerpt,
+    related,
+    draft,
+    example,
+    html,
+    file,
+    metaTitle,
+    updated: updated || undefined,
+    dateModified,
+    mentions: extractMentions(html),
+    faq: extractFaq(html),
+  };
 }
 
 let cache: BlogPost[] | null = null;

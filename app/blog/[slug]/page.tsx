@@ -20,21 +20,24 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const p = getPost(slug);
   if (!p) return {};
   const description = p.excerpt;
-  const title = p.title;
-  const full = `${title} – Ella – AI Talent Tracker`;
+  const title = p.metaTitle
+    ? { absolute: p.metaTitle }
+    : p.title;
+  const socialTitle = p.metaTitle || `${p.title} – Ella – AI Talent Tracker`;
   return {
     title,
     description,
     authors: [{ name: "Ella", url: abs("/about") }],
     openGraph: {
-      title: full,
+      title: socialTitle,
       description,
       type: "article",
       url: abs(`/blog/${p.slug}`),
       publishedTime: p.date,
+      modifiedTime: p.dateModified,
       authors: ["Ella"],
     },
-    twitter: { card: "summary_large_image", title: full, description },
+    twitter: { card: "summary_large_image", title: socialTitle, description },
     alternates: { canonical: `/blog/${p.slug}`, types: { "application/rss+xml": "/blog/feed.xml" } },
   };
 }
@@ -60,6 +63,7 @@ export default async function Page({ params }: P) {
       headline: p.title,
       description: p.excerpt,
       datePublished: p.date,
+      dateModified: p.dateModified,
       url,
       inLanguage: "en",
       image: SITE + "/blog/" + p.slug + "/opengraph-image",
@@ -67,8 +71,33 @@ export default async function Page({ params }: P) {
       publisher: { "@id": ELLA_ID },
       isPartOf: { "@type": "Blog", "@id": SITE + "/blog#blog", name: "Ella’s blog", url: SITE + "/blog" },
       articleSection: p.category,
+      about: { "@type": "Thing", name: "AI talent" },
+      ...(p.mentions.length
+        ? {
+            mentions: p.mentions.map((m) => ({
+              "@type": "Person",
+              "@id": abs(m.href) + "#person",
+              name: m.name,
+              url: abs(m.href),
+            })),
+          }
+        : {}),
       ...(p.draft ? { creativeWorkStatus: "Draft" } : p.example ? { creativeWorkStatus: "Placeholder" } : {}),
     },
+    ...(p.faq.length
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "@id": url + "#faq",
+            mainEntity: p.faq.map((item) => ({
+              "@type": "Question",
+              name: item.question,
+              acceptedAnswer: { "@type": "Answer", text: item.answer },
+            })),
+          },
+        ]
+      : []),
   ];
   return (
     <article className="hero wrap compact blog blog-post">

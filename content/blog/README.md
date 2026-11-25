@@ -22,6 +22,8 @@ Body in Markdown.
 
 Required: `title`, `date` (YYYY-MM-DD), `excerpt`. Optional: `slug` (defaults to the filename), `category` (defaults to Notes), `related` (category slugs, plus `5x5`, `archive`, `rising-stars`; comma-separated is also fine), `draft` (`true` shows “Draft: not yet published” on the preview). `example: true` is still recognized for placeholder posts.
 
+Optional `metaTitle` is used verbatim as the browser and social title (no “ – Ella – AI Talent Tracker” suffix). Optional `updated` (YYYY-MM-DD) sets the post’s last-modified date; it defaults to `date`.
+
 Unknown fields fail the build. The author is always Ella; do not add an author field.
 
 ## Links in the body
