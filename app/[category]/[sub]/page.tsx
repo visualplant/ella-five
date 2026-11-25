@@ -2,10 +2,11 @@
 import { notFound, permanentRedirect } from "next/navigation";
 import { people } from "@/lib/people";
 import type { Metadata } from "next";
-import { defaultVertical, extraVerticals, getVertical, vpath, ppath, pslug } from "@/lib/verticals";
-import { getCategory } from "@/lib/data";
+import { defaultVertical, extraVerticals, getVertical, vpath } from "@/lib/verticals";
+import { abs, getCategory } from "@/lib/data";
 import CategoryView from "@/components/CategoryView";
 import PersonView from "@/components/PersonView";
+import { isSeoFrozen, personTitle, categoryTitle } from "@/lib/seo";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -19,9 +20,27 @@ const person = (cat: string, sub: string) => { const e = people().get(sub); retu
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const { category, sub } = await params;
   const hit = person(category, sub);
-  if (hit) { const { c, p } = hit; const t = `${p.name} – Ella`; return { title: { absolute: t }, description: `${p.role}, ${p.org}. ${p.short}`, alternates: { canonical: `/${hit.home}/${hit.slug}` }, openGraph: { title: t, description: p.short }, twitter: { card: "summary_large_image", title: t, description: p.short } }; }
+  if (hit) {
+    const { p } = hit;
+    const path = `/${hit.home}/${hit.slug}`;
+    const description = `${p.role}, ${p.org}. ${p.short}`;
+    if (isSeoFrozen(hit.slug)) {
+      const t = `${p.name} – Ella`;
+      return { title: { absolute: t }, description, alternates: { canonical: path }, openGraph: { title: t, description: p.short }, twitter: { card: "summary_large_image", title: t, description: p.short } };
+    }
+    const t = personTitle(p);
+    return {
+      title: { absolute: t },
+      description,
+      alternates: { canonical: path },
+      openGraph: { type: "profile", url: abs(path), title: t, description: p.short },
+      twitter: { card: "summary_large_image", title: t, description: p.short },
+    };
+  }
   const v = getVertical(category); const c = v && getCategory(sub, v);
-  return v && c ? { title: { absolute: `${c.name} – Ella – ${v.title}` }, alternates: { canonical: vpath(v, c.slug) } } : {};
+  if (!v || !c) return {};
+  const title = v.slug === defaultVertical.slug ? categoryTitle(c) : `${c.name} – Ella – ${v.title}`;
+  return { title: { absolute: title }, alternates: { canonical: vpath(v, c.slug) }, openGraph: { type: "website", url: abs(vpath(v, c.slug)), title } };
 }
 export default async function Page({ params }: P) {
   const { category, sub } = await params;

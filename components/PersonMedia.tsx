@@ -10,7 +10,7 @@ export default function PersonMedia({ m, name }: { m: NonNullable<Person["media"
   if (m.type === "youtube" && m.id) return <figure className="pv-fig"><div className="pv-media">
     {on ? <iframe src={`https://www.youtube-nocookie.com/embed/${m.id}?autoplay=1&rel=0`} title={m.caption || `Video of ${name}`} allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen loading="lazy" />
       : <button type="button" className="pv-play" onClick={() => setOn(true)} aria-label={`Play video: ${m.caption || name}`}>
-          <img src={`https://i.ytimg.com/vi/${m.id}/hqdefault.jpg`} alt="" loading="lazy" />
+          <img src={`https://i.ytimg.com/vi/${m.id}/hqdefault.jpg`} alt={m.alt || m.caption || `Video of ${name}`} loading="lazy" />
           <span className="pv-pbtn" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M8 5v14l11-7z" fill="currentColor" /></svg></span>
         </button>}
   </div>{cap}</figure>;

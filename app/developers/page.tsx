@@ -1,8 +1,16 @@
-export const metadata = {
-  title: "API",
-  description: "Read-only JSON API for Ella’s lists, people and Rising Stars. Keys are available by request.",
-  openGraph: { title: "API – Ella – AI Talent Tracker" },
-  twitter: { title: "API – Ella – AI Talent Tracker" },
+import type { Metadata } from "next";
+import { abs } from "@/lib/data";
+import { ROOT_OG_IMAGE } from "@/lib/seo";
+
+const title = "API";
+const full = "API – Ella – AI Talent Tracker";
+const description = "Read-only JSON API for Ella’s lists, people and Rising Stars. Keys are available by request.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  openGraph: { type: "website", url: abs("/developers"), title: full, description, images: [ROOT_OG_IMAGE] },
+  twitter: { card: "summary_large_image", title: full, description },
   alternates: { canonical: "/developers" },
 };
 
@@ -27,8 +35,12 @@ export default function Page() {
       <p>All paths are under <code>/api/v1</code> and return JSON. CORS allows <code>GET</code> from any origin.</p>
 
       <h3>GET /api/v1/people</h3>
-      <p>Everyone who has appeared on any 5×5, current and past, in one call. Each person includes their full public profile, including the <code>visibility</code> field described below, and a <code>placements</code> array of every list, category and rank they held. People on the current list come first.</p>
+      <p>Everyone who has appeared on any 5×5, current and past, in one call. People on the current list come first. By default each person is a compact summary: name, role, org, category, status, short blurb, <code>onCurrentList</code>, <code>appearedIn</code>, a <code>placements</code> array of every list, category and rank they held, and their current <code>visibility</code> without its history. The response also has <code>visibilityCounts</code>, the number of people at each visibility level. Add <code>fields=full</code> for full public profiles, or use <code>/api/v1/people/{"{slug}"}</code> for one person.</p>
+      <p>Optional filters: <code>visibility</code> (a label such as <code>prominent</code> or <code>under-the-radar</code>, or a level from 1 to 5), <code>category</code> (<code>technical</code>, <code>design</code>, <code>research</code>, <code>product</code> or <code>growth</code>) and <code>current=true</code>. An unknown visibility value returns <code>400</code>.</p>
       <pre><code>{`curl -sS https://ellafive.com/api/v1/people \\
+  -H "Authorization: Bearer ${KEY}"
+
+curl -sS "https://ellafive.com/api/v1/people?visibility=prominent" \\
   -H "Authorization: Bearer ${KEY}"`}</code></pre>
 
       <h3>GET /api/v1/lists/current</h3>

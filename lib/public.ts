@@ -8,7 +8,7 @@ import { defaultVertical, pslug as pslugOf, type Person } from "@/lib/verticals"
 import { loadRising } from "@/lib/rising";
 import { searchPeople, type SearchHit } from "@/lib/search";
 import { isSearchReady, searchFilter } from "@/lib/search-query";
-import { initVisibility, publicVisibility } from "@/lib/visibility";
+import { initVisibility, publicVisibility, VISIBILITY_LABELS, UNCONFIRMED_LABEL } from "@/lib/visibility";
 
 initVisibility(() => new Set(people().keys()));
 
@@ -144,6 +144,66 @@ export function publicAllPeople() {
     lists: ["current", ...weeks()],
     count: list.length,
     people: list,
+  };
+}
+
+/** Compact person for list-style API calls: identity, role, placements and current visibility (no history). */
+function compactPerson(full: ReturnType<typeof publicPerson> & { placements: { list: string; category: string; rank: number }[] }) {
+  const v = full.visibility;
+  return {
+    slug: full.slug, name: full.name, profileUrl: full.profileUrl,
+    category: full.category, categories: full.categories,
+    role: full.role, org: full.org, location: full.location, status: full.status, short: full.short, tag: full.tag,
+    onCurrentList: full.onCurrentList,
+    appearedIn: full.appearedIn.map((a) => a.week),
+    placements: full.placements,
+    visibility: v ? { level: v.level, label: v.label, checked: v.checked, spotted: v.spotted, rise: v.rise } : null,
+  };
+}
+
+const normLabel = (s: string) => s.trim().toLowerCase().replace(/[\s_-]+/g, " ");
+
+export type PeopleQuery = { fields?: string | null; visibility?: string | null; category?: string | null; current?: string | null };
+
+/**
+ * GET /api/v1/people. Compact by default (fits an LLM tool call); `fields=full` returns full profiles.
+ * Filters: `visibility` (label such as "prominent" or "under-the-radar", or level 1-5), `category`, `current=true`.
+ * `visibilityCounts` always covers the whole filtered-by-category/current set, before the visibility filter.
+ */
+export function publicPeople(q: PeopleQuery = {}): { error: string } | Record<string, unknown> {
+  const all = publicAllPeople();
+  const full = (q.fields ?? "").trim().toLowerCase() === "full";
+  let rows = all.people;
+  const cat = (q.category ?? "").trim().toLowerCase();
+  if (cat) rows = rows.filter((p) => p.categories.includes(cat) || p.category === cat);
+  const cur = (q.current ?? "").trim().toLowerCase();
+  if (cur === "true" || cur === "1") rows = rows.filter((p) => p.onCurrentList);
+  else if (cur === "false" || cur === "0") rows = rows.filter((p) => !p.onCurrentList);
+
+  const visibilityCounts: Record<string, number> = {};
+  for (const p of rows) { const l = p.visibility?.label ?? "None"; visibilityCounts[l] = (visibilityCounts[l] ?? 0) + 1; }
+
+  const vis = (q.visibility ?? "").trim();
+  if (vis) {
+    const known = [...Object.values(VISIBILITY_LABELS), UNCONFIRMED_LABEL];
+    const level = /^[1-5]$/.test(vis) ? Number(vis) : null;
+    const want = normLabel(vis);
+    if (level == null && !known.some((l) => normLabel(l) === want)) {
+      return { error: `Unknown visibility "${vis}". Use a label (${known.map((l) => l.toLowerCase().replace(/ /g, "-")).join(", ")}) or a level 1-5.` };
+    }
+    rows = rows.filter((p) => p.visibility && (level != null ? p.visibility.level === level : normLabel(p.visibility.label) === want));
+  }
+
+  return {
+    updated: all.updated,
+    lists: all.lists,
+    total: all.count,
+    count: rows.length,
+    fields: full ? "full" : "summary",
+    filters: { visibility: vis || null, category: cat || null, current: cur || null },
+    visibilityCounts,
+    detail: "Full profile and visibility history: /api/v1/people/{slug}. Full profiles for everyone: /api/v1/people?fields=full.",
+    people: full ? rows : rows.map(compactPerson),
   };
 }
 

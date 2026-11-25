@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { formatUpdated, itemListLd, SITE, REPO, host, abs, ellaLd, ELLA_ID } from "@/lib/data";
+import { formatUpdated, itemListLd, SITE_URL, WEBSITE_ID, abs, ellaLd, ELLA_ID } from "@/lib/data";
 import { vpath, ppath, type Vertical } from "@/lib/verticals";
 import Tabs from "@/components/Tabs";
 import GridHover from "@/components/GridHover";
@@ -9,19 +9,23 @@ import HeaderSubscribe from "@/components/HeaderSubscribe";
 import HeaderSearch from "@/components/HeaderSearch";
 import { weeks, weekLabel } from "@/lib/weekly";
 import { profilePath } from "@/lib/people";
+import { archiveWeekChanges, archiveWeekTitle, breadcrumbLd } from "@/lib/seo";
 
 export default function Board({ v, week }: { v: Vertical; week?: string }) {
   const hasArchive = weeks().length > 0;
   const categories = v.categories, data = v;
-  const ld = [ellaLd(), { "@context": "https://schema.org", "@type": "WebSite", "@id": abs(vpath(v)) + "#website", name: `Ella – ${v.title}`, description: "Five people, five disciplines, every status sourced.", url: abs(vpath(v)) || SITE, inLanguage: "en", dateModified: data.updated, publisher: { "@id": ELLA_ID }, hasPart: categories.map((c) => ({ "@id": abs(vpath(v, c.slug)) + "#list" })) }, ...categories.map((c) => itemListLd(c, v))];
+  const ld = [ellaLd(), { "@context": "https://schema.org", "@type": "WebSite", "@id": WEBSITE_ID, name: `Ella – ${v.title}`, description: "Five people, five disciplines, every status sourced.", url: SITE_URL, inLanguage: "en", dateModified: data.updated, publisher: { "@id": ELLA_ID }, hasPart: categories.map((c) => ({ "@id": abs(vpath(v, c.slug)) + "#list" })) }, ...categories.map((c) => itemListLd(c, v))];
   return (
     <div className="board">
       <script dangerouslySetInnerHTML={{ __html: `if(new URLSearchParams(location.search).get("grid")==="solid")document.documentElement.setAttribute("data-grid","solid")` }} />
-      {!week && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />}
+      {week ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
+        breadcrumbLd([{ name: "Home", url: SITE_URL }, { name: "Archive", url: abs("/archive") }, { name: weekLabel(week) }]),
+        ...categories.map((c) => itemListLd(c, v, { listUrl: abs(`/archive/${week}`), listId: abs(`/archive/${week}`) + "#" + c.slug + "-list" })),
+      ]) }} /> : <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />}
       <header className="b-head">
         <Link href="/about" className="b-id" aria-label="Ella – AI Talent Tracker. What about me? About Ella">
           <img src="/ella.webp" alt="" width="44" height="44" className="avatar" />
-          <h1>Ella <span>– AI Talent Tracker</span></h1>
+          {week ? <p className="b-brand">Ella <span>– AI Talent Tracker</span></p> : <h1>Ella <span>– AI Talent Tracker</span></h1>}
           <span className="b-what" aria-hidden="true">What about me?</span>
         </Link>
         <div className="b-meta">
@@ -30,11 +34,17 @@ export default function Board({ v, week }: { v: Vertical; week?: string }) {
         </div>
         <HeaderSubscribe variant="board" />
       </header>
+      {week && (() => { const changes = archiveWeekChanges(week, v); return (
+        <div className="ar-banner">
+          <h1 className="ar-h1">{archiveWeekTitle(week)}</h1>
+          {changes && <p className="ar-diff">{changes}</p>}
+        </div>
+      ); })()}
       <Tabs items={categories.map(({ slug, name }) => ({ slug, name }))} />
       <div className="cols">
         <div className="rays" aria-hidden="true"><i className="h t" /><i className="h b" /><i className="v l" /><i className="v r" /></div>
         <div className="col rail" aria-hidden="true">
-          <h2>&nbsp;</h2>
+          <div className="rail-spacer" aria-hidden="true">&nbsp;</div>
           <ol>{[1, 2, 3, 4, 5].map((n) => <li key={n} data-rail={n}>{String(n).padStart(2, "0")}</li>)}</ol>
         </div>
         {categories.map((c, ci) => (

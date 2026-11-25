@@ -19,10 +19,10 @@ const sans = Inter({ subsets: ["latin"], variable: "--sans", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
-  title: { default: "Ella – AI Talent Tracker", template: "%s – Ella – AI Talent Tracker" },
+  title: { default: "Ella – AI Talent Tracker: AI people to follow", template: "%s – Ella – AI Talent Tracker" },
   description: "A short, sourced, regularly updated list of exceptional people in AI across Technical, Design, Research, Product and Growth.",
-  openGraph: { type: "website", siteName: "Ella", title: "Ella – AI Talent Tracker", description: "Five people, five disciplines, every status sourced." },
-  twitter: { card: "summary_large_image", title: "Ella – AI Talent Tracker", description: "Five people, five disciplines, every status sourced." },
+  openGraph: { type: "website", url: SITE + "/", siteName: "Ella", title: "Ella – AI Talent Tracker: AI people to follow", description: "Five people, five disciplines, every status sourced." },
+  twitter: { card: "summary_large_image", title: "Ella – AI Talent Tracker: AI people to follow", description: "Five people, five disciplines, every status sourced." },
 };
 export const viewport: Viewport = { themeColor: "#f6f3ee" };
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE, ellaLd, ELLA_ID, categories } from "@/lib/data";
+import { SITE, ellaLd, ELLA_ID, categories, abs } from "@/lib/data";
+import { ROOT_OG_IMAGE } from "@/lib/seo";
 import { loadAbout } from "@/lib/about";
 import VerifiedBadge from "@/components/VerifiedBadge";
 import AboutStayInLoop from "@/components/AboutStayInLoop";
@@ -41,7 +42,13 @@ function renderAfter(afterHtml: string) {
 export const dynamic = "force-static";
 export function generateMetadata(): Metadata {
   const a = loadAbout(); const full = `${a.title} – Ella – AI Talent Tracker`;
-  return { title: a.title, description: a.description, openGraph: { title: full, description: a.description }, twitter: { title: full, description: a.description }, alternates: { canonical: "/about" } };
+  return {
+    title: a.title,
+    description: a.description,
+    openGraph: { type: "website", url: abs("/about"), title: full, description: a.description, images: [ROOT_OG_IMAGE] },
+    twitter: { card: "summary_large_image", title: full, description: a.description },
+    alternates: { canonical: "/about" },
+  };
 }
 export default function Page() {
   const a = loadAbout();
@@ -73,7 +80,7 @@ export default function Page() {
         );
       })()}
       <figure className="about-portrait">
-        <video className="portrait-video" autoPlay muted loop playsInline preload="auto" poster="/ella-portrait.webp" disablePictureInPicture disableRemotePlayback width="1024" height="768" aria-label="Portrait of Ella seated at a wooden desk by a window, holding her glasses">
+        <video className="portrait-video" autoPlay muted loop playsInline preload="metadata" poster="/ella-portrait.webp" disablePictureInPicture disableRemotePlayback width="1024" height="768" aria-label="Portrait of Ella seated at a wooden desk by a window, holding her glasses">
           <source src="/ella-portrait.mp4" type="video/mp4" />
           <img src="/ella-portrait.webp" alt="Portrait of Ella seated at a wooden desk by a window, holding her glasses" width="1024" height="768" />
         </video>

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SITE, ellaLd, ELLA_ID, abs } from "@/lib/data";
+import { SITE, SITE_URL, ellaLd, ELLA_ID, abs } from "@/lib/data";
+import { breadcrumbLd } from "@/lib/seo";
 import { loadPosts, getPost, formatPostDate, postBanner } from "@/lib/blog";
 import BlogSubscribe from "@/components/BlogSubscribe";
 
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
       publishedTime: p.date,
       authors: ["Ella"],
     },
-    twitter: { title: full, description },
+    twitter: { card: "summary_large_image", title: full, description },
     alternates: { canonical: `/blog/${p.slug}`, types: { "application/rss+xml": "/blog/feed.xml" } },
   };
 }
@@ -43,8 +44,14 @@ export default async function Page({ params }: P) {
   const p = getPost(slug);
   if (!p) notFound();
   const url = SITE + "/blog/" + p.slug;
+  const crumbs = breadcrumbLd([
+    { name: "Home", url: SITE_URL },
+    { name: "Blog", url: abs("/blog") },
+    { name: p.title },
+  ]);
   const ld = [
     ellaLd(),
+    crumbs,
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -56,7 +63,7 @@ export default async function Page({ params }: P) {
       url,
       inLanguage: "en",
       image: SITE + "/blog/" + p.slug + "/opengraph-image",
-      author: { "@type": "Person", name: "Ella", url: SITE + "/about", image: SITE + "/ella.webp" },
+      author: { "@id": ELLA_ID },
       publisher: { "@id": ELLA_ID },
       isPartOf: { "@type": "Blog", "@id": SITE + "/blog#blog", name: "Ella’s blog", url: SITE + "/blog" },
       articleSection: p.category,

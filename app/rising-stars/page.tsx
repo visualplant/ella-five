@@ -13,7 +13,7 @@ export function generateMetadata(): Metadata {
     title: "Rising Stars",
     description: r.blurb,
     alternates: { canonical: "/rising-stars" },
-    openGraph: { title: full, description: r.blurb },
+    openGraph: { type: "website", url: abs("/rising-stars"), title: full, description: r.blurb },
     twitter: { card: "summary_large_image", title: full, description: r.blurb },
   };
 }

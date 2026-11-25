@@ -8,7 +8,7 @@ export type Person = { name: string; url: string | null; role: string; org: stri
   // Optional profile fields (filled by Ella persona research; hidden when absent)
   why?: string; products?: { name: string; url: string }[]; profiles?: { label: string; url: string }[]; location?: string; updated?: string; workedWith?: WorkedWith[]; added?: string; notable?: { title: string; url?: string }[];
   media?: { type: "youtube" | "image"; id?: string; url?: string; caption?: string; credit?: string; alt?: string; link?: string } };
-export type Category = { slug: string; name: string; blurb: string; people: Person[] };
+export type Category = { slug: string; name: string; blurb: string; people: Person[]; followNoun?: string; intro?: string };
 export type Vertical = { slug: string; name: string; title: string; updated: string; categories: Category[] };
 export const verticals = [applyPeopleOverrides(ai as Vertical)];
 export const DEFAULT_VERTICAL = "ai"; // served at the root; /ai redirects to /

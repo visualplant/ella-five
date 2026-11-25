@@ -14,7 +14,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     openGraph: { title: full, description, type: "website", url: abs("/blog") },
-    twitter: { title: full, description },
+    twitter: { card: "summary_large_image", title: full, description },
     alternates: { canonical: "/blog", types: { "application/rss+xml": "/blog/feed.xml" } },
   };
 }
@@ -44,7 +44,7 @@ export default function Page() {
         datePublished: p.date,
         url: SITE + "/blog/" + p.slug,
         description: p.excerpt,
-        author: { "@type": "Person", name: "Ella", url: SITE + "/about" },
+        author: { "@id": ELLA_ID },
       })),
     },
   ];
