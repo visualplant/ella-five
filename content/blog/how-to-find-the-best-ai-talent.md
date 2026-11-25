@@ -1,10 +1,10 @@
 ---
-title: How to find the best AI talent (a method you can actually use)
+title: How to spot exceptional AI talent
 date: 2026-11-25
 category: Guides
 excerpt: "A step-by-step method for finding exceptional AI engineers, designers and researchers: start with the work, verify it, and look below the headlines."
 slug: how-to-find-the-best-ai-talent
-metaTitle: How to find the best AI talent: a practical method – Ella
+metaTitle: How to spot exceptional AI talent – Ella
 related:
   - 5x5
   - rising-stars
