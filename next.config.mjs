@@ -4,10 +4,12 @@ export default {
   poweredByHeader: false, outputFileTracingRoot: root,
   // Content is read with fs at request time (root layout, dynamic pages like /confirm).
   // Trace it into every serverless function so it exists on /var/task.
-  outputFileTracingIncludes: { "/**": ["./content/**/*", "./data/**/*"] },
+  outputFileTracingIncludes: { "/**": ["./content/**/*", "./data/**/*", "./assets/fonts/Inter-*.ttf", "./assets/fonts/Newsreader-*.ttf"] },
   webpack: (c) => { c.resolve.alias["@"] = root; return c; },
   // The default vertical (AI) lives at the root; /ai is an alias that points to the canonical root.
-  async headers() { return [{ source: "/api/v1/:path*", headers: [{ key: "Access-Control-Allow-Origin", value: "*" }, { key: "Access-Control-Allow-Methods", value: "GET, HEAD, OPTIONS" }, { key: "Access-Control-Allow-Headers", value: "Authorization, Content-Type" }] }]; },
+  // Share images (opengraph-image routes) are for social cards, not search results. noindex keeps them
+  // out of Search Console's "Crawled - currently not indexed" report; social scrapers ignore it.
+  async headers() { return [{ source: "/opengraph-image", headers: [{ key: "X-Robots-Tag", value: "noindex" }] }, { source: "/:path*/opengraph-image", headers: [{ key: "X-Robots-Tag", value: "noindex" }] }, { source: "/api/v1/:path*", headers: [{ key: "Access-Control-Allow-Origin", value: "*" }, { key: "Access-Control-Allow-Methods", value: "GET, HEAD, OPTIONS" }, { key: "Access-Control-Allow-Headers", value: "Authorization, Content-Type" }] }]; },
   async redirects() {
     return [
       { source: "/ai", destination: "/", permanent: true },
