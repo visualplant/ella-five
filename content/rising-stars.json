@@ -382,6 +382,31 @@
       "upvoters": []
     },
     {
+      "slug": "mary-phuong",
+      "name": "Mary Phuong",
+      "category": "research",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "role": "Research Scientist, Frontier Safety Loss of Control",
+      "org": "Google DeepMind",
+      "status": "Research scientist on Google DeepMind's Frontier Safety Loss of Control team; first author of the GDM AI Control Roadmap (June 18, 2026).",
+      "short": "First author of DeepMind's AI Control Roadmap for internal agents.",
+      "signal": "ISTA PhD → Google DeepMind → dangerous-capability evals → GDM AI Control Roadmap",
+      "tag": "Builder",
+      "sources": [
+        "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+        "https://arxiv.org/abs/2607.13087",
+        "https://www.matsprogram.org/mentor/phuong",
+        "https://arxiv.org/abs/2505.01420",
+        "https://arxiv.org/abs/2403.13793",
+        "https://cvml.ista.ac.at/group.html",
+        "https://x.com/MaryPhuong10/status/2067629769630351787",
+        "https://www.linkedin.com/in/mary-phuong"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
       "slug": "mitchell-kogan",
       "name": "Mitchell Kogan",
       "category": "product",
