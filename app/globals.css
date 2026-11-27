@@ -514,7 +514,7 @@ svg.arr, svg.arr path { stroke-width: 1px; vector-effect: non-scaling-stroke; }
 .pv-tag { display: inline-block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); border: 1px solid var(--line); border-radius: 99px; padding: 1px 8px; margin-right: 8px; vertical-align: .12em; }
 .pv-list { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .pv-facts { margin: 0; font-size: 15px; }
-.pv-facts div { display: grid; gap: 4px; padding: 11px 0; border-bottom: 1px dashed var(--line); }
+.pv-facts > div { display: grid; gap: 4px; padding: 11px 0; border-bottom: 1px dashed var(--line); }
 .pv-facts dt, .pv-facts h2, .pv-facts .pv-dt { color: var(--mute); font-size: 13px; font-weight: 400; margin: 0; font-family: inherit; letter-spacing: 0; text-transform: none; }
 .pv-facts dd, .pv-facts .pv-dd { margin: 0; }
 .pv-links { list-style: none; margin: 0; padding: 0; }
