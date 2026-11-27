@@ -132,6 +132,72 @@
       "upvoters": []
     },
     {
+      "slug": "hayden-bleasel",
+      "name": "Hayden Bleasel",
+      "category": "technical",
+      "url": "https://haydenbleasel.com",
+      "role": "Member of Technical Staff",
+      "org": "OpenAI",
+      "status": "Member of Technical Staff at OpenAI since March 2026. Previously a DX engineer at Vercel, where he created Streamdown (announced on the Vercel changelog, August 21, 2025) and AI Elements.",
+      "short": "Built Vercel's Streamdown and AI Elements, now Member of Technical Staff at OpenAI.",
+      "signal": "Corellium CPO → Vercel DX (Streamdown, AI Elements) → OpenAI MTS",
+      "tag": "Builder",
+      "sources": [
+        "https://haydenbleasel.com/about",
+        "https://vercel.com/changelog/introducing-streamdown",
+        "https://github.com/haydenbleasel",
+        "https://www.linkedin.com/posts/haydenbleasel_we-just-shipped-a-search-and-command-bar-activity-7470882845914251264-PZx2",
+        "https://www.linkedin.com/in/haydenbleasel"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "thomas-ricouard",
+      "name": "Thomas Ricouard",
+      "category": "technical",
+      "url": "https://www.dimillian.app/",
+      "role": "Developer Experience, Codex",
+      "org": "OpenAI",
+      "status": "Developer Experience, Codex at OpenAI since March 2026; previously a staff iOS engineer at Medium and co-founder of Glose. Has written about Codex Mobile and helped ship a Build macOS Apps plugin for Codex.",
+      "short": "Open-source Swift developer now on Codex developer experience at OpenAI.",
+      "signal": "Glose → Medium → OpenAI Codex DX",
+      "tag": "Builder",
+      "sources": [
+        "https://www.dimillian.app/",
+        "https://github.com/dimillian",
+        "https://www.linkedin.com/posts/dimillian_im-joining-openai-at-the-end-of-the-month-activity-7437197648216047618-34GJ",
+        "https://www.linkedin.com/posts/dimillian_we-just-shipped-a-new-build-macos-apps-plugin-activity-7447737899254472704-lhtu",
+        "https://www.linkedin.com/posts/dimillian_mastering-codex-mobile-for-engineering-activity-7472163634622906368-FXjj",
+        "https://www.linkedin.com/in/dimillian"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "calvin-french-owen",
+      "name": "Calvin French-Owen",
+      "category": "technical",
+      "url": "https://calv.info",
+      "role": "Former engineer, Codex",
+      "org": "OpenAI",
+      "status": "Worked at OpenAI from May 2024 to June 2025 and was part of the Codex launch; previously co-founded Segment (2011–2020). Current role status unconfirmed.",
+      "short": "Segment co-founder who helped launch Codex at OpenAI; current role status unconfirmed.",
+      "signal": "Segment co-founder → YC visiting group partner → OpenAI Codex → current role status unconfirmed",
+      "tag": "Builder",
+      "sources": [
+        "https://calv.info/about",
+        "https://calv.info/openai-reflections",
+        "https://techcrunch.com/2025/07/15/a-former-openai-engineer-describes-what-its-really-like-to-work-there/",
+        "https://www.businessinsider.com/what-working-at-openai-is-like-former-employee-2025-7"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
       "slug": "chris-lee",
       "name": "Chris Lee",
       "category": "design",
@@ -253,6 +319,89 @@
         "https://www.linkedin.com/posts/trevorgrogers_excited-to-share-that-im-joining-daydream-activity-7441868231390224384-URtU",
         "https://trevorgrogers.com/blog/first-weeks-at-daydream",
         "https://trevorgrogers.com/"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "gunnar-gray",
+      "name": "Gunnar Gray",
+      "category": "design",
+      "url": "https://www.gunnargray.com/",
+      "role": "Product Design Lead",
+      "org": "Perplexity",
+      "status": "Product Design Lead at Perplexity (LinkedIn: February 2024–present). Previously founding designer at Artifact. Discussed designing Perplexity Voice Mode on Dive Club (July 18, 2025).",
+      "short": "Product design lead at Perplexity who shaped Voice Mode's interaction system.",
+      "signal": "Artifact founding designer → Perplexity Product Design Lead → Voice Mode",
+      "tag": "Builder",
+      "sources": [
+        "https://www.gunnargray.com/",
+        "https://www.dive.club/deep-dives/gunnar-gray",
+        "https://podcasts.apple.com/us/podcast/gunnar-gray-designing-perplexity-shaders-and-voice/id1686414242?i=1000717952883",
+        "https://spaces.is/loversmagazine/interviews/gunnar-gray",
+        "https://www.linkedin.com/in/gunnargray"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "brian-lovin",
+      "name": "Brian Lovin",
+      "category": "design",
+      "url": "https://brianlovin.com",
+      "role": "Designer, AI products",
+      "org": "Notion",
+      "status": "Software designer making AI products at Notion, including work on Notion Agent and Workers; described that path in a 2026 talk on leveling up with AI as a designer.",
+      "short": "Designing Notion's AI products, including Agent and Workers.",
+      "signal": "Notion AI products → Agent and Workers",
+      "tag": "Builder",
+      "sources": [
+        "https://brianlovin.com",
+        "https://brianlovin.com/writing/why-im-excited-about-notion-workers-g89pVLC",
+        "https://www.youtube.com/watch?v=dvEwb1Ajkwo"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "austin-valleskey",
+      "name": "Austin Valleskey",
+      "category": "design",
+      "url": "https://www.austinvalleskey.com/",
+      "role": "Senior Design Manager, Wallet",
+      "org": "Coinbase",
+      "status": "Senior Design Manager at Coinbase, leading product design, design engineering, and UXR for Coinbase Wallet (LinkedIn, July 2026–present). Previously Staff Product Designer on Base after joining the Base design team in December 2025.",
+      "short": "Leads design for Coinbase Wallet after joining Base's design team in late 2025.",
+      "signal": "Family / Aave Labs → Base → Coinbase Wallet design",
+      "tag": "Leads product",
+      "sources": [
+        "https://x.com/benjitaylor/status/1997342074488734111",
+        "https://www.linkedin.com/in/austinvalleskey",
+        "https://www.austinvalleskey.com/"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "dmytro-tovstokoryi",
+      "name": "Dmytro Tovstokoryi",
+      "category": "design",
+      "url": "https://pqoqubbw.dev/",
+      "role": "Design engineer",
+      "org": "Mintlify",
+      "status": "Design engineer at Mintlify; authored the company's December 1, 2025 post on ten UI fixes shipped in ten days. A January 2026 interview describes him in that role.",
+      "short": "Design engineer polishing Mintlify's docs UI, including a 10-day run of interaction fixes.",
+      "signal": "Design engineering → Mintlify UI polish",
+      "tag": "Builder",
+      "sources": [
+        "https://www.mintlify.com/blog/10-fixes-in-10-days",
+        "https://uncoverfaces.substack.com/p/i-dont-know-but-i-can-figure-it-out",
+        "https://pqoqubbw.dev/",
+        "https://www.linkedin.com/in/pqoqubbw"
       ],
       "added": "2026-11-23",
       "upvotes": 0,
@@ -525,6 +674,28 @@
         "https://maven.com/p/070c8d/v0-for-product-managers",
         "https://cosign.co/aryamank",
         "https://www.linkedin.com/in/aryamank"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "ben-south",
+      "name": "Ben South",
+      "category": "product",
+      "url": "https://bensouth.com",
+      "role": "Co-founder and CEO",
+      "org": "Variant",
+      "status": "Co-founder and CEO of Variant (Y Combinator Fall 2024). The company launched Variant.com on January 28, 2026 as a tool that generates visual designs from a prompt. Previously founded companies that were acquired; was VP of Product Design at Postmates and SVP of Product and Design at Avara.",
+      "short": "Co-founder and CEO of Variant, a YC-backed tool that generates visual designs as you scroll.",
+      "signal": "Postmates VP of Product Design → Variant co-founder and CEO",
+      "tag": "Builder",
+      "sources": [
+        "https://www.ycombinator.com/companies/variant",
+        "https://www.linkedin.com/posts/hoopla_were-launching-variantcom-today-enter-activity-7422376392400642048-6NUS",
+        "https://zerogtalent.com/blog/variant-is-building-generative-ai-for-visual-software-design-in-san-francisco",
+        "https://variant.com",
+        "https://bensouth.com"
       ],
       "added": "2026-11-23",
       "upvotes": 0,
