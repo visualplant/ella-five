@@ -31,6 +31,15 @@ export default function Tabs({ items }: { items: { slug: string; name: string }[
     if (n.scrollLeft > l) n.scrollTo({ left: l, behavior: "smooth" });
     else if (n.scrollLeft < r) n.scrollTo({ left: r, behavior: "smooth" });
   }, [active]);
+  // Badge deep links (#col-design-3): mark the cell, since client routing can drop :target.
+  useEffect(() => {
+    const mark = () => {
+      document.querySelectorAll("[data-target]").forEach((n) => n.removeAttribute("data-target"));
+      const m = /^#(col-[a-z-]+-[1-9])$/.exec(location.hash); const el = m && document.getElementById(m[1]);
+      if (el && el.tagName === "LI") { el.setAttribute("data-target", ""); el.scrollIntoView({ block: "nearest" }); }
+    };
+    mark(); window.addEventListener("hashchange", mark); return () => window.removeEventListener("hashchange", mark);
+  }, []);
   const go = (e: React.MouseEvent, slug: string) => {
     const el = document.getElementById(`col-${slug}`); if (!el) return;
     e.preventDefault();

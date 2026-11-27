@@ -52,7 +52,7 @@ export default function Board({ v, week }: { v: Vertical; week?: string }) {
             <h2 id={`h-${c.slug}`}><Link href={vpath(v, c.slug)} className="h-link"><CatIcon slug={c.slug} />{c.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1 12h20.5M13 3.5l8.5 8.5-8.5 8.5" /></svg></Link></h2>
             <ol>
               {c.people.map((p, i) => (
-                <li key={p.name} data-row={i + 1} data-col={ci + 1}>
+                <li key={p.name} id={`col-${c.slug}-${i + 1}`} data-row={i + 1} data-col={ci + 1}>
                   <span className="n" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
                   <div>
                     <h3><Link className="cell-link" href={profilePath(p.name) ?? ppath(v, c.slug, p.name)} aria-label={`${p.name}, ${p.role}, ${p.org}. ${p.short}`}>{p.name}<svg className="arr" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="butt" strokeLinejoin="miter"><path d="M1 12h20.5M13 3.5l8.5 8.5-8.5 8.5" /></svg></Link></h3>

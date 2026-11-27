@@ -946,3 +946,89 @@ h1.ar-week { margin: 0 0 14px; }
   .ar-banner { padding-top: 8px; }
   .cat-alumni ul { grid-template-columns: 1fr; }
 }
+
+/* ---------- Ella 5x5 badge: archive cell anchors (#col-design-3) ---------- */
+.col li[id] { scroll-margin-top: 66px; }
+.col li:target, .col li[data-target] { background: #fbfaf6; }
+@media (min-width: 701px) { .col li:target, .col li[data-target] { z-index: 5; } .col li:target::before, .col li[data-target]::before { content: ""; position: absolute; inset: -1px; border: 1px solid #2a2622; pointer-events: none; } }
+
+/* ---------- Ella 5x5 badge: profile embed + dialog ---------- */
+.bdg { margin-top: 28px; }
+.bdg-label { color: var(--mute); font-size: 13px; margin: 0 0 8px; }
+.bdg-open { display: inline-block; padding: 0; border: 0; border-radius: 0; background: none; color: inherit; line-height: 0; cursor: pointer; position: relative; }
+.bdg-open:hover { opacity: 1; }
+.bdg-open::before { content: ""; position: absolute; inset: -6px -10px; border-radius: 8px; background: color-mix(in srgb, var(--ink) 7%, transparent); opacity: 0; transition: opacity .15s ease; }
+.bdg-open:hover::before, .bdg-open:focus-visible::before { opacity: 1; }
+.bdg-open:focus-visible { outline: none; } .bdg-open:focus-visible::before { outline: 1px solid var(--ink); }
+.bdg-open img { position: relative; display: block; height: 39px; width: auto; }
+.pv-mob .bdg { margin-top: 18px; }
+.bdg-back { position: fixed; inset: 0; z-index: 90; background: rgba(42, 38, 34, .32); transition: opacity .18s ease; }
+.bdg-back[data-starting-style], .bdg-back[data-ending-style] { opacity: 0; }
+.bdg-dlg { position: fixed; z-index: 91; left: 50vw; top: 50%; transform: translate(-50%, -50%); width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; margin: 0; padding: 24px 24px 20px; background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 18px 48px rgba(42, 38, 34, .16); transition: opacity .18s ease, transform .18s ease; }
+.bdg-dlg[data-starting-style], .bdg-dlg[data-ending-style] { opacity: 0; transform: translate(-50%, calc(-50% + 6px)); }
+@media (prefers-reduced-motion: reduce) { .bdg-back, .bdg-dlg { transition: none; } }
+.bdg-dlg h2 { font: 400 22px/1.2 var(--serif-f); letter-spacing: -.01em; margin: 0 40px 4px 0; }
+.bdg-desc { color: var(--soft); font-size: 14px; margin: 0 0 16px; font-variant-numeric: tabular-nums; }
+.bdg-x { position: absolute; top: 14px; right: 14px; width: 32px; height: 32px; padding: 0; display: grid; place-items: center; border-radius: 8px; background: none; color: var(--soft); }
+.bdg-x:hover { color: var(--ink); background: color-mix(in srgb, var(--ink) 7%, transparent); opacity: 1; }
+.bdg-x:focus-visible { outline: 1px solid var(--ink); }
+.bdg-pick { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--mute); margin: 0 0 14px; }
+.bdg-pick select { font: inherit; font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.bdg-prev { display: grid; place-items: center; height: 112px; border-radius: 8px; background: #fff; border: 1px solid var(--line); }
+.bdg-prev img { display: block; height: 39px; width: auto; }
+.bdg-prev[data-theme="dark"] { background: #000; border-color: #000; }
+@media (prefers-color-scheme: dark) { .bdg-prev[data-theme="auto"] { background: #000; border-color: #000; } }
+.bdg-theme { display: flex; align-items: center; gap: 4px; margin: 10px 0 18px; font-size: 13px; color: var(--mute); }
+.bdg-seg { display: inline-flex; gap: 2px; position: relative; }
+.bdg-seg [data-slot="segmented-control-item"] { position: relative; z-index: 1; font: inherit; font-size: 13px; padding: 3px 9px; border-radius: 6px; background: none; color: var(--mute); }
+.bdg-seg [data-slot="segmented-control-item"]:hover { color: var(--ink); opacity: 1; }
+.bdg-seg [data-slot="segmented-control-item"][data-checked] { color: var(--ink); }
+.bdg-seg [data-slot="segmented-control-item"]:focus-visible { outline: 1px solid var(--ink); }
+.bdg-seg [data-slot="segmented-control-indicator"] { position: absolute; z-index: 0; border-radius: 6px; background: color-mix(in srgb, var(--ink) 7%, transparent); left: var(--segmented-control-indicator-left, 0); top: var(--segmented-control-indicator-top, 0); width: var(--segmented-control-indicator-width, 0); height: var(--segmented-control-indicator-height, 0); transition: left .15s ease, width .15s ease; }
+.bdg-tabs [data-slot="tabs-list"] { display: flex; gap: 18px; border-bottom: 1px solid var(--line); margin-bottom: 10px; }
+.bdg-tabs [data-slot="tabs-tab"] { font: inherit; font-size: 14px; padding: 6px 0 8px; margin-bottom: -1px; border-radius: 0; background: none; color: var(--soft); border-bottom: 1px solid transparent; }
+.bdg-tabs [data-slot="tabs-tab"]:hover { color: var(--ink); opacity: 1; }
+.bdg-tabs [data-slot="tabs-tab"][data-selected], .bdg-tabs [data-slot="tabs-tab"][aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.bdg-tabs [data-slot="tabs-tab"]:focus-visible { outline: 1px solid var(--ink); outline-offset: 2px; }
+.bdg-code { display: block; width: 100%; resize: none; font: 12.5px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; white-space: pre-wrap; overflow-wrap: anywhere; overflow: auto; field-sizing: content; min-height: 0; max-height: 250px; }
+.bdg-code:focus { outline: 1px solid var(--soft); outline-offset: 0; }
+.bdg-code::selection { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.bdg-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 12px; }
+.bdg-copy { font-size: 14px; padding: 8px 18px; min-width: 92px; }
+.bdg-png { font-size: 13px; color: var(--soft); text-decoration: none; }
+.bdg-png:hover { color: var(--ink); }
+
+/* ---------- Site header: Subscribe sits after the nav (same spacing as when it was the last nav item) ---------- */
+.header-end > .nav-sub { font-size: 14px; line-height: normal; text-decoration: none; margin-left: 8px; }
+.header-end > .u-nav { margin-left: 8px; }
+@media (max-width: 860px) { .header-end > .nav-sub, .header-end > .u-nav { margin-left: -4px; } }
+/* Phones: two calm rows, so the header fits the screen. Row 1: Ella · search · Subscribe. Row 2: 5x5 | the five lists. */
+@media (max-width: 700px) {
+  .site-header { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; column-gap: 14px; row-gap: 14px; padding-bottom: 16px; }
+  .site-header .header-end { display: contents; }
+  .site-header .wordmark { grid-column: 1; grid-row: 1; justify-self: start; }
+  .site-header .header-search { grid-column: 2; grid-row: 1; }
+  .site-header .header-end > .nav-sub, .site-header .header-end > .u-nav { grid-column: 3; grid-row: 1; margin-left: 0; }
+  .site-header nav { grid-column: 1 / -1; grid-row: 2; min-width: 0; }
+  .site-header nav ul { justify-content: space-between; gap: 0 10px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 6px 8px; margin: -6px -8px; }
+  .site-header nav a { font-size: 13px; }
+  .site-header .nav-home > a { margin-right: 9px; } .site-header .nav-home > a::after { right: -9px; }
+  .site-header nav[aria-label="Categories"] a::before { inset: -5px -6px; }
+  .site-header nav ul::-webkit-scrollbar { display: none; }
+  .site-header nav li { flex: none; }
+  .f-links { flex-wrap: wrap; row-gap: 8px; }
+}
+@media (max-width: 389px) { .site-header nav a { font-size: 12.5px; } .site-header nav ul { gap: 0 8px; } .site-header nav[aria-label="Categories"] a::before { inset: -5px -4px; } }
+
+/* Phones: the badge dialog is a sheet; the code box scrolls inside it and Copy / Download PNG stay pinned. */
+@media (max-width: 700px) {
+  .bdg-dlg { padding: 20px 18px 0; max-height: calc(100dvh - 24px); width: calc(100vw - 24px); }
+  .bdg-dlg h2 { font-size: 20px; }
+  .bdg-desc { margin-bottom: 12px; }
+  .bdg-prev { height: 88px; }
+  .bdg-theme { margin: 8px 0 12px; }
+  .bdg-code { max-height: 132px; }
+  .bdg-row { position: sticky; bottom: 0; margin: 12px -18px 0; padding: 12px 18px calc(12px + env(safe-area-inset-bottom)); background: var(--paper); border-top: 1px solid var(--line); z-index: 2; }
+}
+/* Long bare URLs in posts (source lists) wrap instead of widening the page on phones. */
+.blog-body a { overflow-wrap: anywhere; }

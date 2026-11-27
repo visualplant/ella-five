@@ -7,6 +7,8 @@ import CatIcon from "@/components/CatIcon";
 import Media from "@/components/PersonMedia";
 import PersonNav from "@/components/PersonNav";
 import ShareButton from "@/components/ShareButton";
+import BadgeEmbed from "@/components/BadgeEmbed";
+import { appearancesFor } from "@/lib/badge-data";
 import { profilePath } from "@/lib/people";
 import { weekLabel } from "@/lib/weekly";
 import { pslug } from "@/lib/verticals";
@@ -53,6 +55,9 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
   const rank = c.people.indexOf(p) + 1, n = c.people.length;
   const nb = (d: number) => { const i = (rank - 1 + d + n) % n; const q = c.people[i]; return { href: href(q.name), name: q.name, rank: i + 1 }; };
   const media = p.media ? <Media m={p.media} name={p.name} /> : null;
+  // Ella 5x5 badge: automatic on every profile with at least one published list appearance (none otherwise).
+  const badges = appearancesFor(pslug(p.name));
+  const badge = badges.length ? <BadgeEmbed appearances={badges} /> : null;
   const whyValue = p.why ? <>{p.why.split(/(\*\*[^*]+\*\*)/g).map((t, i) => /^\*\*[^*]+\*\*$/.test(t) ? <strong key={i}>{t.slice(2, -2)}</strong> : t)}</> : PREVIEW ? <span className="pv-phw" key="w">Ella’s blurb goes here (preview placeholder).</span> : null;
   const workedWith = p.workedWith?.length ? <span className="pv-ww" key="ww">{p.workedWith.map((w) => { const sub = [w.role, w.org].filter(Boolean).join(", "); return <span key={w.name}>{w.url ? <Ext href={w.url}>{w.name}</Ext> : w.name}{sub && <span className="pv-mute">, {sub}</span>}</span>; })}</span> : null;
   const roleValue = <>{p.role}<span className="pv-mute">, {p.org}</span></>;
@@ -158,11 +163,11 @@ export default function PersonView({ v, c, p, appeared = [] }: { v: Vertical; c:
       <div className="pv-main">
         <p className="pv-kick"><Link href={vpath(v, c.slug)} className="pv-cat"><CatIcon slug={c.slug} />{c.name}</Link><span className="pv-mute pv-no">No. {String(rank).padStart(2, "0")} of {String(c.people.length).padStart(2, "0")}</span>{c.people.length > 1 && <PersonNav prev={nb(-1)} next={nb(1)} />}</p>
         <h1 className="pv-name">{p.name}</h1>
-        {media && <div className="pv-mslot pv-desk">{media}</div>}
+        {(media || badge) && <div className="pv-mslot pv-desk">{media}{badge}</div>}
       </div>
       <div className="pv-side">
         {frozen ? <FrozenFields rows={frozenLead} /> : <Fields rows={leadRows} />}
-        {media && <div className="pv-mslot pv-mob">{media}</div>}
+        {(media || badge) && <div className="pv-mslot pv-mob">{media}{badge}</div>}
         {frozen ? <FrozenFields rows={frozenRest} /> : <Fields rows={restRows} />}
       </div>
     </article>

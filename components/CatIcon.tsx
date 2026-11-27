@@ -10,6 +10,8 @@ const P: Record<string, string> = {
   "rising": "<svg class=\"lucide lucide-sparkles\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\" /> <path d=\"M20 3v4\" /> <path d=\"M22 5h-4\" /> <path d=\"M4 17v2\" /> <path d=\"M5 18H3\" />"
 };
 const V: Record<string, [number, number, number, number]> = {"technical": [2.8, 3.8, 18.4, 16.4], "design": [0.8, 0.81, 22.4, 22.39], "research": [2.8, 0.8, 18.4, 22.4], "product": [1.8, 0.8, 20.4, 22.4], "growth": [1.3, 0.8, 21.9, 21.9], "rising": [0.8, 0.8, 22.4, 22.4]};
+// Raw Lucide markup, also used by the Ella 5x5 badge renderer (lib/badge-svg.ts).
+export const LUCIDE_SVG = P;
 export default function CatIcon({ slug, className = "cat-ico" }: { slug: string; className?: string }) {
   const d = P[slug], v = V[slug]; if (!d || !v) return null;
   return <svg className={className} data-ico={slug} aria-hidden="true" viewBox={v.join(" ")} width={v[2]} height={v[3]} style={{ width: `calc(var(--ico) * ${v[2] / 24})`, height: `calc(var(--ico) * ${v[3] / 24})` }} fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" dangerouslySetInnerHTML={{ __html: d }} />;
