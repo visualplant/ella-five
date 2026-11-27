@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T09:00:00-08:00",
+  "updated": "2026-11-27T09:00:00-08:00",
   "blurb": "Working notes on builders under consideration—not on the 5×5 yet. Anyone who has made Ella’s list can upvote a name or send a tip.",
   "people": [
     {
@@ -66,47 +66,6 @@
       "upvoters": []
     },
     {
-      "slug": "amit-handa",
-      "name": "Amit Handa",
-      "category": "technical",
-      "url": "https://linkedin.com/in/amhanda",
-      "role": "Engineering Lead, Google Commerce",
-      "org": "Google",
-      "status": "Helped create and launch the Universal Commerce Protocol (January 2026).",
-      "short": "Built and explained the Universal Commerce Protocol.",
-      "signal": "Google Commerce → UCP",
-      "tag": "Builder",
-      "sources": [
-        "https://www.linkedin.com/posts/amhanda_under-the-hood-universal-commerce-protocol-activity-7416141017176788992-WdcM",
-        "https://linkedin.com/in/amhanda",
-        "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
-        "https://ucp.dev/"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
-      "slug": "josh-nickerson",
-      "name": "Josh Nickerson",
-      "category": "technical",
-      "url": null,
-      "role": "Engineer, Coinbase Developer Platform",
-      "org": "Coinbase",
-      "status": "Co-authored the Agentic Wallets launch (February 2026).",
-      "short": "Co-built Coinbase's Agentic Wallets.",
-      "signal": "CDP → Agentic Wallets",
-      "tag": "Builder",
-      "sources": [
-        "https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets",
-        "https://www.linkedin.com/posts/0xjnix_coinbase-developer-docs-coinbase-developer-activity-7236909420608176128-safw",
-        "https://www.linkedin.com/posts/0xjnix_im-heading-to-sf-this-weekend-for-coinbase-activity-7290885152879058944-wGJy"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
       "slug": "jake-moxey",
       "name": "Jake Moxey",
       "category": "technical",
@@ -124,6 +83,51 @@
         "https://github.com/wevm"
       ],
       "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "nate-rahn",
+      "name": "Nate Rahn",
+      "category": "technical",
+      "url": "https://www.alphaxiv.org/@nate-rahn",
+      "role": "Researcher, Safeguards",
+      "org": "Anthropic",
+      "status": "Co-first author of Anvil, Anthropic's automated red-teaming system, published November 12, 2026; listed by Mila as a McGill PhD researcher.",
+      "short": "Co-built Anvil, the automated red-teamer that out-jailbreaks human experts.",
+      "signal": "McGill/Mila PhD → Anthropic Safeguards → Anvil",
+      "tag": "Builder",
+      "sources": [
+        "https://safeguards.anthropic.com/2026/automated-red-teaming/",
+        "https://safeguards.anthropic.com/",
+        "https://mila.quebec/en/directory/nate-rahn",
+        "https://arxiv.org/abs/2406.00244",
+        "https://www.alphaxiv.org/@nate-rahn",
+        "https://www.lanternpodcasts.com/topfive/podcast/ai-safety-daily/transcript/2026-11-13.html"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "grant-gurvis",
+      "name": "Grant Gurvis",
+      "category": "technical",
+      "url": "https://ggurvis.com/",
+      "role": "Co-founder and CTO",
+      "org": "Hercules",
+      "status": "Co-founder and CTO of Hercules, which launched Hercules Agents on November 19, 2026; previously Fig's second engineer and an AWS engineer on Amazon Q for the command line.",
+      "short": "Fig's second engineer, now building Hercules Agents as CTO.",
+      "signal": "Fig (second engineer) → AWS (Amazon Q CLI) → Hercules co-founder and CTO",
+      "tag": "Builder",
+      "sources": [
+        "https://hercules.app/docs/company/who-we-are",
+        "https://hercules.app/blog/hercules-agents",
+        "https://hercules.app/blog/authors/grant",
+        "https://ggurvis.com/",
+        "https://www.linkedin.com/in/grant-gurvis"
+      ],
+      "added": "2026-11-23",
       "upvotes": 0,
       "upvoters": []
     },
@@ -189,28 +193,6 @@
       "upvoters": []
     },
     {
-      "slug": "kjell-reigstad",
-      "name": "Kjell Reigstad",
-      "category": "design",
-      "url": "https://kjellr.com/",
-      "role": "Senior Staff Product Designer",
-      "org": "Shopify",
-      "status": "Senior Staff Product Designer at Shopify since 2022; one of the designers of Canvas.",
-      "short": "Shopify theme designer turned Canvas designer.",
-      "signal": "Automattic → Shopify Horizon → Canvas",
-      "tag": "Builder",
-      "sources": [
-        "https://kjellr.com/",
-        "https://kjellr.com/about/",
-        "https://kjellr.com/work/shopify/",
-        "https://www.linkedin.com/posts/ustinknight_introducing-canvas-a-whole-new-way-to-build-activity-7511429641178451969-kQBO",
-        "https://www.shopify.com/news/introducing-canvas"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
       "slug": "ayda-oz",
       "name": "Ayda Oz",
       "category": "design",
@@ -232,22 +214,47 @@
       "upvoters": []
     },
     {
-      "slug": "antony-rishin-mukkath-roy",
-      "name": "Antony Rishin Mukkath Roy",
+      "slug": "kelin-carolyn-zhang",
+      "name": "Kelin Carolyn Zhang",
       "category": "design",
-      "url": "https://www.linkedin.com/in/antonyrishin",
-      "role": "Senior Manager, Design, AI Shopping & Agentic Commerce",
-      "org": "Walmart",
-      "status": "Leads design work on Walmart Agent Gateway and Agent Profiles (launched October 21, 2026).",
-      "short": "Designing how shoppers grant, limit and revoke agent access at Walmart.",
-      "signal": "Walmart Sparky → ChatGPT → Agent Gateway",
-      "tag": "Leads product",
+      "url": "https://www.carolynzhang.com/",
+      "role": "Designer; co-founder, Poetry Camera",
+      "org": "Poetry Camera",
+      "status": "Independent designer and educator; co-founder of Poetry Camera and creative technologist-in-residence at SVA's MFA Interaction Design program.",
+      "short": "Designer behind Poetry Camera and software with a soul.",
+      "signal": "Ueno → Twitter Spaces → Poetry Camera → SVA residency",
+      "tag": "Builder",
       "sources": [
-        "https://www.linkedin.com/posts/antonyrishin_walmart-agent-gateway-walmartcom-activity-7519276177526800384-A-vH",
-        "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
-        "https://www.linkedin.com/in/antonyrishin"
+        "https://www.carolynzhang.com/",
+        "https://sva.edu/faculty/kelin-carolyn-zhang",
+        "https://interactiondesign.sva.edu/blog/post/kelin-zhang-profile",
+        "https://mercury.com/blog/memory-bank-kelin-carolyn-zhang-poetry-camera",
+        "https://joinreboot.org/p/kelin-zhang",
+        "https://ryancan.build/1-projects/poetry-camera"
       ],
-      "added": "2026-10-22",
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "trevor-rogers",
+      "name": "Trevor Rogers",
+      "category": "design",
+      "url": "https://trevorgrogers.com/",
+      "role": "Product Designer, agentic commerce",
+      "org": "Shopify",
+      "status": "Rejoined Shopify in September 2026 as a product designer on agentic commerce, including the Storefront Agent; Head of Design at Daydream from March to September 2026.",
+      "short": "Back at Shopify designing the agent that sells for you.",
+      "signal": "Shopify → Meta → Daydream (Head of Design) → Shopify agentic commerce",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/trevorgrogers_editions-is-here-i-rejoined-shopify-a-month-activity-7521252808654921728-X4Qw",
+        "https://www.linkedin.com/posts/trevorgrogers_excited-to-return-to-shopify-their-dedication-activity-7507784986691997696-boXN",
+        "https://www.linkedin.com/posts/trevorgrogers_excited-to-share-that-im-joining-daydream-activity-7441868231390224384-URtU",
+        "https://trevorgrogers.com/blog/first-weeks-at-daydream",
+        "https://trevorgrogers.com/"
+      ],
+      "added": "2026-11-23",
       "upvotes": 0,
       "upvoters": []
     },
@@ -324,48 +331,53 @@
       "tag": "Joined",
       "sources": [
         "https://www.turingtree.com/updates/alexandre-passos-joins-anthropic-2026-09",
-        "https://peopleofsi.com/people/alexandre-passos/",
-        "https://www.alphaxiv.org/@alexandre-passos"
+        "https://www.alphaxiv.org/@alexandre-passos",
+        "https://www.linkedin.com/in/alexandre-passos-84b40925"
       ],
       "added": "2026-10-26",
       "upvotes": 0,
       "upvoters": []
     },
     {
-      "slug": "tom-zick",
-      "name": "Tom Zick",
+      "slug": "matt-clarke",
+      "name": "Matt Clarke",
       "category": "research",
-      "url": null,
-      "role": "Co-founder",
-      "org": "Trillium Labs",
-      "status": "Co-founded Trillium Labs to do high-risk AI research in the open.",
-      "short": "Co-founded open research lab Trillium Labs.",
-      "signal": "→ Trillium Labs",
-      "tag": "New venture",
+      "url": "https://github.com/mjclarke94/homeopathic_learning",
+      "role": "Researcher, Anthropic Fellows Program",
+      "org": "Anthropic",
+      "status": "Core contributor to Homeopathic Learning, published November 10, 2026 as Anthropic Fellows Program work with Truthful AI.",
+      "short": "Designed the experiments showing diluted poisoned data can plant a backdoor.",
+      "signal": "Anthropic Fellows Program → Homeopathic Learning",
+      "tag": "Builder",
       "sources": [
-        "https://blog.trilliumlabs.org/p/introducing-trillium-labs",
-        "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/"
+        "https://alignment.anthropic.com/2026/homeopathic-learning/",
+        "https://arxiv.org/abs/2611.10110",
+        "https://truthful.ai/papers/homeopathic-learning/",
+        "https://github.com/mjclarke94/homeopathic_learning"
       ],
-      "added": "2026-10-26",
+      "added": "2026-11-23",
       "upvotes": 0,
       "upvoters": []
     },
     {
-      "slug": "pamela-mishkin",
-      "name": "Pamela Mishkin",
+      "slug": "natasha-latysheva",
+      "name": "Natasha Latysheva",
       "category": "research",
-      "url": null,
-      "role": "Researcher",
-      "org": "Formerly OpenAI",
-      "status": "Led economics research at OpenAI (2020–26).",
-      "short": "InstructGPT co-author; led OpenAI economics research.",
-      "signal": "OpenAI → departed",
-      "tag": "Left",
+      "url": "https://orcid.org/0000-0003-3119-0567",
+      "role": "Research Engineer, Genomics",
+      "org": "Google DeepMind",
+      "status": "Research engineer in Google DeepMind's genomics team; co-author of AlphaGenome and AlphaGenome 2 (November 11, 2026).",
+      "short": "Genomics ML engineer on AlphaGenome and AlphaGenome 2.",
+      "signal": "Cambridge PhD → Google DeepMind → AlphaGenome → AlphaGenome 2",
+      "tag": "Builder",
       "sources": [
-        "https://nymag.com/intelligencer/article/ai-researchers-quit-openai-anthropic.html",
-        "https://arxiv.org/abs/2203.02155"
+        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "https://doi.org/10.1038/s41586-025-10014-0",
+        "https://www.linkedin.com/posts/nslatysheva_happy-to-announce-that-today-the-genomics-activity-7526300404880445441-71cL",
+        "https://2025.mena.ml/speakers",
+        "https://orcid.org/0000-0003-3119-0567"
       ],
-      "added": "2026-10-26",
+      "added": "2026-11-23",
       "upvotes": 0,
       "upvoters": []
     },
@@ -431,45 +443,6 @@
       "upvoters": []
     },
     {
-      "slug": "akshay-broota",
-      "name": "Akshay Broota",
-      "category": "product",
-      "url": "https://www.linkedin.com/in/akshay-broota",
-      "role": "Product Manager",
-      "org": "Google",
-      "status": "Part of the core team that launched the Universal Commerce Protocol.",
-      "short": "Core team member on Google's UCP launch.",
-      "signal": "Google Shopping → UCP",
-      "tag": "Builder",
-      "sources": [
-        "https://www.linkedin.com/in/akshay-broota",
-        "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
-        "https://ucp.dev/"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
-      "slug": "amol-sharma",
-      "name": "Amol Sharma",
-      "category": "product",
-      "url": null,
-      "role": "Product Lead",
-      "org": "Mastercard",
-      "status": "Core team for Mastercard Agent Pay for Machines.",
-      "short": "Helped launch Mastercard Agent Pay for Machines.",
-      "signal": "Mastercard → Agent Pay",
-      "tag": "Builder",
-      "sources": [
-        "https://www.linkedin.com/posts/amolx_mastercard-agent-pay-for-machines-activity-7470817871619670016-oWYG",
-        "https://linkedin.com/in/amolx"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
       "slug": "aarush-selvan",
       "name": "Aarush Selvan",
       "category": "product",
@@ -486,6 +459,49 @@
         "https://www.talkmezzo.com/events/ai-engineer-summit/2026"
       ],
       "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "jess-yan",
+      "name": "Jess Yan",
+      "category": "product",
+      "url": "https://www.linkedin.com/in/yan-jessica",
+      "role": "Product lead, Claude Managed Agents",
+      "org": "Anthropic",
+      "status": "Product lead on Claude Managed Agents at Anthropic, whose self-hosted version shipped November 12, 2026.",
+      "short": "PM on Claude Managed Agents who wrote Anthropic's take on product in the agentic era.",
+      "signal": "Anthropic product → Claude Managed Agents → self-hosted release",
+      "tag": "Leads product",
+      "sources": [
+        "https://claude.com/resources/articles/product-development-in-the-agentic-era",
+        "https://www.linkedin.com/posts/yan-jessica_introducing-claude-managed-agents-activity-7447692087895949312-VTJ3",
+        "https://claude.com/code-with-claude/session/tyo-get-to-production-faster-managed-agents",
+        "https://www.linkedin.com/in/yan-jessica"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "aryaman-khandelwal",
+      "name": "Aryaman Khandelwal",
+      "category": "product",
+      "url": "https://www.linkedin.com/in/aryamank",
+      "role": "Product Manager",
+      "org": "Cursor",
+      "status": "Product manager at Cursor working on cloud agents; announced on November 10, 2026 that Cursor Projects is now multiplayer. Previously product lead for v0 at Vercel.",
+      "short": "Former v0 product lead, now making Cursor Projects multiplayer.",
+      "signal": "Vercel (v0 product lead) → Cursor PM → cloud agents → multiplayer Projects",
+      "tag": "Leads product",
+      "sources": [
+        "https://cursor.com/blog/projects-multiplayer",
+        "https://www.linkedin.com/posts/aryamank_couldnt-be-more-excited-to-share-that-ive-activity-7493712992665108480-pzuG",
+        "https://maven.com/p/070c8d/v0-for-product-managers",
+        "https://cosign.co/aryamank",
+        "https://www.linkedin.com/in/aryamank"
+      ],
+      "added": "2026-11-23",
       "upvotes": 0,
       "upvoters": []
     },
@@ -547,44 +563,6 @@
       "upvoters": []
     },
     {
-      "slug": "sam-saliba",
-      "name": "Sam Saliba",
-      "category": "growth",
-      "url": null,
-      "role": "Growth Marketing Lead",
-      "org": "Replit",
-      "status": "Joined Replit full-time to lead growth marketing in 2026.",
-      "short": "Leads growth marketing at Replit.",
-      "signal": "→ Replit growth",
-      "tag": "Joined",
-      "sources": [
-        "https://www.linkedin.com/posts/saliba_personal-update-after-starting-at-replit-activity-7505301621011296256-eCji",
-        "https://linkedin.com/in/saliba"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
-      "slug": "sarah-goomar",
-      "name": "Sarah Goomar",
-      "category": "growth",
-      "url": null,
-      "role": "Startup Marketing Lead",
-      "org": "Cursor",
-      "status": "Leads marketing for Cursor's startup program.",
-      "short": "Built Cursor for Startups marketing.",
-      "signal": "→ Cursor for Startups",
-      "tag": "Joined",
-      "sources": [
-        "https://www.linkedin.com/posts/sarahgoomar_not-even-2-months-at-cursor-for-startups-activity-7490864317383213056-drkL",
-        "https://linkedin.com/in/sarahgoomar"
-      ],
-      "added": "2026-10-26",
-      "upvotes": 0,
-      "upvoters": []
-    },
-    {
       "slug": "raman-malik",
       "name": "Raman Malik",
       "category": "growth",
@@ -600,6 +578,50 @@
         "https://www.a16z.news/p/meet-the-a16z-growth-engineer-fellows"
       ],
       "added": "2026-10-26",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "manny-bernabe",
+      "name": "Manny Bernabe",
+      "category": "growth",
+      "url": "https://www.mannybernabe.com/about",
+      "role": "Community marketing",
+      "org": "Replit",
+      "status": "Community marketing at Replit; hosted the Replit Missions team showcase after the November 17, 2026 launch.",
+      "short": "Data scientist turned Replit's community voice for agent swarms.",
+      "signal": "Data scientist → Replit community marketing → Missions showcase",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/posts/mannybernabe_the-agent-swarm-harness-is-here-with-activity-7529265130186989568-eH1n",
+        "https://x.com/MannyBernabe/status/2123498766116274460",
+        "https://www.datacamp.com/webinars/build-your-first-web-app-with-replit",
+        "https://www.mannybernabe.com/about",
+        "https://www.linkedin.com/in/mannybernabe"
+      ],
+      "added": "2026-11-23",
+      "upvotes": 0,
+      "upvoters": []
+    },
+    {
+      "slug": "mariano-garrasino",
+      "name": "Mariano Garrasino",
+      "category": "growth",
+      "url": "https://www.linkedin.com/in/mgarra",
+      "role": "Fintech and consumer partnerships, WhatsApp",
+      "org": "Meta",
+      "status": "Leads fintech and consumer-product partnerships for WhatsApp at Meta, including payments and conversational commerce.",
+      "short": "Bringing payments and AI agents to WhatsApp's fintech partners.",
+      "signal": "Mercado Pago → Meta WhatsApp fintech partnerships → Pix payments → conversational commerce",
+      "tag": "Builder",
+      "sources": [
+        "https://www.linkedin.com/in/mgarra",
+        "https://www.linkedin.com/posts/mgarra_ltf2026-latamtechforum-ai-activity-7461215994443685888-tTvg",
+        "https://www.linkedin.com/posts/mgarra_another-whatsapp-api-success-story-activity-7341896379042045953-f1r2",
+        "https://eleconomista.com.ar/economia/dinero-electronico-cada-vez-mas-real-menos-virtual-n14178",
+        "https://whatsappbusiness.com/products/business-app-ai-agent/"
+      ],
+      "added": "2026-11-23",
       "upvotes": 0,
       "upvoters": []
     }

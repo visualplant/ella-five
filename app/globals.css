@@ -679,14 +679,14 @@ nav[aria-label="Categories"] a:active::before { background: color-mix(in srgb, v
 .rs-bullet { font: 400 13.5px/1.45 var(--sans-f); color: var(--mute); user-select: none; }
 .rs-note-main { min-width: 0; }
 .rs-note-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
-.rs-note-text { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 7px; min-width: 0; font: 400 14px/1.45 var(--sans-f); }
-.rs-name { font: 500 14.5px/1.4 var(--sans-f); color: var(--ink); letter-spacing: -.005em; }
+.rs-note-text { display: flex; flex-wrap: nowrap; align-items: baseline; gap: 0 7px; min-width: 0; font: 400 14px/1.45 var(--sans-f); }
+.rs-name { font: 500 14.5px/1.4 var(--sans-f); color: var(--ink); letter-spacing: -.005em; flex-shrink: 0; }
 .rs-name a { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
 .rs-name a:hover { color: var(--accent); text-decoration-color: currentColor; }
-.rs-sep { color: var(--mute); font-size: 13px; }
-.rs-role { font-size: 13.5px; color: var(--soft); }
+.rs-sep { color: var(--mute); font-size: 13px; flex-shrink: 0; }
+.rs-role { font-size: 13.5px; color: var(--soft); min-width: 0; flex: 1 1 auto; overflow-wrap: anywhere; }
 .rs-org { color: var(--mute); }
-.rs-cat-tag { font: 500 10.5px/1.2 var(--sans-f); letter-spacing: .06em; text-transform: uppercase; color: var(--mute); text-decoration: none; padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); }
+.rs-cat-tag { font: 500 10.5px/1.2 var(--sans-f); letter-spacing: .06em; text-transform: uppercase; color: var(--mute); text-decoration: none; padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); flex-shrink: 0; white-space: nowrap; }
 .rs-cat-tag:hover { color: var(--ink); border-color: var(--soft); }
 
 .rs-note-sub { margin: 3px 0 0; font: 400 13px/1.45 var(--sans-f); color: var(--soft); display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 8px; }
@@ -733,6 +733,15 @@ nav[aria-label="Categories"] a:active::before { background: color-mix(in srgb, v
 @media (max-width: 700px) {
   .rs-pad { padding: 14px 16px 8px; }
   .rs-tip-grid { grid-template-columns: 1fr; }
+  /* Name + pill get the full first line. Role wraps below; Upvote is pinned
+     to the right of the role so the button doesn't sit between role and bio. */
+  .rs-note-row { position: relative; }
+  .rs-note-text { flex-wrap: wrap; flex: 1 1 auto; min-width: 100%; }
+  .rs-name { order: 1; }
+  .rs-sep { order: 2; }
+  .rs-cat-tag { order: 3; }
+  .rs-role { order: 4; flex: 1 1 100%; padding-right: 84px; box-sizing: border-box; }
+  .rs-up { position: absolute; right: 0; top: 20px; }
 }
 
 /* ---------- Subscriber profile icon + dropdown + bottom status + /unsubscribe ---------- */
