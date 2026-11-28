@@ -999,7 +999,16 @@ h1.ar-week { margin: 0 0 14px; }
 .bdg-tabs [data-slot="tabs-tab"]:hover { color: var(--ink); opacity: 1; }
 .bdg-tabs [data-slot="tabs-tab"][data-selected], .bdg-tabs [data-slot="tabs-tab"][aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
 .bdg-tabs [data-slot="tabs-tab"]:focus-visible { outline: 1px solid var(--ink); outline-offset: 2px; }
-.bdg-code { display: block; width: 100%; resize: none; font: 12.5px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; white-space: pre-wrap; overflow-wrap: anywhere; overflow: auto; field-sizing: content; min-height: 0; max-height: 250px; }
+/* Stack every embed panel, plus hidden sizers for every tab × theme snippet, in one grid cell.
+   The sizers alone set the height (tallest combination). Visible textareas fill that box and
+   do not contribute intrinsic size, so toggling theme or tab cannot grow or shrink the dialog. */
+.bdg-panels { display: grid; }
+.bdg-sizers { grid-area: 1 / 1; display: grid; visibility: hidden; pointer-events: none; }
+.bdg-sizer { grid-area: 1 / 1; margin: 0; overflow: hidden; }
+.bdg-panels [data-slot="tabs-panel"] { grid-area: 1 / 1; min-width: 0; min-height: 0; height: 100%; display: flex; flex-direction: column; visibility: hidden; pointer-events: none; }
+.bdg-panels [data-slot="tabs-panel"][data-selected] { z-index: 1; visibility: visible; pointer-events: auto; }
+.bdg-code, .bdg-sizer { display: block; width: 100%; font: 12.5px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 250px; }
+.bdg-code { flex: 1 1 auto; height: 100%; min-height: 0; resize: none; overflow: auto; field-sizing: fixed; }
 .bdg-code:focus { outline: 1px solid var(--soft); outline-offset: 0; }
 .bdg-code::selection { background: color-mix(in srgb, var(--accent) 22%, transparent); }
 .bdg-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 12px; }
@@ -1036,7 +1045,7 @@ h1.ar-week { margin: 0 0 14px; }
   .bdg-desc { margin-bottom: 12px; }
   .bdg-prev { height: 88px; }
   .bdg-theme { margin: 8px 0 12px; }
-  .bdg-code { max-height: 132px; }
+  .bdg-code, .bdg-sizer { max-height: 132px; }
   .bdg-row { position: sticky; bottom: 0; margin: 12px -18px 0; padding: 12px 18px calc(12px + env(safe-area-inset-bottom)); background: var(--paper); border-top: 1px solid var(--line); z-index: 2; }
 }
 /* Long bare URLs in posts (source lists) wrap instead of widening the page on phones. */

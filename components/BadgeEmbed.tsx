@@ -10,6 +10,12 @@ import { BADGE_HEIGHT, BADGE_LABEL, BADGE_TEXT as T, BADGE_WIDTHS, badgeHtml, ba
 type Mode = "auto" | BadgeTheme;
 type Tab = "html" | "md" | "link";
 
+/** Keep every tab panel in layout. The tabs primitive sets hidden="", and the UA [hidden] { display:none !important } rule cannot be overridden in author CSS, so we drop the attribute and hide inactive panels with visibility + inert instead. */
+function stackedPanel(props: Record<string, unknown>) {
+  const { hidden: _hidden, ...rest } = props;
+  return <div {...rest} />;
+}
+
 function useDarkScheme() {
   const [dark, setDark] = useState(false);
   useEffect(() => {
@@ -56,6 +62,15 @@ function Badge({ input }: { input: BadgeAppearance[] }) {
   const force = mode === "auto" ? undefined : mode;
   const shown: BadgeTheme = mode === "auto" ? (dark ? "dark" : "light") : mode;
   const code = useMemo(() => ({ html: badgeHtml(a, force), md: badgeMarkdown(a, force), link: badgeLink(a) }), [a, force]);
+  // Every tab × theme snippet, used only to size the code area to the tallest combination.
+  const sizers = useMemo(() => {
+    const themes: (BadgeTheme | undefined)[] = [undefined, "light", "dark"];
+    const values = [
+      ...themes.flatMap((t) => [badgeHtml(a, t), badgeMarkdown(a, t)]),
+      badgeLink(a),
+    ];
+    return [...new Set(values)];
+  }, [a]);
 
   // 2x PNG of the badge currently shown, rendered from the SVG in the browser (outlined type, transparent background).
   useEffect(() => {
@@ -121,9 +136,22 @@ function Badge({ input }: { input: BadgeAppearance[] }) {
               <TabsTab value="md">{T.tabs.md}</TabsTab>
               <TabsTab value="link">{T.tabs.link}</TabsTab>
             </TabsList>
-            <TabsPanel value="html"><Code id={`${uid}-code-html`} value={code.html} label={T.tabLabels.html} /></TabsPanel>
-            <TabsPanel value="md"><Code id={`${uid}-code-md`} value={code.md} label={T.tabLabels.md} /></TabsPanel>
-            <TabsPanel value="link"><Code id={`${uid}-code-link`} value={code.link} label={T.tabLabels.link} /></TabsPanel>
+            <div className="bdg-panels">
+              <div className="bdg-sizers" aria-hidden="true" inert>
+                {sizers.map((value) => (
+                  <pre key={value} className="bdg-sizer">{value}</pre>
+                ))}
+              </div>
+              <TabsPanel value="html" keepMounted render={stackedPanel} inert={tab !== "html"} aria-hidden={tab !== "html" ? true : undefined}>
+                <Code id={`${uid}-code-html`} value={code.html} label={T.tabLabels.html} />
+              </TabsPanel>
+              <TabsPanel value="md" keepMounted render={stackedPanel} inert={tab !== "md"} aria-hidden={tab !== "md" ? true : undefined}>
+                <Code id={`${uid}-code-md`} value={code.md} label={T.tabLabels.md} />
+              </TabsPanel>
+              <TabsPanel value="link" keepMounted render={stackedPanel} inert={tab !== "link"} aria-hidden={tab !== "link" ? true : undefined}>
+                <Code id={`${uid}-code-link`} value={code.link} label={T.tabLabels.link} />
+              </TabsPanel>
+            </div>
           </Tabs>
           <div className="bdg-row">
             {png ? <a className="bdg-png" href={png} download={file}>{T.download}</a> : <span className="bdg-png" aria-hidden="true">{T.download}</span>}
